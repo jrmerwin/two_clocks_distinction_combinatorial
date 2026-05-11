@@ -1,0 +1,217 @@
+model,point,likelihood_kind,yaml,output_prefix,exit_status,stdout_path,stdout_tail,output_chain_file,n_output_rows,n_output_cols,weight,minuslogpost,deu_damping_envelope_beta,deu_transfer_polamp_p_vis,omega_b,n_s,A_planck,chi2__CMB,minuslogprior,minuslogprior__0,chi2,chi2__planck_2018_highl_plik.TTTEEE_lite,chi2__planck_2018_lowl.TT,chi2__planck_2018_lowl.EE,chi2__planck_2018_lensing.native,chi2__planck_2018_highl_plik.TTTEEE,calib_100T,calib_217T,A_cib_217,xi_sz_cib,A_sz,ksz_norm,gal545_A_100,gal545_A_143,gal545_A_143_217,gal545_A_217,ps_A_100_100,ps_A_143_143,ps_A_143_217,ps_A_217_217,galf_TE_A_100,galf_TE_A_100_143,galf_TE_A_100_217,galf_TE_A_143,galf_TE_A_143_217,galf_TE_A_217,minuslogprior__SZ
+deu,map,lite,audit_full_plik_point_eval/20260510T222827Z/deu_lite_map.yaml,audit_full_plik_point_eval/20260510T222827Z/deu_lite_map,0,audit_full_plik_point_eval/20260510T222827Z/deu_lite_map.stdout.txt," 2026-05-10 15:28:29,081 [evaluate] Looking for a reference point with non-zero prior.
+ 2026-05-10 15:28:29,081 [prior] Evaluating prior at array([0.03    , 1.0475  , 0.022   , 0.981875, 1.025   ])
+ 2026-05-10 15:28:29,081 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:29,082 [evaluate] Reference point:
+   deu_damping_envelope_beta = 0.0295957
+   deu_transfer_polamp_p_vis = 1.04735
+   omega_b = 0.0219596
+   n_s = 0.98119
+   A_planck = 1.02506
+ 2026-05-10 15:28:29,082 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:29,082 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029595717), 'deu_transfer_polamp_p_vis': np.float64(1.0473467), 'omega_b': np.float64(0.021959556), 'n_s': np.float64(0.98118992), 'A_planck': np.float64(1.0250579)}
+ 2026-05-10 15:28:29,082 [prior] Evaluating prior at array([0.02959572, 1.0473467 , 0.02195956, 0.98118992, 1.0250579 ])
+ 2026-05-10 15:28:29,082 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:29,082 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029595717, 'deu_transfer_polamp_p_vis': 1.0473467, 'omega_b': 0.021959556, 'n_s': 0.98118992, 'A_planck': 1.0250579, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:29,082 [classy] Got parameters {'deu_damping_envelope_beta': 0.029595717, 'deu_transfer_polamp_p_vis': 1.0473467, 'omega_b': 0.021959556, 'n_s': 0.98118992, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:29,082 [classy] Computing new state
+ 2026-05-10 15:28:29,082 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029595717, 'deu_transfer_polamp_p_vis': 1.0473467, 'omega_b': 0.021959556, 'n_s': 0.98118992, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl pCl tCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:30,282 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0250579}
+ 2026-05-10 15:28:30,283 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 15:28:30,284 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.2058739605605
+ 2026-05-10 15:28:30,284 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0250579}
+ 2026-05-10 15:28:30,285 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 15:28:30,285 [planck_2018_lowl.tt] Computed log-likelihood = -13.294383490740131
+ 2026-05-10 15:28:30,285 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0250579}
+ 2026-05-10 15:28:30,285 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 15:28:30,285 [planck_2018_lowl.ee] Computed log-likelihood = -198.91860133977343
+ 2026-05-10 15:28:30,285 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0250579}
+ 2026-05-10 15:28:30,285 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 15:28:30,286 [planck_2018_lensing.native] Computed log-likelihood = -9.402916749407021
+ 2026-05-10 15:28:30,286 [model] Computed derived parameters: {'chi2__CMB': 1207.6435510809622}
+ 2026-05-10 15:28:30,286 [evaluate] log-posterior  = -572.972
+ 2026-05-10 15:28:30,286 [evaluate] log-prior      = 30.8499
+ 2026-05-10 15:28:30,286 [evaluate]    logprior_0 = 30.8499
+ 2026-05-10 15:28:30,286 [evaluate] log-likelihood = -603.822
+ 2026-05-10 15:28:30,286 [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 764.412
+ 2026-05-10 15:28:30,286 [evaluate]    chi2_planck_2018_lowl.TT = 26.5888
+ 2026-05-10 15:28:30,286 [evaluate]    chi2_planck_2018_lowl.EE = 397.837
+ 2026-05-10 15:28:30,286 [evaluate]    ",audit_full_plik_point_eval/20260510T222827Z/deu_lite_map.1.txt,1,15,1.0,572.97188,0.029595717,1.0473467,0.021959556,0.98118992,1.0250579,1207.6436,-30.849897,-30.849897,1207.6436,764.41175,26.588767,397.8372,18.805833,,,,,,,,,,,,,,,,,,,,,,
+deu,map,full,audit_full_plik_point_eval/20260510T222827Z/deu_full_map.yaml,audit_full_plik_point_eval/20260510T222827Z/deu_full_map,0,audit_full_plik_point_eval/20260510T222827Z/deu_full_map.stdout.txt,"   galf_TE_A_217 = 1.96433
+ 2026-05-10 15:28:31,488 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:31,488 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029595717), 'deu_transfer_polamp_p_vis': np.float64(1.0473467), 'omega_b': np.float64(0.021959556), 'n_s': np.float64(0.98118992), 'A_planck': np.float64(1.0250579), 'calib_100T': np.float64(1.0001169794462519), 'calib_217T': np.float64(0.9993741912452431), 'A_cib_217': np.float64(77.74684553213233), 'xi_sz_cib': np.float64(0.2204585035543478), 'A_sz': np.float64(4.940401065532811), 'ksz_norm': np.float64(5.188685891378423), 'gal545_A_100': np.float64(5.41411567043777), 'gal545_A_143': np.float64(8.727163179210118), 'gal545_A_143_217': np.float64(22.01304072008763), 'gal545_A_217': np.float64(82.22508310693966), 'ps_A_100_100': np.float64(276.4116785852), 'ps_A_143_143': np.float64(42.2915016809485), 'ps_A_143_217': np.float64(38.844056900087125), 'ps_A_217_217': np.float64(104.55061950628638), 'galf_TE_A_100': np.float64(0.11422757254707393), 'galf_TE_A_100_143': np.float64(0.11697002390222386), 'galf_TE_A_100_217': np.float64(0.5704277590549307), 'galf_TE_A_143': np.float64(0.27520557564237264), 'galf_TE_A_143_217': np.float64(0.6904991130166666), 'galf_TE_A_217': np.float64(1.9643260722361457)}
+ 2026-05-10 15:28:31,488 [prior] Evaluating prior at array([2.95957170e-02, 1.04734670e+00, 2.19595560e-02, 9.81189920e-01,
+       1.02505790e+00, 1.00011698e+00, 9.99374191e-01, 7.77468455e+01,
+       2.20458504e-01, 4.94040107e+00, 5.18868589e+00, 5.41411567e+00,
+       8.72716318e+00, 2.20130407e+01, 8.22250831e+01, 2.76411679e+02,
+       4.22915017e+01, 3.88440569e+01, 1.04550620e+02, 1.14227573e-01,
+       1.16970024e-01, 5.70427759e-01, 2.75205576e-01, 6.90499113e-01,
+       1.96432607e+00])
+ 2026-05-10 15:28:31,488 [prior] Got logpriors (internal) = 3.3313736537923475
+ 2026-05-10 15:28:31,488 [prior] Got logpriors (external) = [np.float64(-2.7348843337524866)]
+ 2026-05-10 15:28:31,488 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029595717, 'deu_transfer_polamp_p_vis': 1.0473467, 'omega_b': 0.021959556, 'n_s': 0.98118992, 'A_planck': 1.0250579, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 1.0001169794462519, 'calib_217T': 0.9993741912452431, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 77.74684553213233, 'xi_sz_cib': 0.2204585035543478, 'A_sz': 4.940401065532811, 'ksz_norm': 5.188685891378423, 'gal545_A_100': 5.41411567043777, 'gal545_A_143': 8.727163179210118, 'gal545_A_143_217': 22.01304072008763, 'gal545_A_217': 82.22508310693966, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 276.4116785852, 'ps_A_143_143': 42.2915016809485, 'ps_A_143_217': 38.844056900087125, 'ps_A_217_217': 104.55061950628638, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11422757254707393, 'galf_TE_A_100_143': 0.11697002390222386, 'galf_TE_A_100_217': 0.5704277590549307, 'galf_TE_A_143': 0.27520557564237264, 'galf_TE_A_143_217': 0.6904991130166666, 'galf_TE_A_217': 1.9643260722361457, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 15:28:31,488 [classy] Got parameters {'deu_damping_envelope_beta': 0.029595717, 'deu_transfer_polamp_p_vis': 1.0473467, 'omega_b': 0.021959556, 'n_s': 0.98118992, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:31,488 [classy] Computing new state
+ 2026-05-10 15:28:31,488 [classy] Setting parameters: {",audit_full_plik_point_eval/20260510T222827Z/deu_full_map.1.txt,1,36,1.0,1566.6086,0.029595717,1.0473467,0.021959556,0.98118992,1.0250579,3134.4102,-0.59648932,-3.3313737,3134.4102,,26.588767,397.8372,18.805833,2691.1784,1.000117,0.99937419,77.746846,0.2204585,4.9404011,5.1886859,5.4141157,8.7271632,22.013041,82.225083,276.41168,42.291502,38.844057,104.55062,0.11422757,0.11697002,0.57042776,0.27520558,0.69049911,1.9643261,2.7348843
+deu,mean,lite,audit_full_plik_point_eval/20260510T222827Z/deu_lite_mean.yaml,audit_full_plik_point_eval/20260510T222827Z/deu_lite_mean,0,audit_full_plik_point_eval/20260510T222827Z/deu_lite_mean.stdout.txt," 2026-05-10 15:28:33,884 [evaluate] Looking for a reference point with non-zero prior.
+ 2026-05-10 15:28:33,885 [prior] Evaluating prior at array([0.03    , 1.0475  , 0.022   , 0.981875, 1.025   ])
+ 2026-05-10 15:28:33,885 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:33,885 [evaluate] Reference point:
+   deu_damping_envelope_beta = 0.0294912
+   deu_transfer_polamp_p_vis = 1.04742
+   omega_b = 0.02198
+   n_s = 0.981523
+   A_planck = 1.02506
+ 2026-05-10 15:28:33,885 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:33,885 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029491217248075276), 'deu_transfer_polamp_p_vis': np.float64(1.0474182267750216), 'omega_b': np.float64(0.021980020954662106), 'n_s': np.float64(0.9815232201591104), 'A_planck': np.float64(1.025055724379812)}
+ 2026-05-10 15:28:33,885 [prior] Evaluating prior at array([0.02949122, 1.04741823, 0.02198002, 0.98152322, 1.02505572])
+ 2026-05-10 15:28:33,885 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:33,885 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'A_planck': 1.025055724379812, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:33,885 [classy] Got parameters {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:33,885 [classy] Computing new state
+ 2026-05-10 15:28:33,885 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:35,077 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,078 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 15:28:35,078 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.26835830307493
+ 2026-05-10 15:28:35,078 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,078 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.tt] Computed log-likelihood = -13.251024932240114
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Computed log-likelihood = -198.93781522602805
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Computed log-likelihood = -9.434815500126494
+ 2026-05-10 15:28:35,079 [model] Computed derived parameters: {'chi2__CMB': 1207.7840279229392}
+ 2026-05-10 15:28:35,080 [evaluate] log-posterior  = -573.042
+ 2026-05-10 15:28:35,080 [evaluate] log-prior      = 30.8499
+ 2026-05-10 15:28:35,080 [evaluate]    logprior_0 = 30.8499
+ 2026-05-10 15:28:35,080 [evaluate] log-likelihood = -603.892
+ 2026-05-10 15:28:35,080 [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 764.537",audit_full_plik_point_eval/20260510T222827Z/deu_lite_mean.1.txt,1,15,1.0,573.04212,0.029491217,1.0474182,0.021980021,0.98152322,1.0250557,1207.784,-30.849897,-30.849897,1207.784,764.53672,26.50205,397.87563,18.869631,,,,,,,,,,,,,,,,,,,,,,
+deu,mean,full,audit_full_plik_point_eval/20260510T222827Z/deu_full_mean.yaml,audit_full_plik_point_eval/20260510T222827Z/deu_full_mean,0,audit_full_plik_point_eval/20260510T222827Z/deu_full_mean.stdout.txt,"   galf_TE_A_217 = 2.04349
+ 2026-05-10 15:28:36,190 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:36,190 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029491217248075276), 'deu_transfer_polamp_p_vis': np.float64(1.0474182267750216), 'omega_b': np.float64(0.021980020954662106), 'n_s': np.float64(0.9815232201591104), 'A_planck': np.float64(1.025055724379812), 'calib_100T': np.float64(0.9997679565219592), 'calib_217T': np.float64(1.0006160445897299), 'A_cib_217': np.float64(72.562309127031), 'xi_sz_cib': np.float64(0.04724665445463855), 'A_sz': np.float64(5.134185721519186), 'ksz_norm': np.float64(0.5012221703080848), 'gal545_A_100': np.float64(7.199412024797527), 'gal545_A_143': np.float64(12.334800198382865), 'gal545_A_143_217': np.float64(20.36043619553846), 'gal545_A_217': np.float64(78.17288918243253), 'ps_A_100_100': np.float64(250.87821701999653), 'ps_A_143_143': np.float64(41.686046063800596), 'ps_A_143_217': np.float64(71.24326629354658), 'ps_A_217_217': np.float64(89.20037218077712), 'galf_TE_A_100': np.float64(0.046560010924258294), 'galf_TE_A_100_143': np.float64(0.0643204769881891), 'galf_TE_A_100_217': np.float64(0.6305076105762872), 'galf_TE_A_143': np.float64(0.0511295431602391), 'galf_TE_A_143_217': np.float64(0.6662663826644937), 'galf_TE_A_217': np.float64(2.0434854164535037)}
+ 2026-05-10 15:28:36,190 [prior] Evaluating prior at array([2.94912172e-02, 1.04741823e+00, 2.19800210e-02, 9.81523220e-01,
+       1.02505572e+00, 9.99767957e-01, 1.00061604e+00, 7.25623091e+01,
+       4.72466545e-02, 5.13418572e+00, 5.01222170e-01, 7.19941202e+00,
+       1.23348002e+01, 2.03604362e+01, 7.81728892e+01, 2.50878217e+02,
+       4.16860461e+01, 7.12432663e+01, 8.92003722e+01, 4.65600109e-02,
+       6.43204770e-02, 6.30507611e-01, 5.11295432e-02, 6.66266383e-01,
+       2.04348542e+00])
+ 2026-05-10 15:28:36,191 [prior] Got logpriors (internal) = -8.145871068719488
+ 2026-05-10 15:28:36,191 [prior] Got logpriors (external) = [np.float64(-2.0517054055015644)]
+ 2026-05-10 15:28:36,191 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'A_planck': 1.025055724379812, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9997679565219592, 'calib_217T': 1.0006160445897299, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 72.562309127031, 'xi_sz_cib': 0.04724665445463855, 'A_sz': 5.134185721519186, 'ksz_norm': 0.5012221703080848, 'gal545_A_100': 7.199412024797527, 'gal545_A_143': 12.334800198382865, 'gal545_A_143_217': 20.36043619553846, 'gal545_A_217': 78.17288918243253, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 250.87821701999653, 'ps_A_143_143': 41.686046063800596, 'ps_A_143_217': 71.24326629354658, 'ps_A_217_217': 89.20037218077712, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.046560010924258294, 'galf_TE_A_100_143': 0.0643204769881891, 'galf_TE_A_100_217': 0.6305076105762872, 'galf_TE_A_143': 0.0511295431602391, 'galf_TE_A_143_217': 0.6662663826644937, 'galf_TE_A_217': 2.0434854164535037, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 15:28:36,191 [classy] Got parameters {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12",audit_full_plik_point_eval/20260510T222827Z/deu_full_mean.1.txt,1,36,1.0,2148.3964,0.029491217,1.0474182,0.021980021,0.98152322,1.0250557,4276.3977,10.197576,8.1458711,4276.3977,,26.50205,397.87563,18.869631,3833.1504,0.99976796,1.000616,72.562309,0.047246654,5.1341857,0.50122217,7.199412,12.3348,20.360436,78.172889,250.87822,41.686046,71.243266,89.200372,0.046560011,0.064320477,0.63050761,0.051129543,0.66626638,2.0434854,2.0517054
+native,map,lite,audit_full_plik_point_eval/20260510T222827Z/native_lite_map.yaml,audit_full_plik_point_eval/20260510T222827Z/native_lite_map,0,audit_full_plik_point_eval/20260510T222827Z/native_lite_map.stdout.txt," 2026-05-10 15:28:38,797 [model] - Cl: classy
+ 2026-05-10 15:28:38,803 [evaluate] Initialized!
+ 2026-05-10 15:28:38,810 [evaluate] Looking for a reference point with non-zero prior.
+ 2026-05-10 15:28:38,811 [prior] Evaluating prior at array([0.022   , 0.981875, 1.025   ])
+ 2026-05-10 15:28:38,811 [prior] Got logpriors (internal) = 19.336971475826505
+ 2026-05-10 15:28:38,811 [evaluate] Reference point:
+   omega_b = 0.0219033
+   n_s = 0.982498
+   A_planck = 1.02
+ 2026-05-10 15:28:38,811 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:38,811 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.021903315), 'n_s': np.float64(0.98249758), 'A_planck': np.float64(1.0200026)}
+ 2026-05-10 15:28:38,811 [prior] Evaluating prior at array([0.02190331, 0.98249758, 1.0200026 ])
+ 2026-05-10 15:28:38,811 [prior] Got logpriors (internal) = 19.336971475826505
+ 2026-05-10 15:28:38,811 [model] Got input parameters: {'omega_b': 0.021903315, 'n_s': 0.98249758, 'A_planck': 1.0200026, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:38,811 [classy] Got parameters {'omega_b': 0.021903315, 'n_s': 0.98249758, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:38,811 [classy] Computing new state
+ 2026-05-10 15:28:38,811 [classy] Setting parameters: {'omega_b': 0.021903315, 'n_s': 0.98249758, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl lCl tCl,pCl,lCl tCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:39,906 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0200026}
+ 2026-05-10 15:28:39,906 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 15:28:39,909 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -533.2600241951419
+ 2026-05-10 15:28:39,909 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0200026}
+ 2026-05-10 15:28:39,909 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 15:28:39,910 [planck_2018_lowl.tt] Computed log-likelihood = -9.88792070874294
+ 2026-05-10 15:28:39,910 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0200026}
+ 2026-05-10 15:28:39,910 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 15:28:39,910 [planck_2018_lowl.ee] Computed log-likelihood = -197.99703537474514
+ 2026-05-10 15:28:39,910 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0200026}
+ 2026-05-10 15:28:39,910 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 15:28:39,910 [planck_2018_lensing.native] Computed log-likelihood = -7.980061948066774
+ 2026-05-10 15:28:39,910 [model] Computed derived parameters: {'chi2__CMB': 1498.2500844533936}
+ 2026-05-10 15:28:39,910 [evaluate] log-posterior  = -729.788
+ 2026-05-10 15:28:39,910 [evaluate] log-prior      = 19.337
+ 2026-05-10 15:28:39,911 [evaluate]    logprior_0 = 19.337
+ 2026-05-10 15:28:39,911 [evaluate] log-likelihood = -749.125
+ 2026-05-10 15:28:39,911 [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 1066.52
+ 2026-05-10 15:28:39,911 [evaluate]    chi2_planck_2018_lowl.TT = 19.7758
+ 2026-05-10 15:28:39,911 [evaluate]    chi2_planck_2018_lowl.EE = 395.994
+ 2026-05-10 15:28:39,911 [evaluate]    chi2_planck_2018_lensing.native = 15.9601
+ 2026-05-10 15:28:39,911 [evaluate] Derived params:
+ 2026-05-10 15:28:39,911 [evaluate]    chi2__CMB = 1498.25",audit_full_plik_point_eval/20260510T222827Z/native_lite_map.1.txt,1,13,1.0,729.78807,,,0.021903315,0.98249758,1.0200026,1498.2501,-19.336971,-19.336971,1498.2501,1066.52,19.775841,395.99407,15.960124,,,,,,,,,,,,,,,,,,,,,,
+native,map,full,audit_full_plik_point_eval/20260510T222827Z/native_full_map.yaml,audit_full_plik_point_eval/20260510T222827Z/native_full_map,0,audit_full_plik_point_eval/20260510T222827Z/native_full_map.stdout.txt,"   galf_TE_A_143_217 = 0.625481
+   galf_TE_A_217 = 2.26729
+ 2026-05-10 15:28:41,029 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:41,029 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.021903315), 'n_s': np.float64(0.98249758), 'A_planck': np.float64(1.0200026), 'calib_100T': np.float64(1.0005258949236568), 'calib_217T': np.float64(0.9976896387748472), 'A_cib_217': np.float64(62.06426635180293), 'xi_sz_cib': np.float64(0.033214311914051685), 'A_sz': np.float64(5.965676027468367), 'ksz_norm': np.float64(0.2382134497103501), 'gal545_A_100': np.float64(5.269014071851574), 'gal545_A_143': np.float64(11.613466735904924), 'gal545_A_143_217': np.float64(15.35358708114596), 'gal545_A_217': np.float64(68.87395789644539), 'ps_A_100_100': np.float64(272.00183941596833), 'ps_A_143_143': np.float64(37.414353250090485), 'ps_A_143_217': np.float64(45.945826065762915), 'ps_A_217_217': np.float64(112.11215879713012), 'galf_TE_A_100': np.float64(0.30886813792648443), 'galf_TE_A_100_143': np.float64(0.17285926542803837), 'galf_TE_A_100_217': np.float64(0.4916903547001793), 'galf_TE_A_143': np.float64(0.08113356134376773), 'galf_TE_A_143_217': np.float64(0.6254811534717326), 'galf_TE_A_217': np.float64(2.2672855382737964)}
+ 2026-05-10 15:28:41,029 [prior] Evaluating prior at array([2.19033150e-02, 9.82497580e-01, 1.02000260e+00, 1.00052589e+00,
+       9.97689639e-01, 6.20642664e+01, 3.32143119e-02, 5.96567603e+00,
+       2.38213450e-01, 5.26901407e+00, 1.16134667e+01, 1.53535871e+01,
+       6.88739579e+01, 2.72001839e+02, 3.74143533e+01, 4.59458261e+01,
+       1.12112159e+02, 3.08868138e-01, 1.72859265e-01, 4.91690355e-01,
+       8.11335613e-02, 6.25481153e-01, 2.26728554e+00])
+ 2026-05-10 15:28:41,029 [prior] Got logpriors (internal) = -17.630767773883704
+ 2026-05-10 15:28:41,029 [prior] Got logpriors (external) = [np.float64(-2.022009494655653)]
+ 2026-05-10 15:28:41,029 [model] Got input parameters: {'omega_b': 0.021903315, 'n_s': 0.98249758, 'A_planck': 1.0200026, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 1.0005258949236568, 'calib_217T': 0.9976896387748472, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 62.06426635180293, 'xi_sz_cib': 0.033214311914051685, 'A_sz': 5.965676027468367, 'ksz_norm': 0.2382134497103501, 'gal545_A_100': 5.269014071851574, 'gal545_A_143': 11.613466735904924, 'gal545_A_143_217': 15.35358708114596, 'gal545_A_217': 68.87395789644539, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 272.00183941596833, 'ps_A_143_143': 37.414353250090485, 'ps_A_143_217': 45.945826065762915, 'ps_A_217_217': 112.11215879713012, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.30886813792648443, 'galf_TE_A_100_143': 0.17285926542803837, 'galf_TE_A_100_217': 0.4916903547001793, 'galf_TE_A_143': 0.08113356134376773, 'galf_TE_A_143_217': 0.6254811534717326, 'galf_TE_A_217': 2.2672855382737964, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 15:28:41,029 [classy] Got parameters {'omega_b': 0.021903315, 'n_s': 0.98249758, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:41,029 [classy] Computing new state
+ 2026-05-10 15:28:41,029 [classy] Setting parameters: {'omega_b': 0.021903315, 'n_s': 0.98249758, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:42,135 [planck_201",audit_full_plik_point_eval/20260510T222827Z/native_full_map.1.txt,1,34,1.0,1979.1186,,,0.021903315,0.98249758,1.0200026,3918.9317,19.652777,17.630768,3918.9317,,19.775841,395.99407,15.960124,3487.2017,1.0005259,0.99768964,62.064266,0.033214312,5.965676,0.23821345,5.2690141,11.613467,15.353587,68.873958,272.00184,37.414353,45.945826,112.11216,0.30886814,0.17285927,0.49169035,0.081133561,0.62548115,2.2672855,2.0220095
+native,mean,lite,audit_full_plik_point_eval/20260510T222827Z/native_lite_mean.yaml,audit_full_plik_point_eval/20260510T222827Z/native_lite_mean,0,audit_full_plik_point_eval/20260510T222827Z/native_lite_mean.stdout.txt," 2026-05-10 15:28:43,128 [model] - Cl: classy
+ 2026-05-10 15:28:43,134 [evaluate] Initialized!
+ 2026-05-10 15:28:43,137 [evaluate] Looking for a reference point with non-zero prior.
+ 2026-05-10 15:28:43,138 [prior] Evaluating prior at array([0.022   , 0.981875, 1.025   ])
+ 2026-05-10 15:28:43,138 [prior] Got logpriors (internal) = 19.336971475826505
+ 2026-05-10 15:28:43,138 [evaluate] Reference point:
+   omega_b = 0.0219341
+   n_s = 0.981778
+   A_planck = 1.02004
+ 2026-05-10 15:28:43,138 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:43,138 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.021934116700883653), 'n_s': np.float64(0.9817776301030928), 'A_planck': np.float64(1.0200422931369661)}
+ 2026-05-10 15:28:43,138 [prior] Evaluating prior at array([0.02193412, 0.98177763, 1.02004229])
+ 2026-05-10 15:28:43,138 [prior] Got logpriors (internal) = 19.336971475826505
+ 2026-05-10 15:28:43,138 [model] Got input parameters: {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'A_planck': 1.0200422931369661, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:43,138 [classy] Got parameters {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:43,138 [classy] Computing new state
+ 2026-05-10 15:28:43,138 [classy] Setting parameters: {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl tCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:44,285 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0200422931369661}
+ 2026-05-10 15:28:44,286 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 15:28:44,288 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -535.5600174512845
+ 2026-05-10 15:28:44,288 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0200422931369661}
+ 2026-05-10 15:28:44,288 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 15:28:44,289 [planck_2018_lowl.tt] Computed log-likelihood = -9.891754798012101
+ 2026-05-10 15:28:44,289 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0200422931369661}
+ 2026-05-10 15:28:44,289 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 15:28:44,289 [planck_2018_lowl.ee] Computed log-likelihood = -197.9839690604907
+ 2026-05-10 15:28:44,289 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0200422931369661}
+ 2026-05-10 15:28:44,289 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 15:28:44,289 [planck_2018_lensing.native] Computed log-likelihood = -7.94883513945206
+ 2026-05-10 15:28:44,289 [model] Computed derived parameters: {'chi2__CMB': 1502.7691528984788}
+ 2026-05-10 15:28:44,289 [evaluate] log-posterior  = -732.048
+ 2026-05-10 15:28:44,289 [evaluate] log-prior      = 19.337
+ 2026-05-10 15:28:44,289 [evaluate]    logprior_0 = 19.337
+ 2026-05-10 15:28:44,289 [evaluate] log-likelihood = -751.385
+ 2026-05-10 15:28:44,289 [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 1071.12
+ 2026-05-10 15:28:44,289 [evaluate]    chi2_planck_2018_lowl.TT = 19.7835
+ 2026-05-10 15:28:44,289 [evaluate]    chi2_planck_2018_lowl.EE = 395.968
+ 2026-05-10 15:28:44,289 [evaluate]    chi2_planck_2018_lensing.native = 15.8977
+ 2026-05-10 15:28:44,290 [evaluate] Derived params:
+ 2026-05-10 15:28:44,290 [evaluate]    chi2__CMB = 1502.77",audit_full_plik_point_eval/20260510T222827Z/native_lite_mean.1.txt,1,13,1.0,732.0476,,,0.021934117,0.98177763,1.0200423,1502.7692,-19.336971,-19.336971,1502.7692,1071.12,19.78351,395.96794,15.89767,,,,,,,,,,,,,,,,,,,,,,
+native,mean,full,audit_full_plik_point_eval/20260510T222827Z/native_full_mean.yaml,audit_full_plik_point_eval/20260510T222827Z/native_full_mean,0,audit_full_plik_point_eval/20260510T222827Z/native_full_mean.stdout.txt,"   galf_TE_A_143_217 = 0.618807
+   galf_TE_A_217 = 1.79147
+ 2026-05-10 15:28:45,563 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:45,563 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.021934116700883653), 'n_s': np.float64(0.9817776301030928), 'A_planck': np.float64(1.0200422931369661), 'calib_100T': np.float64(1.0010991931253017), 'calib_217T': np.float64(0.9995641301739405), 'A_cib_217': np.float64(64.16108669322905), 'xi_sz_cib': np.float64(0.058831794402423324), 'A_sz': np.float64(6.591769875135627), 'ksz_norm': np.float64(2.8038432987621422), 'gal545_A_100': np.float64(6.283147420162879), 'gal545_A_143': np.float64(7.114784019166811), 'gal545_A_143_217': np.float64(21.779125401914843), 'gal545_A_217': np.float64(71.08685007671095), 'ps_A_100_100': np.float64(283.3647736237402), 'ps_A_143_143': np.float64(46.31868045718457), 'ps_A_143_217': np.float64(9.952283491338175), 'ps_A_217_217': np.float64(78.04980578328522), 'galf_TE_A_100': np.float64(0.034284982901922945), 'galf_TE_A_100_143': np.float64(0.06826880185211497), 'galf_TE_A_100_217': np.float64(0.3419663904502139), 'galf_TE_A_143': np.float64(0.23568428890487686), 'galf_TE_A_143_217': np.float64(0.6188070243768529), 'galf_TE_A_217': np.float64(1.791473488719765)}
+ 2026-05-10 15:28:45,563 [prior] Evaluating prior at array([2.19341167e-02, 9.81777630e-01, 1.02004229e+00, 1.00109919e+00,
+       9.99564130e-01, 6.41610867e+01, 5.88317944e-02, 6.59176988e+00,
+       2.80384330e+00, 6.28314742e+00, 7.11478402e+00, 2.17791254e+01,
+       7.10868501e+01, 2.83364774e+02, 4.63186805e+01, 9.95228349e+00,
+       7.80498058e+01, 3.42849829e-02, 6.82688019e-02, 3.41966390e-01,
+       2.35684289e-01, 6.18807024e-01, 1.79147349e+00])
+ 2026-05-10 15:28:45,563 [prior] Got logpriors (internal) = -14.56672849161314
+ 2026-05-10 15:28:45,563 [prior] Got logpriors (external) = [np.float64(-2.8413118617560076)]
+ 2026-05-10 15:28:45,563 [model] Got input parameters: {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'A_planck': 1.0200422931369661, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 1.0010991931253017, 'calib_217T': 0.9995641301739405, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 64.16108669322905, 'xi_sz_cib': 0.058831794402423324, 'A_sz': 6.591769875135627, 'ksz_norm': 2.8038432987621422, 'gal545_A_100': 6.283147420162879, 'gal545_A_143': 7.114784019166811, 'gal545_A_143_217': 21.779125401914843, 'gal545_A_217': 71.08685007671095, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 283.3647736237402, 'ps_A_143_143': 46.31868045718457, 'ps_A_143_217': 9.952283491338175, 'ps_A_217_217': 78.04980578328522, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.034284982901922945, 'galf_TE_A_100_143': 0.06826880185211497, 'galf_TE_A_100_217': 0.3419663904502139, 'galf_TE_A_143': 0.23568428890487686, 'galf_TE_A_143_217': 0.6188070243768529, 'galf_TE_A_217': 1.791473488719765, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 15:28:45,563 [classy] Got parameters {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:45,563 [classy] Computing new state
+ 2026-05-10 15:28:45,563 [classy] Setting parameters: {'omega_b': 0.021934116700883653, 'n_s': 0.9817776301030928, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'lCl tCl ",audit_full_plik_point_eval/20260510T222827Z/native_full_mean.1.txt,1,34,1.0,2103.6874,,,0.021934117,0.98177763,1.0200423,4172.5587,17.40804,14.566728,4172.5587,,19.78351,395.96794,15.89767,3740.9096,1.0010992,0.99956413,64.161087,0.058831794,6.5917699,2.8038433,6.2831474,7.114784,21.779125,71.08685,283.36477,46.31868,9.9522835,78.049806,0.034284983,0.068268802,0.34196639,0.23568429,0.61880702,1.7914735,2.8413119

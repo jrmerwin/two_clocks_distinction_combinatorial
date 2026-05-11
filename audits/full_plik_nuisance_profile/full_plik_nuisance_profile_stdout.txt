@@ -1,0 +1,153 @@
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_posterior_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_posterior_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_likelihood_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_likelihood_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_posterior_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_posterior_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_likelihood_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_likelihood_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_posterior_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_posterior_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_likelihood_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_likelihood_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_posterior_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_posterior_profile.yaml
+[Stage E] running: cobaya-run /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_likelihood_profile.yaml -f
+[Stage E] exit=0 yaml=audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_likelihood_profile.yaml
+# Stage E full-Plik nuisance-profile audit
+
+Repo root: `/home/merwijas/deu_class/CLASS-DEU`
+Output: `/home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z`
+
+## Scope
+
+This audit fixes the DEU/native cosmological parameters at the lite MAP and mean points, replaces high-l `TTTEEE_lite` with full `TTTEEE`, and optimizes the full-Plik nuisance sector.
+It is not MCMC and not evidence.
+
+Two minimization modes are run:
+
+- `posterior_profile`: maximize posterior / minimize minus-log-posterior, including nuisance priors.
+- `likelihood_profile`: maximize likelihood with `ignore_prior: True`, subject to bounds.
+
+## Results
+
+- **deu / map / posterior_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1509.3009
+  - `minuslogprior` = 25.209276
+  - `chi2` = 2968.1833
+  - `chi2__CMB` = 2968.1833
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2524.9514
+  - `chi2__planck_2018_lowl.TT` = 26.588767
+  - `chi2__planck_2018_lowl.EE` = 397.8372
+  - `chi2__planck_2018_lensing.native` = 18.805833
+- **deu / map / likelihood_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_map_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1545.775
+  - `minuslogprior` = 65.29156
+  - `chi2` = 2960.9668
+  - `chi2__CMB` = 2960.9668
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2517.735
+  - `chi2__planck_2018_lowl.TT` = 26.588767
+  - `chi2__planck_2018_lowl.EE` = 397.8372
+  - `chi2__planck_2018_lensing.native` = 18.805833
+- **deu / mean / posterior_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1509.0994
+  - `minuslogprior` = 25.079573
+  - `chi2` = 2968.0396
+  - `chi2__CMB` = 2968.0396
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2524.7923
+  - `chi2__planck_2018_lowl.TT` = 26.50205
+  - `chi2__planck_2018_lowl.EE` = 397.87563
+  - `chi2__planck_2018_lensing.native` = 18.869631
+- **deu / mean / likelihood_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1541.6251
+  - `minuslogprior` = 61.118253
+  - `chi2` = 2961.0137
+  - `chi2__CMB` = 2961.0137
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2517.7664
+  - `chi2__planck_2018_lowl.TT` = 26.50205
+  - `chi2__planck_2018_lowl.EE` = 397.87563
+  - `chi2__planck_2018_lensing.native` = 18.869631
+- **native / map / posterior_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1654.4526
+  - `minuslogprior` = 50.931464
+  - `chi2` = 3207.0423
+  - `chi2__CMB` = 3207.0423
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2775.3122
+  - `chi2__planck_2018_lowl.TT` = 19.775841
+  - `chi2__planck_2018_lowl.EE` = 395.99407
+  - `chi2__planck_2018_lensing.native` = 15.960124
+- **native / map / likelihood_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/native_full_map_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1699.8201
+  - `minuslogprior` = 116.06202
+  - `chi2` = 3167.5161
+  - `chi2__CMB` = 3167.5161
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2735.786
+  - `chi2__planck_2018_lowl.TT` = 19.775841
+  - `chi2__planck_2018_lowl.EE` = 395.99407
+  - `chi2__planck_2018_lensing.native` = 15.960124
+- **native / mean / posterior_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1656.7596
+  - `minuslogprior` = 51.316478
+  - `chi2` = 3210.8863
+  - `chi2__CMB` = 3210.8863
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2779.2372
+  - `chi2__planck_2018_lowl.TT` = 19.78351
+  - `chi2__planck_2018_lowl.EE` = 395.96794
+  - `chi2__planck_2018_lensing.native` = 15.89767
+- **native / mean / likelihood_profile** exit=`0` result=`audit_full_plik_nuisance_profile/20260510T233506Z/native_full_mean_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1701.7755
+  - `minuslogprior` = 115.81519
+  - `chi2` = 3171.9205
+  - `chi2__CMB` = 3171.9205
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2740.2714
+  - `chi2__planck_2018_lowl.TT` = 19.78351
+  - `chi2__planck_2018_lowl.EE` = 395.96794
+  - `chi2__planck_2018_lensing.native` = 15.89767
+
+## Pairwise native-minus-DEU deltas
+
+- **map / posterior_profile**
+  - `native_minus_deu_chi2` = 238.85899999999992
+  - `native_minus_deu_chi2__CMB` = 238.85899999999992
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = 250.36079999999993
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -2.8457089999999994
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.8431299999999737
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -6.812926000000001
+  - `native_minus_deu_minuslogpost` = 145.15170000000012
+  - `native_minus_deu_minuslogprior` = 25.722188
+- **map / likelihood_profile**
+  - `native_minus_deu_chi2` = 206.54929999999968
+  - `native_minus_deu_chi2__CMB` = 206.54929999999968
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = 218.05099999999993
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -2.8457089999999994
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.8431299999999737
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -6.812926000000001
+  - `native_minus_deu_minuslogpost` = 154.04509999999982
+  - `native_minus_deu_minuslogprior` = 50.77046
+- **mean / posterior_profile**
+  - `native_minus_deu_chi2` = 242.84670000000006
+  - `native_minus_deu_chi2__CMB` = 242.84670000000006
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = 254.44489999999996
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -2.9719609999999985
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.9076900000000023
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -6.718540000000001
+  - `native_minus_deu_minuslogpost` = 147.66020000000003
+  - `native_minus_deu_minuslogprior` = 26.236904999999997
+- **mean / likelihood_profile**
+  - `native_minus_deu_chi2` = 210.9068000000002
+  - `native_minus_deu_chi2__CMB` = 210.9068000000002
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = 222.5050000000001
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -2.9719609999999985
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.9076900000000023
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -6.718540000000001
+  - `native_minus_deu_minuslogpost` = 160.1504
+  - `native_minus_deu_minuslogprior` = 54.696937
+
+## Decision guide
+
+- If both `map` and `mean` nuisance-profiled full-Plik comparisons favor DEU by a large high-l `chi2` gap, the Stage D mean reversal was likely caused by unprofiled nuisance/reference values.
+- If the `map` profile favors DEU but the `mean` profile still favors native, the full-Plik posterior geometry is very different from the lite posterior and requires full MCMC.
+- If both profiles collapse or favor native, the large lite evidence line should be treated as a `TTTEEE_lite`/nuisance-marginalization artifact.
+- Even if the profile favors DEU, this does not solve the restricted-native-baseline issue or the `A_planck` prior issue.
+- The next ablation after this is `A_planck = 1` or a broad `A_planck` prior containing unity.
+

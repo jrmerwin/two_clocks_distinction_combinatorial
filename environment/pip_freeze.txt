@@ -1,0 +1,40 @@
+astropy==7.2.0
+astropy-iers-data==0.2026.5.4.1.4.54
+certifi==2026.4.22
+charset-normalizer==3.4.7
+-e git+https://github.com/lesgourg/class_public.git@0e195108db22f3559e811c3ac9d071043ae8dbf6#egg=classy
+cobaya==3.6.2
+contourpy==1.3.3
+cycler==0.12.1
+Cython==3.2.4
+# Editable install with no version control (deu-boltzmann-start==0.1.0)
+-e /home/merwijas/deu_class/deu_boltzmann_start
+dill==0.4.1
+fonttools==4.62.1
+getdist==1.7.6
+idna==3.13
+iniconfig==2.3.0
+kiwisolver==1.5.0
+matplotlib==3.10.9
+numpy==2.4.4
+packaging==26.2
+pandas==3.0.2
+pillow==12.2.0
+pluggy==1.6.0
+portalocker==3.2.0
+Py-BOBYQA==1.5.0
+pyerfa==2.0.1.5
+Pygments==2.20.0
+pyparsing==3.3.2
+pytest==9.0.3
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+RapidFuzz==3.14.5
+requests==2.33.1
+scipy==1.17.1
+setuptools==82.0.1
+six==1.17.0
+tqdm==4.67.3
+typing_extensions==4.15.0
+urllib3==2.6.3
+wheel==0.47.0

@@ -1,0 +1,55 @@
+# Stage C0 native-vs-native estimator null report
+
+Repo root: `/home/merwijas/deu_class/CLASS-DEU`
+Output: `/home/merwijas/deu_class/CLASS-DEU/audit_native_null/20260510T204720Z`
+
+## Purpose
+
+This test treats the two existing native chains as two nominally identical models.
+A calibrated evidence-style estimator should return native-vs-native logBF near zero.
+This is a null test of the estimator floor, not a new cosmological result.
+
+## Chain files used
+
+- Native A: `deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt`
+- Native B: `deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt`
+- DEU A: `deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt`
+- DEU B: `deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt`
+
+## Pairwise chain-local Laplace results
+
+- **native_A_minus_native_B / full_covariance_laplace**: logBF = `-0.41620847`, |logBF| = `0.41620847`, map logpost gap = `-0.12416`
+- **native_A_minus_native_B / diagonal_covariance_laplace**: logBF = `-0.41809524`, |logBF| = `0.41809524`, map logpost gap = `-0.12416`
+- **native_A_minus_native_B / iqr_diagonal_laplace**: logBF = `-0.25984776`, |logBF| = `0.25984776`, map logpost gap = `-0.12416`
+- **deu_A_minus_deu_B / full_covariance_laplace**: logBF = `-0.023389448`, |logBF| = `0.023389448`, map logpost gap = `0.02399`
+- **deu_A_minus_deu_B / diagonal_covariance_laplace**: logBF = `-0.023755889`, |logBF| = `0.023755889`, map logpost gap = `0.02399`
+- **deu_A_minus_deu_B / iqr_diagonal_laplace**: logBF = `-0.12410663`, |logBF| = `0.12410663`, map logpost gap = `0.02399`
+- **deu_combined_minus_native_combined / full_covariance_laplace**: logBF = `147.25112`, |logBF| = `147.25112`, map logpost gap = `157.00993`
+- **deu_combined_minus_native_combined / diagonal_covariance_laplace**: logBF = `147.31088`, |logBF| = `147.31088`, map logpost gap = `157.00993`
+- **deu_combined_minus_native_combined / iqr_diagonal_laplace**: logBF = `149.02975`, |logBF| = `149.02975`, map logpost gap = `157.00993`
+
+## Native random-split null distribution
+
+- **diagonal_covariance_laplace**: mean=-0.00619873, std=0.474305, q50=0.00810052, q95_abs=0.87419, max_abs=1.48037
+- **full_covariance_laplace**: mean=-0.00614819, std=0.473635, q50=0.00899091, q95_abs=0.872207, max_abs=1.4798
+- **iqr_diagonal_laplace**: mean=-0.00114785, std=0.10163, q50=-0.00290914, q95_abs=0.177187, max_abs=0.275802
+
+## Formal-estimator reproduction check
+
+- Computed DEU-native full-cov logBF: `147.2511216`
+- Official Stage 3B-26 full-cov logBF: `158.7640471`
+- Computed minus official: `-11.51292547`
+
+## Decision
+
+- Decision: **PASS_STRONG_NATIVE_NULL_NEAR_ZERO**
+- Interpretation: The chain-local estimator is near-zero calibrated on native-vs-native splits.
+- Native direct max |logBF| across methods: `0.41809524`
+- Native random-split full-cov q95 |logBF|: `0.87220745`
+
+## How to use this
+
+- If this passes strongly, the chain-local estimator is at least zero-calibrated for native-vs-native.
+- If this fails, the current DEU/native logBF-style result should be demoted to an estimator artifact.
+- Even if this passes, it does not solve the A_planck prior-boundary issue, the restricted-native-baseline issue, or the Plik-lite/full-Plik question.
+- A pass means we proceed to full-Plik evaluate tests and A_planck ablations; a fail means we stop and repair the estimator before any longer runs.

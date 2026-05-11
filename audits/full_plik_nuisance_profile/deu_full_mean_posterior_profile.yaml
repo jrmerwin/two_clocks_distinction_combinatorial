@@ -1,0 +1,54 @@
+theory:
+  classy:
+    extra_args:
+      deu: 'yes'
+      deu_allow_double_phase_hooks: 'no'
+      deu_damping_envelope_hook: 'yes'
+      deu_lensed_phase_hook: 'yes'
+      deu_lensed_phase_profile: 2
+      deu_log10_N_today: 122.0
+      deu_perturbation_sound_speed_hook: 'yes'
+      deu_photon_clock_thermo: 'yes'
+      deu_polarization_source_amplitude_hook: 'no'
+      deu_transfer_polamp_hook: 'yes'
+      deu_use_radial_jacobian: 'yes'
+      l_max_scalars: 3500
+      lensing: 'yes'
+      output: tCl,pCl,lCl
+likelihood:
+  planck_2018_highl_plik.TTTEEE: null
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_lensing.native: null
+params:
+  deu_damping_envelope_beta:
+    value: 0.029491217248075276
+  deu_transfer_polamp_p_vis:
+    value: 1.0474182267750216
+  omega_b:
+    value: 0.021980020954662106
+  n_s:
+    value: 0.9815232201591104
+  A_planck:
+    value: 1.025055724379812
+  H0:
+    value: 67.4
+  ln10^{10}A_s:
+    value: 3.044
+  omega_cdm:
+    value: 0.12
+  tau_reio:
+    value: 0.0544
+sampler:
+  minimize:
+    method: bobyqa
+    ignore_prior: false
+    max_evals: 10000
+    best_of: 2
+    seed: 12345
+    override_bobyqa:
+      rhoend: 0.05
+packages_path: /home/merwijas/deu_class/cobaya_packages
+output: /home/merwijas/deu_class/CLASS-DEU/audit_full_plik_nuisance_profile/20260510T233506Z/deu_full_mean_posterior_profile
+debug: true
+stop_at_error: true

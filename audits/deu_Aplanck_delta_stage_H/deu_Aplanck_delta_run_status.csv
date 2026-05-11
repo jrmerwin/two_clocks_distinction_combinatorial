@@ -1,0 +1,326 @@
+branch,claim_role,A_planck_fixed,chain_label,yaml,output_prefix,exit_status,stdout_path,stdout_tail,chain_file,n_rows,n_cols,minuslogpost_min
+Agraph_1p02505572438,candidate_graph_refractive_index,1.02505572438,chain01_center,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain01_center.yaml,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain01_center,0,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain01_center.stdout.txt," 2026-05-10 21:33:02,859 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:02,859 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 21:33:02,860 [planck_2018_lowl.tt] Computed log-likelihood = -13.154089020932133
+ 2026-05-10 21:33:02,860 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:02,860 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 21:33:02,860 [planck_2018_lowl.ee] Computed log-likelihood = -198.91880074613653
+ 2026-05-10 21:33:02,860 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:02,860 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 21:33:02,860 [planck_2018_lensing.native] Computed log-likelihood = -9.61171403272925
+ 2026-05-10 21:33:02,860 [model] Computed derived parameters: {'chi2__CMB': 1208.3260912777787}
+ 2026-05-10 21:33:02,860 [mcmc] New sample, #1996: 
+   deu_damping_envelope_beta:0.02856985, deu_transfer_polamp_p_vis:1.047042, omega_b:0.02196735, n_s:0.9821279
+ 2026-05-10 21:33:02,861 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029394350853428914), 'deu_transfer_polamp_p_vis': np.float64(1.0488516197114937), 'omega_b': np.float64(0.02188348288960381), 'n_s': np.float64(0.9813663181217135)}
+ 2026-05-10 21:33:02,861 [prior] Evaluating prior at array([0.02939435, 1.04885162, 0.02188348, 0.98136632])
+ 2026-05-10 21:33:02,861 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:02,861 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028393429734648336), 'deu_transfer_polamp_p_vis': np.float64(1.048138938977823), 'omega_b': np.float64(0.02193142605072343), 'n_s': np.float64(0.9829871049122924)}
+ 2026-05-10 21:33:02,861 [prior] Evaluating prior at array([0.02839343, 1.04813894, 0.02193143, 0.9829871 ])
+ 2026-05-10 21:33:02,861 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:02,861 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028630413704165844), 'deu_transfer_polamp_p_vis': np.float64(1.047558754909021), 'omega_b': np.float64(0.021977990963593406), 'n_s': np.float64(0.9821831511081305)}
+ 2026-05-10 21:33:02,861 [prior] Evaluating prior at array([0.02863041, 1.04755875, 0.02197799, 0.98218315])
+ 2026-05-10 21:33:02,861 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 21:33:02,861 [model] Got input parameters: {'deu_damping_envelope_beta': 0.028630413704165844, 'deu_transfer_polamp_p_vis': 1.047558754909021, 'omega_b': 0.021977990963593406, 'n_s': 0.9821831511081305, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:02,861 [classy] Got parameters {'deu_damping_envelope_beta': 0.028630413704165844, 'deu_transfer_polamp_p_vis': 1.047558754909021, 'omega_b': 0.021977990963593406, 'n_s': 0.9821831511081305, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:02,861 [classy] Computing new state
+ 2026-05-10 21:33:02,861 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.028630413704165844, 'deu_transfer_polamp_p_vis': 1.047558754909021, 'omega_b': 0.021977990963593406, 'n_s': 0.9821831511081305, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl pCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 21:33:04,041 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:04,042 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 21:33:04,053 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.4849638613081
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.tt] Computed log-likelihood = -13.16544290584443
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 21:33:04,053 [planck_2018_lowl.ee] Computed log-likelihood = -198.91880074613653
+ 2026-05-10 21:33:04,053 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:04,053 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 21:33:04,054 [planck_2018_lensing.native] Computed log-likelihood = -9.637943003740428
+ 2026-05-10 21:33:04,054 [model] Computed derived parameters: {'chi2__CMB': 1208.414301034059}
+ 2026-05-10 21:33:04,054 [mcmc] New sample, #1997: 
+   deu_damping_envelope_beta:0.02881812, deu_transfer_polamp_p_vis:1.047609, omega_b:0.02198101, n_s:0.9822684
+ 2026-05-10 21:33:04,054 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028846275906632197), 'deu_transfer_polamp_p_vis': np.float64(1.0375522529271914), 'omega_b': np.float64(0.021991169924538246), 'n_s': np.float64(0.9818668431474299)}
+ 2026-05-10 21:33:04,054 [prior] Evaluating prior at array([0.02884628, 1.03755225, 0.02199117, 0.98186684])
+ 2026-05-10 21:33:04,054 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:04,054 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028801739855502655), 'deu_transfer_polamp_p_vis': np.float64(1.0482117969829465), 'omega_b': np.float64(0.022079417403836087), 'n_s': np.float64(0.9813966838650352)}
+ 2026-05-10 21:33:04,054 [prior] Evaluating prior at array([0.02880174, 1.0482118 , 0.02207942, 0.98139668])
+ 2026-05-10 21:33:04,054 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 21:33:04,054 [model] Got input parameters: {'deu_damping_envelope_beta': 0.028801739855502655, 'deu_transfer_polamp_p_vis': 1.0482117969829465, 'omega_b': 0.022079417403836087, 'n_s': 0.9813966838650352, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:04,054 [classy] Got parameters {'deu_damping_envelope_beta': 0.028801739855502655, 'deu_transfer_polamp_p_vis': 1.0482117969829465, 'omega_b': 0.022079417403836087, 'n_s': 0.9813966838650352, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:04,054 [classy] Computing new state
+ 2026-05-10 21:33:04,054 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.028801739855502655, 'deu_transfer_polamp_p_vis': 1.0482117969829465, 'omega_b': 0.022079417403836087, 'n_s': 0.9813966838650352, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl pCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 21:33:05,232 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:05,232 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 21:33:05,236 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -383.5811452307549
+ 2026-05-10 21:33:05,236 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:05,236 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 21:33:05,237 [planck_2018_lowl.tt] Computed log-likelihood = -13.27542804834846
+ 2026-05-10 21:33:05,237 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:05,237 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 21:33:05,237 [planck_2018_lowl.ee] Computed log-likelihood = -198.9312501064173
+ 2026-05-10 21:33:05,237 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 21:33:05,237 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 21:33:05,237 [planck_2018_lensing.native] Computed log-likelihood = -9.53814609500093
+ 2026-05-10 21:33:05,237 [model] Computed derived parameters: {'chi2__CMB': 1210.6519389610432}
+ 2026-05-10 21:33:05,237 [mcmc] New sample, #1998: 
+   deu_damping_envelope_beta:0.02863041, deu_transfer_polamp_p_vis:1.047559, omega_b:0.02197799, n_s:0.9821832
+ 2026-05-10 21:33:05,237 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.0282289286592853), 'deu_transfer_polamp_p_vis': np.float64(1.0482145376954082), 'omega_b': np.float64(0.022142766954604893), 'n_s': np.float64(0.9824002108564894)}
+ 2026-05-10 21:33:05,237 [prior] Evaluating prior at array([0.02822893, 1.04821454, 0.02214277, 0.98240021])
+ 2026-05-10 21:33:05,238 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:05,238 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029848247326405904), 'deu_transfer_polamp_p_vis': np.float64(1.0482014569423401), 'omega_b': np.float64(0.022203997775995975), 'n_s': np.float64(0.9819628966079377)}
+ 2026-05-10 21:33:05,238 [prior] Evaluating prior at array([0.02984825, 1.04820146, 0.022204  , 0.9819629 ])
+ 2026-05-10 21:33:05,238 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:05,238 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.02813099372606043), 'deu_transfer_polamp_p_vis': np.float64(1.0476832873641655), 'omega_b': np.float64(0.022115062449969934), 'n_s': np.float64(0.981412967653392)}
+ 2026-05-10 21:33:05,238 [prior] Evaluating prior at array([0.02813099, 1.04768329, 0.02211506, 0.98141297])
+ 2026-05-10 21:33:05,238 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 21:33:05,238 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028904366946062264), 'deu_transfer_polamp_p_vis': np.float64(1.0468921710365056), 'omega_b': np.float64(0.022062338621444244), 'n_s': np.float64(0.9813622742891829)}
+ 2026-05-10 21:33:05,238 [prior] Evaluating prior at array([0.02890437, 1.04689217, 0.02206234, 0.98136227])
+ 2026-05-10 21:33:05,238 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 21:33:05,238 [model] Got input parameters: {'deu_damping_envelope_beta': 0.028904366946062264, 'deu_transfer_polamp_p_vis': 1.0468921710365056, 'omega_b': 0.022062338621444244, 'n_s': 0.9813622742891829, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:05,238 [classy] Got parameters {'deu_damping_envelope_beta': 0.028904366946062264, 'deu_transfer_polamp_p_vis': 1.0468921710365056, 'omega_b': 0.022062338621444244, 'n_s': 0.9813622742891829, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 21:33:05,238 [classy] Computing new state
+ 2026-05-10 21:33:05,238 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.028904366946062264, 'deu_transfer_polamp_p_vis': 1.0468921710365056, 'omega_b': 0.022062338621444244, 'n_s': 0.9813622742891829, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', ",audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain01_center.1.txt,2000,14,577.46769
+Agraph_1p02505572438,candidate_graph_refractive_index,1.02505572438,chain02_offset,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain02_offset.yaml,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain02_offset,0,audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain02_offset.stdout.txt," 2026-05-10 22:20:58,022 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.028635683654034266), 'deu_transfer_polamp_p_vis': np.float64(1.047671280739334), 'omega_b': np.float64(0.02203589258016383), 'n_s': np.float64(0.9809963460039632)}
+ 2026-05-10 22:20:58,022 [prior] Evaluating prior at array([0.02863568, 1.04767128, 0.02203589, 0.98099635])
+ 2026-05-10 22:20:58,022 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 22:20:58,022 [model] Got input parameters: {'deu_damping_envelope_beta': 0.028635683654034266, 'deu_transfer_polamp_p_vis': 1.047671280739334, 'omega_b': 0.02203589258016383, 'n_s': 0.9809963460039632, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:20:58,022 [classy] Got parameters {'deu_damping_envelope_beta': 0.028635683654034266, 'deu_transfer_polamp_p_vis': 1.047671280739334, 'omega_b': 0.02203589258016383, 'n_s': 0.9809963460039632, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:20:58,022 [classy] Computing new state
+ 2026-05-10 22:20:58,022 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.028635683654034266, 'deu_transfer_polamp_p_vis': 1.047671280739334, 'omega_b': 0.02203589258016383, 'n_s': 0.9809963460039632, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl pCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 22:20:59,224 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:20:59,224 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 22:20:59,224 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.7403855291939
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.tt] Computed log-likelihood = -13.325502836727566
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 22:20:59,225 [planck_2018_lowl.ee] Computed log-likelihood = -198.93833293599943
+ 2026-05-10 22:20:59,225 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:20:59,225 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 22:20:59,226 [planck_2018_lensing.native] Computed log-likelihood = -9.530385509681615
+ 2026-05-10 22:20:59,226 [model] Computed derived parameters: {'chi2__CMB': 1209.0692136232049}
+ 2026-05-10 22:20:59,226 [mcmc] New sample, #1997: 
+   deu_damping_envelope_beta:0.02883294, deu_transfer_polamp_p_vis:1.049591, omega_b:0.02207592, n_s:0.9821917
+ 2026-05-10 22:20:59,226 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029059813495820028), 'deu_transfer_polamp_p_vis': np.float64(1.0487571796248192), 'omega_b': np.float64(0.022061977699511407), 'n_s': np.float64(0.9806053038283095)}
+ 2026-05-10 22:20:59,226 [prior] Evaluating prior at array([0.02905981, 1.04875718, 0.02206198, 0.9806053 ])
+ 2026-05-10 22:20:59,226 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 22:20:59,226 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029059813495820028, 'deu_transfer_polamp_p_vis': 1.0487571796248192, 'omega_b': 0.022061977699511407, 'n_s': 0.9806053038283095, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:20:59,226 [classy] Got parameters {'deu_damping_envelope_beta': 0.029059813495820028, 'deu_transfer_polamp_p_vis': 1.0487571796248192, 'omega_b': 0.022061977699511407, 'n_s': 0.9806053038283095, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:20:59,226 [classy] Computing new state
+ 2026-05-10 22:20:59,226 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029059813495820028, 'deu_transfer_polamp_p_vis': 1.0487571796248192, 'omega_b': 0.022061977699511407, 'n_s': 0.9806053038283095, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl pCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 22:21:01,528 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:01,529 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 22:21:01,533 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -383.09283918415855
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.tt] Computed log-likelihood = -13.380317690364564
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 22:21:01,533 [planck_2018_lowl.ee] Computed log-likelihood = -198.93530307173674
+ 2026-05-10 22:21:01,534 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:01,534 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 22:21:01,534 [planck_2018_lensing.native] Computed log-likelihood = -9.478236005497276
+ 2026-05-10 22:21:01,534 [model] Computed derived parameters: {'chi2__CMB': 1209.7733919035143}
+ 2026-05-10 22:21:01,534 [mcmc] New sample, #1998: 
+   deu_damping_envelope_beta:0.02863568, deu_transfer_polamp_p_vis:1.047671, omega_b:0.02203589, n_s:0.9809963
+ 2026-05-10 22:21:01,534 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.027159826685038146), 'deu_transfer_polamp_p_vis': np.float64(1.0500876046266818), 'omega_b': np.float64(0.022174080603673995), 'n_s': np.float64(0.9801439607157785)}
+ 2026-05-10 22:21:01,534 [prior] Evaluating prior at array([0.02715983, 1.0500876 , 0.02217408, 0.98014396])
+ 2026-05-10 22:21:01,534 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 22:21:01,534 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029411115650667254), 'deu_transfer_polamp_p_vis': np.float64(1.0473983172044248), 'omega_b': np.float64(0.022134412802476182), 'n_s': np.float64(0.9808131106570068)}
+ 2026-05-10 22:21:01,534 [prior] Evaluating prior at array([0.02941112, 1.04739832, 0.02213441, 0.98081311])
+ 2026-05-10 22:21:01,534 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 22:21:01,534 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.02834887104449874), 'deu_transfer_polamp_p_vis': np.float64(1.0507847164159825), 'omega_b': np.float64(0.022016976812711156), 'n_s': np.float64(0.9814315014681109)}
+ 2026-05-10 22:21:01,535 [prior] Evaluating prior at array([0.02834887, 1.05078472, 0.02201698, 0.9814315 ])
+ 2026-05-10 22:21:01,535 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 22:21:01,535 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.02996470800329124), 'deu_transfer_polamp_p_vis': np.float64(1.050978971025122), 'omega_b': np.float64(0.022054011401915107), 'n_s': np.float64(0.9801176024188745)}
+ 2026-05-10 22:21:01,535 [prior] Evaluating prior at array([0.02996471, 1.05097897, 0.02205401, 0.9801176 ])
+ 2026-05-10 22:21:01,535 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 22:21:01,535 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029661423664842958), 'deu_transfer_polamp_p_vis': np.float64(1.0488071777836157), 'omega_b': np.float64(0.022082910919784215), 'n_s': np.float64(0.9813847613033416)}
+ 2026-05-10 22:21:01,535 [prior] Evaluating prior at array([0.02966142, 1.04880718, 0.02208291, 0.98138476])
+ 2026-05-10 22:21:01,535 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 22:21:01,535 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029661423664842958, 'deu_transfer_polamp_p_vis': 1.0488071777836157, 'omega_b': 0.022082910919784215, 'n_s': 0.9813847613033416, 'A_planck': 1.02505572438, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:21:01,535 [classy] Got parameters {'deu_damping_envelope_beta': 0.029661423664842958, 'deu_transfer_polamp_p_vis': 1.0488071777836157, 'omega_b': 0.022082910919784215, 'n_s': 0.9813847613033416, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 22:21:01,535 [classy] Computing new state
+ 2026-05-10 22:21:01,535 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029661423664842958, 'deu_transfer_polamp_p_vis': 1.0488071777836157, 'omega_b': 0.022082910919784215, 'n_s': 0.9813847613033416, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl pCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 22:21:02,706 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:02,706 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 22:21:02,712 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -383.5835208092475
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.tt] Computed log-likelihood = -13.277562963570944
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 22:21:02,712 [planck_2018_lowl.ee] Computed log-likelihood = -198.9217728646499
+ 2026-05-10 22:21:02,713 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02505572438}
+ 2026-05-10 22:21:02,713 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 22:21:02,713 [planck_2018_lensing.native] Computed log-likelihood = -9.418654197010543
+ 2026-05-10 22:21:02,713 [model] Computed derived parameters: {'chi2__CMB': 1210.403021668958}
+ 2026-05-10 22:21:02,713 [mcmc] New sample, #1999: 
+   deu_damping_envelope_beta:0.02905981, deu_transfer_polamp_p_vis:1.048757, omega_b:0.02206198, n_s:0.9806053
+ 2026-05-10 22:21:02,713 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029414032248531764), 'deu_transfer_polamp_p_vis': np.float64(1.0497470017444452), 'omega_b': np.float64(0.022149182606180217), 'n_s': np.float64(0.9814009632000211)}
+ 2026-05-10 22:21:02,713 [prior] Evaluating prior at array([0.02941403, 1.049747  , 0.02214918, 0.98140096])
+ 2026-05-10 22:21:02,713 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 22:21:02,713 [model] Posterior to be computed for parameters {'deu_damping_envelope_",audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain02_offset.1.txt,2000,14,577.47844
+Acontinuum_1p00000000000,continuum_normalized_transfer_amplitude,1.0,chain01_stageF_boundary_hint,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain01_stageF_boundary_hint.yaml,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain01_stageF_boundary_hint,0,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain01_stageF_boundary_hint.stdout.txt," 2026-05-10 23:48:43,378 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:43,378 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 23:48:43,378 [planck_2018_lowl.ee] Computed log-likelihood = -198.94351479397747
+ 2026-05-10 23:48:43,378 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:43,378 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 23:48:43,378 [planck_2018_lensing.native] Computed log-likelihood = -26.20509777446064
+ 2026-05-10 23:48:43,378 [model] Computed derived parameters: {'chi2__CMB': 2239.804237789774}
+ 2026-05-10 23:48:43,378 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030063826390898406), 'deu_transfer_polamp_p_vis': np.float64(1.0452550827107128), 'omega_b': np.float64(0.022088327214948415), 'n_s': np.float64(0.9807213296766156)}
+ 2026-05-10 23:48:43,378 [prior] Evaluating prior at array([0.03006383, 1.04525508, 0.02208833, 0.98072133])
+ 2026-05-10 23:48:43,378 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 23:48:43,378 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030063826390898406, 'deu_transfer_polamp_p_vis': 1.0452550827107128, 'omega_b': 0.022088327214948415, 'n_s': 0.9807213296766156, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:43,378 [classy] Got parameters {'deu_damping_envelope_beta': 0.030063826390898406, 'deu_transfer_polamp_p_vis': 1.0452550827107128, 'omega_b': 0.022088327214948415, 'n_s': 0.9807213296766156, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:43,379 [classy] Computing new state
+ 2026-05-10 23:48:43,379 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.030063826390898406, 'deu_transfer_polamp_p_vis': 1.0452550827107128, 'omega_b': 0.022088327214948415, 'n_s': 0.9807213296766156, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 23:48:44,507 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:44,507 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 23:48:44,518 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -876.4866547233519
+ 2026-05-10 23:48:44,518 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:44,518 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 23:48:44,519 [planck_2018_lowl.tt] Computed log-likelihood = -16.191234352974675
+ 2026-05-10 23:48:44,519 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:44,519 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 23:48:44,519 [planck_2018_lowl.ee] Computed log-likelihood = -198.94351479397747
+ 2026-05-10 23:48:44,519 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:44,519 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 23:48:44,519 [planck_2018_lensing.native] Computed log-likelihood = -26.208804153353917
+ 2026-05-10 23:48:44,519 [model] Computed derived parameters: {'chi2__CMB': 2235.6604160473157}
+ 2026-05-10 23:48:44,520 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030262382173909308), 'deu_transfer_polamp_p_vis': np.float64(1.045616802614261), 'omega_b': np.float64(0.022109587110539695), 'n_s': np.float64(0.9811419556564065)}
+ 2026-05-10 23:48:44,520 [prior] Evaluating prior at array([0.03026238, 1.0456168 , 0.02210959, 0.98114196])
+ 2026-05-10 23:48:44,520 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 23:48:44,520 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030237559174812852), 'deu_transfer_polamp_p_vis': np.float64(1.0451772621875293), 'omega_b': np.float64(0.022079225791673228), 'n_s': np.float64(0.9814521719299346)}
+ 2026-05-10 23:48:44,520 [prior] Evaluating prior at array([0.03023756, 1.04517726, 0.02207923, 0.98145217])
+ 2026-05-10 23:48:44,520 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 23:48:44,520 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030237559174812852, 'deu_transfer_polamp_p_vis': 1.0451772621875293, 'omega_b': 0.022079225791673228, 'n_s': 0.9814521719299346, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:44,520 [classy] Got parameters {'deu_damping_envelope_beta': 0.030237559174812852, 'deu_transfer_polamp_p_vis': 1.0451772621875293, 'omega_b': 0.022079225791673228, 'n_s': 0.9814521719299346, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:44,520 [classy] Computing new state
+ 2026-05-10 23:48:44,520 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.030237559174812852, 'deu_transfer_polamp_p_vis': 1.0451772621875293, 'omega_b': 0.022079225791673228, 'n_s': 0.9814521719299346, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 23:48:45,660 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:45,660 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 23:48:45,669 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -877.4013320102196
+ 2026-05-10 23:48:45,669 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:45,669 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 23:48:45,670 [planck_2018_lowl.tt] Computed log-likelihood = -16.054474463730514
+ 2026-05-10 23:48:45,670 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:45,670 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 23:48:45,670 [planck_2018_lowl.ee] Computed log-likelihood = -198.95002366330016
+ 2026-05-10 23:48:45,670 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:45,670 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 23:48:45,670 [planck_2018_lensing.native] Computed log-likelihood = -26.179244024154478
+ 2026-05-10 23:48:45,670 [model] Computed derived parameters: {'chi2__CMB': 2237.1701483228094}
+ 2026-05-10 23:48:45,670 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030192287097667306), 'deu_transfer_polamp_p_vis': np.float64(1.0453513208052527), 'omega_b': np.float64(0.022130842573136893), 'n_s': np.float64(0.9809570617780399)}
+ 2026-05-10 23:48:45,671 [prior] Evaluating prior at array([0.03019229, 1.04535132, 0.02213084, 0.98095706])
+ 2026-05-10 23:48:45,671 [prior] Got logpriors (internal) = -inf
+ 2026-05-10 23:48:45,671 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.03031906005167148), 'deu_transfer_polamp_p_vis': np.float64(1.0455551870526476), 'omega_b': np.float64(0.022091834090463024), 'n_s': np.float64(0.9816513775809136)}
+ 2026-05-10 23:48:45,671 [prior] Evaluating prior at array([0.03031906, 1.04555519, 0.02209183, 0.98165138])
+ 2026-05-10 23:48:45,671 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 23:48:45,671 [model] Got input parameters: {'deu_damping_envelope_beta': 0.03031906005167148, 'deu_transfer_polamp_p_vis': 1.0455551870526476, 'omega_b': 0.022091834090463024, 'n_s': 0.9816513775809136, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:45,671 [classy] Got parameters {'deu_damping_envelope_beta': 0.03031906005167148, 'deu_transfer_polamp_p_vis': 1.0455551870526476, 'omega_b': 0.022091834090463024, 'n_s': 0.9816513775809136, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:45,671 [classy] Computing new state
+ 2026-05-10 23:48:45,671 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.03031906005167148, 'deu_transfer_polamp_p_vis': 1.0455551870526476, 'omega_b': 0.022091834090463024, 'n_s': 0.9816513775809136, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 23:48:46,815 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:46,815 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 23:48:46,817 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -878.2073346177947
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.tt] Computed log-likelihood = -16.019378262380286
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 23:48:46,818 [planck_2018_lowl.ee] Computed log-likelihood = -198.951195597331
+ 2026-05-10 23:48:46,818 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 23:48:46,818 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 23:48:46,819 [planck_2018_lensing.native] Computed log-likelihood = -26.24332796550656
+ 2026-05-10 23:48:46,819 [model] Computed derived parameters: {'chi2__CMB': 2238.842472886025}
+ 2026-05-10 23:48:46,819 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.03012801081883155), 'deu_transfer_polamp_p_vis': np.float64(1.0450121986484924), 'omega_b': np.float64(0.022073088489597936), 'n_s': np.float64(0.9811957330201645)}
+ 2026-05-10 23:48:46,819 [prior] Evaluating prior at array([0.03012801, 1.0450122 , 0.02207309, 0.98119573])
+ 2026-05-10 23:48:46,819 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-10 23:48:46,819 [model] Got input parameters: {'deu_damping_envelope_beta': 0.03012801081883155, 'deu_transfer_polamp_p_vis': 1.0450121986484924, 'omega_b': 0.022073088489597936, 'n_s': 0.9811957330201645, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:46,819 [classy] Got parameters {'deu_damping_envelope_beta': 0.03012801081883155, 'deu_transfer_polamp_p_vis': 1.0450121986484924, 'omega_b': 0.022073088489597936, 'n_s': 0.9811957330201645, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 23:48:46,819 [classy] Computing new state
+ 2026-05-10 23:48:46,819 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.03012801081883155, 'deu_transfer_polamp_p_vis': 1.0450121986484924, 'omega_b': 0.022073088489597936, 'n_s': 0.9811957330201645, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_pha",audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain01_stageF_boundary_hint.1.txt,2000,14,1083.2508
+Acontinuum_1p00000000000,continuum_normalized_transfer_amplitude,1.0,chain02_opposite_offset,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain02_opposite_offset.yaml,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain02_opposite_offset,0,audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain02_opposite_offset.stdout.txt," 2026-05-11 01:20:48,876 [planck_2018_lensing.native] Computing new state
+ 2026-05-11 01:20:48,876 [planck_2018_lensing.native] Computed log-likelihood = -26.178849091683723
+ 2026-05-11 01:20:48,876 [model] Computed derived parameters: {'chi2__CMB': 2242.4158881075673}
+ 2026-05-11 01:20:48,876 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.03029433427493804), 'deu_transfer_polamp_p_vis': np.float64(1.0458682092731921), 'omega_b': np.float64(0.022097697233533484), 'n_s': np.float64(0.9807630550011999)}
+ 2026-05-11 01:20:48,876 [prior] Evaluating prior at array([0.03029433, 1.04586821, 0.0220977 , 0.98076306])
+ 2026-05-11 01:20:48,876 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-11 01:20:48,876 [model] Got input parameters: {'deu_damping_envelope_beta': 0.03029433427493804, 'deu_transfer_polamp_p_vis': 1.0458682092731921, 'omega_b': 0.022097697233533484, 'n_s': 0.9807630550011999, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:48,876 [classy] Got parameters {'deu_damping_envelope_beta': 0.03029433427493804, 'deu_transfer_polamp_p_vis': 1.0458682092731921, 'omega_b': 0.022097697233533484, 'n_s': 0.9807630550011999, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:48,876 [classy] Computing new state
+ 2026-05-11 01:20:48,876 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.03029433427493804, 'deu_transfer_polamp_p_vis': 1.0458682092731921, 'omega_b': 0.022097697233533484, 'n_s': 0.9807630550011999, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl tCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-11 01:20:50,039 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:50,039 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-11 01:20:50,041 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -875.5396994050076
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.tt] Computing new state
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.tt] Computed log-likelihood = -16.18445828850753
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.ee] Computing new state
+ 2026-05-11 01:20:50,041 [planck_2018_lowl.ee] Computed log-likelihood = -198.94654998111142
+ 2026-05-11 01:20:50,042 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:50,042 [planck_2018_lensing.native] Computing new state
+ 2026-05-11 01:20:50,042 [planck_2018_lensing.native] Computed log-likelihood = -26.213706473883196
+ 2026-05-11 01:20:50,042 [model] Computed derived parameters: {'chi2__CMB': 2233.7688282970194}
+ 2026-05-11 01:20:50,042 [mcmc] New sample, #1998: 
+   deu_damping_envelope_beta:0.03039043, deu_transfer_polamp_p_vis:1.045597, omega_b:0.02207617, n_s:0.9808138
+ 2026-05-11 01:20:50,042 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030299498853967096), 'deu_transfer_polamp_p_vis': np.float64(1.0458852708446644), 'omega_b': np.float64(0.022097306636277105), 'n_s': np.float64(0.9807458603577683)}
+ 2026-05-11 01:20:50,042 [prior] Evaluating prior at array([0.0302995 , 1.04588527, 0.02209731, 0.98074586])
+ 2026-05-11 01:20:50,042 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-11 01:20:50,042 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030299498853967096, 'deu_transfer_polamp_p_vis': 1.0458852708446644, 'omega_b': 0.022097306636277105, 'n_s': 0.9807458603577683, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:50,042 [classy] Got parameters {'deu_damping_envelope_beta': 0.030299498853967096, 'deu_transfer_polamp_p_vis': 1.0458852708446644, 'omega_b': 0.022097306636277105, 'n_s': 0.9807458603577683, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:50,042 [classy] Computing new state
+ 2026-05-11 01:20:50,042 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.030299498853967096, 'deu_transfer_polamp_p_vis': 1.0458852708446644, 'omega_b': 0.022097306636277105, 'n_s': 0.9807458603577683, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl tCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-11 01:20:51,231 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:51,231 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-11 01:20:51,233 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -875.5063198784179
+ 2026-05-11 01:20:51,233 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:51,233 [planck_2018_lowl.tt] Computing new state
+ 2026-05-11 01:20:51,233 [planck_2018_lowl.tt] Computed log-likelihood = -16.187621750551443
+ 2026-05-11 01:20:51,233 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:51,233 [planck_2018_lowl.ee] Computing new state
+ 2026-05-11 01:20:51,234 [planck_2018_lowl.ee] Computed log-likelihood = -198.94654998111142
+ 2026-05-11 01:20:51,234 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:51,234 [planck_2018_lensing.native] Computing new state
+ 2026-05-11 01:20:51,234 [planck_2018_lensing.native] Computed log-likelihood = -26.225393107730323
+ 2026-05-11 01:20:51,234 [model] Computed derived parameters: {'chi2__CMB': 2233.731769435622}
+ 2026-05-11 01:20:51,234 [mcmc] New sample, #1999: 
+   deu_damping_envelope_beta:0.03029433, deu_transfer_polamp_p_vis:1.045868, omega_b:0.0220977, n_s:0.9807631
+ 2026-05-11 01:20:51,234 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030494389491652146), 'deu_transfer_polamp_p_vis': np.float64(1.0453111897238008), 'omega_b': np.float64(0.022162304328294805), 'n_s': np.float64(0.9806114434235643)}
+ 2026-05-11 01:20:51,234 [prior] Evaluating prior at array([0.03049439, 1.04531119, 0.0221623 , 0.98061144])
+ 2026-05-11 01:20:51,234 [prior] Got logpriors (internal) = -inf
+ 2026-05-11 01:20:51,234 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030225033807516583), 'deu_transfer_polamp_p_vis': np.float64(1.0456627707267174), 'omega_b': np.float64(0.022094357670047537), 'n_s': np.float64(0.9804801377713523)}
+ 2026-05-11 01:20:51,234 [prior] Evaluating prior at array([0.03022503, 1.04566277, 0.02209436, 0.98048014])
+ 2026-05-11 01:20:51,234 [prior] Got logpriors (internal) = -inf
+ 2026-05-11 01:20:51,235 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.03016546306088916), 'deu_transfer_polamp_p_vis': np.float64(1.0455398583226077), 'omega_b': np.float64(0.022055694992354335), 'n_s': np.float64(0.98097438812287)}
+ 2026-05-11 01:20:51,235 [prior] Evaluating prior at array([0.03016546, 1.04553986, 0.02205569, 0.98097439])
+ 2026-05-11 01:20:51,235 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-11 01:20:51,235 [model] Got input parameters: {'deu_damping_envelope_beta': 0.03016546306088916, 'deu_transfer_polamp_p_vis': 1.0455398583226077, 'omega_b': 0.022055694992354335, 'n_s': 0.98097438812287, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:51,235 [classy] Got parameters {'deu_damping_envelope_beta': 0.03016546306088916, 'deu_transfer_polamp_p_vis': 1.0455398583226077, 'omega_b': 0.022055694992354335, 'n_s': 0.98097438812287, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:51,235 [classy] Computing new state
+ 2026-05-11 01:20:51,235 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.03016546306088916, 'deu_transfer_polamp_p_vis': 1.0455398583226077, 'omega_b': 0.022055694992354335, 'n_s': 0.98097438812287, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl tCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-11 01:20:52,400 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:52,400 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-11 01:20:52,400 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -879.7644922209735
+ 2026-05-11 01:20:52,400 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:52,400 [planck_2018_lowl.tt] Computing new state
+ 2026-05-11 01:20:52,401 [planck_2018_lowl.tt] Computed log-likelihood = -16.14172958166938
+ 2026-05-11 01:20:52,401 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:52,401 [planck_2018_lowl.ee] Computing new state
+ 2026-05-11 01:20:52,401 [planck_2018_lowl.ee] Computed log-likelihood = -198.94351479397747
+ 2026-05-11 01:20:52,401 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-11 01:20:52,401 [planck_2018_lensing.native] Computing new state
+ 2026-05-11 01:20:52,402 [planck_2018_lensing.native] Computed log-likelihood = -26.2420766517793
+ 2026-05-11 01:20:52,402 [model] Computed derived parameters: {'chi2__CMB': 2242.1836264967997}
+ 2026-05-11 01:20:52,402 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030531576949645135), 'deu_transfer_polamp_p_vis': np.float64(1.0460130341144653), 'omega_b': np.float64(0.022052349419848696), 'n_s': np.float64(0.9804442560594727)}
+ 2026-05-11 01:20:52,402 [prior] Evaluating prior at array([0.03053158, 1.04601303, 0.02205235, 0.98044426])
+ 2026-05-11 01:20:52,402 [prior] Got logpriors (internal) = -inf
+ 2026-05-11 01:20:52,402 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030382519083974085), 'deu_transfer_polamp_p_vis': np.float64(1.046249855307521), 'omega_b': np.float64(0.022093209048580816), 'n_s': np.float64(0.9812347524591902)}
+ 2026-05-11 01:20:52,402 [prior] Evaluating prior at array([0.03038252, 1.04624986, 0.02209321, 0.98123475])
+ 2026-05-11 01:20:52,402 [prior] Got logpriors (internal) = 26.24472675480862
+ 2026-05-11 01:20:52,402 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030382519083974085, 'deu_transfer_polamp_p_vis': 1.046249855307521, 'omega_b': 0.022093209048580816, 'n_s': 0.9812347524591902, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-11 01:20:52,402 [classy] Got parameters {'deu_damping_envelope_beta': 0.030382519083974085, 'deu_transfer_polamp_p_vis': 1.046249855307521, 'omega_b': 0.022093209048580816, 'n_s': 0.9812347524591902, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ ",audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain02_opposite_offset.1.txt,2000,14,1083.2361

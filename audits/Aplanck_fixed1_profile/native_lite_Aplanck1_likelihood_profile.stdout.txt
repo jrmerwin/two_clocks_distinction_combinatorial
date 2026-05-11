@@ -1,0 +1,1054 @@
+ 2026-05-10 17:31:04,640 [output] Output to be read-from/written-into folder '/home/merwijas/deu_class/CLASS-DEU/audit_Aplanck_fixed1_profile/20260510T235207Z', with prefix 'native_lite_Aplanck1_likelihood_profile'
+ 2026-05-10 17:31:04,676 [root] Numba not available, install it for better performance.
+ 2026-05-10 17:31:04,681 [input] Parameter 'A_planck' is multiply defined but consistent.
+ 2026-05-10 17:31:04,689 [classy] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-05-10 17:31:04,689 [classy] No (compiled) installation of 'classy' at /home/merwijas/deu_class/cobaya_packages/code/classy: Source path /home/merwijas/deu_class/cobaya_packages/code/classy not found.
+ 2026-05-10 17:31:04,689 [classy] Defaulting to global import.
+ 2026-05-10 17:31:04,690 [classy] `classy` module loaded successfully from /home/merwijas/deu_class/CLASS-DEU
+ 2026-05-10 17:31:04,690 [planck_2018_highl_plik.ttteee_lite] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-05-10 17:31:04,690 [planck_2018_highl_plik.ttteee_lite] 'clipy' to be imported from (sub)directory /home/merwijas/deu_class/cobaya_packages/code/planck/clipy
+ 2026-05-10 17:31:04,734 [planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/merwijas/deu_class/cobaya_packages/code/planck/clipy/clipy
+----
+clipy_0.15
+Checking likelihood '/home/merwijas/deu_class/cobaya_packages/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86268e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+ 2026-05-10 17:31:04,921 [model] Parameters were assigned as follows:
+ 2026-05-10 17:31:04,921 [model] - planck_2018_highl_plik.TTTEEE_lite:
+ 2026-05-10 17:31:04,921 [model]      Input:  ['A_planck']
+ 2026-05-10 17:31:04,921 [model]      Output: []
+ 2026-05-10 17:31:04,921 [model] - planck_2018_lowl.TT:
+ 2026-05-10 17:31:04,921 [model]      Input:  ['A_planck']
+ 2026-05-10 17:31:04,921 [model]      Output: []
+ 2026-05-10 17:31:04,921 [model] - planck_2018_lowl.EE:
+ 2026-05-10 17:31:04,921 [model]      Input:  ['A_planck']
+ 2026-05-10 17:31:04,921 [model]      Output: []
+ 2026-05-10 17:31:04,921 [model] - planck_2018_lensing.native:
+ 2026-05-10 17:31:04,921 [model]      Input:  ['A_planck']
+ 2026-05-10 17:31:04,921 [model]      Output: []
+ 2026-05-10 17:31:04,922 [model] - classy:
+ 2026-05-10 17:31:04,922 [model]      Input:  ['omega_b', 'n_s', 'H0', 'ln10^{10}A_s', 'omega_cdm', 'tau_reio']
+ 2026-05-10 17:31:04,922 [model]      Output: []
+ 2026-05-10 17:31:04,923 [model] Components will be computed in the order:
+ 2026-05-10 17:31:04,923 [model]  - [classy, planck_2018_highl_plik.TTTEEE_lite, planck_2018_lowl.TT, planck_2018_lowl.EE, planck_2018_lensing.native]
+ 2026-05-10 17:31:04,923 [model] Requirements will be calculated by these components:
+ 2026-05-10 17:31:04,923 [model] - Cl: classy
+ 2026-05-10 17:31:04,926 [minimize] *WARNING* This run has been SEEDED with seed 12345
+ 2026-05-10 17:31:04,926 [minimize] Initializing
+ 2026-05-10 17:31:04,926 [prior] Evaluating prior at array([0.022   , 0.981875])
+ 2026-05-10 17:31:04,926 [prior] Got logpriors (internal) = 14.731801289838415
+ 2026-05-10 17:31:04,926 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:04,927 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:04,927 [classy] Computing new state
+ 2026-05-10 17:31:04,927 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:06,019 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,019 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:06,020 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.7813434563056
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.tt] Computed log-likelihood = -10.342247278171698
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:06,020 [planck_2018_lowl.ee] Computed log-likelihood = -198.02051258017457
+ 2026-05-10 17:31:06,021 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,021 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:06,021 [planck_2018_lensing.native] Computed log-likelihood = -5.487888124887842
+ 2026-05-10 17:31:06,021 [minimize] Run 1/3 will start from random initial point:
+ 2026-05-10 17:31:06,021 [minimize] {'omega_b': np.float64(0.022), 'n_s': np.float64(0.981875)}
+ 2026-05-10 17:31:06,021 [prior] Evaluating prior at array([0.022   , 0.981875])
+ 2026-05-10 17:31:06,021 [prior] Got logpriors (internal) = 14.731801289838415
+ 2026-05-10 17:31:06,021 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,021 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,021 [classy] Re-using computed results
+ 2026-05-10 17:31:06,021 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,021 [planck_2018_highl_plik.ttteee_lite] Re-using computed results
+ 2026-05-10 17:31:06,021 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,021 [planck_2018_lowl.tt] Re-using computed results
+ 2026-05-10 17:31:06,021 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,021 [planck_2018_lowl.ee] Re-using computed results
+ 2026-05-10 17:31:06,021 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,021 [planck_2018_lensing.native] Re-using computed results
+ 2026-05-10 17:31:06,021 [minimize] Run 2/3 will start from random initial point:
+ 2026-05-10 17:31:06,022 [minimize] {'omega_b': np.float64(0.022), 'n_s': np.float64(0.981875)}
+ 2026-05-10 17:31:06,022 [prior] Evaluating prior at array([0.022   , 0.981875])
+ 2026-05-10 17:31:06,022 [prior] Got logpriors (internal) = 14.731801289838415
+ 2026-05-10 17:31:06,022 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,022 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,022 [classy] Re-using computed results
+ 2026-05-10 17:31:06,022 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,022 [planck_2018_highl_plik.ttteee_lite] Re-using computed results
+ 2026-05-10 17:31:06,022 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,022 [planck_2018_lowl.tt] Re-using computed results
+ 2026-05-10 17:31:06,022 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,022 [planck_2018_lowl.ee] Re-using computed results
+ 2026-05-10 17:31:06,022 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,022 [planck_2018_lensing.native] Re-using computed results
+ 2026-05-10 17:31:06,022 [minimize] Run 3/3 will start from random initial point:
+ 2026-05-10 17:31:06,022 [minimize] {'omega_b': np.float64(0.022), 'n_s': np.float64(0.981875)}
+ 2026-05-10 17:31:06,026 [minimize] Starting run 1/3
+ 2026-05-10 17:31:06,026 [minimize] Starting point: array([0.022   , 0.981875])
+ 2026-05-10 17:31:06,027 [minimize] Arguments for pybobyqa.solve:
+{'x0': array([0., 0.]), 'bounds': array([[-4. , -5.5],
+       [ 4. ,  2.5]]), 'maxfun': 15000, 'rhobeg': 1.0, 'do_logging': True, 'rhoend': 0.05}
+ 2026-05-10 17:31:06,027 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,027 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,027 [classy] Computing new state
+ 2026-05-10 17:31:06,027 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:06,030 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,030 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:06,030 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.7813434563056
+ 2026-05-10 17:31:06,030 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,031 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:06,031 [planck_2018_lowl.tt] Computed log-likelihood = -10.342247278171698
+ 2026-05-10 17:31:06,031 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,031 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:06,031 [planck_2018_lowl.ee] Computed log-likelihood = -198.02051258017457
+ 2026-05-10 17:31:06,031 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:06,031 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:06,032 [planck_2018_lensing.native] Computed log-likelihood = -5.487888124887842
+ 2026-05-10 17:31:06,032 [pybobyqa.util] Function eval 1 at point 1 has f = 537.63199143954 at x = [0. 0.]
+ 2026-05-10 17:31:06,032 [pybobyqa.solver] Initialising (coordinate directions)
+ 2026-05-10 17:31:06,032 [pybobyqa.controller] Initialising with coordinate directions
+ 2026-05-10 17:31:06,032 [model] Got input parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,032 [classy] Got parameters {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:06,032 [classy] Computing new state
+ 2026-05-10 17:31:06,032 [classy] Setting parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:07,150 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:07,150 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:07,156 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.3962779345029
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.tt] Computed log-likelihood = -10.343339508755122
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:07,157 [planck_2018_lowl.ee] Computed log-likelihood = -198.01887493415907
+ 2026-05-10 17:31:07,157 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:07,157 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:07,158 [planck_2018_lensing.native] Computed log-likelihood = -5.48147829898467
+ 2026-05-10 17:31:07,158 [pybobyqa.util] Function eval 2 at point 2 has f = 537.239970676402 at x = [1. 0.]
+ 2026-05-10 17:31:07,158 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:07,158 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:07,158 [classy] Computing new state
+ 2026-05-10 17:31:07,158 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:08,287 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:08,287 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:08,306 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.4466999281464
+ 2026-05-10 17:31:08,306 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:08,306 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:08,306 [planck_2018_lowl.tt] Computed log-likelihood = -10.329458941710698
+ 2026-05-10 17:31:08,306 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:08,306 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:08,307 [planck_2018_lowl.ee] Computed log-likelihood = -198.0231721779431
+ 2026-05-10 17:31:08,307 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:08,307 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:08,307 [planck_2018_lensing.native] Computed log-likelihood = -5.496151258202605
+ 2026-05-10 17:31:08,307 [pybobyqa.util] Function eval 3 at point 3 has f = 538.295482306003 at x = [0. 1.]
+ 2026-05-10 17:31:08,307 [model] Got input parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:08,307 [classy] Got parameters {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:08,307 [classy] Computing new state
+ 2026-05-10 17:31:08,307 [classy] Setting parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:09,507 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:09,508 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:09,523 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.29057753136436
+ 2026-05-10 17:31:09,524 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:09,524 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:09,525 [planck_2018_lowl.tt] Computed log-likelihood = -10.341311878198923
+ 2026-05-10 17:31:09,525 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:09,525 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:09,526 [planck_2018_lowl.ee] Computed log-likelihood = -198.02369211623466
+ 2026-05-10 17:31:09,526 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:09,526 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:09,526 [planck_2018_lensing.native] Computed log-likelihood = -5.494372250903415
+ 2026-05-10 17:31:09,526 [pybobyqa.util] Function eval 4 at point 4 has f = 538.149953776701 at x = [-1.  0.]
+ 2026-05-10 17:31:09,526 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:09,526 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:09,526 [classy] Computing new state
+ 2026-05-10 17:31:09,526 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:10,671 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:10,671 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:10,674 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.1250365180673
+ 2026-05-10 17:31:10,674 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:10,674 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:10,675 [planck_2018_lowl.tt] Computed log-likelihood = -10.355263060502807
+ 2026-05-10 17:31:10,675 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:10,675 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:10,675 [planck_2018_lowl.ee] Computed log-likelihood = -198.02156398251304
+ 2026-05-10 17:31:10,675 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:10,675 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:10,675 [planck_2018_lensing.native] Computed log-likelihood = -5.478629382362786
+ 2026-05-10 17:31:10,676 [pybobyqa.util] Function eval 5 at point 5 has f = 536.980492943446 at x = [ 0. -1.]
+ 2026-05-10 17:31:10,676 [pybobyqa.solver] Beginning main loop
+ 2026-05-10 17:31:10,676 [pybobyqa.solver] Trust region step is d = [ 0.52243685 -0.85267798]
+ 2026-05-10 17:31:10,676 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:10,677 [model] Got input parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:10,677 [classy] Got parameters {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:10,677 [classy] Computing new state
+ 2026-05-10 17:31:10,677 [classy] Setting parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:11,796 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:11,796 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:11,803 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -322.3522778645784
+ 2026-05-10 17:31:11,803 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:11,803 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:11,803 [planck_2018_lowl.tt] Computed log-likelihood = -10.367099771743
+ 2026-05-10 17:31:11,804 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:11,804 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:11,804 [planck_2018_lowl.ee] Computed log-likelihood = -198.02361085901998
+ 2026-05-10 17:31:11,804 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:11,804 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:11,804 [planck_2018_lensing.native] Computed log-likelihood = -5.466382462158001
+ 2026-05-10 17:31:11,804 [pybobyqa.util] Function eval 6 at point 6 has f = 536.209370957499 at x = [ 0.52243685 -1.85267798]
+ 2026-05-10 17:31:11,804 [pybobyqa.solver] Ratio = 1.00595
+ 2026-05-10 17:31:11,805 [pybobyqa.solver] Updating with knew = 0
+ 2026-05-10 17:31:11,805 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:11,805 [pybobyqa.solver] Trust region step is d = [ 1.64226736 -3.64732202]
+ 2026-05-10 17:31:11,805 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:11,806 [model] Got input parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:11,806 [classy] Got parameters {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:11,806 [classy] Computing new state
+ 2026-05-10 17:31:11,806 [classy] Setting parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:12,933 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:12,933 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:12,934 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.5919287475105
+ 2026-05-10 17:31:12,934 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:12,935 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:12,935 [planck_2018_lowl.tt] Computed log-likelihood = -10.419482869433295
+ 2026-05-10 17:31:12,935 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:12,935 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:12,935 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:12,935 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:12,935 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:12,936 [planck_2018_lensing.native] Computed log-likelihood = -5.42569454193158
+ 2026-05-10 17:31:12,936 [pybobyqa.util] Function eval 7 at point 7 has f = 533.45547570822 at x = [ 2.16470421 -5.5       ]
+ 2026-05-10 17:31:12,936 [pybobyqa.solver] Ratio = 0.998196
+ 2026-05-10 17:31:12,936 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:12,936 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:12,937 [pybobyqa.solver] Trust region step is d = [1.55959418 0.        ]
+ 2026-05-10 17:31:12,937 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:12,937 [model] Got input parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:12,937 [classy] Got parameters {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:12,937 [classy] Computing new state
+ 2026-05-10 17:31:12,937 [classy] Setting parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:14,068 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:14,068 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:14,073 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4826266025546
+ 2026-05-10 17:31:14,073 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:14,073 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:14,074 [planck_2018_lowl.tt] Computed log-likelihood = -10.42054011681742
+ 2026-05-10 17:31:14,074 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:14,074 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:14,074 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:14,074 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:14,074 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:14,074 [planck_2018_lensing.native] Computed log-likelihood = -5.415048274491056
+ 2026-05-10 17:31:14,075 [pybobyqa.util] Function eval 8 at point 8 has f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:14,075 [pybobyqa.solver] Ratio = 0.787124
+ 2026-05-10 17:31:14,075 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:14,075 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] New rho = 0.223607 after 8 function evaluations
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] Best so far: f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:14,076 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:14,077 [model] Got input parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:14,077 [classy] Got parameters {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:14,077 [classy] Computing new state
+ 2026-05-10 17:31:14,077 [classy] Setting parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:15,224 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:15,224 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:15,224 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.46143040250774
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.tt] Computed log-likelihood = -10.420189770614456
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:15,225 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:15,225 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:15,225 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:15,226 [planck_2018_lensing.native] Computed log-likelihood = -5.415632666399637
+ 2026-05-10 17:31:15,226 [pybobyqa.util] Function eval 9 at point 9 has f = 533.315622388867 at x = [ 3.54471926 -5.5       ]
+ 2026-05-10 17:31:15,226 [pybobyqa.solver] Ratio = 10.2359
+ 2026-05-10 17:31:15,226 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:15,226 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:15,227 [pybobyqa.solver] Trust region step is d = [-0.32762087  0.        ]
+ 2026-05-10 17:31:15,227 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:15,227 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:15,227 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:15,227 [classy] Computing new state
+ 2026-05-10 17:31:15,227 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:16,374 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:16,374 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:16,387 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.45559781694664
+ 2026-05-10 17:31:16,387 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:16,387 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:16,388 [planck_2018_lowl.tt] Computed log-likelihood = -10.42076359504216
+ 2026-05-10 17:31:16,388 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:16,388 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:16,388 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:16,388 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:16,388 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:16,389 [planck_2018_lensing.native] Computed log-likelihood = -5.419536486702184
+ 2026-05-10 17:31:16,389 [pybobyqa.util] Function eval 10 at point 10 has f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:16,389 [pybobyqa.solver] Ratio = 0.0902798
+ 2026-05-10 17:31:16,389 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:16,389 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:16,389 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:16,389 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:16,390 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:16,390 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:16,390 [classy] Computing new state
+ 2026-05-10 17:31:16,390 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:17,613 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:17,613 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:17,624 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.59404186701295
+ 2026-05-10 17:31:17,624 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:17,624 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:17,625 [planck_2018_lowl.tt] Computed log-likelihood = -10.417604048993695
+ 2026-05-10 17:31:17,625 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:17,625 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:17,625 [planck_2018_lowl.ee] Computed log-likelihood = -198.0163535997887
+ 2026-05-10 17:31:17,626 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:17,626 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:17,627 [planck_2018_lensing.native] Computed log-likelihood = -5.4215656274374
+ 2026-05-10 17:31:17,628 [pybobyqa.util] Function eval 11 at point 11 has f = 533.449565143233 at x = [ 3.21709839 -5.2763932 ]
+ 2026-05-10 17:31:17,630 [pybobyqa.solver] Trust region step is d = [0.15449541 0.        ]
+ 2026-05-10 17:31:17,630 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:17,630 [model] Got input parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:17,630 [classy] Got parameters {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:17,630 [classy] Computing new state
+ 2026-05-10 17:31:17,630 [classy] Setting parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:18,855 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:18,855 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:18,858 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4863403039247
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.tt] Computed log-likelihood = -10.420054281691932
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:18,859 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:18,859 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:18,859 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:18,860 [planck_2018_lensing.native] Computed log-likelihood = -5.416535132028255
+ 2026-05-10 17:31:18,860 [pybobyqa.util] Function eval 12 at point 12 has f = 533.34129926699 at x = [ 3.3715938 -5.5      ]
+ 2026-05-10 17:31:18,860 [pybobyqa.solver] Ratio = -5.10164
+ 2026-05-10 17:31:18,860 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:18,860 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:18,860 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:18,861 [model] Got input parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:18,861 [classy] Got parameters {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:18,861 [classy] Computing new state
+ 2026-05-10 17:31:18,861 [classy] Setting parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:20,025 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:20,025 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:20,026 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.57063842126263
+ 2026-05-10 17:31:20,026 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:20,026 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:20,027 [planck_2018_lowl.tt] Computed log-likelihood = -10.417942379867014
+ 2026-05-10 17:31:20,027 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:20,027 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:20,027 [planck_2018_lowl.ee] Computed log-likelihood = -198.01391111415842
+ 2026-05-10 17:31:20,027 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:20,027 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:20,027 [planck_2018_lensing.native] Computed log-likelihood = -5.417365286796308
+ 2026-05-10 17:31:20,028 [pybobyqa.util] Function eval 13 at point 13 has f = 533.419857202084 at x = [ 3.38644914 -5.35398519]
+ 2026-05-10 17:31:20,028 [pybobyqa.solver] Trust region step is d = [-0.2236068  0.       ]
+ 2026-05-10 17:31:20,028 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:20,028 [model] Got input parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:20,028 [classy] Got parameters {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:20,029 [classy] Computing new state
+ 2026-05-10 17:31:20,029 [classy] Setting parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:21,165 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:21,165 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:21,168 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.53702294104204
+ 2026-05-10 17:31:21,168 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:21,168 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:21,169 [planck_2018_lowl.tt] Computed log-likelihood = -10.419606528254604
+ 2026-05-10 17:31:21,170 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:21,170 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:21,170 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:21,170 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:21,170 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:21,170 [planck_2018_lensing.native] Computed log-likelihood = -5.418786374078477
+ 2026-05-10 17:31:21,170 [pybobyqa.util] Function eval 14 at point 14 has f = 533.39378539272 at x = [ 2.99349159 -5.5       ]
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Ratio = -0.648858
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] New rho = 0.05 after 14 function evaluations
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Best so far: f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Trust region step is d = [0.01490507 0.        ]
+ 2026-05-10 17:31:21,171 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:21,171 [model] Got input parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:21,171 [classy] Got parameters {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:21,171 [classy] Computing new state
+ 2026-05-10 17:31:21,171 [classy] Setting parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:22,310 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:22,310 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:22,317 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4281434735825
+ 2026-05-10 17:31:22,317 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:22,317 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:22,319 [planck_2018_lowl.tt] Computed log-likelihood = -10.420746295983434
+ 2026-05-10 17:31:22,319 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:22,319 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:22,319 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:22,319 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:22,320 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:22,320 [planck_2018_lensing.native] Computed log-likelihood = -5.419209611631365
+ 2026-05-10 17:31:22,320 [pybobyqa.util] Function eval 15 at point 15 has f = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:22,320 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 17:31:22,320 [pybobyqa.solver] Smallest objective value = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:22,320 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 17:31:22,320 [minimize] Run 1/3 converged.
+ 2026-05-10 17:31:22,320 [minimize] Starting run 2/3
+ 2026-05-10 17:31:22,320 [minimize] Starting point: array([0.022   , 0.981875])
+ 2026-05-10 17:31:22,320 [minimize] Arguments for pybobyqa.solve:
+{'x0': array([0., 0.]), 'bounds': array([[-4. , -5.5],
+       [ 4. ,  2.5]]), 'maxfun': 15000, 'rhobeg': 1.0, 'do_logging': True, 'rhoend': 0.05}
+ 2026-05-10 17:31:22,321 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:22,321 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:22,321 [classy] Computing new state
+ 2026-05-10 17:31:22,321 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:23,467 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:23,467 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:23,478 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.7813434563056
+ 2026-05-10 17:31:23,478 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:23,478 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:23,479 [planck_2018_lowl.tt] Computed log-likelihood = -10.342247278171698
+ 2026-05-10 17:31:23,479 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:23,479 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:23,479 [planck_2018_lowl.ee] Computed log-likelihood = -198.02051258017457
+ 2026-05-10 17:31:23,479 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:23,479 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:23,480 [planck_2018_lensing.native] Computed log-likelihood = -5.487888124887842
+ 2026-05-10 17:31:23,480 [pybobyqa.util] Function eval 1 at point 1 has f = 537.63199143954 at x = [0. 0.]
+ 2026-05-10 17:31:23,480 [pybobyqa.solver] Initialising (coordinate directions)
+ 2026-05-10 17:31:23,480 [pybobyqa.controller] Initialising with coordinate directions
+ 2026-05-10 17:31:23,480 [model] Got input parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:23,480 [classy] Got parameters {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:23,480 [classy] Computing new state
+ 2026-05-10 17:31:23,480 [classy] Setting parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:24,649 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:24,649 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:24,656 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.3962779345029
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.tt] Computed log-likelihood = -10.343339508755122
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:24,656 [planck_2018_lowl.ee] Computed log-likelihood = -198.01887493415907
+ 2026-05-10 17:31:24,657 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:24,657 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:24,657 [planck_2018_lensing.native] Computed log-likelihood = -5.48147829898467
+ 2026-05-10 17:31:24,657 [pybobyqa.util] Function eval 2 at point 2 has f = 537.239970676402 at x = [1. 0.]
+ 2026-05-10 17:31:24,657 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:24,657 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:24,657 [classy] Computing new state
+ 2026-05-10 17:31:24,657 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:25,834 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:25,834 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:25,834 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.4466999281464
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.tt] Computed log-likelihood = -10.329458941710698
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:25,835 [planck_2018_lowl.ee] Computed log-likelihood = -198.0231721779431
+ 2026-05-10 17:31:25,835 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:25,835 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:25,836 [planck_2018_lensing.native] Computed log-likelihood = -5.496151258202605
+ 2026-05-10 17:31:25,836 [pybobyqa.util] Function eval 3 at point 3 has f = 538.295482306003 at x = [0. 1.]
+ 2026-05-10 17:31:25,836 [model] Got input parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:25,836 [classy] Got parameters {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:25,836 [classy] Computing new state
+ 2026-05-10 17:31:25,836 [classy] Setting parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:26,948 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:26,948 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:26,949 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.29057753136436
+ 2026-05-10 17:31:26,949 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:26,949 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:26,949 [planck_2018_lowl.tt] Computed log-likelihood = -10.341311878198923
+ 2026-05-10 17:31:26,949 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:26,949 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:26,950 [planck_2018_lowl.ee] Computed log-likelihood = -198.02369211623466
+ 2026-05-10 17:31:26,950 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:26,950 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:26,950 [planck_2018_lensing.native] Computed log-likelihood = -5.494372250903415
+ 2026-05-10 17:31:26,950 [pybobyqa.util] Function eval 4 at point 4 has f = 538.149953776701 at x = [-1.  0.]
+ 2026-05-10 17:31:26,950 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:26,950 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:26,950 [classy] Computing new state
+ 2026-05-10 17:31:26,950 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:28,090 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:28,090 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:28,091 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.1250365180673
+ 2026-05-10 17:31:28,091 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:28,091 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:28,092 [planck_2018_lowl.tt] Computed log-likelihood = -10.355263060502807
+ 2026-05-10 17:31:28,092 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:28,092 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:28,092 [planck_2018_lowl.ee] Computed log-likelihood = -198.02156398251304
+ 2026-05-10 17:31:28,092 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:28,092 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:28,092 [planck_2018_lensing.native] Computed log-likelihood = -5.478629382362786
+ 2026-05-10 17:31:28,092 [pybobyqa.util] Function eval 5 at point 5 has f = 536.980492943446 at x = [ 0. -1.]
+ 2026-05-10 17:31:28,092 [pybobyqa.solver] Beginning main loop
+ 2026-05-10 17:31:28,093 [pybobyqa.solver] Trust region step is d = [ 0.52243685 -0.85267798]
+ 2026-05-10 17:31:28,093 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:28,093 [model] Got input parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:28,093 [classy] Got parameters {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:28,093 [classy] Computing new state
+ 2026-05-10 17:31:28,093 [classy] Setting parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:29,220 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:29,220 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:29,221 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -322.3522778645784
+ 2026-05-10 17:31:29,221 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:29,221 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:29,222 [planck_2018_lowl.tt] Computed log-likelihood = -10.367099771743
+ 2026-05-10 17:31:29,222 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:29,222 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:29,222 [planck_2018_lowl.ee] Computed log-likelihood = -198.02361085901998
+ 2026-05-10 17:31:29,222 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:29,222 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:29,222 [planck_2018_lensing.native] Computed log-likelihood = -5.466382462158001
+ 2026-05-10 17:31:29,223 [pybobyqa.util] Function eval 6 at point 6 has f = 536.209370957499 at x = [ 0.52243685 -1.85267798]
+ 2026-05-10 17:31:29,223 [pybobyqa.solver] Ratio = 1.00595
+ 2026-05-10 17:31:29,223 [pybobyqa.solver] Updating with knew = 0
+ 2026-05-10 17:31:29,223 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:29,224 [pybobyqa.solver] Trust region step is d = [ 1.64226736 -3.64732202]
+ 2026-05-10 17:31:29,224 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:29,224 [model] Got input parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:29,224 [classy] Got parameters {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:29,224 [classy] Computing new state
+ 2026-05-10 17:31:29,224 [classy] Setting parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:30,348 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:30,348 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:30,352 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.5919287475105
+ 2026-05-10 17:31:30,353 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:30,353 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:30,354 [planck_2018_lowl.tt] Computed log-likelihood = -10.419482869433295
+ 2026-05-10 17:31:30,354 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:30,354 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:30,354 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:30,354 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:30,354 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:30,355 [planck_2018_lensing.native] Computed log-likelihood = -5.42569454193158
+ 2026-05-10 17:31:30,355 [pybobyqa.util] Function eval 7 at point 7 has f = 533.45547570822 at x = [ 2.16470421 -5.5       ]
+ 2026-05-10 17:31:30,355 [pybobyqa.solver] Ratio = 0.998196
+ 2026-05-10 17:31:30,356 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:30,356 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:30,356 [pybobyqa.solver] Trust region step is d = [1.55959418 0.        ]
+ 2026-05-10 17:31:30,356 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:30,357 [model] Got input parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:30,357 [classy] Got parameters {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:30,357 [classy] Computing new state
+ 2026-05-10 17:31:30,357 [classy] Setting parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:31,513 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:31,513 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:31,526 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4826266025546
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.tt] Computed log-likelihood = -10.42054011681742
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:31,526 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:31,527 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:31,527 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:31,527 [planck_2018_lensing.native] Computed log-likelihood = -5.415048274491056
+ 2026-05-10 17:31:31,527 [pybobyqa.util] Function eval 8 at point 8 has f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:31,527 [pybobyqa.solver] Ratio = 0.787124
+ 2026-05-10 17:31:31,527 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:31,527 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:31,528 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:31,528 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:31,528 [pybobyqa.solver] New rho = 0.223607 after 8 function evaluations
+ 2026-05-10 17:31:31,528 [pybobyqa.solver] Best so far: f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:31,529 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:31,529 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:31,529 [model] Got input parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:31,529 [classy] Got parameters {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:31,529 [classy] Computing new state
+ 2026-05-10 17:31:31,529 [classy] Setting parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:32,663 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:32,663 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:32,663 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.46143040250774
+ 2026-05-10 17:31:32,663 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:32,663 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:32,664 [planck_2018_lowl.tt] Computed log-likelihood = -10.420189770614456
+ 2026-05-10 17:31:32,664 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:32,664 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:32,664 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:32,664 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:32,664 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:32,665 [planck_2018_lensing.native] Computed log-likelihood = -5.415632666399637
+ 2026-05-10 17:31:32,665 [pybobyqa.util] Function eval 9 at point 9 has f = 533.315622388867 at x = [ 3.54471926 -5.5       ]
+ 2026-05-10 17:31:32,665 [pybobyqa.solver] Ratio = 10.2359
+ 2026-05-10 17:31:32,665 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:32,665 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:32,666 [pybobyqa.solver] Trust region step is d = [-0.32762087  0.        ]
+ 2026-05-10 17:31:32,666 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:32,666 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:32,666 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:32,666 [classy] Computing new state
+ 2026-05-10 17:31:32,666 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:33,798 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:33,798 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:33,799 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.45559781694664
+ 2026-05-10 17:31:33,799 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:33,799 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:33,800 [planck_2018_lowl.tt] Computed log-likelihood = -10.42076359504216
+ 2026-05-10 17:31:33,800 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:33,800 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:33,800 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:33,800 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:33,800 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:33,801 [planck_2018_lensing.native] Computed log-likelihood = -5.419536486702184
+ 2026-05-10 17:31:33,801 [pybobyqa.util] Function eval 10 at point 10 has f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:33,801 [pybobyqa.solver] Ratio = 0.0902798
+ 2026-05-10 17:31:33,801 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:33,802 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:33,802 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:33,802 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:33,802 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:33,802 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:33,802 [classy] Computing new state
+ 2026-05-10 17:31:33,802 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:35,644 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:35,644 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:35,645 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.59404186701295
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.tt] Computed log-likelihood = -10.417604048993695
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:35,645 [planck_2018_lowl.ee] Computed log-likelihood = -198.0163535997887
+ 2026-05-10 17:31:35,645 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:35,645 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:35,646 [planck_2018_lensing.native] Computed log-likelihood = -5.4215656274374
+ 2026-05-10 17:31:35,646 [pybobyqa.util] Function eval 11 at point 11 has f = 533.449565143233 at x = [ 3.21709839 -5.2763932 ]
+ 2026-05-10 17:31:35,646 [pybobyqa.solver] Trust region step is d = [0.15449541 0.        ]
+ 2026-05-10 17:31:35,647 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:35,647 [model] Got input parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:35,647 [classy] Got parameters {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:35,647 [classy] Computing new state
+ 2026-05-10 17:31:35,647 [classy] Setting parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:36,770 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:36,770 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:36,775 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4863403039247
+ 2026-05-10 17:31:36,775 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:36,775 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:36,775 [planck_2018_lowl.tt] Computed log-likelihood = -10.420054281691932
+ 2026-05-10 17:31:36,775 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:36,775 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:36,776 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:36,776 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:36,776 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:36,776 [planck_2018_lensing.native] Computed log-likelihood = -5.416535132028255
+ 2026-05-10 17:31:36,776 [pybobyqa.util] Function eval 12 at point 12 has f = 533.34129926699 at x = [ 3.3715938 -5.5      ]
+ 2026-05-10 17:31:36,776 [pybobyqa.solver] Ratio = -5.10164
+ 2026-05-10 17:31:36,776 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:36,776 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:36,776 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:36,777 [model] Got input parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:36,777 [classy] Got parameters {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:36,777 [classy] Computing new state
+ 2026-05-10 17:31:36,777 [classy] Setting parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:37,901 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:37,901 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:37,906 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.57063842126263
+ 2026-05-10 17:31:37,906 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:37,906 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:37,907 [planck_2018_lowl.tt] Computed log-likelihood = -10.417942379867014
+ 2026-05-10 17:31:37,907 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:37,907 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:37,907 [planck_2018_lowl.ee] Computed log-likelihood = -198.01391111415842
+ 2026-05-10 17:31:37,907 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:37,907 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:37,907 [planck_2018_lensing.native] Computed log-likelihood = -5.417365286796308
+ 2026-05-10 17:31:37,907 [pybobyqa.util] Function eval 13 at point 13 has f = 533.419857202084 at x = [ 3.38644914 -5.35398519]
+ 2026-05-10 17:31:37,908 [pybobyqa.solver] Trust region step is d = [-0.2236068  0.       ]
+ 2026-05-10 17:31:37,908 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:37,908 [model] Got input parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:37,908 [classy] Got parameters {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:37,908 [classy] Computing new state
+ 2026-05-10 17:31:37,908 [classy] Setting parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:39,035 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:39,035 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:39,036 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.53702294104204
+ 2026-05-10 17:31:39,036 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:39,036 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:39,037 [planck_2018_lowl.tt] Computed log-likelihood = -10.419606528254604
+ 2026-05-10 17:31:39,037 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:39,037 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:39,037 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:39,037 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:39,037 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:39,037 [planck_2018_lensing.native] Computed log-likelihood = -5.418786374078477
+ 2026-05-10 17:31:39,037 [pybobyqa.util] Function eval 14 at point 14 has f = 533.39378539272 at x = [ 2.99349159 -5.5       ]
+ 2026-05-10 17:31:39,037 [pybobyqa.solver] Ratio = -0.648858
+ 2026-05-10 17:31:39,037 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:39,037 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:39,038 [pybobyqa.solver] New rho = 0.05 after 14 function evaluations
+ 2026-05-10 17:31:39,038 [pybobyqa.solver] Best so far: f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:39,038 [pybobyqa.solver] Trust region step is d = [0.01490507 0.        ]
+ 2026-05-10 17:31:39,038 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:39,038 [model] Got input parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:39,038 [classy] Got parameters {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:39,038 [classy] Computing new state
+ 2026-05-10 17:31:39,038 [classy] Setting parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:40,164 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:40,164 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:40,166 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4281434735825
+ 2026-05-10 17:31:40,166 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:40,166 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:40,167 [planck_2018_lowl.tt] Computed log-likelihood = -10.420746295983434
+ 2026-05-10 17:31:40,167 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:40,167 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:40,167 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:40,167 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:40,167 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:40,168 [planck_2018_lensing.native] Computed log-likelihood = -5.419209611631365
+ 2026-05-10 17:31:40,168 [pybobyqa.util] Function eval 15 at point 15 has f = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:40,168 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 17:31:40,168 [pybobyqa.solver] Smallest objective value = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:40,168 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 17:31:40,168 [minimize] Run 2/3 converged.
+ 2026-05-10 17:31:40,168 [minimize] Starting run 3/3
+ 2026-05-10 17:31:40,168 [minimize] Starting point: array([0.022   , 0.981875])
+ 2026-05-10 17:31:40,168 [minimize] Arguments for pybobyqa.solve:
+{'x0': array([0., 0.]), 'bounds': array([[-4. , -5.5],
+       [ 4. ,  2.5]]), 'maxfun': 15000, 'rhobeg': 1.0, 'do_logging': True, 'rhoend': 0.05}
+ 2026-05-10 17:31:40,168 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:40,168 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:40,168 [classy] Computing new state
+ 2026-05-10 17:31:40,168 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:41,289 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:41,290 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:41,292 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.7813434563056
+ 2026-05-10 17:31:41,292 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:41,292 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:41,293 [planck_2018_lowl.tt] Computed log-likelihood = -10.342247278171698
+ 2026-05-10 17:31:41,293 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:41,293 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:41,293 [planck_2018_lowl.ee] Computed log-likelihood = -198.02051258017457
+ 2026-05-10 17:31:41,293 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:41,293 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:41,294 [planck_2018_lensing.native] Computed log-likelihood = -5.487888124887842
+ 2026-05-10 17:31:41,294 [pybobyqa.util] Function eval 1 at point 1 has f = 537.63199143954 at x = [0. 0.]
+ 2026-05-10 17:31:41,294 [pybobyqa.solver] Initialising (coordinate directions)
+ 2026-05-10 17:31:41,294 [pybobyqa.controller] Initialising with coordinate directions
+ 2026-05-10 17:31:41,294 [model] Got input parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:41,294 [classy] Got parameters {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:41,294 [classy] Computing new state
+ 2026-05-10 17:31:41,294 [classy] Setting parameters: {'omega_b': 0.022025, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:42,440 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:42,440 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:42,441 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.3962779345029
+ 2026-05-10 17:31:42,441 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:42,441 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:42,441 [planck_2018_lowl.tt] Computed log-likelihood = -10.343339508755122
+ 2026-05-10 17:31:42,442 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:42,442 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:42,442 [planck_2018_lowl.ee] Computed log-likelihood = -198.01887493415907
+ 2026-05-10 17:31:42,442 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:42,442 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:42,442 [planck_2018_lensing.native] Computed log-likelihood = -5.48147829898467
+ 2026-05-10 17:31:42,442 [pybobyqa.util] Function eval 2 at point 2 has f = 537.239970676402 at x = [1. 0.]
+ 2026-05-10 17:31:42,442 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:42,442 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:42,442 [classy] Computing new state
+ 2026-05-10 17:31:42,442 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.982125, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:43,577 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:43,577 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:43,588 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.4466999281464
+ 2026-05-10 17:31:43,588 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:43,588 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:43,589 [planck_2018_lowl.tt] Computed log-likelihood = -10.329458941710698
+ 2026-05-10 17:31:43,589 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:43,589 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:43,589 [planck_2018_lowl.ee] Computed log-likelihood = -198.0231721779431
+ 2026-05-10 17:31:43,589 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:43,589 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:43,589 [planck_2018_lensing.native] Computed log-likelihood = -5.496151258202605
+ 2026-05-10 17:31:43,590 [pybobyqa.util] Function eval 3 at point 3 has f = 538.295482306003 at x = [0. 1.]
+ 2026-05-10 17:31:43,590 [model] Got input parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:43,590 [classy] Got parameters {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:43,590 [classy] Computing new state
+ 2026-05-10 17:31:43,590 [classy] Setting parameters: {'omega_b': 0.021974999999999998, 'n_s': 0.981875, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:44,787 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:44,787 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:44,789 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -324.29057753136436
+ 2026-05-10 17:31:44,789 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:44,789 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:44,796 [planck_2018_lowl.tt] Computed log-likelihood = -10.341311878198923
+ 2026-05-10 17:31:44,797 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:44,797 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:44,797 [planck_2018_lowl.ee] Computed log-likelihood = -198.02369211623466
+ 2026-05-10 17:31:44,797 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:44,797 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:44,797 [planck_2018_lensing.native] Computed log-likelihood = -5.494372250903415
+ 2026-05-10 17:31:44,797 [pybobyqa.util] Function eval 4 at point 4 has f = 538.149953776701 at x = [-1.  0.]
+ 2026-05-10 17:31:44,797 [model] Got input parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:44,797 [classy] Got parameters {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:44,798 [classy] Computing new state
+ 2026-05-10 17:31:44,798 [classy] Setting parameters: {'omega_b': 0.022, 'n_s': 0.9816250000000001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:45,922 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:45,922 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:45,929 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -323.1250365180673
+ 2026-05-10 17:31:45,929 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:45,929 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:45,930 [planck_2018_lowl.tt] Computed log-likelihood = -10.355263060502807
+ 2026-05-10 17:31:45,930 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:45,930 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:45,930 [planck_2018_lowl.ee] Computed log-likelihood = -198.02156398251304
+ 2026-05-10 17:31:45,930 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:45,930 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:45,930 [planck_2018_lensing.native] Computed log-likelihood = -5.478629382362786
+ 2026-05-10 17:31:45,930 [pybobyqa.util] Function eval 5 at point 5 has f = 536.980492943446 at x = [ 0. -1.]
+ 2026-05-10 17:31:45,931 [pybobyqa.solver] Beginning main loop
+ 2026-05-10 17:31:45,931 [pybobyqa.solver] Trust region step is d = [ 0.52243685 -0.85267798]
+ 2026-05-10 17:31:45,931 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:45,932 [model] Got input parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:45,932 [classy] Got parameters {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:45,932 [classy] Computing new state
+ 2026-05-10 17:31:45,932 [classy] Setting parameters: {'omega_b': 0.022013060921203663, 'n_s': 0.981411830504689, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:47,073 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:47,073 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:47,077 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -322.3522778645784
+ 2026-05-10 17:31:47,077 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:47,077 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:47,078 [planck_2018_lowl.tt] Computed log-likelihood = -10.367099771743
+ 2026-05-10 17:31:47,078 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:47,078 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:47,078 [planck_2018_lowl.ee] Computed log-likelihood = -198.02361085901998
+ 2026-05-10 17:31:47,078 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:47,078 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:47,078 [planck_2018_lensing.native] Computed log-likelihood = -5.466382462158001
+ 2026-05-10 17:31:47,079 [pybobyqa.util] Function eval 6 at point 6 has f = 536.209370957499 at x = [ 0.52243685 -1.85267798]
+ 2026-05-10 17:31:47,079 [pybobyqa.solver] Ratio = 1.00595
+ 2026-05-10 17:31:47,079 [pybobyqa.solver] Updating with knew = 0
+ 2026-05-10 17:31:47,079 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:47,080 [pybobyqa.solver] Trust region step is d = [ 1.64226736 -3.64732202]
+ 2026-05-10 17:31:47,080 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:47,080 [model] Got input parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:47,080 [classy] Got parameters {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:47,080 [classy] Computing new state
+ 2026-05-10 17:31:47,080 [classy] Setting parameters: {'omega_b': 0.022054117605278083, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:48,245 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:48,245 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:48,248 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.5919287475105
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.tt] Computed log-likelihood = -10.419482869433295
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:48,248 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:48,248 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:48,248 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:48,249 [planck_2018_lensing.native] Computed log-likelihood = -5.42569454193158
+ 2026-05-10 17:31:48,249 [pybobyqa.util] Function eval 7 at point 7 has f = 533.45547570822 at x = [ 2.16470421 -5.5       ]
+ 2026-05-10 17:31:48,249 [pybobyqa.solver] Ratio = 0.998196
+ 2026-05-10 17:31:48,249 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:48,249 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:48,250 [pybobyqa.solver] Trust region step is d = [1.55959418 0.        ]
+ 2026-05-10 17:31:48,250 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:48,250 [model] Got input parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:48,250 [classy] Got parameters {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:48,250 [classy] Computing new state
+ 2026-05-10 17:31:48,250 [classy] Setting parameters: {'omega_b': 0.0220931074597038, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:49,372 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:49,372 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:49,376 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4826266025546
+ 2026-05-10 17:31:49,376 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:49,376 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:49,376 [planck_2018_lowl.tt] Computed log-likelihood = -10.42054011681742
+ 2026-05-10 17:31:49,376 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:49,376 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:49,377 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:49,377 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:49,377 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:49,377 [planck_2018_lensing.native] Computed log-likelihood = -5.415048274491056
+ 2026-05-10 17:31:49,377 [pybobyqa.util] Function eval 8 at point 8 has f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:49,377 [pybobyqa.solver] Ratio = 0.787124
+ 2026-05-10 17:31:49,377 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:49,377 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] New rho = 0.223607 after 8 function evaluations
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] Best so far: f = 533.336584543208 at x = [ 3.72429839 -5.5       ]
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] Trust region step is d = [-0.17957913  0.        ]
+ 2026-05-10 17:31:49,378 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:49,379 [model] Got input parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:49,379 [classy] Got parameters {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:49,379 [classy] Computing new state
+ 2026-05-10 17:31:49,379 [classy] Setting parameters: {'omega_b': 0.022088617981521383, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:50,504 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:50,504 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:50,515 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.46143040250774
+ 2026-05-10 17:31:50,515 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:50,515 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:50,516 [planck_2018_lowl.tt] Computed log-likelihood = -10.420189770614456
+ 2026-05-10 17:31:50,516 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:50,516 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:50,516 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:50,516 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:50,516 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:50,517 [planck_2018_lensing.native] Computed log-likelihood = -5.415632666399637
+ 2026-05-10 17:31:50,517 [pybobyqa.util] Function eval 9 at point 9 has f = 533.315622388867 at x = [ 3.54471926 -5.5       ]
+ 2026-05-10 17:31:50,517 [pybobyqa.solver] Ratio = 10.2359
+ 2026-05-10 17:31:50,517 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:50,517 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:50,518 [pybobyqa.solver] Trust region step is d = [-0.32762087  0.        ]
+ 2026-05-10 17:31:50,518 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:50,518 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:50,518 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:50,518 [classy] Computing new state
+ 2026-05-10 17:31:50,518 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:51,695 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:51,695 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:51,696 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.45559781694664
+ 2026-05-10 17:31:51,696 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:51,696 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:51,696 [planck_2018_lowl.tt] Computed log-likelihood = -10.42076359504216
+ 2026-05-10 17:31:51,696 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:51,696 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:51,697 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:51,697 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:51,697 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:51,697 [planck_2018_lensing.native] Computed log-likelihood = -5.419536486702184
+ 2026-05-10 17:31:51,697 [pybobyqa.util] Function eval 10 at point 10 has f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:51,697 [pybobyqa.solver] Ratio = 0.0902798
+ 2026-05-10 17:31:51,697 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 17:31:51,698 [pybobyqa.controller] Non-slow iteration
+ 2026-05-10 17:31:51,698 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:51,698 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:51,698 [model] Got input parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:51,698 [classy] Got parameters {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:51,698 [classy] Computing new state
+ 2026-05-10 17:31:51,698 [classy] Setting parameters: {'omega_b': 0.022080427459802696, 'n_s': 0.9805559016994375, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:52,819 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:52,820 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:52,826 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.59404186701295
+ 2026-05-10 17:31:52,826 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:52,826 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:52,827 [planck_2018_lowl.tt] Computed log-likelihood = -10.417604048993695
+ 2026-05-10 17:31:52,827 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:52,827 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:52,827 [planck_2018_lowl.ee] Computed log-likelihood = -198.0163535997887
+ 2026-05-10 17:31:52,827 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:52,827 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:52,827 [planck_2018_lensing.native] Computed log-likelihood = -5.4215656274374
+ 2026-05-10 17:31:52,827 [pybobyqa.util] Function eval 11 at point 11 has f = 533.449565143233 at x = [ 3.21709839 -5.2763932 ]
+ 2026-05-10 17:31:52,828 [pybobyqa.solver] Trust region step is d = [0.15449541 0.        ]
+ 2026-05-10 17:31:52,828 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:52,828 [model] Got input parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:52,828 [classy] Got parameters {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:52,829 [classy] Computing new state
+ 2026-05-10 17:31:52,829 [classy] Setting parameters: {'omega_b': 0.022084289844985443, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:53,949 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:53,949 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:53,956 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4863403039247
+ 2026-05-10 17:31:53,956 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:53,956 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:53,956 [planck_2018_lowl.tt] Computed log-likelihood = -10.420054281691932
+ 2026-05-10 17:31:53,956 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:53,956 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:53,957 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:53,957 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:53,957 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:53,957 [planck_2018_lensing.native] Computed log-likelihood = -5.416535132028255
+ 2026-05-10 17:31:53,957 [pybobyqa.util] Function eval 12 at point 12 has f = 533.34129926699 at x = [ 3.3715938 -5.5      ]
+ 2026-05-10 17:31:53,957 [pybobyqa.solver] Ratio = -5.10164
+ 2026-05-10 17:31:53,957 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 17:31:53,957 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:53,957 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 17:31:53,958 [model] Got input parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:53,958 [classy] Got parameters {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:53,958 [classy] Computing new state
+ 2026-05-10 17:31:53,958 [classy] Setting parameters: {'omega_b': 0.022084661228457404, 'n_s': 0.9805365037025224, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:55,132 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:55,133 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:55,140 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.57063842126263
+ 2026-05-10 17:31:55,140 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:55,140 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:55,141 [planck_2018_lowl.tt] Computed log-likelihood = -10.417942379867014
+ 2026-05-10 17:31:55,141 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:55,142 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:55,142 [planck_2018_lowl.ee] Computed log-likelihood = -198.01391111415842
+ 2026-05-10 17:31:55,142 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:55,142 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:55,142 [planck_2018_lensing.native] Computed log-likelihood = -5.417365286796308
+ 2026-05-10 17:31:55,142 [pybobyqa.util] Function eval 13 at point 13 has f = 533.419857202084 at x = [ 3.38644914 -5.35398519]
+ 2026-05-10 17:31:55,143 [pybobyqa.solver] Trust region step is d = [-0.2236068  0.       ]
+ 2026-05-10 17:31:55,143 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 17:31:55,143 [model] Got input parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:55,143 [classy] Got parameters {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:55,143 [classy] Computing new state
+ 2026-05-10 17:31:55,143 [classy] Setting parameters: {'omega_b': 0.02207483728985895, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:56,285 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:56,285 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:56,288 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.53702294104204
+ 2026-05-10 17:31:56,288 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:56,288 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:56,289 [planck_2018_lowl.tt] Computed log-likelihood = -10.419606528254604
+ 2026-05-10 17:31:56,289 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:56,289 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:56,289 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:56,289 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:56,289 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:56,289 [planck_2018_lensing.native] Computed log-likelihood = -5.418786374078477
+ 2026-05-10 17:31:56,289 [pybobyqa.util] Function eval 14 at point 14 has f = 533.39378539272 at x = [ 2.99349159 -5.5       ]
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Ratio = -0.648858
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Updating with knew = 3
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] New rho = 0.05 after 14 function evaluations
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Best so far: f = 533.314267448036 at x = [ 3.21709839 -5.5       ]
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Trust region step is d = [0.01490507 0.        ]
+ 2026-05-10 17:31:56,290 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 17:31:56,290 [model] Got input parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:56,290 [classy] Got parameters {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:56,290 [classy] Computing new state
+ 2026-05-10 17:31:56,290 [classy] Setting parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:57,446 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,446 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:57,446 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4281434735825
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.tt] Computed log-likelihood = -10.420746295983434
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:57,447 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:57,447 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,447 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:57,448 [planck_2018_lensing.native] Computed log-likelihood = -5.419209611631365
+ 2026-05-10 17:31:57,448 [pybobyqa.util] Function eval 15 at point 15 has f = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:57,448 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 17:31:57,448 [pybobyqa.solver] Smallest objective value = 533.286468930542 at x = [ 3.23200346 -5.5       ]
+ 2026-05-10 17:31:57,449 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 17:31:57,449 [minimize] Run 3/3 converged.
+ 2026-05-10 17:31:57,449 [minimize] Finished successfully!
+ 2026-05-10 17:31:57,449 [minimize] -log(likelihood) minimized to 533.286
+ 2026-05-10 17:31:57,449 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.022080800086431672), 'n_s': np.float64(0.9805)}
+ 2026-05-10 17:31:57,449 [prior] Evaluating prior at array([0.0220808, 0.9805   ])
+ 2026-05-10 17:31:57,449 [prior] Got logpriors (internal) = 14.731801289838415
+ 2026-05-10 17:31:57,449 [model] Got input parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'A_planck': 1.0, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:57,449 [classy] Got parameters {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 17:31:57,449 [classy] Computing new state
+ 2026-05-10 17:31:57,449 [classy] Setting parameters: {'omega_b': 0.022080800086431672, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl tCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 17:31:57,451 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,451 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 17:31:57,452 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -319.4281434735825
+ 2026-05-10 17:31:57,452 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,452 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 17:31:57,452 [planck_2018_lowl.tt] Computed log-likelihood = -10.420746295983434
+ 2026-05-10 17:31:57,453 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,453 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 17:31:57,453 [planck_2018_lowl.ee] Computed log-likelihood = -198.01836954934495
+ 2026-05-10 17:31:57,453 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0}
+ 2026-05-10 17:31:57,453 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 17:31:57,453 [planck_2018_lensing.native] Computed log-likelihood = -5.419209611631365
+ 2026-05-10 17:31:57,454 [model] Computed derived parameters: {'chi2__CMB': 1066.5729378610845}
+ 2026-05-10 17:31:57,459 [minimize] Parameter values at minimum:
+   weight  minuslogpost   omega_b     n_s    chi2__CMB  minuslogprior  minuslogprior__0         chi2  chi2__planck_2018_highl_plik.TTTEEE_lite  chi2__planck_2018_lowl.TT  chi2__planck_2018_lowl.EE  chi2__planck_2018_lensing.native
+0     1.0    518.554668  0.022081  0.9805  1066.572938     -14.731801        -14.731801  1066.572938                                638.856287                  20.841493                 396.036739                         10.838419
+ 2026-05-10 17:31:57,460 [minimize] Full set of minima:
+{'0': (533.2864689305422, True), '1': (533.2864689305422, True), '2': (533.2864689305422, True)}

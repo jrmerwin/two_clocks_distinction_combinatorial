@@ -1,0 +1,2 @@
+#        weight    minuslogpost         omega_b             n_s       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native
+              1       518.55467       0.0220808          0.9805       1066.5729      -14.731801       -14.731801       1066.5729                                638.85629                 20.841493                 396.03674                        10.838419

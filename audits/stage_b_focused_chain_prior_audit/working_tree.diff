@@ -1,0 +1,210 @@
+diff --git a/__init__.py b/__init__.py
+index a7b17ff7..8e978b23 100644
+--- a/__init__.py
++++ b/__init__.py
+@@ -234,3 +234,205 @@ class Class(_DEUStage2OClass):
+             super().raw_cl(*args, **kwargs)
+         )
+ 
++
++# ---------------------------------------------------------------------------
++# DEU Stage-2W-1: API-visible polarization phase-profile wrapper
++# ---------------------------------------------------------------------------
++#
++# Diagnostic EE/TE phase-profile wrapper:
++#
++#   C_l^new(ell) = C_l^old(ell - shift(ell))
++#
++# applied to EE and TE only.
++#
++# TT, BB, pp, and tp are deliberately unchanged.
++#
++# This is an API-level diagnostic/reference implementation. It does not modify
++# HyRec, Recfast, visibility functions, perturbation ODEs, transfer functions,
++# harmonic projection, lensing physics, BBN, or growth.
++
++import numpy as _deu_np
++
++_DEUStage2RClass = Class
++
++_DEU_POLPHASE_KEYS = {
++    "deu_polarization_phase_profile_hook",
++    "deu_polarization_phase_profile",
++    "deu_polphase_hook",
++    "deu_polphase_profile",
++}
++
++
++def _deu_polphase_profile_knots(name):
++    zero = [(30.0, 0.0), (400.0, 0.0), (800.0, 0.0), (1600.0, 0.0), (2508.0, 0.0)]
++
++    ee_audit = [(30.0, -1.0), (400.0, -1.0), (800.0, 2.0), (1600.0, 3.5), (2508.0, 5.5)]
++    te_audit = [(30.0, -3.0), (400.0, -3.0), (800.0, 1.0), (1600.0, 2.0), (2508.0, 3.0)]
++
++    ee_soft = [(x, 0.5 * y) for x, y in ee_audit]
++    te_soft = [(x, 0.5 * y) for x, y in te_audit]
++
++    ee_high = [(30.0, 0.0), (400.0, 0.0), (800.0, 1.0), (1600.0, 3.0), (2508.0, 5.0)]
++    te_high = [(30.0, 0.0), (400.0, 0.0), (800.0, 0.5), (1600.0, 2.0), (2508.0, 3.0)]
++
++    const2 = [(30.0, 2.0), (400.0, 2.0), (800.0, 2.0), (1600.0, 2.0), (2508.0, 2.0)]
++    const3 = [(30.0, 3.0), (400.0, 3.0), (800.0, 3.0), (1600.0, 3.0), (2508.0, 3.0)]
++
++    profiles = {
++        "no_shift": (zero, zero),
++        "const_plus2_both": (const2, const2),
++        "const_plus3_both": (const3, const3),
++        "audit_pol_full": (ee_audit, te_audit),
++        "audit_pol_soft": (ee_soft, te_soft),
++        "high_tail_pol": (ee_high, te_high),
++        "ee_only_audit": (ee_audit, zero),
++        "te_only_audit": (zero, te_audit),
++    }
++
++    return profiles.get(str(name), profiles["no_shift"])
++
++
++def _deu_shift_profile(ell, knots):
++    xs = _deu_np.asarray([k[0] for k in knots], dtype=float)
++    ys = _deu_np.asarray([k[1] for k in knots], dtype=float)
++    return _deu_np.interp(ell, xs, ys, left=ys[0], right=ys[-1])
++
++
++class Class(_DEUStage2RClass):
++    """
++    Stage-2W Python facade.
++
++    Extends the existing DEU API wrappers with a diagnostic EE/TE phase profile
++    visible through raw_cl() and lensed_cl().
++    """
++
++    def __init__(self, *args, **kwargs):
++        super().__init__(*args, **kwargs)
++        object.__setattr__(self, "_deu_polphase_hook", False)
++        object.__setattr__(self, "_deu_polphase_profile", "no_shift")
++
++    def _deu_update_polphase_state(self, params):
++        if not isinstance(params, dict):
++            return
++
++        if "deu_polarization_phase_profile_hook" in params:
++            object.__setattr__(
++                self,
++                "_deu_polphase_hook",
++                _deu_truthy(params.get("deu_polarization_phase_profile_hook")),
++            )
++
++        if "deu_polphase_hook" in params:
++            object.__setattr__(
++                self,
++                "_deu_polphase_hook",
++                _deu_truthy(params.get("deu_polphase_hook")),
++            )
++
++        if "deu_polarization_phase_profile" in params:
++            object.__setattr__(
++                self,
++                "_deu_polphase_profile",
++                str(params.get("deu_polarization_phase_profile")),
++            )
++
++        if "deu_polphase_profile" in params:
++            object.__setattr__(
++                self,
++                "_deu_polphase_profile",
++                str(params.get("deu_polphase_profile")),
++            )
++
++    def _deu_strip_polphase_params(self, params):
++        if not isinstance(params, dict):
++            return params
++
++        return {
++            k: v
++            for k, v in params.items()
++            if k not in _DEU_POLPHASE_KEYS
++        }
++
++    def set(self, *args, **kwargs):
++        sanitized_args = []
++
++        for item in args:
++            self._deu_update_polphase_state(item)
++            sanitized_args.append(self._deu_strip_polphase_params(item))
++
++        self._deu_update_polphase_state(kwargs)
++        sanitized_kwargs = self._deu_strip_polphase_params(kwargs)
++
++        return super().set(*sanitized_args, **sanitized_kwargs)
++
++    def _deu_apply_polphase_to_cl(self, cl):
++        if not self._deu_polphase_hook:
++            return cl
++
++        profile = str(self._deu_polphase_profile)
++
++        if profile == "no_shift":
++            return cl
++
++        if "ell" not in cl:
++            return cl
++
++        out = dict(cl)
++        ell = _deu_np.asarray(out["ell"], dtype=float)
++
++        if ell.size == 0:
++            return out
++
++        ee_knots, te_knots = _deu_polphase_profile_knots(profile)
++
++        def _deu_observable_phase_remap_from_cl(y, shift):
++            """
++            Stage 2W-1 observable-equivalent phase remap.
++
++            classy.lensed_cl() returns C_l, while the Stage 2V-1 provider
++            diagnostic acted on spectra as requested by Cobaya likelihoods,
++            effectively D_l-like observable arrays. To reproduce that reference,
++            remap D_l = ell*(ell+1)*C_l and convert back to C_l.
++
++            This makes downstream Cobaya ell_factor=True calls match the
++            provider-level Stage 2V-1 reference.
++            """
++            fac = ell * (ell + 1.0)
++            d_l = fac * y
++            shifted_ell = ell - shift
++            d_l_shifted = _deu_np.interp(
++                shifted_ell,
++                ell,
++                d_l,
++                left=d_l[0],
++                right=d_l[-1],
++            )
++
++            out_y = _deu_np.array(y, dtype=float, copy=True)
++            mask = fac != 0.0
++            out_y[mask] = d_l_shifted[mask] / fac[mask]
++            return out_y
++
++        if "ee" in out:
++            y = _deu_np.asarray(out["ee"], dtype=float)
++            shift = _deu_shift_profile(ell, ee_knots)
++            out["ee"] = _deu_observable_phase_remap_from_cl(y, shift)
++
++        if "te" in out:
++            y = _deu_np.asarray(out["te"], dtype=float)
++            shift = _deu_shift_profile(ell, te_knots)
++            out["te"] = _deu_observable_phase_remap_from_cl(y, shift)
++
++        # TT, BB, pp, tp deliberately unchanged.
++        return out
++
++    def lensed_cl(self, *args, **kwargs):
++        return self._deu_apply_polphase_to_cl(
++            super().lensed_cl(*args, **kwargs)
++        )
++
++    def raw_cl(self, *args, **kwargs):
++        return self._deu_apply_polphase_to_cl(
++            super().raw_cl(*args, **kwargs)
++        )
++

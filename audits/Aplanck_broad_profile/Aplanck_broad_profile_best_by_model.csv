@@ -1,0 +1,501 @@
+model,likelihood_kind,objective,A_planck_prior_min,A_planck_prior_max,A_planck_ref_start,yaml,output_prefix,exit_status,stdout_path,stdout_tail,result_file,n_result_rows,n_result_cols,weight,minuslogpost,deu_damping_envelope_beta,deu_transfer_polamp_p_vis,omega_b,n_s,A_planck,calib_100T,calib_217T,A_cib_217,xi_sz_cib,A_sz,ksz_norm,gal545_A_100,gal545_A_143,gal545_A_143_217,gal545_A_217,ps_A_100_100,ps_A_143_143,ps_A_143_217,ps_A_217_217,galf_TE_A_100,galf_TE_A_100_143,galf_TE_A_100_217,galf_TE_A_143,galf_TE_A_143_217,galf_TE_A_217,chi2__CMB,minuslogprior,minuslogprior__0,minuslogprior__SZ,chi2,chi2__planck_2018_highl_plik.TTTEEE,chi2__planck_2018_lowl.TT,chi2__planck_2018_lowl.EE,chi2__planck_2018_lensing.native,chi2__planck_2018_highl_plik.TTTEEE_lite,selected_as_best_start
+deu,full,likelihood_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_likelihood_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_likelihood_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_likelihood_profile.stdout.txt," 2026-05-10 19:34:31,164 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.02488265437593}
+ 2026-05-10 19:34:31,164 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:34:31,165 [planck_2018_lowl.tt] Computed log-likelihood = -13.251205152140813
+ 2026-05-10 19:34:31,165 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.02488265437593}
+ 2026-05-10 19:34:31,165 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:34:31,165 [planck_2018_lowl.ee] Computed log-likelihood = -198.93769055763582
+ 2026-05-10 19:34:31,165 [planck_2018_lensing.native] Got parameters {'A_planck': 1.02488265437593}
+ 2026-05-10 19:34:31,165 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:34:31,165 [planck_2018_lensing.native] Computed log-likelihood = -9.429668894030952
+ 2026-05-10 19:34:31,165 [pybobyqa.util] Function eval 206 at point 206 has f = 1484.41893566126 at x = [...]
+ 2026-05-10 19:34:31,165 [pybobyqa.solver] Ratio = -0.252495
+ 2026-05-10 19:34:31,165 [pybobyqa.solver] Updating with knew = 8
+ 2026-05-10 19:34:31,166 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 19:34:31,166 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 19:34:31,171 [model] Got input parameters: {'deu_damping_envelope_beta': 0.02991923603640962, 'deu_transfer_polamp_p_vis': 1.0473499047157124, 'omega_b': 0.021970057446828326, 'n_s': 0.9816481641076249, 'A_planck': 1.0248518074036468, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9986835347449086, 'calib_217T': 1.0010454988128537, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 60.39255164768776, 'xi_sz_cib': 0.0006817299988083787, 'A_sz': 4.860989696495093, 'ksz_norm': 2.9461858077851666, 'gal545_A_100': 7.454009995254154, 'gal545_A_143': 7.640972607840618, 'gal545_A_143_217': 15.851620479168696, 'gal545_A_217': 94.3777583778648, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 277.3468388310311, 'ps_A_143_143': 47.59586422248193, 'ps_A_143_217': 35.50428477338066, 'ps_A_217_217': 109.32531306834986, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09160688042617558, 'galf_TE_A_100_143': 0.20331874708049863, 'galf_TE_A_100_217': 0.4023818103516099, 'galf_TE_A_143': 0.3855883522389015, 'galf_TE_A_143_217': 0.5714952470450856, 'galf_TE_A_217': 1.8779421400025558, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:34:31,171 [classy] Got parameters {'deu_damping_envelope_beta': 0.02991923603640962, 'deu_transfer_polamp_p_vis': 1.0473499047157124, 'omega_b': 0.021970057446828326, 'n_s': 0.9816481641076249, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:34:31,171 [classy] Computing new state
+ 2026-05-10 19:34:31,171 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.02991923603640962, 'deu_transfer_polamp_p_vis': 1.0473499047157124, 'omega_b': 0.021970057446828326, 'n_s': 0.9816481641076249, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl lCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:34:32,329 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.0248518074036468, 'calib_100T': 0.9986835347449086, 'calib_217T': 1.0010454988128537, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 60.39255164768776, 'xi_sz_cib': 0.0006817299988083787, 'A_sz': 4.860989696495093, 'ksz_norm': 2.9461858077851666, 'gal545_A_100': 7.454009995254154, 'gal545_A_143': 7.640972607840618, 'gal545_A_143_217': 15.851620479168696, 'gal545_A_217': 94.3777583778648, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 277.3468388310311, 'ps_A_143_143': 47.59586422248193, 'ps_A_143_217': 35.50428477338066, 'ps_A_217_217': 109.32531306834986, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09160688042617558, 'galf_TE_A_100_143': 0.20331874708049863, 'galf_TE_A_100_217': 0.4023818103516099, 'galf_TE_A_143': 0.3855883522389015, 'galf_TE_A_143_217': 0.5714952470450856, 'galf_TE_A_217': 1.8779421400025558, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:34:32,329 [planck_2018_highl_plik.ttteee] Computing new state
+ 2026-05-10 19:34:32,344 [planck_2018_highl_plik.ttteee] Computed log-likelihood = -1262.8290958619139
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0248518074036468}
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.tt] Computed log-likelihood = -13.253334867015894
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0248518074036468}
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:34:32,345 [planck_2018_lowl.ee] Computed log-likelihood = -198.93769055763582
+ 2026-05-10 19:34:32,346 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0248518074036468}
+ 2026-05-10 19:34:32,346 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:34:32,346 [planck_2018_lensing.native] Computed log-likelihood = -9.439544141830176
+ 2026-05-10 19:34:32,346 [pybobyqa.util] Function eval 207 at point 207 has f = 1484.4596654284 at x = [...]
+ 2026-05-10 19:34:32,351 [pybobyqa.solver] Trust region step is d = [ 0.00284817  0.00185915 -0.01875762  0.01852823  0.00834395 -0.00884251
+ -0.00710818 -0.00042985  0.          0.02348773 -0.00487146  0.00584102
+  0.00073132  0.0080326  -0.00049547 -0.01644115  0.01383326 -0.00529892
+ -0.00749961 -0.00137032  0.00766654 -0.01436584  0.00086868 -0.01018716
+  0.00154374]
+ 2026-05-10 19:34:32,351 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:34:32,374 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029923338231378528, 'deu_transfer_polamp_p_vis': 1.0473447157712528, 'omega_b': 0.021968984875944578, 'n_s': 0.9816500689894001, 'A_planck': 1.0248800307736732, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9986807605047376, 'calib_217T': 1.001037999991989, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 60.400920928669755, 'xi_sz_cib': 6.938893903907228e-18, 'A_sz': 4.882331388523573, 'ksz_norm': 2.9438264920470107, 'gal545_A_100': 7.456650838082453, 'gal545_A_143': 7.6342246624199985, 'gal545_A_143_217': 15.849410591839652, 'gal545_A_217': 94.36716566362892, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 276.9155092665206, 'ps_A_143_143': 47.60838430019693, 'ps_A_143_217': 35.50646935925537, 'ps_A_217_217': 109.3109619531523, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09135984839566387, 'galf_TE_A_100_143': 0.20526281836140964, 'galf_TE_A_100_217': 0.40149743908186475, 'galf_TE_A_143': 0.3856789206676417, 'galf_TE_A_143_217': 0.5681585448113329, 'galf_TE_A_217': 1.8783356693633098, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:34:32,375 [classy] Got parameters {'deu_damping_envelope_beta': 0.029923338231378528, 'deu_transfer_polamp_p_vis': 1.0473447157712528, 'omega_b': 0.021968984875944578, 'n_s': 0.9816500689894001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:34:32,375 [classy] Computing new state
+ 2026-05-10 19:34:32,375 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029923338231378528, 'deu_transfer_polamp_p_vis': 1.0473447157712528, 'omega_b': 0.021968984875944578, 'n_s': 0.9816500689894001, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl lCl pCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:34:33,526 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.0248800307736732, 'calib_100T': 0.9986807605047376, 'calib_217T': 1.001037999991989, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_21",audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_likelihood_profile.bestfit.txt,1,36,1.0,1520.6027,0.0305,1.0473377,0.021901487,0.98239488,1.0254349,0.99668592,1.0001429,55.776924,0.063274536,9.2019316,0.031579522,-0.44833595,11.20928,22.454007,104.21654,247.07446,47.222032,44.847355,121.19517,0.11455321,0.24788824,0.26347328,0.4433759,0.55443751,1.6625939,2962.6087,39.298354,35.746828,3.5515263,2962.6087,2520.0649,26.195492,397.84712,18.501239,,True
+deu,full,posterior_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_posterior_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_posterior_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_posterior_profile.stdout.txt,"       1.39449677e-01, 4.77892942e-01, 2.38032405e-01, 6.65116707e-01,
+       2.06843459e+00])
+ 2026-05-10 19:07:09,316 [prior] Got logpriors (internal) = 5.9375553224532895
+ 2026-05-10 19:07:09,316 [prior] Got logpriors (external) = [np.float64(-2.4354440239411557)]
+ 2026-05-10 19:07:09,316 [model] Got input parameters: {'deu_damping_envelope_beta': 0.03044765636808255, 'deu_transfer_polamp_p_vis': 1.0471322334136486, 'omega_b': 0.02196940628277253, 'n_s': 0.9821178447146978, 'A_planck': 1.024852403857649, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9995625272228239, 'calib_217T': 0.9983356911551449, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 58.53961593990526, 'xi_sz_cib': 0.0662533502430599, 'A_sz': 6.123293972866582, 'ksz_norm': 2.445370275583628, 'gal545_A_100': 8.991752399564321, 'gal545_A_143': 10.469042376875992, 'gal545_A_143_217': 17.366490793561688, 'gal545_A_217': 91.4773663926092, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 273.987014701717, 'ps_A_143_143': 46.080387653545934, 'ps_A_143_217': 38.1145815875394, 'ps_A_217_217': 113.67346068101615, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11857198738940122, 'galf_TE_A_100_143': 0.13944967669842576, 'galf_TE_A_100_217': 0.4778929417803315, 'galf_TE_A_143': 0.23803240545100865, 'galf_TE_A_143_217': 0.6651167065627557, 'galf_TE_A_217': 2.068434588297439, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:07:09,317 [classy] Got parameters {'deu_damping_envelope_beta': 0.03044765636808255, 'deu_transfer_polamp_p_vis': 1.0471322334136486, 'omega_b': 0.02196940628277253, 'n_s': 0.9821178447146978, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:07:09,317 [classy] Computing new state
+ 2026-05-10 19:07:09,317 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.03044765636808255, 'deu_transfer_polamp_p_vis': 1.0471322334136486, 'omega_b': 0.02196940628277253, 'n_s': 0.9821178447146978, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl tCl,pCl,lCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:07:10,496 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.024852403857649, 'calib_100T': 0.9995625272228239, 'calib_217T': 0.9983356911551449, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 58.53961593990526, 'xi_sz_cib': 0.0662533502430599, 'A_sz': 6.123293972866582, 'ksz_norm': 2.445370275583628, 'gal545_A_100': 8.991752399564321, 'gal545_A_143': 10.469042376875992, 'gal545_A_143_217': 17.366490793561688, 'gal545_A_217': 91.4773663926092, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 273.987014701717, 'ps_A_143_143': 46.080387653545934, 'ps_A_143_217': 38.1145815875394, 'ps_A_217_217': 113.67346068101615, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11857198738940122, 'galf_TE_A_100_143': 0.13944967669842576, 'galf_TE_A_100_217': 0.4778929417803315, 'galf_TE_A_143': 0.23803240545100865, 'galf_TE_A_143_217': 0.6651167065627557, 'galf_TE_A_217': 2.068434588297439, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:07:10,496 [planck_2018_highl_plik.ttteee] Computing new state
+ 2026-05-10 19:07:10,505 [planck_2018_highl_plik.ttteee] Computed log-likelihood = -1264.6328085208431
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.024852403857649}
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.tt] Computed log-likelihood = -13.19175511813404
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.024852403857649}
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:07:10,505 [planck_2018_lowl.ee] Computed log-likelihood = -198.91746784624024
+ 2026-05-10 19:07:10,505 [planck_2018_lensing.native] Got parameters {'A_planck': 1.024852403857649}
+ 2026-05-10 19:07:10,505 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:07:10,506 [planck_2018_lensing.native] Computed log-likelihood = -9.374210991476485
+ 2026-05-10 19:07:10,506 [pybobyqa.util] Function eval 193 at point 193 has f = 1482.61413117818 at x = [...]
+ 2026-05-10 19:07:10,511 [pybobyqa.solver] Trust region step is d = [ 0.00774224  0.00349124  0.0052642   0.00753692  0.00452855  0.00976894
+  0.00908197 -0.01160784  0.01136574  0.00078601 -0.01162616  0.00756697
+ -0.0006313  -0.01816624 -0.0141015   0.0213875   0.00126215  0.01401435
+  0.00201552 -0.01409199 -0.00402594  0.01281569  0.00906287 -0.00575348
+ -0.00222382]
+ 2026-05-10 19:07:10,511 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:07:10,536 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.030447923441855186), 'deu_transfer_polamp_p_vis': np.float64(1.0471376905915222), 'omega_b': np.float64(0.02196913216077205), 'n_s': np.float64(0.9821206340440463), 'A_planck': np.float64(1.0248624356532734), 'calib_100T': np.float64(0.9995567732111897), 'calib_217T': np.float64(0.9983385205825923), 'A_cib_217': np.float64(58.53830331878698), 'xi_sz_cib': np.float64(0.06831205660407028), 'A_sz': np.float64(6.13067502435669), 'ksz_norm': np.float64(2.4378225733469145), 'gal545_A_100': np.float64(8.989128516553887), 'gal545_A_143': np.float64(10.464335940670694), 'gal545_A_143_217': np.float64(17.333479100063123), 'gal545_A_217': np.float64(91.4159366201964), 'ps_A_100_100': np.float64(274.59204159101995), 'ps_A_143_143': np.float64(46.09145248821143), 'ps_A_143_217': np.float64(38.1112651441465), 'ps_A_217_217': np.float64(113.65777578724685), 'galf_TE_A_100': np.float64(0.11738110006141934), 'galf_TE_A_100_143': np.float64(0.13915539539513447), 'galf_TE_A_100_217': np.float64(0.4799305537312313), 'galf_TE_A_143': np.float64(0.23961890123467572), 'galf_TE_A_143_217': np.float64(0.6632806434307504), 'galf_TE_A_217': np.float64(2.0658646275437036)}
+ 2026-05-10 19:07:10,536 [prior] Evaluating prior at array([3.04479234e-02, 1.04713769e+00, 2.19691322e-02, 9.82120634e-01,
+       1.02486244e+00, 9.99556773e-01, 9.98338521e-01, 5.85383033e+01,
+       6.83120566e-02, 6.13067502e+00, 2.43782257e+00, 8.98912852e+00,
+       1.04643359e+01, 1.73334791e+01, 9.14159366e+01, 2.74592042e+02,
+       4.60914525e+01, 3.81112651e+01, 1.13657776e+02, 1.17381100e-01,
+       1.39155395e-01, 4.79930554e-01, 2.39618901e-01, 6.63280643e-01,
+       2.06586463e+00])
+ 2026-05-10 19:07:10,536 [prior] Got logpriors (internal) = 5.900120432233032
+ 2026-05-10 19:07:10,536 [prior] Got logpriors (external) = [np.float64(-2.43674381973708)]
+ 2026-05-10 19:07:10,536 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030447923441855186, 'deu_transfer_polamp_p_vis': 1.0471376905915222, 'omega_b': 0.02196913216077205, 'n_s': 0.9821206340440463, 'A_planck': 1.0248624356532734, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9995567732111897, 'calib_217T': 0.9983385205825923, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 58.53830331878698, 'xi_sz_cib': 0.06831205660407028, 'A_sz': 6.13067502435669, 'ksz_norm': 2.4378225733469145, 'gal545_A_100': 8.989128516553887, 'gal545_A_143': 10.464335940670694, 'gal545_A_143_217': 17.333479100063123, 'gal545_A_217': 91.4159366201964, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 274.59204159101995, 'ps_A_143_143': 46.09145248821143, 'ps_A_143_217': 38.1112651441465, 'ps_A_217_217': 113.65777578724685, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11738110006141934, 'galf_TE_A_100_143': 0.13915539539513447, 'galf_TE_A_100_217': 0.4799305537312313, 'galf_TE_A_143': 0.23961890123467572, 'galf_TE_A_143_217': 0.6632806434307504, 'galf_TE_A_217': 2.0658646275437036, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 19:07:10,536 [classy] Got parameters {'deu_damping_envelope_beta': 0.030447923441855186, 'deu_transfer_polamp_p_vis': 1.0471376905915222, 'omega_b': 0.02196913216077205, 'n_s': 0.9821206340440463, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:07:10,536 [classy] Computing new stat",audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_posterior_profile.minimum.txt,1,36,1.0,1482.4812,0.030445988,1.0471359,0.021969001,0.98211875,1.0248534,0.99955189,0.99833398,58.552233,0.067175483,6.1302034,2.4494487,8.9815615,10.464967,17.360728,91.44414,274.22845,46.087666,38.083236,113.65274,0.1187903,0.13955799,0.47864898,0.23871261,0.66385599,2.0663094,2971.916,-3.4767651,-5.9168336,2.4400685,2971.916,2528.9393,26.384703,397.8376,18.754461,,True
+deu,lite,likelihood_profile,0.98,1.03,1.0,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p0_likelihood_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p0_likelihood_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p0_likelihood_profile.stdout.txt," 2026-05-10 18:40:17,166 [planck_2018_lensing.native] Computed log-likelihood = -9.427022488909573
+ 2026-05-10 18:40:17,167 [pybobyqa.util] Function eval 38 at point 38 has f = 603.91652575483 at x = [ 2.          0.461639   -2.12776259 -1.46822626 12.33302949]
+ 2026-05-10 18:40:17,167 [pybobyqa.solver] Ratio = -0.375626
+ 2026-05-10 18:40:17,167 [pybobyqa.solver] Updating with knew = 1
+ 2026-05-10 18:40:17,167 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 18:40:17,167 [pybobyqa.solver] New rho = 0.05 after 38 function evaluations
+ 2026-05-10 18:40:17,167 [pybobyqa.solver] Best so far: f = 603.808096728093 at x = [ 2.          0.56905874 -2.24873731 -1.60893652 12.39648609]
+ 2026-05-10 18:40:17,169 [pybobyqa.solver] Trust region step is d = [ 0.         -0.09959999 -0.04464302 -0.00932678 -0.02235739]
+ 2026-05-10 18:40:17,169 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 18:40:17,170 [model] Got input parameters: {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477347293739265, 'omega_b': 0.02194266549161026, 'n_s': 0.9814704341752003, 'A_planck': 1.024748257394844, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:17,170 [classy] Got parameters {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477347293739265, 'omega_b': 0.02194266549161026, 'n_s': 0.9814704341752003, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:17,170 [classy] Computing new state
+ 2026-05-10 18:40:17,170 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477347293739265, 'omega_b': 0.02194266549161026, 'n_s': 0.9814704341752003, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:40:18,336 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.024748257394844}
+ 2026-05-10 18:40:18,336 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:40:18,339 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.31313964066425
+ 2026-05-10 18:40:18,339 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.024748257394844}
+ 2026-05-10 18:40:18,339 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:40:18,340 [planck_2018_lowl.tt] Computed log-likelihood = -13.284199374023899
+ 2026-05-10 18:40:18,340 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.024748257394844}
+ 2026-05-10 18:40:18,340 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:40:18,340 [planck_2018_lowl.ee] Computed log-likelihood = -198.92153671371824
+ 2026-05-10 18:40:18,340 [planck_2018_lensing.native] Got parameters {'A_planck': 1.024748257394844}
+ 2026-05-10 18:40:18,340 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:40:18,341 [planck_2018_lensing.native] Computed log-likelihood = -9.401055227999985
+ 2026-05-10 18:40:18,341 [pybobyqa.util] Function eval 39 at point 39 has f = 603.919930956406 at x = [ 2.          0.46945875 -2.29338034 -1.6182633  12.3741287 ]
+ 2026-05-10 18:40:18,341 [pybobyqa.solver] Ratio = -1.26646
+ 2026-05-10 18:40:18,341 [pybobyqa.solver] Updating with knew = 7
+ 2026-05-10 18:40:18,341 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 18:40:18,341 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 18:40:18,342 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030499259033228185, 'deu_transfer_polamp_p_vis': 1.0477789704811136, 'omega_b': 0.021944771620243192, 'n_s': 0.9814663838503537, 'A_planck': 1.0247686740444468, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:18,342 [classy] Got parameters {'deu_damping_envelope_beta': 0.030499259033228185, 'deu_transfer_polamp_p_vis': 1.0477789704811136, 'omega_b': 0.021944771620243192, 'n_s': 0.9814663838503537, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:18,342 [classy] Computing new state
+ 2026-05-10 18:40:18,342 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.030499259033228185, 'deu_transfer_polamp_p_vis': 1.0477789704811136, 'omega_b': 0.021944771620243192, 'n_s': 0.9814663838503537, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:40:19,507 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0247686740444468}
+ 2026-05-10 18:40:19,508 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:40:19,516 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.3150575287828
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0247686740444468}
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.tt] Computed log-likelihood = -13.283217632690878
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0247686740444468}
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:40:19,517 [planck_2018_lowl.ee] Computed log-likelihood = -198.92153671371824
+ 2026-05-10 18:40:19,517 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0247686740444468}
+ 2026-05-10 18:40:19,517 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:40:19,518 [planck_2018_lensing.native] Computed log-likelihood = -9.39613602645332
+ 2026-05-10 18:40:19,518 [pybobyqa.util] Function eval 40 at point 40 has f = 603.915947901645 at x = [ 1.99703613  0.55794096 -2.20913519 -1.6344646  12.38433702]
+ 2026-05-10 18:40:19,519 [pybobyqa.solver] Trust region step is d = [ 0.          0.00740343 -0.02093894  0.04164554  0.0165045 ]
+ 2026-05-10 18:40:19,519 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 18:40:19,520 [model] Got input parameters: {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477882310848243, 'omega_b': 0.021943258093593612, 'n_s': 0.9814831772556244, 'A_planck': 1.0248259811699458, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:19,520 [classy] Got parameters {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477882310848243, 'omega_b': 0.021943258093593612, 'n_s': 0.9814831772556244, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:40:19,520 [classy] Computing new state
+ 2026-05-10 18:40:19,520 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.0305, 'deu_transfer_polamp_p_vis': 1.0477882310848243, 'omega_b': 0.021943258093593612, 'n_s': 0.9814831772556244, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl lCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:40:21,487 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0248259811699458}
+ 2026-05-10 18:40:21,487 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:40:21,490 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.340600125504
+ 2026-05-10 18:40:21,490 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0248259811699458}
+ 2026-05-10 18:40:21,490 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:40:21,492 [planck_2018_lowl.tt] Computed log-likelihood = -13.275276535044128
+ 2026-05-10 18:40:21,492 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0248259811699458}
+ 2026-05-10 18:40:21,492 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:40:21,492 [planck_2018_lowl.ee] Computed log-likelihood = -198.92153671371824
+ 2026-05-10 18:40:21,492 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0248259811699458}
+ 2026-05-10 18:40:21,492 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:40:21,493 [planck_2018_lensing.native] Computed log-likelihood = -9.379538358836975
+ 2026-05-10 18:40:21,493 [pybobyqa.util] Function eval 41 at point 41 has f = 603.916951733103 at x = [ 2.          0.57646217 -2.26967626 -1.56729098 12.41299058]
+ 2026-05-10 18:40:21,493 [pybobyqa.solver] Ratio = -1.07607
+ 2026-05-10 18:40:21,493 [pybobyqa.solver] Updating with knew = 5
+ 2026-05-10 18:40:21,493 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 18:40:21,493 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 18:40:21,493 [pybobyqa.solver] Smallest objective value = 603.808096728093 at x = [ 2.          0.56905874 -2.24873731 -1.60893652 12.39648609]
+ 2026-05-10 18:40:21,494 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 18:40:21,494 [minimize] Run 3/3 converged.
+ 2026-05-10 18:40:21,494 [minimize] Fi",audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p0_likelihood_profile.bestfit.txt,1,15,1.0,574.56764,0.0305,1.0477845,0.021943782,0.98147277,1.024793,,,,,,,,,,,,,,,,,,,,,1207.6162,-29.240459,-29.240459,,1207.6162,,26.560659,397.84307,18.781249,764.43121,True
+deu,lite,posterior_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p025_posterior_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p025_posterior_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p025_posterior_profile.stdout.txt," 2026-05-10 18:37:46,289 [prior] Evaluating prior at array([0.03000145, 1.04799577, 0.02200119, 0.98187768, 1.02499756])
+ 2026-05-10 18:37:46,289 [prior] Got logpriors (internal) = 29.24045902836261
+ 2026-05-10 18:37:46,289 [model] Got input parameters: {'deu_damping_envelope_beta': 0.030001452213411776, 'deu_transfer_polamp_p_vis': 1.0479957711698125, 'omega_b': 0.022001193226680316, 'n_s': 0.9818776829537695, 'A_planck': 1.024997559108018, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:46,289 [classy] Got parameters {'deu_damping_envelope_beta': 0.030001452213411776, 'deu_transfer_polamp_p_vis': 1.0479957711698125, 'omega_b': 0.022001193226680316, 'n_s': 0.9818776829537695, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:46,289 [classy] Computing new state
+ 2026-05-10 18:37:46,289 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.030001452213411776, 'deu_transfer_polamp_p_vis': 1.0479957711698125, 'omega_b': 0.022001193226680316, 'n_s': 0.9818776829537695, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl tCl,pCl,lCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:37:47,466 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.024997559108018}
+ 2026-05-10 18:37:47,466 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:37:47,469 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.38930512286754
+ 2026-05-10 18:37:47,469 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.024997559108018}
+ 2026-05-10 18:37:47,469 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:37:47,470 [planck_2018_lowl.tt] Computed log-likelihood = -13.211417594164175
+ 2026-05-10 18:37:47,470 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.024997559108018}
+ 2026-05-10 18:37:47,470 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:37:47,470 [planck_2018_lowl.ee] Computed log-likelihood = -198.92555414807472
+ 2026-05-10 18:37:47,470 [planck_2018_lensing.native] Got parameters {'A_planck': 1.024997559108018}
+ 2026-05-10 18:37:47,470 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:37:47,470 [planck_2018_lensing.native] Computed log-likelihood = -9.411030261436407
+ 2026-05-10 18:37:47,471 [pybobyqa.util] Function eval 21 at point 21 has f = 574.69684809818 at x = [ 0.00580885  0.99154234  0.04772907  0.01073182 -0.00122045]
+ 2026-05-10 18:37:47,471 [pybobyqa.solver] Ratio = -0.320352
+ 2026-05-10 18:37:47,471 [pybobyqa.solver] Updating with knew = 0
+ 2026-05-10 18:37:47,471 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 18:37:47,471 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 18:37:47,472 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029999866373044123), 'deu_transfer_polamp_p_vis': np.float64(1.048013514110672), 'omega_b': np.float64(0.022000049199725327), 'n_s': np.float64(0.9818731674473158), 'A_planck': np.float64(1.0250827426028641)}
+ 2026-05-10 18:37:47,472 [prior] Evaluating prior at array([0.02999987, 1.04801351, 0.02200005, 0.98187317, 1.02508274])
+ 2026-05-10 18:37:47,472 [prior] Got logpriors (internal) = 29.24045902836261
+ 2026-05-10 18:37:47,472 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029999866373044123, 'deu_transfer_polamp_p_vis': 1.048013514110672, 'omega_b': 0.022000049199725327, 'n_s': 0.9818731674473158, 'A_planck': 1.0250827426028641, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:47,472 [classy] Got parameters {'deu_damping_envelope_beta': 0.029999866373044123, 'deu_transfer_polamp_p_vis': 1.048013514110672, 'omega_b': 0.022000049199725327, 'n_s': 0.9818731674473158, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:47,472 [classy] Computing new state
+ 2026-05-10 18:37:47,472 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029999866373044123, 'deu_transfer_polamp_p_vis': 1.048013514110672, 'omega_b': 0.022000049199725327, 'n_s': 0.9818731674473158, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl tCl,pCl,lCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:37:48,641 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0250827426028641}
+ 2026-05-10 18:37:48,641 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:37:48,646 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.4302458376303
+ 2026-05-10 18:37:48,646 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0250827426028641}
+ 2026-05-10 18:37:48,646 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:37:48,647 [planck_2018_lowl.tt] Computed log-likelihood = -13.204354182216775
+ 2026-05-10 18:37:48,647 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0250827426028641}
+ 2026-05-10 18:37:48,647 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:37:48,647 [planck_2018_lowl.ee] Computed log-likelihood = -198.9254294796825
+ 2026-05-10 18:37:48,647 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0250827426028641}
+ 2026-05-10 18:37:48,647 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:37:48,647 [planck_2018_lensing.native] Computed log-likelihood = -9.38515545984338
+ 2026-05-10 18:37:48,648 [pybobyqa.util] Function eval 22 at point 22 has f = 574.70472593101 at x = [-5.34507824e-04  1.02702822e+00  1.96798901e-03 -7.33021074e-03
+  4.13713014e-02]
+ 2026-05-10 18:37:48,648 [pybobyqa.solver] Trust region step is d = [-0.00148837 -0.01107165 -0.02035572 -0.0441845   0.0029288 ]
+ 2026-05-10 18:37:48,648 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 18:37:48,650 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029999627908582335), 'deu_transfer_polamp_p_vis': np.float64(1.0479944641736492), 'omega_b': np.float64(0.021999491106962154), 'n_s': np.float64(0.9818639538750791), 'A_planck': np.float64(1.0250058575979502)}
+ 2026-05-10 18:37:48,650 [prior] Evaluating prior at array([0.02999963, 1.04799446, 0.02199949, 0.98186395, 1.02500586])
+ 2026-05-10 18:37:48,650 [prior] Got logpriors (internal) = 29.24045902836261
+ 2026-05-10 18:37:48,650 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029999627908582335, 'deu_transfer_polamp_p_vis': 1.0479944641736492, 'omega_b': 0.021999491106962154, 'n_s': 0.9818639538750791, 'A_planck': 1.0250058575979502, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:48,650 [classy] Got parameters {'deu_damping_envelope_beta': 0.029999627908582335, 'deu_transfer_polamp_p_vis': 1.0479944641736492, 'omega_b': 0.021999491106962154, 'n_s': 0.9818639538750791, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 18:37:48,650 [classy] Computing new state
+ 2026-05-10 18:37:48,650 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029999627908582335, 'deu_transfer_polamp_p_vis': 1.0479944641736492, 'omega_b': 0.021999491106962154, 'n_s': 0.9818639538750791, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'pCl tCl tCl,pCl,lCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 18:37:49,830 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0250058575979502}
+ 2026-05-10 18:37:49,830 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 18:37:49,838 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.370253932309
+ 2026-05-10 18:37:49,838 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0250058575979502}
+ 2026-05-10 18:37:49,838 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 18:37:49,838 [planck_2018_lowl.tt] Computed log-likelihood = -13.212641198406004
+ 2026-05-10 18:37:49,838 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0250058575979502}
+ 2026-05-10 18:37:49,838 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 18:37:49,839 [planck_2018_lowl.ee] Computed log-likelihood = -198.92555414807472
+ 2026-05-10 18:37:49,839 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0250058575979502}
+ 2026-05-10 18:37:49,839 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 18:37:49,839 [planck_2018_lensing.native] Computed log-likelihood = -9.410052038365093
+ 2026-05-10 18:37:49,839 [pybobyqa.util] Function eval 23 at point 23 has f = 574.678042288792 at x = [-0.00148837  0.98892835 -0.02035572 -0.0441845   0.0029288 ]
+ 2026-05-10 18:37:49,839 [pybobyqa.solver] Ratio = -0.710536
+ 2026-05-10 18:37:49,839 [pybobyqa.solver] Updating with knew = 8
+ 2026-05-10 18:37:49,839 [pybobyqa.solver] Checking and possibly improving geometry (unsuc",audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p025_posterior_profile.minimum.txt,1,15,1.0,574.58047,0.03,1.048,0.022,0.981875,1.025,,,,,,,,,,,,,,,,,,,,,1207.6419,-29.240459,-29.240459,,1207.6419,,26.425127,397.85111,18.828606,764.53701,True
+native,full,likelihood_profile,0.98,1.03,1.0,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p0_likelihood_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p0_likelihood_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p0_likelihood_profile.stdout.txt," 2026-05-10 20:25:14,782 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.002607547365622, 'calib_100T': 0.9984041994575865, 'calib_217T': 1.0007247968407726, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 48.89505767308049, 'xi_sz_cib': 0.47361316181247287, 'A_sz': 4.596208206615175, 'ksz_norm': 0.0, 'gal545_A_100': 7.247919780224822, 'gal545_A_143': 4.925155790692269, 'gal545_A_143_217': 15.112616653545379, 'gal545_A_217': 94.09859114171995, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 223.91282701316615, 'ps_A_143_143': 46.60167545128241, 'ps_A_143_217': 41.15253139457641, 'ps_A_217_217': 112.23330531988597, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09992330306614432, 'galf_TE_A_100_143': 0.19205644691797522, 'galf_TE_A_100_217': 0.5423442455246898, 'galf_TE_A_143': 0.323857964324484, 'galf_TE_A_143_217': 0.6216327087167514, 'galf_TE_A_217': 1.9896194366283861, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:25:14,782 [planck_2018_highl_plik.ttteee] Computing new state
+ 2026-05-10 20:25:14,790 [planck_2018_highl_plik.ttteee] Computed log-likelihood = -1191.5696633624607
+ 2026-05-10 20:25:14,790 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.002607547365622}
+ 2026-05-10 20:25:14,790 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 20:25:14,791 [planck_2018_lowl.tt] Computed log-likelihood = -10.317305896042768
+ 2026-05-10 20:25:14,791 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.002607547365622}
+ 2026-05-10 20:25:14,791 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 20:25:14,791 [planck_2018_lowl.ee] Computed log-likelihood = -198.015018399589
+ 2026-05-10 20:25:14,791 [planck_2018_lensing.native] Got parameters {'A_planck': 1.002607547365622}
+ 2026-05-10 20:25:14,791 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 20:25:14,791 [planck_2018_lensing.native] Computed log-likelihood = -5.104318675051876
+ 2026-05-10 20:25:14,792 [pybobyqa.util] Function eval 197 at point 197 has f = 1405.00630633314 at x = [...]
+ 2026-05-10 20:25:14,792 [pybobyqa.solver] Ratio = -0.0864447
+ 2026-05-10 20:25:14,792 [pybobyqa.solver] Updating with knew = 7
+ 2026-05-10 20:25:14,792 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 20:25:14,792 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 20:25:14,796 [model] Got input parameters: {'omega_b': 0.02205787159169579, 'n_s': 0.9805030437465423, 'A_planck': 1.0026683131607699, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9984098320015974, 'calib_217T': 1.0007185231414049, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 48.867807226113676, 'xi_sz_cib': 0.47417729203961456, 'A_sz': 4.600613742199589, 'ksz_norm': 0.0, 'gal545_A_100': 7.272948256909878, 'gal545_A_143': 4.935784779823221, 'gal545_A_143_217': 15.091958177564997, 'gal545_A_217': 94.12487322642085, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 224.45654560986767, 'ps_A_143_143': 46.66239519736666, 'ps_A_143_217': 41.134155745796185, 'ps_A_217_217': 112.23378870644832, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09940716487022416, 'galf_TE_A_100_143': 0.19016735148050123, 'galf_TE_A_100_217': 0.5422354398468713, 'galf_TE_A_143': 0.3239828876454435, 'galf_TE_A_143_217': 0.6178467748239853, 'galf_TE_A_217': 1.9879048565861674, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:25:14,797 [classy] Got parameters {'omega_b': 0.02205787159169579, 'n_s': 0.9805030437465423, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 20:25:14,797 [classy] Computing new state
+ 2026-05-10 20:25:14,797 [classy] Setting parameters: {'omega_b': 0.02205787159169579, 'n_s': 0.9805030437465423, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 20:25:15,933 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.0026683131607699, 'calib_100T': 0.9984098320015974, 'calib_217T': 1.0007185231414049, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 48.867807226113676, 'xi_sz_cib': 0.47417729203961456, 'A_sz': 4.600613742199589, 'ksz_norm': 0.0, 'gal545_A_100': 7.272948256909878, 'gal545_A_143': 4.935784779823221, 'gal545_A_143_217': 15.091958177564997, 'gal545_A_217': 94.12487322642085, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 224.45654560986767, 'ps_A_143_143': 46.66239519736666, 'ps_A_143_217': 41.134155745796185, 'ps_A_217_217': 112.23378870644832, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09940716487022416, 'galf_TE_A_100_143': 0.19016735148050123, 'galf_TE_A_100_217': 0.5422354398468713, 'galf_TE_A_143': 0.3239828876454435, 'galf_TE_A_143_217': 0.6178467748239853, 'galf_TE_A_217': 1.9879048565861674, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:25:15,933 [planck_2018_highl_plik.ttteee] Computing new state
+ 2026-05-10 20:25:15,943 [planck_2018_highl_plik.ttteee] Computed log-likelihood = -1191.5909337638623
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0026683131607699}
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.tt] Computed log-likelihood = -10.314916943070841
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0026683131607699}
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 20:25:15,944 [planck_2018_lowl.ee] Computed log-likelihood = -198.015018399589
+ 2026-05-10 20:25:15,944 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0026683131607699}
+ 2026-05-10 20:25:15,944 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 20:25:15,945 [planck_2018_lensing.native] Computed log-likelihood = -5.1003886340732905
+ 2026-05-10 20:25:15,945 [pybobyqa.util] Function eval 198 at point 198 has f = 1405.0212577406 at x = [...]
+ 2026-05-10 20:25:15,949 [pybobyqa.solver] Trust region step is d = [-0.01536464  0.         -0.00208765  0.00614377  0.01166465 -0.01909816
+  0.01202754  0.00350795  0.          0.01671699 -0.01527752 -0.00850108
+ -0.00246796  0.00505525  0.0030181   0.00043387  0.01120572  0.00177253
+  0.01066315  0.0181758   0.0041749  -0.00857307 -0.01656142]
+ 2026-05-10 20:25:15,950 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 20:25:15,969 [model] Got input parameters: {'omega_b': 0.022057728778720625, 'n_s': 0.9805, 'A_planck': 1.002613770746978, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9984130513424212, 'calib_217T': 1.0007291765071442, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 48.85389429868195, 'xi_sz_cib': 0.4746822559539867, 'A_sz': 4.602606764160639, 'ksz_norm': 0.0, 'gal545_A_100': 7.271100627363706, 'gal545_A_143': 4.90636178099154, 'gal545_A_143_217': 15.084482761550928, 'gal545_A_217': 94.11062926700347, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 224.51712580259078, 'ps_A_143_143': 46.64233117156242, 'ps_A_143_217': 41.15238118042652, 'ps_A_217_217': 112.28334679133408, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.09874690201406795, 'galf_TE_A_100_143': 0.19247268010730695, 'galf_TE_A_100_217': 0.5444107807326548, 'galf_TE_A_143': 0.32458022916896123, 'galf_TE_A_143_217': 0.6187514702346681, 'galf_TE_A_217': 1.9860258046885728, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:25:15,969 [classy] Got parameters {'omega_b': 0.022057728778720625, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 20:25:15,969 [classy] Computing new state
+ 2026-05-10 20:25:15,969 [classy] Setting parameters: {'omega_b': 0.022057728778720625, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 20:25:17,087 [planck_2018_highl_plik.ttteee] ",audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p0_likelihood_profile.bestfit.txt,1,34,1.0,1453.3242,,,0.02205385,0.9805,1.0038219,0.99668158,0.99930894,54.613496,0.0,9.1510579,0.0,6.3704745,11.355336,18.234714,91.896621,173.99203,22.740463,26.679532,102.49984,-0.060311036,0.12091113,0.77549933,0.34420168,1.0058207,2.7983795,2808.4619,49.093203,45.60693,3.4862732,2808.4619,2381.8756,20.546395,395.98631,10.053596,,True
+native,full,posterior_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p025_posterior_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p025_posterior_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p025_posterior_profile.stdout.txt,"       9.98178615e-01, 4.49277067e+01, 5.42123614e-01, 7.27231866e+00,
+       1.42813056e-03, 9.13938090e+00, 1.01675030e+01, 1.83567631e+01,
+       9.42422890e+01, 2.25162930e+02, 3.77980794e+01, 4.43841228e+01,
+       1.18697000e+02, 1.14758024e-01, 1.34986402e-01, 4.70589599e-01,
+       2.21780566e-01, 6.62374466e-01, 2.08226681e+00])
+ 2026-05-10 20:12:01,415 [prior] Got logpriors (internal) = -5.375110020556329
+ 2026-05-10 20:12:01,415 [prior] Got logpriors (external) = [np.float64(-2.2712929750276576)]
+ 2026-05-10 20:12:01,415 [model] Got input parameters: {'omega_b': 0.022012343880603195, 'n_s': 0.9805, 'A_planck': 1.0030494937895718, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9995826331988154, 'calib_217T': 0.998178614572868, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 44.92770668268296, 'xi_sz_cib': 0.5421236142169329, 'A_sz': 7.272318657541645, 'ksz_norm': 0.001428130560546581, 'gal545_A_100': 9.139380898870362, 'gal545_A_143': 10.167502951893137, 'gal545_A_143_217': 18.35676309025177, 'gal545_A_217': 94.24228897510345, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 225.16292952658497, 'ps_A_143_143': 37.79807936366089, 'ps_A_143_217': 44.38412282861695, 'ps_A_217_217': 118.69699994159184, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11475802439307045, 'galf_TE_A_100_143': 0.1349864020828686, 'galf_TE_A_100_217': 0.4705895988260713, 'galf_TE_A_143': 0.22178056636094168, 'galf_TE_A_143_217': 0.6623744663651058, 'galf_TE_A_217': 2.0822668124491246, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:12:01,415 [classy] Got parameters {'omega_b': 0.022012343880603195, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 20:12:01,415 [classy] Computing new state
+ 2026-05-10 20:12:01,415 [classy] Setting parameters: {'omega_b': 0.022012343880603195, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl pCl tCl', 'non_linear': 'hmcode'}
+ 2026-05-10 20:12:02,503 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.0030494937895718, 'calib_100T': 0.9995826331988154, 'calib_217T': 0.998178614572868, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 44.92770668268296, 'xi_sz_cib': 0.5421236142169329, 'A_sz': 7.272318657541645, 'ksz_norm': 0.001428130560546581, 'gal545_A_100': 9.139380898870362, 'gal545_A_143': 10.167502951893137, 'gal545_A_143_217': 18.35676309025177, 'gal545_A_217': 94.24228897510345, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 225.16292952658497, 'ps_A_143_143': 37.79807936366089, 'ps_A_143_217': 44.38412282861695, 'ps_A_217_217': 118.69699994159184, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11475802439307045, 'galf_TE_A_100_143': 0.1349864020828686, 'galf_TE_A_100_217': 0.4705895988260713, 'galf_TE_A_143': 0.22178056636094168, 'galf_TE_A_143_217': 0.6623744663651058, 'galf_TE_A_217': 2.0822668124491246, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:12:02,503 [planck_2018_highl_plik.ttteee] Computing new state
+ 2026-05-10 20:12:02,516 [planck_2018_highl_plik.ttteee] Computed log-likelihood = -1192.073728563
+ 2026-05-10 20:12:02,516 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0030494937895718}
+ 2026-05-10 20:12:02,516 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 20:12:02,517 [planck_2018_lowl.tt] Computed log-likelihood = -10.297860393685454
+ 2026-05-10 20:12:02,517 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0030494937895718}
+ 2026-05-10 20:12:02,517 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 20:12:02,517 [planck_2018_lowl.ee] Computed log-likelihood = -198.02871172854194
+ 2026-05-10 20:12:02,517 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0030494937895718}
+ 2026-05-10 20:12:02,517 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 20:12:02,517 [planck_2018_lensing.native] Computed log-likelihood = -5.086609290187908
+ 2026-05-10 20:12:02,517 [pybobyqa.util] Function eval 351 at point 351 has f = 1413.133312971 at x = [...]
+ 2026-05-10 20:12:02,522 [pybobyqa.solver] Trust region step is d = [-0.021412    0.          0.00296308  0.00105384 -0.0015399   0.01380031
+ -0.0070536  -0.0171018   0.          0.00526288  0.00284863 -0.01494623
+ -0.01981904  0.00977709 -0.00083154  0.00964351 -0.01133556 -0.0107446
+  0.00192672 -0.01364381  0.01199479 -0.00386023  0.00792025]
+ 2026-05-10 20:12:02,522 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 20:12:02,540 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.022011242207075656), 'n_s': np.float64(0.9805), 'A_planck': np.float64(1.0030635958487277), 'calib_100T': np.float64(0.9995850051374436), 'calib_217T': np.float64(0.9981737515900769), 'A_cib_217': np.float64(44.96189360080501), 'xi_sz_cib': np.float64(0.5411946292759183), 'A_sz': np.float64(7.2570228244786374), 'ksz_norm': np.float64(0.0), 'gal545_A_100': np.float64(9.150006697979958), 'gal545_A_143': np.float64(10.153996131160755), 'gal545_A_143_217': np.float64(18.322325056983864), 'gal545_A_217': np.float64(94.1753826478203), 'ps_A_100_100': np.float64(225.53689159098099), 'ps_A_143_143': np.float64(37.79544816913949), 'ps_A_143_217': np.float64(44.41457449457246), 'ps_A_217_217': np.float64(118.63508097771448), 'galf_TE_A_100': np.float64(0.11286772440400361), 'galf_TE_A_100_143': np.float64(0.1346260988312363), 'galf_TE_A_100_217': np.float64(0.46860566422598404), 'galf_TE_A_143': np.float64(0.2238872755221912), 'galf_TE_A_143_217': np.float64(0.6627842614083836), 'galf_TE_A_217': np.float64(2.0878894745316123)}
+ 2026-05-10 20:12:02,540 [prior] Evaluating prior at array([2.20112422e-02, 9.80500000e-01, 1.00306360e+00, 9.99585005e-01,
+       9.98173752e-01, 4.49618936e+01, 5.41194629e-01, 7.25702282e+00,
+       0.00000000e+00, 9.15000670e+00, 1.01539961e+01, 1.83223251e+01,
+       9.41753826e+01, 2.25536892e+02, 3.77954482e+01, 4.44145745e+01,
+       1.18635081e+02, 1.12867724e-01, 1.34626099e-01, 4.68605664e-01,
+       2.23887276e-01, 6.62784261e-01, 2.08788947e+00])
+ 2026-05-10 20:12:02,541 [prior] Got logpriors (internal) = -5.397221194163869
+ 2026-05-10 20:12:02,541 [prior] Got logpriors (external) = [np.float64(-2.26517969075386)]
+ 2026-05-10 20:12:02,541 [model] Got input parameters: {'omega_b': 0.022011242207075656, 'n_s': 0.9805, 'A_planck': 1.0030635958487277, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'calib_100T': 0.9995850051374436, 'calib_217T': 0.9981737515900769, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 44.96189360080501, 'xi_sz_cib': 0.5411946292759183, 'A_sz': 7.2570228244786374, 'ksz_norm': 0.0, 'gal545_A_100': 9.150006697979958, 'gal545_A_143': 10.153996131160755, 'gal545_A_143_217': 18.322325056983864, 'gal545_A_217': 94.1753826478203, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT': 1.0, 'ps_A_100_100': 225.53689159098099, 'ps_A_143_143': 37.79544816913949, 'ps_A_143_217': 44.41457449457246, 'ps_A_217_217': 118.63508097771448, 'galf_TE_index': -2.4, 'galf_TE_A_100': 0.11286772440400361, 'galf_TE_A_100_143': 0.1346260988312363, 'galf_TE_A_100_217': 0.46860566422598404, 'galf_TE_A_143': 0.2238872755221912, 'galf_TE_A_143_217': 0.6627842614083836, 'galf_TE_A_217': 2.0878894745316123, 'galf_EE_index': -2.4, 'galf_EE_A_100': 0.055, 'galf_EE_A_100_143': 0.04, 'galf_EE_A_100_217': 0.094, 'galf_EE_A_143': 0.086, 'galf_EE_A_143_217': 0.21, 'galf_EE_A_217': 0.7, 'A_cnoise_e2e_100_100_EE': 1.0, 'A_cnoise_e2e_143_143_EE': 1.0, 'A_cnoise_e2e_217_217_EE': 1.0, 'A_sbpx_100_100_EE': 1.0, 'A_sbpx_100_143_EE': 1.0, 'A_sbpx_100_217_EE': 1.0, 'A_sbpx_143_143_EE': 1.0, 'A_sbpx_143_217_EE': 1.0, 'A_sbpx_217_217_EE': 1.0}
+ 2026-05-10 20:12:02,541 [classy] Got parameters {'omega_b': 0.022011242207075656, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 20:12:02,541 [classy] Computing new state
+ 2026-05-10 20:12:02,541 [classy] Setting parameters: {'omega_b': 0.022011242207075656, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl,pCl,lCl lCl pCl tCl', 'non_linear': 'hmcode'}
+ 2026-05-10 20:12:03,630 [planck_2018_highl_plik.ttteee] Got parameters {'A_planck': 1.0030635958487277, 'calib_100T': 0.9995850051374436, 'calib_217T': 0.9981737515900769, 'A_pol': 1.0, 'calib_100P': 1.021, 'calib_143P': 0.966, 'calib_217P': 1.04, 'cib_index': -1.3, 'A_cib_217': 44.96189360080501, 'xi_sz_cib': 0.5411946292759183, 'A_sz': 7.2570228244786374, 'ksz_norm': 0.0, 'gal545_A_100': 9.150006697979958, 'gal545_A_143': 10.153996131160755, 'gal545_A_143_217': 18.322325056983864, 'gal545_A_217': 94.1753826478203, 'A_sbpx_100_100_TT': 1.0, 'A_sbpx_143_143_TT': 1.0, 'A_sbpx_143_217_TT': 1.0, 'A_sbpx_217_217_TT",audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p025_posterior_profile.minimum.txt,1,34,1.0,1413.0459,,,0.022011778,0.9805,1.0030577,0.99958448,0.99817452,44.945333,0.54189999,7.2672839,0.0,9.1447438,10.151148,18.344744,94.215021,225.37068,37.797943,44.395287,118.66342,0.11394218,0.13443343,0.46997005,0.2226878,0.66317028,2.0863054,2810.7912,7.6502943,5.3812483,2.269046,2810.7912,2383.9782,20.597333,396.04085,10.174866,,True
+native,lite,likelihood_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_likelihood_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_likelihood_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_likelihood_profile.stdout.txt," 2026-05-10 19:39:29,282 [pybobyqa.util] Function eval 24 at point 24 has f = 525.611446401016 at x = [  2.36675444  -5.29996391 -11.08289282]
+ 2026-05-10 19:39:29,283 [pybobyqa.solver] Trust region step is d = [ 0.0908709   0.         -0.01115244]
+ 2026-05-10 19:39:29,283 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 19:39:29,283 [pybobyqa.controller] Running geometry-fixing step
+ 2026-05-10 19:39:29,283 [model] Got input parameters: {'omega_b': 0.022055255239116157, 'n_s': 0.9805, 'A_planck': 1.0037407539531802, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:29,283 [classy] Got parameters {'omega_b': 0.022055255239116157, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:29,283 [classy] Computing new state
+ 2026-05-10 19:39:29,283 [classy] Setting parameters: {'omega_b': 0.022055255239116157, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl lCl pCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:39:30,410 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:39:30,410 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:39:30,410 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.55531302113735
+ 2026-05-10 19:39:30,410 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:39:30,410 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:39:30,411 [planck_2018_lowl.tt] Computed log-likelihood = -10.276062596625309
+ 2026-05-10 19:39:30,411 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:39:30,411 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:39:30,411 [planck_2018_lowl.ee] Computed log-likelihood = -197.99315438267445
+ 2026-05-10 19:39:30,411 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:39:30,411 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:39:30,411 [planck_2018_lensing.native] Computed log-likelihood = -5.029353370069319
+ 2026-05-10 19:39:30,412 [pybobyqa.util] Function eval 25 at point 25 has f = 525.853883370506 at x = [  2.21020956  -5.5        -10.62962302]
+ 2026-05-10 19:39:30,412 [pybobyqa.solver] Trust region step is d = [ 0.08435095  0.         -0.01770043]
+ 2026-05-10 19:39:30,412 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 19:39:30,412 [pybobyqa.solver] New rho = 0.05 after 25 function evaluations
+ 2026-05-10 19:39:30,412 [pybobyqa.solver] Best so far: f = 525.459263133583 at x = [  2.12971434  -5.5        -10.95523095]
+ 2026-05-10 19:39:30,413 [pybobyqa.solver] Trust region step is d = [ 0.08435095  0.         -0.01770043]
+ 2026-05-10 19:39:30,413 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:39:30,413 [model] Got input parameters: {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'A_planck': 1.0030541372446136, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:30,413 [classy] Got parameters {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:30,413 [classy] Computing new state
+ 2026-05-10 19:39:30,414 [classy] Setting parameters: {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl lCl pCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:39:31,512 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:39:31,512 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:39:31,513 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.10470737521536
+ 2026-05-10 19:39:31,513 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:39:31,513 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:39:31,514 [planck_2018_lowl.tt] Computed log-likelihood = -10.300744117292453
+ 2026-05-10 19:39:31,514 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:39:31,514 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:39:31,514 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:39:31,514 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:39:31,514 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:39:31,515 [planck_2018_lensing.native] Computed log-likelihood = -5.071505858252866
+ 2026-05-10 19:39:31,515 [pybobyqa.util] Function eval 26 at point 26 has f = 525.471097628278 at x = [  2.21406529  -5.5        -10.97293138]
+ 2026-05-10 19:39:31,515 [pybobyqa.solver] Ratio = -5.42791
+ 2026-05-10 19:39:31,515 [pybobyqa.solver] Updating with knew = 2
+ 2026-05-10 19:39:31,515 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 19:39:31,515 [pybobyqa.solver] Trust region step is d = [-0.03431635  0.          0.00064113]
+ 2026-05-10 19:39:31,515 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:39:31,516 [model] Got input parameters: {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'A_planck': 1.0030908203598847, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:31,516 [classy] Got parameters {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:31,516 [classy] Computing new state
+ 2026-05-10 19:39:31,516 [classy] Setting parameters: {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl lCl pCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:39:32,616 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:39:32,616 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:39:32,619 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.1719845784719
+ 2026-05-10 19:39:32,619 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:39:32,619 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:39:32,624 [planck_2018_lowl.tt] Computed log-likelihood = -10.298296977055486
+ 2026-05-10 19:39:32,624 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:39:32,624 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:39:32,625 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:39:32,625 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:39:32,625 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:39:32,625 [planck_2018_lensing.native] Computed log-likelihood = -5.068804911703234
+ 2026-05-10 19:39:32,625 [pybobyqa.util] Function eval 27 at point 27 has f = 525.533226744748 at x = [  2.09539799  -5.5        -10.95458982]
+ 2026-05-10 19:39:32,625 [pybobyqa.solver] Ratio = -75.1279
+ 2026-05-10 19:39:32,625 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 19:39:32,625 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 19:39:32,626 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 19:39:32,626 [pybobyqa.solver] Smallest objective value = 525.459263133583 at x = [  2.12971434  -5.5        -10.95523095]
+ 2026-05-10 19:39:32,626 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 19:39:32,626 [minimize] Run 3/3 converged.
+ 2026-05-10 19:39:32,626 [minimize] Finished successfully!
+ 2026-05-10 19:39:32,626 [minimize] -log(likelihood) minimized to 525.459
+ 2026-05-10 19:39:32,626 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.022053242858487934), 'n_s': np.float64(0.9805), 'A_planck': np.float64(1.003089538109603)}
+ 2026-05-10 19:39:32,626 [prior] Evaluating prior at array([0.02205324, 0.9805    , 1.00308954])
+ 2026-05-10 19:39:32,626 [prior] Got logpriors (internal) = 17.727533563392406
+ 2026-05-10 19:39:32,626 [model] Got input parameters: {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'A_planck': 1.003089538109603, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:32,626 [classy] Got parameters {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:39:32,626 [classy] Computing new state
+ 2026-05-10 19:39:32,626 [classy] Setting parameters: {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl lCl pCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:39:33,728 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:39:33,728 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:39:33,731 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.0955442726498
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.tt] Computed log-likelihood = -10.299487704454606
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:39:33,731 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:39:33,731 [planck_2018_lensing.native] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:39:33,731 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:39:33,732 [planck_2018_len",audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_likelihood_profile.bestfit.txt,1,13,1.0,507.73173,,,0.022053243,0.9805,1.0030895,,,,,,,,,,,,,,,,,,,,,1050.9185,-17.727534,-17.727534,,1050.9185,,20.598975,395.98828,10.140182,624.19109,True
+native,lite,posterior_profile,0.98,1.03,1.025,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_posterior_profile.yaml,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_posterior_profile,0,audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_posterior_profile.stdout.txt," 2026-05-10 19:36:59,593 [classy] Computing new state
+ 2026-05-10 19:36:59,593 [classy] Setting parameters: {'omega_b': 0.022055255239116157, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'lCl pCl tCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:37:00,691 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:37:00,691 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:37:00,695 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.55531302113735
+ 2026-05-10 19:37:00,695 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:37:00,695 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:37:00,696 [planck_2018_lowl.tt] Computed log-likelihood = -10.276062596625309
+ 2026-05-10 19:37:00,696 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:37:00,696 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:37:00,696 [planck_2018_lowl.ee] Computed log-likelihood = -197.99315438267445
+ 2026-05-10 19:37:00,696 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0037407539531802}
+ 2026-05-10 19:37:00,696 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:37:00,696 [planck_2018_lensing.native] Computed log-likelihood = -5.029353370069319
+ 2026-05-10 19:37:00,697 [pybobyqa.util] Function eval 25 at point 25 has f = 508.126349807114 at x = [  2.21020956  -5.5        -10.62962302]
+ 2026-05-10 19:37:00,697 [pybobyqa.solver] Trust region step is d = [ 0.08435095  0.         -0.01770043]
+ 2026-05-10 19:37:00,697 [pybobyqa.solver] Safety step (main phase)
+ 2026-05-10 19:37:00,697 [pybobyqa.solver] New rho = 0.05 after 25 function evaluations
+ 2026-05-10 19:37:00,697 [pybobyqa.solver] Best so far: f = 507.731729570191 at x = [  2.12971434  -5.5        -10.95523095]
+ 2026-05-10 19:37:00,698 [pybobyqa.solver] Trust region step is d = [ 0.08435095  0.         -0.01770043]
+ 2026-05-10 19:37:00,698 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:37:00,698 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.02205535163230643), 'n_s': np.float64(0.9805), 'A_planck': np.float64(1.0030541372446136)}
+ 2026-05-10 19:37:00,698 [prior] Evaluating prior at array([0.02205535, 0.9805    , 1.00305414])
+ 2026-05-10 19:37:00,698 [prior] Got logpriors (internal) = 17.727533563392406
+ 2026-05-10 19:37:00,699 [model] Got input parameters: {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'A_planck': 1.0030541372446136, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:00,699 [classy] Got parameters {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:00,699 [classy] Computing new state
+ 2026-05-10 19:37:00,699 [classy] Setting parameters: {'omega_b': 0.02205535163230643, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'lCl pCl tCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:37:01,817 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:37:01,817 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:37:01,820 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.10470737521536
+ 2026-05-10 19:37:01,820 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:37:01,820 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:37:01,821 [planck_2018_lowl.tt] Computed log-likelihood = -10.300744117292453
+ 2026-05-10 19:37:01,821 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:37:01,821 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:37:01,822 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:37:01,822 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0030541372446136}
+ 2026-05-10 19:37:01,822 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:37:01,822 [planck_2018_lensing.native] Computed log-likelihood = -5.071505858252866
+ 2026-05-10 19:37:01,823 [pybobyqa.util] Function eval 26 at point 26 has f = 507.743564064886 at x = [  2.21406529  -5.5        -10.97293138]
+ 2026-05-10 19:37:01,823 [pybobyqa.solver] Ratio = -5.42791
+ 2026-05-10 19:37:01,823 [pybobyqa.solver] Updating with knew = 2
+ 2026-05-10 19:37:01,823 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 19:37:01,824 [pybobyqa.solver] Trust region step is d = [-0.03431635  0.          0.00064113]
+ 2026-05-10 19:37:01,824 [pybobyqa.solver] Standard trust region step
+ 2026-05-10 19:37:01,825 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.02205238494967034), 'n_s': np.float64(0.9805), 'A_planck': np.float64(1.0030908203598847)}
+ 2026-05-10 19:37:01,825 [prior] Evaluating prior at array([0.02205238, 0.9805    , 1.00309082])
+ 2026-05-10 19:37:01,825 [prior] Got logpriors (internal) = 17.727533563392406
+ 2026-05-10 19:37:01,825 [model] Got input parameters: {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'A_planck': 1.0030908203598847, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:01,825 [classy] Got parameters {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:01,825 [classy] Computing new state
+ 2026-05-10 19:37:01,825 [classy] Setting parameters: {'omega_b': 0.02205238494967034, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'lCl pCl tCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:37:02,960 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:37:02,960 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:37:02,963 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.1719845784719
+ 2026-05-10 19:37:02,963 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:37:02,963 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:37:02,964 [planck_2018_lowl.tt] Computed log-likelihood = -10.298296977055486
+ 2026-05-10 19:37:02,964 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:37:02,964 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:37:02,965 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:37:02,965 [planck_2018_lensing.native] Got parameters {'A_planck': 1.0030908203598847}
+ 2026-05-10 19:37:02,965 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:37:02,965 [planck_2018_lensing.native] Computed log-likelihood = -5.068804911703234
+ 2026-05-10 19:37:02,966 [pybobyqa.util] Function eval 27 at point 27 has f = 507.805693181356 at x = [  2.09539799  -5.5        -10.95458982]
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] Ratio = -75.1279
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] Updating with knew = 4
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] Checking and possibly improving geometry (unsuccessful step)
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] At return from solver, number of function evals = 1
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] Smallest objective value = 507.731729570191 at x = [  2.12971434  -5.5        -10.95523095]
+ 2026-05-10 19:37:02,966 [pybobyqa.solver] Did a total of 1 run(s)
+ 2026-05-10 19:37:02,966 [minimize] Run 3/3 converged.
+ 2026-05-10 19:37:02,966 [minimize] Finished successfully!
+ 2026-05-10 19:37:02,966 [minimize] -log(posterior) minimized to 507.732
+ 2026-05-10 19:37:02,966 [model] Posterior to be computed for parameters {'omega_b': np.float64(0.022053242858487934), 'n_s': np.float64(0.9805), 'A_planck': np.float64(1.003089538109603)}
+ 2026-05-10 19:37:02,966 [prior] Evaluating prior at array([0.02205324, 0.9805    , 1.00308954])
+ 2026-05-10 19:37:02,966 [prior] Got logpriors (internal) = 17.727533563392406
+ 2026-05-10 19:37:02,966 [model] Got input parameters: {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'A_planck': 1.003089538109603, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:02,966 [classy] Got parameters {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 19:37:02,966 [classy] Computing new state
+ 2026-05-10 19:37:02,966 [classy] Setting parameters: {'omega_b': 0.022053242858487934, 'n_s': 0.9805, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'lCl pCl tCl tCl,pCl,lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 19:37:04,841 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:37:04,841 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 19:37:04,843 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -312.0955442726498
+ 2026-05-10 19:37:04,843 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:37:04,843 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 19:37:04,844 [planck_2018_lowl.tt] Computed log-likelihood = -10.299487704454606
+ 2026-05-10 19:37:04,844 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:37:04,844 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 19:37:04,844 [planck_2018_lowl.ee] Computed log-likelihood = -197.99414027751752
+ 2026-05-10 19:37:04,844 [planck_2018_lensing.native] Got parameters {'A_planck': 1.003089538109603}
+ 2026-05-10 19:37:04,844 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 19:37:04,844 [planck_2018_lensing.native] Computed log-likelihood = -5.0700",audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_posterior_profile.minimum.txt,1,13,1.0,507.73173,,,0.022053243,0.9805,1.0030895,,,,,,,,,,,,,,,,,,,,,1050.9185,-17.727534,-17.727534,,1050.9185,,20.598975,395.98828,10.140182,624.19109,True

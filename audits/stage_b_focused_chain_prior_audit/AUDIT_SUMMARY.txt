@@ -1,0 +1,235 @@
+CLASS-DEU STAGE A AUDIT SUMMARY
+======================================
+ROOT: /home/merwijas/deu_class/CLASS-DEU
+OUT:  /home/merwijas/deu_class/CLASS-DEU/audit_out/20260510T153450Z
+
+Paramnames files found: 0
+YAML config files found: 38
+Evidence/BF text hits: 4072
+
+CHAIN GROUPS
+--------------------
+CONFIG LIKELIHOOD SETS
+------------------------
+* deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml
+  - planck_2018_highl_plik.TT_lite
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+* deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml
+  - planck_2018_highl_plik.TTTEEE_lite
+  - planck_2018_lowl.TT
+  - planck_2018_lowl.EE
+  - planck_2018_lensing.native
+
+AUDIT FLAGS TO CHECK
+--------------------
+DEU-like and native-like configs both found. Compare config_likelihoods.csv carefully.
+TT_lite/lite text appears in these configs:
+  - deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml
+  - deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml
+  - deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml
+  - deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml
+  - deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml
+  - deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml
+  - deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml
+  - deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml
+A_planck-like parameter entries found; inspect config_params.csv.
+No beta/p_vis YAML parameter entries found. If DEU ran, config may be elsewhere or names differ.
+
+NEXT
+--------------------
+Send AUDIT_SUMMARY.txt plus chain_summaries.csv, config_likelihoods.csv, config_params.csv, evidence_hits.txt.

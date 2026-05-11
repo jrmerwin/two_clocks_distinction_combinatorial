@@ -1,0 +1,168 @@
+config,param,entry
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b3_short_pilot_chain.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.input.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022, ""renames"": [""omegabh2""]}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875, ""renames"": [""ns""]}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml,A_planck,"{""latex"": ""y_\\mathrm{cal}"", ""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025, ""renames"": ""calPlanck""}"
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.updated.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml,omega_b,"{""value"": 0.022}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml,n_s,"{""value"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml,A_planck,"{""value"": 1.025}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml,omega_b,"{""value"": 0.022}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml,n_s,"{""value"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml,A_planck,"{""value"": 1.025}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_fixed_reference.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b2_tiny_sampler_smoke_test_smoke_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b3_short_pilot_chain_pilot_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b4_convergence_precheck_pilot_pilot_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b5_extended_convergence_gate_pilot_pilot_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b6_production_preflight_production_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b7_first_production_checkpoint_execution_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml,omega_b,"{""prior"": {""max"": 0.0221, ""min"": 0.0219}, ""proposal"": 2.5e-05, ""ref"": 0.022}"
+deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml,n_s,"{""prior"": {""max"": 0.9825, ""min"": 0.9805}, ""proposal"": 0.00025, ""ref"": 0.981875}"
+deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml,A_planck,"{""prior"": {""max"": 1.03, ""min"": 1.02}, ""proposal"": 0.0015, ""ref"": 1.025}"
+deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml,a_planck,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY
+deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml,deu_lensed_phase_profile,TEXT_MATCH_ONLY__CHECK_CONFIG_MANUALLY

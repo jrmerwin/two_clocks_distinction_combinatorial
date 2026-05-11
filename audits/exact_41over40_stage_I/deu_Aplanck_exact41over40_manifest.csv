@@ -1,0 +1,3 @@
+branch,A_planck_fixed,chain_label,yaml,output_prefix,refs,max_samples
+Aexact_41over40,1.025,chain01_center,audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain01_center.yaml,audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain01_center,"{""deu_damping_envelope_beta"": 0.03, ""deu_transfer_polamp_p_vis"": 1.0475, ""n_s"": 0.981875, ""omega_b"": 0.022}",2000
+Aexact_41over40,1.025,chain02_offset,audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain02_offset.yaml,audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain02_offset,"{""deu_damping_envelope_beta"": 0.029, ""deu_transfer_polamp_p_vis"": 1.049, ""n_s"": 0.98085, ""omega_b"": 0.02193}",2000

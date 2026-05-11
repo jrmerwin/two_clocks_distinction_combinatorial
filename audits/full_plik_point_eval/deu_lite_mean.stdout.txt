@@ -1,0 +1,77 @@
+ 2026-05-10 15:28:33,418 [output] Output to be read-from/written-into folder '/home/merwijas/deu_class/CLASS-DEU/audit_full_plik_point_eval/20260510T222827Z', with prefix 'deu_lite_mean'
+ 2026-05-10 15:28:33,455 [root] Numba not available, install it for better performance.
+ 2026-05-10 15:28:33,460 [input] Parameter 'A_planck' is multiply defined but consistent.
+ 2026-05-10 15:28:33,472 [classy] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-05-10 15:28:33,472 [classy] No (compiled) installation of 'classy' at /home/merwijas/deu_class/cobaya_packages/code/classy: Source path /home/merwijas/deu_class/cobaya_packages/code/classy not found.
+ 2026-05-10 15:28:33,472 [classy] Defaulting to global import.
+ 2026-05-10 15:28:33,473 [classy] `classy` module loaded successfully from /home/merwijas/deu_class/CLASS-DEU
+ 2026-05-10 15:28:33,474 [planck_2018_highl_plik.ttteee_lite] Attempting import of Cobaya-installed version, but defaulting to global import if not found.
+ 2026-05-10 15:28:33,474 [planck_2018_highl_plik.ttteee_lite] 'clipy' to be imported from (sub)directory /home/merwijas/deu_class/cobaya_packages/code/planck/clipy
+ 2026-05-10 15:28:33,520 [planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/merwijas/deu_class/cobaya_packages/code/planck/clipy/clipy
+----
+clipy_0.15
+Checking likelihood '/home/merwijas/deu_class/cobaya_packages/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86268e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+ 2026-05-10 15:28:33,862 [model] Parameters were assigned as follows:
+ 2026-05-10 15:28:33,862 [model] - planck_2018_highl_plik.TTTEEE_lite:
+ 2026-05-10 15:28:33,862 [model]      Input:  ['A_planck']
+ 2026-05-10 15:28:33,862 [model]      Output: []
+ 2026-05-10 15:28:33,862 [model] - planck_2018_lowl.TT:
+ 2026-05-10 15:28:33,862 [model]      Input:  ['A_planck']
+ 2026-05-10 15:28:33,863 [model]      Output: []
+ 2026-05-10 15:28:33,863 [model] - planck_2018_lowl.EE:
+ 2026-05-10 15:28:33,863 [model]      Input:  ['A_planck']
+ 2026-05-10 15:28:33,863 [model]      Output: []
+ 2026-05-10 15:28:33,863 [model] - planck_2018_lensing.native:
+ 2026-05-10 15:28:33,863 [model]      Input:  ['A_planck']
+ 2026-05-10 15:28:33,863 [model]      Output: []
+ 2026-05-10 15:28:33,863 [model] - classy:
+ 2026-05-10 15:28:33,863 [model]      Input:  ['deu_damping_envelope_beta', 'deu_transfer_polamp_p_vis', 'omega_b', 'n_s', 'H0', 'ln10^{10}A_s', 'omega_cdm', 'tau_reio']
+ 2026-05-10 15:28:33,863 [model]      Output: []
+ 2026-05-10 15:28:33,864 [model] Components will be computed in the order:
+ 2026-05-10 15:28:33,864 [model]  - [classy, planck_2018_highl_plik.TTTEEE_lite, planck_2018_lowl.TT, planck_2018_lowl.EE, planck_2018_lensing.native]
+ 2026-05-10 15:28:33,864 [model] Requirements will be calculated by these components:
+ 2026-05-10 15:28:33,864 [model] - Cl: classy
+ 2026-05-10 15:28:33,872 [evaluate] Initialized!
+ 2026-05-10 15:28:33,884 [evaluate] Looking for a reference point with non-zero prior.
+ 2026-05-10 15:28:33,885 [prior] Evaluating prior at array([0.03    , 1.0475  , 0.022   , 0.981875, 1.025   ])
+ 2026-05-10 15:28:33,885 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:33,885 [evaluate] Reference point:
+   deu_damping_envelope_beta = 0.0294912
+   deu_transfer_polamp_p_vis = 1.04742
+   omega_b = 0.02198
+   n_s = 0.981523
+   A_planck = 1.02506
+ 2026-05-10 15:28:33,885 [evaluate] Evaluating prior and likelihoods...
+ 2026-05-10 15:28:33,885 [model] Posterior to be computed for parameters {'deu_damping_envelope_beta': np.float64(0.029491217248075276), 'deu_transfer_polamp_p_vis': np.float64(1.0474182267750216), 'omega_b': np.float64(0.021980020954662106), 'n_s': np.float64(0.9815232201591104), 'A_planck': np.float64(1.025055724379812)}
+ 2026-05-10 15:28:33,885 [prior] Evaluating prior at array([0.02949122, 1.04741823, 0.02198002, 0.98152322, 1.02505572])
+ 2026-05-10 15:28:33,885 [prior] Got logpriors (internal) = 30.84989694079671
+ 2026-05-10 15:28:33,885 [model] Got input parameters: {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'A_planck': 1.025055724379812, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:33,885 [classy] Got parameters {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544}
+ 2026-05-10 15:28:33,885 [classy] Computing new state
+ 2026-05-10 15:28:33,885 [classy] Setting parameters: {'deu_damping_envelope_beta': 0.029491217248075276, 'deu_transfer_polamp_p_vis': 1.0474182267750216, 'omega_b': 0.021980020954662106, 'n_s': 0.9815232201591104, 'H0': 67.4, 'ln10^{10}A_s': 3.044, 'omega_cdm': 0.12, 'tau_reio': 0.0544, 'deu': 'yes', 'deu_allow_double_phase_hooks': 'no', 'deu_damping_envelope_hook': 'yes', 'deu_lensed_phase_hook': 'yes', 'deu_lensed_phase_profile': 2, 'deu_log10_N_today': 122.0, 'deu_perturbation_sound_speed_hook': 'yes', 'deu_photon_clock_thermo': 'yes', 'deu_polarization_source_amplitude_hook': 'no', 'deu_transfer_polamp_hook': 'yes', 'deu_use_radial_jacobian': 'yes', 'l_max_scalars': 3500, 'lensing': 'yes', 'output': 'tCl tCl,pCl,lCl pCl lCl', 'non_linear': 'hmcode'}
+ 2026-05-10 15:28:35,077 [planck_2018_highl_plik.ttteee_lite] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,078 [planck_2018_highl_plik.ttteee_lite] Computing new state
+ 2026-05-10 15:28:35,078 [planck_2018_highl_plik.ttteee_lite] Computed log-likelihood = -382.26835830307493
+ 2026-05-10 15:28:35,078 [planck_2018_lowl.tt] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,078 [planck_2018_lowl.tt] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.tt] Computed log-likelihood = -13.251024932240114
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lowl.ee] Computed log-likelihood = -198.93781522602805
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Got parameters {'A_planck': 1.025055724379812}
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Computing new state
+ 2026-05-10 15:28:35,079 [planck_2018_lensing.native] Computed log-likelihood = -9.434815500126494
+ 2026-05-10 15:28:35,079 [model] Computed derived parameters: {'chi2__CMB': 1207.7840279229392}
+ 2026-05-10 15:28:35,080 [evaluate] log-posterior  = -573.042
+ 2026-05-10 15:28:35,080 [evaluate] log-prior      = 30.8499
+ 2026-05-10 15:28:35,080 [evaluate]    logprior_0 = 30.8499
+ 2026-05-10 15:28:35,080 [evaluate] log-likelihood = -603.892
+ 2026-05-10 15:28:35,080 [evaluate]    chi2_planck_2018_highl_plik.TTTEEE_lite = 764.537
+ 2026-05-10 15:28:35,080 [evaluate]    chi2_planck_2018_lowl.TT = 26.502
+ 2026-05-10 15:28:35,080 [evaluate]    chi2_planck_2018_lowl.EE = 397.876
+ 2026-05-10 15:28:35,080 [evaluate]    chi2_planck_2018_lensing.native = 18.8696
+ 2026-05-10 15:28:35,080 [evaluate] Derived params:
+ 2026-05-10 15:28:35,080 [evaluate]    chi2__CMB = 1207.78

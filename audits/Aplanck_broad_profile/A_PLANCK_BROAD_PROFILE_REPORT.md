@@ -1,0 +1,171 @@
+# Stage G broad A_planck profile audit
+
+Repo root: `/home/merwijas/deu_class/CLASS-DEU`
+Output: `/home/merwijas/deu_class/CLASS-DEU/audit_Aplanck_broad_profile/20260511T013327Z`
+
+## Scope
+
+This audit replaces the narrow `A_planck` prior with `[0.98, 1.03]` and profiles DEU/native under `TTTEEE_lite` and full `TTTEEE`.
+It uses two starting references, `A_planck=1.0` and `A_planck=1.025`, then selects the best result for each model/likelihood/objective.
+This is not MCMC and not evidence.
+
+## Best profiled rows
+
+- **deu / full / likelihood_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1520.6027
+  - `minuslogprior` = 39.298354
+  - `chi2` = 2962.6087
+  - `chi2__CMB` = 2962.6087
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2520.0649
+  - `chi2__planck_2018_lowl.TT` = 26.195492
+  - `chi2__planck_2018_lowl.EE` = 397.84712
+  - `chi2__planck_2018_lensing.native` = 18.501239
+  - `deu_damping_envelope_beta` = 0.0305
+  - `deu_transfer_polamp_p_vis` = 1.0473377
+  - `omega_b` = 0.021901487
+  - `n_s` = 0.98239488
+  - `A_planck` = 1.0254349
+- **deu / full / posterior_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/deu_full_Abroad_ref1p025_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1482.4812
+  - `minuslogprior` = -3.4767651
+  - `chi2` = 2971.916
+  - `chi2__CMB` = 2971.916
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2528.9393
+  - `chi2__planck_2018_lowl.TT` = 26.384703
+  - `chi2__planck_2018_lowl.EE` = 397.8376
+  - `chi2__planck_2018_lensing.native` = 18.754461
+  - `deu_damping_envelope_beta` = 0.030445988
+  - `deu_transfer_polamp_p_vis` = 1.0471359
+  - `omega_b` = 0.021969001
+  - `n_s` = 0.98211875
+  - `A_planck` = 1.0248534
+- **deu / lite / likelihood_profile** selected_start=`1.0` result=`audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p0_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 574.56764
+  - `minuslogprior` = -29.240459
+  - `chi2` = 1207.6162
+  - `chi2__CMB` = 1207.6162
+  - `chi2__planck_2018_highl_plik.TTTEEE_lite` = 764.43121
+  - `chi2__planck_2018_lowl.TT` = 26.560659
+  - `chi2__planck_2018_lowl.EE` = 397.84307
+  - `chi2__planck_2018_lensing.native` = 18.781249
+  - `deu_damping_envelope_beta` = 0.0305
+  - `deu_transfer_polamp_p_vis` = 1.0477845
+  - `omega_b` = 0.021943782
+  - `n_s` = 0.98147277
+  - `A_planck` = 1.024793
+- **deu / lite / posterior_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/deu_lite_Abroad_ref1p025_posterior_profile.minimum.txt`
+  - `minuslogpost` = 574.58047
+  - `minuslogprior` = -29.240459
+  - `chi2` = 1207.6419
+  - `chi2__CMB` = 1207.6419
+  - `chi2__planck_2018_highl_plik.TTTEEE_lite` = 764.53701
+  - `chi2__planck_2018_lowl.TT` = 26.425127
+  - `chi2__planck_2018_lowl.EE` = 397.85111
+  - `chi2__planck_2018_lensing.native` = 18.828606
+  - `deu_damping_envelope_beta` = 0.03
+  - `deu_transfer_polamp_p_vis` = 1.048
+  - `omega_b` = 0.022
+  - `n_s` = 0.981875
+  - `A_planck` = 1.025
+- **native / full / likelihood_profile** selected_start=`1.0` result=`audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p0_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 1453.3242
+  - `minuslogprior` = 49.093203
+  - `chi2` = 2808.4619
+  - `chi2__CMB` = 2808.4619
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2381.8756
+  - `chi2__planck_2018_lowl.TT` = 20.546395
+  - `chi2__planck_2018_lowl.EE` = 395.98631
+  - `chi2__planck_2018_lensing.native` = 10.053596
+  - `omega_b` = 0.02205385
+  - `n_s` = 0.9805
+  - `A_planck` = 1.0038219
+- **native / full / posterior_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/native_full_Abroad_ref1p025_posterior_profile.minimum.txt`
+  - `minuslogpost` = 1413.0459
+  - `minuslogprior` = 7.6502943
+  - `chi2` = 2810.7912
+  - `chi2__CMB` = 2810.7912
+  - `chi2__planck_2018_highl_plik.TTTEEE` = 2383.9782
+  - `chi2__planck_2018_lowl.TT` = 20.597333
+  - `chi2__planck_2018_lowl.EE` = 396.04085
+  - `chi2__planck_2018_lensing.native` = 10.174866
+  - `omega_b` = 0.022011778
+  - `n_s` = 0.9805
+  - `A_planck` = 1.0030577
+- **native / lite / likelihood_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_likelihood_profile.bestfit.txt`
+  - `minuslogpost` = 507.73173
+  - `minuslogprior` = -17.727534
+  - `chi2` = 1050.9185
+  - `chi2__CMB` = 1050.9185
+  - `chi2__planck_2018_highl_plik.TTTEEE_lite` = 624.19109
+  - `chi2__planck_2018_lowl.TT` = 20.598975
+  - `chi2__planck_2018_lowl.EE` = 395.98828
+  - `chi2__planck_2018_lensing.native` = 10.140182
+  - `omega_b` = 0.022053243
+  - `n_s` = 0.9805
+  - `A_planck` = 1.0030895
+- **native / lite / posterior_profile** selected_start=`1.025` result=`audit_Aplanck_broad_profile/20260511T013327Z/native_lite_Abroad_ref1p025_posterior_profile.minimum.txt`
+  - `minuslogpost` = 507.73173
+  - `minuslogprior` = -17.727534
+  - `chi2` = 1050.9185
+  - `chi2__CMB` = 1050.9185
+  - `chi2__planck_2018_highl_plik.TTTEEE_lite` = 624.19109
+  - `chi2__planck_2018_lowl.TT` = 20.598975
+  - `chi2__planck_2018_lowl.EE` = 395.98828
+  - `chi2__planck_2018_lensing.native` = 10.140182
+  - `omega_b` = 0.022053243
+  - `n_s` = 0.9805
+  - `A_planck` = 1.0030895
+
+## Pairwise native-minus-DEU deltas
+
+- **lite / posterior_profile / broad A_planck**
+  - `deu_A_planck` = 1.025
+  - `native_A_planck` = 1.0030895
+  - `native_minus_deu_chi2` = -156.72340000000008
+  - `native_minus_deu_chi2__CMB` = -156.72340000000008
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE_lite` = -140.34591999999998
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -8.688424000000001
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.8628300000000309
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -5.826152
+  - `native_minus_deu_minuslogpost` = -66.84873999999996
+  - `native_minus_deu_minuslogprior` = 11.512925000000003
+- **lite / likelihood_profile / broad A_planck**
+  - `deu_A_planck` = 1.024793
+  - `native_A_planck` = 1.0030895
+  - `native_minus_deu_chi2` = -156.69769999999994
+  - `native_minus_deu_chi2__CMB` = -156.69769999999994
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE_lite` = -140.24011999999993
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -8.641067
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.8547900000000368
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -5.961684000000002
+  - `native_minus_deu_minuslogpost` = -66.83590999999996
+  - `native_minus_deu_minuslogprior` = 11.512925000000003
+- **full / posterior_profile / broad A_planck**
+  - `deu_A_planck` = 1.0248534
+  - `native_A_planck` = 1.0030577
+  - `native_minus_deu_chi2` = -161.12480000000005
+  - `native_minus_deu_chi2__CMB` = -161.12480000000005
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = -144.9611
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -8.579595
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.7967500000000314
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -5.787369999999999
+  - `native_minus_deu_minuslogpost` = -69.43529999999987
+  - `native_minus_deu_minuslogprior` = 11.1270594
+- **full / likelihood_profile / broad A_planck**
+  - `deu_A_planck` = 1.0254349
+  - `native_A_planck` = 1.0038219
+  - `native_minus_deu_chi2` = -154.14680000000044
+  - `native_minus_deu_chi2__CMB` = -154.14680000000044
+  - `native_minus_deu_chi2__planck_2018_highl_plik.TTTEEE` = -138.1893
+  - `native_minus_deu_chi2__planck_2018_lensing.native` = -8.447643000000001
+  - `native_minus_deu_chi2__planck_2018_lowl.EE` = -1.860810000000015
+  - `native_minus_deu_chi2__planck_2018_lowl.TT` = -5.649097000000001
+  - `native_minus_deu_minuslogpost` = -67.2784999999999
+  - `native_minus_deu_minuslogprior` = 9.794849
+
+## Decision guide
+
+- If native chooses `A_planck≈1` and strongly beats DEU, the current DEU evidence story is blocked by amplitude-calibration dependence.
+- If DEU chooses `A_planck≈1.025` and native chooses `A_planck≈1`, then the comparison is really between different calibration basins, not a clean two-clock model-selection result.
+- If both models choose similar `A_planck` and DEU still wins, then the Stage F fixed-unity failure was too restrictive.
+- If parameters hit prior boundaries, a broader prior/profile or full MCMC is required before interpretation.

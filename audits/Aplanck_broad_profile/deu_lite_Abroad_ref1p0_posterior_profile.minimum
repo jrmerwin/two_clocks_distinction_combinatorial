@@ -1,0 +1,19 @@
+ -log(Like) = 574.5852872281374
+  chi-sq    = 1149.1705744562748
+
+    1  0.0305            deu_damping_envelope_beta                  deu\ damping\ envelope\ beta
+    2  1.047835085e+00   deu_transfer_polamp_p_vis                  deu\ transfer\ polamp\ p\ vis
+    3  2.197897634e-02   omega_b                                    omega\ b
+    4  9.810687078e-01   n_s                                        n\ s
+    5  1.024609281e+00   A_planck                                   y_\mathrm{cal}
+
+    6  67.4              H0                                         H0
+    7  3.044             ln10^{10}A_s                               ln10^{10}A\ s
+    8  0.12              omega_cdm                                  omega\ cdm
+    9  0.0544            tau_reio                                   tau\ reio
+
+   10  1.207651493e+03   chi2__CMB                                  \chi^2_\mathrm{CMB}
+   11  7.642952277e+02   chi2__planck_2018_highl_plik.TTTEEE_lite   \chi^2_{\rm planck\ 2018\ highl\ plik.TTTEEE\ lite}
+   12  2.670795113e+01   chi2__planck_2018_lowl.TT                  \chi^2_{\rm planck\ 2018\ lowl.TT}
+   13  3.978322581e+02   chi2__planck_2018_lowl.EE                  \chi^2_{\rm planck\ 2018\ lowl.EE}
+   14  1.881605556e+01   chi2__planck_2018_lensing.native           \chi^2_{\rm planck\ 2018\ lensing.native}

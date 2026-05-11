@@ -1,0 +1,136 @@
+# Stage I exact 41/40 DEU amplitude-index audit
+
+Repo root: `/home/merwijas/deu_class/CLASS-DEU`
+Output: `/home/merwijas/deu_class/CLASS-DEU/audit_deu_Aplanck_exact41over40/20260511T130410Z`
+
+## Purpose
+
+This audit fixes the DEU amplitude index to the exact rational value
+
+\[
+A_{\mathcal G}=\frac{41}{40}=1.025
+\]
+
+and compares it to the existing Stage H measured graph branch and continuum branch when those chains are available.
+
+The intended manuscript question is whether the measured DEU branch near `1.02505572438` is consistent with the exact rational graph-index value `41/40`.
+
+## Run status
+
+- **Aexact_41over40 / chain01_center** exit=`0` chain=`audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain01_center.1.txt` rows=`2000`
+- **Aexact_41over40 / chain02_offset** exit=`0` chain=`audit_deu_Aplanck_exact41over40/20260511T130410Z/deu_Aexact_41over40_chain02_offset.1.txt` rows=`2000`
+
+## Combined branch summaries
+
+- **Aexact_41over40** A=`1.025` logZ_standard=`-605.2796944` min_minuslogpost=`577.45368` rows=`4000`
+  - mean `minuslogpost` = `578.0894305`; MAP `minuslogpost` = `577.45368`
+  - mean `minuslogprior` = `-26.244727`; MAP `minuslogprior` = `-26.244727`
+  - mean `chi2` = `1208.668315`; MAP `chi2` = `1207.3968`
+  - mean `chi2__CMB` = `1208.668315`; MAP `chi2__CMB` = `1207.3968`
+  - mean `chi2__planck_2018_highl_plik.TTTEEE_lite` = `765.4159917`; MAP `chi2__planck_2018_highl_plik.TTTEEE_lite` = `764.27032`
+  - mean `chi2__planck_2018_lowl.TT` = `26.52373477`; MAP `chi2__planck_2018_lowl.TT` = `26.530867`
+  - mean `chi2__planck_2018_lowl.EE` = `397.8425687`; MAP `chi2__planck_2018_lowl.EE` = `397.82867`
+  - mean `chi2__planck_2018_lensing.native` = `18.88601896`; MAP `chi2__planck_2018_lensing.native` = `18.766947`
+  - `deu_damping_envelope_beta` mean=`0.02958838427` q16=`0.02893017492` q50=`0.02961581358` q84=`0.0302412168` near_low_1pct=`0.00743262` near_high_1pct=`0.0136844`
+  - `deu_transfer_polamp_p_vis` mean=`1.04753287` q16=`1.046058044` q50=`1.04753884` q84=`1.0490139` near_low_1pct=`0.00375104` near_high_1pct=`0.00666852`
+  - `omega_b` mean=`0.021981312` q16=`0.021923865` q50=`0.0219769891` q84=`0.02203772565` near_low_1pct=`0.0127813` near_high_1pct=`0.00118088`
+  - `n_s` mean=`0.9814885676` q16=`0.9807857724` q50=`0.981520306` q84=`0.9821694234` near_low_1pct=`0.0117394` near_high_1pct=`0.00972492`
+- **Aposterior_1p02505572438** A=`1.02505572438` logZ_standard=`-605.3492997` min_minuslogpost=`577.46769` rows=`4000`
+  - mean `minuslogpost` = `578.0558826`; MAP `minuslogpost` = `577.46769`
+  - mean `minuslogprior` = `-26.244727`; MAP `minuslogprior` = `-26.244727`
+  - mean `chi2` = `1208.601219`; MAP `chi2` = `1207.4248`
+  - mean `chi2__CMB` = `1208.601219`; MAP `chi2__CMB` = `1207.4248`
+  - mean `chi2__planck_2018_highl_plik.TTTEEE_lite` = `765.3772315`; MAP `chi2__planck_2018_highl_plik.TTTEEE_lite` = `764.36382`
+  - mean `chi2__planck_2018_lowl.TT` = `26.5262052`; MAP `chi2__planck_2018_lowl.TT` = `26.359117`
+  - mean `chi2__planck_2018_lowl.EE` = `397.8420126`; MAP `chi2__planck_2018_lowl.EE` = `397.85086`
+  - mean `chi2__planck_2018_lensing.native` = `18.85576923`; MAP `chi2__planck_2018_lensing.native` = `18.85104`
+  - `deu_damping_envelope_beta` mean=`0.02953328782` q16=`0.02886619865` q50=`0.0295303145` q84=`0.03020547568` near_low_1pct=`0.00705571` near_high_1pct=`0.00786418`
+  - `deu_transfer_polamp_p_vis` mean=`1.047464555` q16=`1.046058792` q50=`1.047419189` q84=`1.048909291` near_low_1pct=`0.00661473` near_high_1pct=`0.00463031`
+  - `omega_b` mean=`0.02197892707` q16=`0.02192521811` q50=`0.02197304562` q84=`0.02203421624` near_low_1pct=`0.00624724` near_high_1pct=`0.00110245`
+  - `n_s` mean=`0.9814386242` q16=`0.9807790576` q50=`0.98139445` q84=`0.9821163586` near_low_1pct=`0.011392` near_high_1pct=`0.00602675`
+- **Acontinuum_1p00000000000** A=`1.0` logZ_standard=`-1116.742408` min_minuslogpost=`1083.2361` rows=`4000`
+  - mean `minuslogpost` = `1086.763692`; MAP `minuslogpost` = `1083.2361`
+  - mean `minuslogprior` = `-26.244727`; MAP `minuslogprior` = `-26.244727`
+  - mean `chi2` = `2226.016839`; MAP `chi2` = `2218.9617`
+  - mean `chi2__CMB` = `2226.016839`; MAP `chi2__CMB` = `2218.9617`
+  - mean `chi2__planck_2018_highl_plik.TTTEEE_lite` = `1743.731081`; MAP `chi2__planck_2018_highl_plik.TTTEEE_lite` = `1736.7434`
+  - mean `chi2__planck_2018_lowl.TT` = `32.38063674`; MAP `chi2__planck_2018_lowl.TT` = `32.465872`
+  - mean `chi2__planck_2018_lowl.EE` = `397.8823438`; MAP `chi2__planck_2018_lowl.EE` = `397.88703`
+  - mean `chi2__planck_2018_lensing.native` = `52.02277688`; MAP `chi2__planck_2018_lensing.native` = `51.865454`
+  - `deu_damping_envelope_beta` mean=`0.03042134473` q16=`0.03036080029` q50=`0.0304454998` q84=`0.03048548091` near_low_1pct=`0` near_high_1pct=`0.209658`
+  - `deu_transfer_polamp_p_vis` mean=`1.045225827` q16=`1.0450368` q50=`1.04514552` q84=`1.045413126` near_low_1pct=`0.224627` near_high_1pct=`0`
+  - `omega_b` mean=`0.02208226987` q16=`0.02206688344` q50=`0.02208768349` q84=`0.02209661874` near_low_1pct=`0` near_high_1pct=`0.0864906`
+  - `n_s` mean=`0.9807261154` q16=`0.9805437606` q50=`0.98066147` q84=`0.9809154352` near_low_1pct=`0.0843128` near_high_1pct=`0`
+
+## Pairwise comparisons
+
+- **Aexact_41over40_minus_Aposterior_1p02505572438 / full_covariance_laplace**: logBF(a-b)=`0.06960533843`, minuslogpost gap b-a=`0.01401`
+  - mean gap b-a `minuslogpost` = `-0.03354796251`
+  - mean gap b-a `minuslogprior` = `-3.552713679e-15`
+  - mean gap b-a `chi2` = `-0.06709594573`
+  - mean gap b-a `chi2__CMB` = `-0.06709594573`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `-0.03876024525`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `0.002470439276`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `-0.0005561637777`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `-0.03024972792`
+- **Aexact_41over40_minus_Aposterior_1p02505572438 / diagonal_covariance_laplace**: logBF(a-b)=`0.05626201769`, minuslogpost gap b-a=`0.01401`
+  - mean gap b-a `minuslogpost` = `-0.03354796251`
+  - mean gap b-a `minuslogprior` = `-3.552713679e-15`
+  - mean gap b-a `chi2` = `-0.06709594573`
+  - mean gap b-a `chi2__CMB` = `-0.06709594573`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `-0.03876024525`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `0.002470439276`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `-0.0005561637777`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `-0.03024972792`
+- **Aexact_41over40_minus_Aposterior_1p02505572438 / iqr_diagonal_laplace**: logBF(a-b)=`0.1067131703`, minuslogpost gap b-a=`0.01401`
+  - mean gap b-a `minuslogpost` = `-0.03354796251`
+  - mean gap b-a `minuslogprior` = `-3.552713679e-15`
+  - mean gap b-a `chi2` = `-0.06709594573`
+  - mean gap b-a `chi2__CMB` = `-0.06709594573`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `-0.03876024525`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `0.002470439276`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `-0.0005561637777`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `-0.03024972792`
+- **Aexact_41over40_minus_Acontinuum_1p00000000000 / full_covariance_laplace**: logBF(a-b)=`511.4627133`, minuslogpost gap b-a=`505.78242`
+  - mean gap b-a `minuslogpost` = `508.6742617`
+  - mean gap b-a `minuslogprior` = `3.552713679e-15`
+  - mean gap b-a `chi2` = `1017.348525`
+  - mean gap b-a `chi2__CMB` = `1017.348525`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.315089`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `5.856901979`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `0.03977504014`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `33.13675792`
+- **Aexact_41over40_minus_Acontinuum_1p00000000000 / diagonal_covariance_laplace**: logBF(a-b)=`511.4602564`, minuslogpost gap b-a=`505.78242`
+  - mean gap b-a `minuslogpost` = `508.6742617`
+  - mean gap b-a `minuslogprior` = `3.552713679e-15`
+  - mean gap b-a `chi2` = `1017.348525`
+  - mean gap b-a `chi2__CMB` = `1017.348525`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.315089`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `5.856901979`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `0.03977504014`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `33.13675792`
+- **Aexact_41over40_minus_Acontinuum_1p00000000000 / iqr_diagonal_laplace**: logBF(a-b)=`512.8534324`, minuslogpost gap b-a=`505.78242`
+  - mean gap b-a `minuslogpost` = `508.6742617`
+  - mean gap b-a `minuslogprior` = `3.552713679e-15`
+  - mean gap b-a `chi2` = `1017.348525`
+  - mean gap b-a `chi2__CMB` = `1017.348525`
+  - mean gap b-a `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.315089`
+  - mean gap b-a `chi2__planck_2018_lowl.TT` = `5.856901979`
+  - mean gap b-a `chi2__planck_2018_lowl.EE` = `0.03977504014`
+  - mean gap b-a `chi2__planck_2018_lensing.native` = `33.13675792`
+
+## Exact-rational offset
+
+- `A_posterior_graph - 41/40` = `5.57243800001e-05`
+- fractional offset relative to `41/40` = `5.43652487806e-05`
+
+## Interpretation guide
+
+- If exact `41/40` has nearly the same logZ/minuslogpost/high-l chi2 as `1.02505572438`, the measured graph branch is consistent with the exact rational graph index.
+- If exact `41/40` strongly beats `A=1`, then Stage H survives with the rational value rather than only the posterior decimal.
+- If exact `41/40` performs much worse than `1.02505572438`, then the rational value should be described only as suggestive, not as the branch value.
+- This audit supports branch identification only. A formal topological derivation of `41/40` remains the step required to promote the graph index to a T1 registry prediction.
+
+## Manuscript-safe claim if positive
+
+`The DEU amplitude-index branch measured at A_planck=1.0250557 is numerically consistent with the exact rational graph index 41/40. A fixed-amplitude DEU audit at A_planck=41/40 occupies the same high-l CMB basin as the measured branch and remains strongly separated from the continuum-normalized branch A_planck=1. We therefore use A_G=41/40 as the candidate exact graph-index value, while leaving its formal registry-topology derivation as an explicit next step.`

@@ -1,0 +1,92 @@
+# Stage H DEU-internal A_planck delta-prior MCMC audit
+
+Repo root: `/home/merwijas/deu_class/CLASS-DEU`
+Output: `/home/merwijas/deu_class/CLASS-DEU/audit_deu_Aplanck_delta/20260511T034545Z`
+
+## Purpose
+
+This audit compares two fixed-amplitude DEU configurations:
+
+- `A_planck = 1.02505572438`: candidate graph/refractive-index amplitude.
+- `A_planck = 1.0`: continuum-normalized transfer amplitude.
+
+Both branches use the same DEU likelihood family and the same remaining sampled priors for beta, p_vis, omega_b, and n_s.
+The comparison is DEU-internal. It does not compare against native/LambdaCDM.
+
+## Run status
+
+- **Agraph_1p02505572438 / chain01_center** exit=`0` chain=`audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain01_center.1.txt` rows=`2000`
+- **Agraph_1p02505572438 / chain02_offset** exit=`0` chain=`audit_deu_Aplanck_delta/20260511T034545Z/deu_Agraph_1p02505572438_chain02_offset.1.txt` rows=`2000`
+- **Acontinuum_1p00000000000 / chain01_stageF_boundary_hint** exit=`0` chain=`audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain01_stageF_boundary_hint.1.txt` rows=`2000`
+- **Acontinuum_1p00000000000 / chain02_opposite_offset** exit=`0` chain=`audit_deu_Aplanck_delta/20260511T034545Z/deu_Acontinuum_1p00000000000_chain02_opposite_offset.1.txt` rows=`2000`
+
+## Combined branch summaries
+
+- **Agraph_1p02505572438** A=`1.02505572438` logZ_standard=`-605.3492997` min_minuslogpost=`577.46769` rows=`4000`
+  - mean `minuslogpost` = `578.0558826`; MAP `minuslogpost` = `577.46769`
+  - mean `minuslogprior` = `-26.244727`; MAP `minuslogprior` = `-26.244727`
+  - mean `chi2` = `1208.601219`; MAP `chi2` = `1207.4248`
+  - mean `chi2__CMB` = `1208.601219`; MAP `chi2__CMB` = `1207.4248`
+  - mean `chi2__planck_2018_highl_plik.TTTEEE_lite` = `765.3772315`; MAP `chi2__planck_2018_highl_plik.TTTEEE_lite` = `764.36382`
+  - mean `chi2__planck_2018_lowl.TT` = `26.5262052`; MAP `chi2__planck_2018_lowl.TT` = `26.359117`
+  - mean `chi2__planck_2018_lowl.EE` = `397.8420126`; MAP `chi2__planck_2018_lowl.EE` = `397.85086`
+  - mean `chi2__planck_2018_lensing.native` = `18.85576923`; MAP `chi2__planck_2018_lensing.native` = `18.85104`
+  - `deu_damping_envelope_beta` mean=`0.02953328782` q16=`0.02886619865` q50=`0.0295303145` q84=`0.03020547568` near_low_1pct=`0.00705571` near_high_1pct=`0.00786418`
+  - `deu_transfer_polamp_p_vis` mean=`1.047464555` q16=`1.046058792` q50=`1.047419189` q84=`1.048909291` near_low_1pct=`0.00661473` near_high_1pct=`0.00463031`
+  - `omega_b` mean=`0.02197892707` q16=`0.02192521811` q50=`0.02197304562` q84=`0.02203421624` near_low_1pct=`0.00624724` near_high_1pct=`0.00110245`
+  - `n_s` mean=`0.9814386242` q16=`0.9807790576` q50=`0.98139445` q84=`0.9821163586` near_low_1pct=`0.011392` near_high_1pct=`0.00602675`
+- **Acontinuum_1p00000000000** A=`1.0` logZ_standard=`-1116.742408` min_minuslogpost=`1083.2361` rows=`4000`
+  - mean `minuslogpost` = `1086.763692`; MAP `minuslogpost` = `1083.2361`
+  - mean `minuslogprior` = `-26.244727`; MAP `minuslogprior` = `-26.244727`
+  - mean `chi2` = `2226.016839`; MAP `chi2` = `2218.9617`
+  - mean `chi2__CMB` = `2226.016839`; MAP `chi2__CMB` = `2218.9617`
+  - mean `chi2__planck_2018_highl_plik.TTTEEE_lite` = `1743.731081`; MAP `chi2__planck_2018_highl_plik.TTTEEE_lite` = `1736.7434`
+  - mean `chi2__planck_2018_lowl.TT` = `32.38063674`; MAP `chi2__planck_2018_lowl.TT` = `32.465872`
+  - mean `chi2__planck_2018_lowl.EE` = `397.8823438`; MAP `chi2__planck_2018_lowl.EE` = `397.88703`
+  - mean `chi2__planck_2018_lensing.native` = `52.02277688`; MAP `chi2__planck_2018_lensing.native` = `51.865454`
+  - `deu_damping_envelope_beta` mean=`0.03042134473` q16=`0.03036080029` q50=`0.0304454998` q84=`0.03048548091` near_low_1pct=`0` near_high_1pct=`0.209658`
+  - `deu_transfer_polamp_p_vis` mean=`1.045225827` q16=`1.0450368` q50=`1.04514552` q84=`1.045413126` near_low_1pct=`0.224627` near_high_1pct=`0`
+  - `omega_b` mean=`0.02208226987` q16=`0.02206688344` q50=`0.02208768349` q84=`0.02209661874` near_low_1pct=`0` near_high_1pct=`0.0864906`
+  - `n_s` mean=`0.9807261154` q16=`0.9805437606` q50=`0.98066147` q84=`0.9809154352` near_low_1pct=`0.0843128` near_high_1pct=`0`
+
+## DEU-internal Agraph versus Acontinuum result
+
+- **full_covariance_laplace**: logBF(Agraph - Acontinuum) = `511.393108`, minuslogpost gap Acontinuum - Agraph = `505.76841`
+  - mean gap Acontinuum - Agraph `minuslogpost` = `508.7078097`
+  - mean gap Acontinuum - Agraph `minuslogprior` = `7.105427358e-15`
+  - mean gap Acontinuum - Agraph `chi2` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__CMB` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.3538493`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.TT` = `5.85443154`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.EE` = `0.04033120392`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lensing.native` = `33.16700765`
+- **diagonal_covariance_laplace**: logBF(Agraph - Acontinuum) = `511.4039944`, minuslogpost gap Acontinuum - Agraph = `505.76841`
+  - mean gap Acontinuum - Agraph `minuslogpost` = `508.7078097`
+  - mean gap Acontinuum - Agraph `minuslogprior` = `7.105427358e-15`
+  - mean gap Acontinuum - Agraph `chi2` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__CMB` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.3538493`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.TT` = `5.85443154`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.EE` = `0.04033120392`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lensing.native` = `33.16700765`
+- **iqr_diagonal_laplace**: logBF(Agraph - Acontinuum) = `512.7467192`, minuslogpost gap Acontinuum - Agraph = `505.76841`
+  - mean gap Acontinuum - Agraph `minuslogpost` = `508.7078097`
+  - mean gap Acontinuum - Agraph `minuslogprior` = `7.105427358e-15`
+  - mean gap Acontinuum - Agraph `chi2` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__CMB` = `1017.415621`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_highl_plik.TTTEEE_lite` = `978.3538493`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.TT` = `5.85443154`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lowl.EE` = `0.04033120392`
+  - mean gap Acontinuum - Agraph `chi2__planck_2018_lensing.native` = `33.16700765`
+
+## Interpretation guide
+
+- A large positive `logBF(Agraph - Acontinuum)` means the DEU mechanism strongly prefers the graph/refractive-index amplitude over the continuum-normalized amplitude.
+- A small value means the 2.5% displacement is not independently identified by DEU.
+- A large negative value means DEU prefers the continuum-normalized branch.
+- Heavy boundary mass in the Acontinuum branch means the fixed-unity branch is trying to escape the current DEU prior box; that supports the claim that A=1 is not a closed DEU solution, but it also means a simple Laplace evidence approximation should be treated cautiously.
+- This audit can support the phrase `DEU-internal amplitude-index preference`; it does not by itself derive the refractive index from registry topology.
+
+## Manuscript-safe claim if positive
+
+`A DEU-internal fixed-amplitude comparison shows that the graph-index branch A_planck≈1.025 is strongly preferred over the continuum-normalized branch A_planck=1 under the same DEU likelihood and remaining priors. We interpret this as evidence that the amplitude displacement is a branch condition of the present DEU implementation, not merely a loose shared nuisance parameter. Deriving the value from registry topology remains the required step for promoting it to a T1 prediction.`

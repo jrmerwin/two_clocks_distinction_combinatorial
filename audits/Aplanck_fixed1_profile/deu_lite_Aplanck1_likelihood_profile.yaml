@@ -1,0 +1,70 @@
+theory:
+  classy:
+    extra_args:
+      deu: 'yes'
+      deu_allow_double_phase_hooks: 'no'
+      deu_damping_envelope_hook: 'yes'
+      deu_lensed_phase_hook: 'yes'
+      deu_lensed_phase_profile: 2
+      deu_log10_N_today: 122.0
+      deu_perturbation_sound_speed_hook: 'yes'
+      deu_photon_clock_thermo: 'yes'
+      deu_polarization_source_amplitude_hook: 'no'
+      deu_transfer_polamp_hook: 'yes'
+      deu_use_radial_jacobian: 'yes'
+      l_max_scalars: 3500
+      lensing: 'yes'
+      output: tCl,pCl,lCl
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_lensing.native: null
+params:
+  deu_damping_envelope_beta:
+    prior:
+      min: 0.0285
+      max: 0.0305
+    ref: 0.03
+    proposal: 0.00025
+  deu_transfer_polamp_p_vis:
+    prior:
+      min: 1.045
+      max: 1.05
+    ref: 1.0475
+    proposal: 0.0005
+  omega_b:
+    prior:
+      min: 0.0219
+      max: 0.0221
+    ref: 0.022
+    proposal: 2.5e-05
+  n_s:
+    prior:
+      min: 0.9805
+      max: 0.9825
+    ref: 0.981875
+    proposal: 0.00025
+  A_planck:
+    value: 1.0
+  H0:
+    value: 67.4
+  ln10^{10}A_s:
+    value: 3.044
+  omega_cdm:
+    value: 0.12
+  tau_reio:
+    value: 0.0544
+sampler:
+  minimize:
+    method: bobyqa
+    ignore_prior: true
+    max_evals: 15000
+    best_of: 3
+    seed: 12345
+    override_bobyqa:
+      rhoend: 0.05
+packages_path: /home/merwijas/deu_class/cobaya_packages
+output: /home/merwijas/deu_class/CLASS-DEU/audit_Aplanck_fixed1_profile/20260510T235207Z/deu_lite_Aplanck1_likelihood_profile
+debug: true
+stop_at_error: true

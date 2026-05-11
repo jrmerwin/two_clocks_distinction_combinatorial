@@ -1,0 +1,182 @@
+theory:
+  classy:
+    path: null
+    speed: 0.2
+    stop_at_error: false
+    extra_args:
+      deu: 'yes'
+      deu_allow_double_phase_hooks: 'no'
+      deu_damping_envelope_hook: 'yes'
+      deu_lensed_phase_hook: 'yes'
+      deu_lensed_phase_profile: 2
+      deu_log10_N_today: 122.0
+      deu_perturbation_sound_speed_hook: 'yes'
+      deu_photon_clock_thermo: 'yes'
+      deu_polarization_source_amplitude_hook: 'no'
+      deu_transfer_polamp_hook: 'yes'
+      deu_use_radial_jacobian: 'yes'
+      l_max_scalars: 3500
+      lensing: 'yes'
+      output: tCl,pCl,lCl
+    ignore_obsolete: false
+    renames:
+      As: A_s
+      ns: n_s
+      nrun: alpha_s
+      nrunrun: beta_s
+      nt: n_t
+      ntrun: alpha_t
+      rdrag: rs_drag
+      omegak: Omega_k
+      omegal: Omega_Lambda
+      w: w0_fld
+      wa: wa_fld
+      omegabh2: omega_b
+      omegab: Omega_b
+      omegach2: omega_cdm
+      omegac: Omega_cdm
+      omegam: Omega_m
+      omegan: Omega_nu
+      tau: tau_reio
+      zrei: z_reio
+      deltazrei: reionization_width
+      helium_redshift: helium_fullreio_redshift
+      helium_delta_redshift: helium_fullreio_width
+      yhe: YHe
+      yheused: YHe
+    version: v3.3.4
+    input_params:
+    - deu_damping_envelope_beta
+    - deu_transfer_polamp_p_vis
+    - omega_b
+    - n_s
+    - H0
+    - ln10^{10}A_s
+    - omega_cdm
+    - tau_reio
+    output_params: []
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite:
+    path: null
+    clik_file: baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik
+    product_id: '151902'
+    commands: null
+    aliases:
+    - plikHM_TTTEEE
+    speed: 500
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lowl.TT:
+    lmin: 2
+    lmax: 29
+    type: CMB
+    aliases:
+    - lowT
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lowl.EE:
+    type: CMB
+    aliases:
+    - lowE
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lensing.native:
+    path: null
+    dataset_file: lensing/2018/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.dataset
+    dataset_params: null
+    l_max: null
+    aliases:
+    - lensing
+    speed: 50
+    type: CMB
+    map_separator: x
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+params:
+  deu_damping_envelope_beta:
+    prior:
+      min: 0.0285
+      max: 0.0305
+    ref: 0.03
+    proposal: 0.00025
+  deu_transfer_polamp_p_vis:
+    prior:
+      min: 1.045
+      max: 1.05
+    ref: 1.0475
+    proposal: 0.0005
+  omega_b:
+    prior:
+      min: 0.0219
+      max: 0.0221
+    ref: 0.022
+    proposal: 2.5e-05
+    renames:
+    - omegabh2
+  n_s:
+    prior:
+      min: 0.9805
+      max: 0.9825
+    ref: 0.981875
+    proposal: 0.00025
+    renames:
+    - ns
+  A_planck:
+    prior:
+      min: 0.98
+      max: 1.03
+    ref: 1.0
+    proposal: 0.002
+    latex: y_\mathrm{cal}
+    renames: calPlanck
+  H0:
+    value: 67.4
+  ln10^{10}A_s:
+    value: 3.044
+  omega_cdm:
+    value: 0.12
+    renames:
+    - omegach2
+  tau_reio:
+    value: 0.0544
+    renames:
+    - tau
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+sampler:
+  minimize:
+    method: bobyqa
+    ignore_prior: true
+    max_evals: 20000
+    best_of: 3
+    confidence_for_unbounded: 0.9999995
+    seed: 12345
+    override_scipy: null
+    override_bobyqa:
+      rhoend: 0.05
+    override_iminuit: null
+    covmat: null
+    covmat_params: null
+    version: null
+    supports_periodic_params: false
+    fallback_covmat_scale: 4
+packages_path: /home/merwijas/deu_class/cobaya_packages
+output: deu_lite_Abroad_ref1p0_likelihood_profile
+stop_at_error: true
+version: 3.6.2

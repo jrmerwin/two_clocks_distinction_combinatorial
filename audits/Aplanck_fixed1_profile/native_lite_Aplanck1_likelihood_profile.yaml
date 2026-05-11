@@ -1,0 +1,47 @@
+theory:
+  classy:
+    extra_args:
+      l_max_scalars: 3500
+      lensing: 'yes'
+      output: tCl,pCl,lCl
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_lensing.native: null
+params:
+  omega_b:
+    prior:
+      min: 0.0219
+      max: 0.0221
+    ref: 0.022
+    proposal: 2.5e-05
+  n_s:
+    prior:
+      min: 0.9805
+      max: 0.9825
+    ref: 0.981875
+    proposal: 0.00025
+  A_planck:
+    value: 1.0
+  H0:
+    value: 67.4
+  ln10^{10}A_s:
+    value: 3.044
+  omega_cdm:
+    value: 0.12
+  tau_reio:
+    value: 0.0544
+sampler:
+  minimize:
+    method: bobyqa
+    ignore_prior: true
+    max_evals: 15000
+    best_of: 3
+    seed: 12345
+    override_bobyqa:
+      rhoend: 0.05
+packages_path: /home/merwijas/deu_class/cobaya_packages
+output: /home/merwijas/deu_class/CLASS-DEU/audit_Aplanck_fixed1_profile/20260510T235207Z/native_lite_Aplanck1_likelihood_profile
+debug: true
+stop_at_error: true
