@@ -1,0 +1,406 @@
+{
+  "acceptance": {
+    "comparison_csv_written": true,
+    "diagnostic_outcome": "SAMPLER_PLUMBING_DRY_GUARD_PASS",
+    "dry_guard_manifest_written": true,
+    "fixed_eval_json_written": true,
+    "fixed_reference_eval_success": true,
+    "fixed_reference_matches_working_lock_loglikes": true,
+    "fixed_reference_yaml_loaded": true,
+    "full_objective_likelihoods_present_in_sampler_yaml": true,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "minimal_sampler_yaml_loaded": true,
+    "sampled_params_present": true,
+    "sampler_ref_eval_json_written": true,
+    "sampler_ref_eval_success": true,
+    "sampler_ref_matches_fixed_reference_on_full_likelihood": true,
+    "sampler_ref_matches_stage3b0_working_lock_loglikes": true,
+    "sampler_yaml_does_not_include_TT_lite": true,
+    "script_completed": true,
+    "stage3b0_hard_guard_pass": true,
+    "stage3b0_mcmc_launched_false": true,
+    "stage3b0_reference_loaded": true
+  },
+  "comparisons": [
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -157.74692094400146,
+      "key": "plik_TT_lite",
+      "observed": -157.74692094400146,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -382.30201119323436,
+      "key": "plik_TTTEEE_lite",
+      "observed": -382.30201119323436,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -212.1379932252806,
+      "key": "lowl_available",
+      "observed": -212.1379932252806,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -9.388064537163515,
+      "key": "lensing_native",
+      "observed": -9.388064537163515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -594.440004418515,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -594.440004418515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "fixed_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -603.8280689556785,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -603.8280689556785,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -382.30201119323436,
+      "key": "plik_TTTEEE_lite",
+      "observed": -382.30201119323436,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -212.1379932252806,
+      "key": "lowl_available",
+      "observed": -212.1379932252806,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -9.388064537163515,
+      "key": "lensing_native",
+      "observed": -9.388064537163515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -594.440004418515,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -594.440004418515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_stage3b0_working_lock",
+      "difference": 0.0,
+      "expected": -603.8280689556785,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -603.8280689556785,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_fixed_bundle",
+      "difference": 0.0,
+      "expected": -382.30201119323436,
+      "key": "plik_TTTEEE_lite",
+      "observed": -382.30201119323436,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_fixed_bundle",
+      "difference": 0.0,
+      "expected": -212.1379932252806,
+      "key": "lowl_available",
+      "observed": -212.1379932252806,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_fixed_bundle",
+      "difference": 0.0,
+      "expected": -9.388064537163515,
+      "key": "lensing_native",
+      "observed": -9.388064537163515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_fixed_bundle",
+      "difference": 0.0,
+      "expected": -594.440004418515,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -594.440004418515,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_bundle_vs_fixed_bundle",
+      "difference": 0.0,
+      "expected": -603.8280689556785,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -603.8280689556785,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_components_vs_fixed_components",
+      "difference": 0.0,
+      "expected": -382.30201119323436,
+      "key": "planck_2018_highl_plik.TTTEEE_lite",
+      "observed": -382.30201119323436,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_components_vs_fixed_components",
+      "difference": 0.0,
+      "expected": -13.212563745598118,
+      "key": "planck_2018_lowl.TT",
+      "observed": -13.212563745598118,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_components_vs_fixed_components",
+      "difference": 0.0,
+      "expected": -198.9254294796825,
+      "key": "planck_2018_lowl.EE",
+      "observed": -198.9254294796825,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "sampler_ref_components_vs_fixed_components",
+      "difference": 0.0,
+      "expected": -9.388064537163515,
+      "key": "planck_2018_lensing.native",
+      "observed": -9.388064537163515,
+      "pass": true,
+      "tolerance": 1e-05
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "dry_guard_manifest": {
+    "decision_type": "SAMPLER_PLUMBING_DRY_GUARD_PASS",
+    "fixed_reference_eval_status": "success",
+    "fixed_reference_matches_working_lock_loglikes": true,
+    "likelihood_audit": {
+      "all_required_full_objective_likelihoods_present": true,
+      "likelihood_names": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "required_full_objective_likelihoods_present": {
+        "planck_2018_highl_plik.TTTEEE_lite": true,
+        "planck_2018_lensing.native": true,
+        "planck_2018_lowl.EE": true,
+        "planck_2018_lowl.TT": true
+      },
+      "tt_lite_in_sampler_likelihood": false
+    },
+    "mcmc_launched_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-2 tiny sampler smoke test with tri-anchor monitoring",
+    "recommendation": "Book Stage 3B-1, then run a tiny non-interpretive sampler smoke test. Do not interpret chains as posterior evidence yet.",
+    "sampled_param_audit": {
+      "all_expected_sampled_params_present": true,
+      "expected_sampled_params_present": {
+        "A_planck": true,
+        "deu_damping_envelope_beta": true,
+        "deu_transfer_polamp_p_vis": true,
+        "n_s": true,
+        "omega_b": true
+      },
+      "reference_point": {
+        "A_planck": 1.025,
+        "deu_damping_envelope_beta": 0.03,
+        "deu_transfer_polamp_p_vis": 1.0475,
+        "n_s": 0.981875,
+        "omega_b": 0.022
+      },
+      "sampled_param_names": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ]
+    },
+    "sampler_reference_eval_status": "success",
+    "sampler_reference_matches_fixed_reference_and_working_lock": true,
+    "working_lock_point": {
+      "A_planck": 1.025,
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475
+    }
+  },
+  "elapsed_s": 4.048976898193359,
+  "fixed_reference_eval": {
+    "bundle_loglikes": {
+      "lensing_native": -9.388064537163515,
+      "lensing_native__finite": true,
+      "lowl_available": -212.1379932252806,
+      "lowl_available__finite": true,
+      "lowl_plik_TTTEEE_lite_lensing_native": -603.8280689556785,
+      "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+      "lowl_plus_plik_TTTEEE_lite": -594.440004418515,
+      "lowl_plus_plik_TTTEEE_lite__finite": true,
+      "plik_TTTEEE_lite": -382.30201119323436,
+      "plik_TTTEEE_lite__finite": true,
+      "plik_TT_lite": -157.74692094400146,
+      "plik_TT_lite__finite": true
+    },
+    "component_loglikes": {
+      "planck_2018_highl_plik.TTTEEE_lite": -382.30201119323436,
+      "planck_2018_highl_plik.TT_lite": -157.74692094400146,
+      "planck_2018_lensing.native": -9.388064537163515,
+      "planck_2018_lowl.EE": -198.9254294796825,
+      "planck_2018_lowl.TT": -13.212563745598118
+    },
+    "elapsed_s": 2.6168272495269775,
+    "label": "fixed_reference_yaml",
+    "point": null,
+    "status": "success"
+  },
+  "fixed_reference_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml",
+  "generated_utc": "2026-05-08T15:46:31+00:00",
+  "likelihood_audit": {
+    "all_required_full_objective_likelihoods_present": true,
+    "likelihood_names": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "required_full_objective_likelihoods_present": {
+      "planck_2018_highl_plik.TTTEEE_lite": true,
+      "planck_2018_lensing.native": true,
+      "planck_2018_lowl.EE": true,
+      "planck_2018_lowl.TT": true
+    },
+    "tt_lite_in_sampler_likelihood": false
+  },
+  "minimal_sampler_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard_acceptance.md",
+    "comparison_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard_comparison.csv",
+    "dry_guard_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard_dry_guard_manifest.json",
+    "fixed_eval_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard_fixed_reference_eval.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard.json",
+    "sampler_ref_eval_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b1_fixed_reference_sampler_plumbing_guard_sampler_ref_eval.json"
+  },
+  "previous_stage3b0_reference": {
+    "diagnostic_outcome": "STAGE3B0_LOCK_NOTE_AND_MINIMAL_SAMPLER_SEED_WRITTEN",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed.json",
+    "loaded": true,
+    "mcmc_launched_by_stage3b0": false
+  },
+  "sampled_param_audit": {
+    "all_expected_sampled_params_present": true,
+    "expected_sampled_params_present": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "reference_point": {
+      "A_planck": 1.025,
+      "deu_damping_envelope_beta": 0.03,
+      "deu_transfer_polamp_p_vis": 1.0475,
+      "n_s": 0.981875,
+      "omega_b": 0.022
+    },
+    "sampled_param_names": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ]
+  },
+  "sampler_ref_eval": {
+    "bundle_loglikes": {
+      "lensing_native": -9.388064537163515,
+      "lensing_native__finite": true,
+      "lowl_available": -212.1379932252806,
+      "lowl_available__finite": true,
+      "lowl_plik_TTTEEE_lite_lensing_native": -603.8280689556785,
+      "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+      "lowl_plus_plik_TTTEEE_lite": -594.440004418515,
+      "lowl_plus_plik_TTTEEE_lite__finite": true,
+      "plik_TTTEEE_lite": -382.30201119323436,
+      "plik_TTTEEE_lite__finite": true,
+      "plik_TT_lite": null,
+      "plik_TT_lite__finite": false
+    },
+    "component_loglikes": {
+      "planck_2018_highl_plik.TTTEEE_lite": -382.30201119323436,
+      "planck_2018_lensing.native": -9.388064537163515,
+      "planck_2018_lowl.EE": -198.9254294796825,
+      "planck_2018_lowl.TT": -13.212563745598118
+    },
+    "elapsed_s": 1.3943073749542236,
+    "label": "minimal_sampler_yaml_reference_point",
+    "point": {
+      "A_planck": 1.025,
+      "deu_damping_envelope_beta": 0.03,
+      "deu_transfer_polamp_p_vis": 1.0475,
+      "n_s": 0.981875,
+      "omega_b": 0.022
+    },
+    "status": "success"
+  },
+  "script": "stage3b_1_fixed_reference_sampler_plumbing_guard.py",
+  "stage": "3B-1"
+}

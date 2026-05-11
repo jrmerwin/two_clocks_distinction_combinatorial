@@ -1,0 +1,25 @@
+source,bundle,final_profile2_minus_native_baseline,final_profile2_minus_native_same_shape,interpretation,context_type,metric,value
+stage3a1_json,plik_TT_lite,-118.7767874187623,-109.63734343550323,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,plik_TTTEEE_lite,-114.7542343348315,-105.83758406300996,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,lowl_plus_plik_TTTEEE_lite,-110.92316996822484,-101.24186769892259,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,lowl_plik_TTTEEE_lite_lensing_native,-62.564861832602006,-55.80310943666697,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_4,-4.022553083930789,-3.7997593724932406,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_5,-3.831064366606739,-4.595716364087423,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_6,-118.7767874187623,-109.63734343550323,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_7,-114.7542343348315,-105.83758406300996,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_8,-110.92316996822484,-101.24186769892259,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3a1_json,row_9,-62.564861832602006,-55.80310943666697,"pointwise locked-candidate context, not a Bayes factor or native posterior comparison",,,
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-118.7767874187623
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-109.63734343550323
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-114.7542343348315
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-105.83758406300996
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-110.92316996822484
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-101.24186769892259
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-62.564861832602006
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-55.80310943666697
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-4.022553083930789
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-3.7997593724932406
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_baseline,-3.831064366606739
+stage3b12_baseline_context,,,,diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison,stage3a_fixed_regression_gap,final_profile2_minus_native_same_shape,-4.595716364087423
+stage3b12_baseline_context,production_full_objective,,,Production posterior samples the DEU full-objective configuration; it is not a sampled native/LambdaCDM posterior comparison.,model_comparison_scope,posterior_scope,
+stage3b12_baseline_context,primary_objectives,,,Primary objectives remain split; prefer the full-objective anchor for full Planck work and preserve a tri-anchor ledger.,tri_anchor_decision_scope,MIXED_PRIMARY_TIEBREAK_RECORDED,

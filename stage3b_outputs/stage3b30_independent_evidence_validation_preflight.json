@@ -1,0 +1,503 @@
+{
+  "acceptance": {
+    "allowed_current_claims_written": true,
+    "bayes_factor_or_evidence_claims_allowed": true,
+    "bayes_factor_or_evidence_claims_scope_is_internal_only": true,
+    "blocked_claims_written": true,
+    "candidate_independent_estimator_configs_written": true,
+    "claim_gate_matrix_written": true,
+    "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_evidence_lineage_written": true,
+    "formal_evidence_values_recorded": true,
+    "hard_guard_pass": true,
+    "independent_estimator_execution_plan_written": true,
+    "independent_validation_execution_launched_by_this_stage": false,
+    "independent_validation_protocol_written": true,
+    "independent_validation_requirements_written": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "preflight_manifest_written": true,
+    "script_completed": true,
+    "sensitivity_requirements_written": true,
+    "stage3b26_execution_checkpoint_pass": true,
+    "stage3b26_hard_guard_pass": true,
+    "stage3b26_reference_loaded": true,
+    "stage3b27_hard_guard_pass": true,
+    "stage3b27_reference_loaded": true,
+    "stage3b27_result_gate_pass": true,
+    "stage3b28_decision_expected": true,
+    "stage3b28_hard_guard_pass": true,
+    "stage3b28_internal_evidence_language_allowed": true,
+    "stage3b28_reference_loaded": true,
+    "stage3b29_decision_expected": true,
+    "stage3b29_external_publication_claims_blocked": true,
+    "stage3b29_final_publication_claims_blocked": true,
+    "stage3b29_hard_guard_pass": true,
+    "stage3b29_independent_validation_required": true,
+    "stage3b29_model_superiority_blocked": true,
+    "stage3b29_reference_loaded": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true,
+    "validation_design_matrix_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "A1",
+      "condition": "Stage 3B-10/11/20 booked",
+      "scope": "internal",
+      "statement": "A caveated internal DEU posterior summary has been written and robustness-checked."
+    },
+    {
+      "claim_id": "A2",
+      "condition": "Stage 3B-19/20 booked",
+      "scope": "internal",
+      "statement": "A matched DEU/native descriptive posterior comparison has been written."
+    },
+    {
+      "claim_id": "A3",
+      "condition": "Stage 3B-27/28 booked",
+      "scope": "internal_caveated",
+      "statement": "A formal cross-check evidence/BF estimator result exists for internal discussion with caveats."
+    },
+    {
+      "claim_id": "A4",
+      "condition": "Stage 3B-29 booked",
+      "scope": "guardrail",
+      "statement": "External/publication claims require independent evidence validation."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked_statement": "DEU is superior to native/baseline.",
+      "claim_id": "B1",
+      "reason": "Independent evidence validation has not executed or passed a result gate."
+    },
+    {
+      "blocked_statement": "The formal logBF is publication-ready.",
+      "claim_id": "B2",
+      "reason": "Stage 3B-30 is a preflight/design stage only."
+    },
+    {
+      "blocked_statement": "TT_lite was included in the production posterior or evidence comparison.",
+      "claim_id": "B3",
+      "reason": "TT_lite remains diagnostic-only and excluded from sampled/evidence likelihood scope."
+    },
+    {
+      "blocked_statement": "Final publication-style cosmological claims are allowed.",
+      "claim_id": "B4",
+      "reason": "Publication guardrails still require independent validation and final claim-lock."
+    },
+    {
+      "blocked_statement": "The diagnostic proxy/formal cross-check alone is sufficient for model selection.",
+      "claim_id": "B5",
+      "reason": "An independent estimator family is still required."
+    }
+  ],
+  "candidate_independent_estimator_configs": {
+    "candidate_independent_estimators": [
+      {
+        "estimator_family": "nested_sampling",
+        "estimator_id": "independent_nested_sampling_full_objective",
+        "input_models": [
+          "DEU_full_objective",
+          "native_full_objective"
+        ],
+        "likelihood_scope": "full_objective_without_TT_lite",
+        "minimum_outputs": [
+          "raw estimator log",
+          "DEU logZ and uncertainty",
+          "native logZ and uncertainty",
+          "matched logBF and uncertainty",
+          "prior-volume sensitivity table"
+        ],
+        "status": "designed_not_executed"
+      },
+      {
+        "estimator_family": "bridge_or_path_sampling",
+        "estimator_id": "independent_bridge_or_path_sampling_crosscheck",
+        "input_models": [
+          "DEU_full_objective",
+          "native_full_objective"
+        ],
+        "likelihood_scope": "full_objective_without_TT_lite",
+        "minimum_outputs": [
+          "bridge/path estimator diagnostics",
+          "DEU/native evidence or ratio estimate",
+          "sensitivity to bridge/path settings"
+        ],
+        "status": "optional_design_not_executed"
+      },
+      {
+        "estimator_family": "independent_replay",
+        "estimator_id": "manifest_replay_validator",
+        "input_models": [
+          "DEU_full_objective",
+          "native_full_objective"
+        ],
+        "likelihood_scope": "no_new_likelihoods_manifest_replay",
+        "minimum_outputs": [
+          "hash/list of input chain files",
+          "parameter/weight/logpost parsing checks",
+          "recomputed formal-crosscheck values"
+        ],
+        "status": "designed_not_executed"
+      }
+    ],
+    "created_utc": "2026-05-09T13:59:03+00:00",
+    "formal_crosscheck_values_for_reference_only": {
+      "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+      "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+      "native_log_evidence_formal_crosscheck": -734.8127651694195
+    },
+    "stage": "3B-30"
+  },
+  "claim_gate_matrix": [
+    {
+      "claim_id": "A1",
+      "reason_or_condition": "Stage 3B-10/11/20 booked",
+      "scope": "internal",
+      "statement": "A caveated internal DEU posterior summary has been written and robustness-checked.",
+      "status": "allowed"
+    },
+    {
+      "claim_id": "A2",
+      "reason_or_condition": "Stage 3B-19/20 booked",
+      "scope": "internal",
+      "statement": "A matched DEU/native descriptive posterior comparison has been written.",
+      "status": "allowed"
+    },
+    {
+      "claim_id": "A3",
+      "reason_or_condition": "Stage 3B-27/28 booked",
+      "scope": "internal_caveated",
+      "statement": "A formal cross-check evidence/BF estimator result exists for internal discussion with caveats.",
+      "status": "allowed"
+    },
+    {
+      "claim_id": "A4",
+      "reason_or_condition": "Stage 3B-29 booked",
+      "scope": "guardrail",
+      "statement": "External/publication claims require independent evidence validation.",
+      "status": "allowed"
+    },
+    {
+      "claim_id": "B1",
+      "reason_or_condition": "Independent evidence validation has not executed or passed a result gate.",
+      "scope": "external_or_superiority",
+      "statement": "DEU is superior to native/baseline.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "B2",
+      "reason_or_condition": "Stage 3B-30 is a preflight/design stage only.",
+      "scope": "external_or_superiority",
+      "statement": "The formal logBF is publication-ready.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "B3",
+      "reason_or_condition": "TT_lite remains diagnostic-only and excluded from sampled/evidence likelihood scope.",
+      "scope": "external_or_superiority",
+      "statement": "TT_lite was included in the production posterior or evidence comparison.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "B4",
+      "reason_or_condition": "Publication guardrails still require independent validation and final claim-lock.",
+      "scope": "external_or_superiority",
+      "statement": "Final publication-style cosmological claims are allowed.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "B5",
+      "reason_or_condition": "An independent estimator family is still required.",
+      "scope": "external_or_superiority",
+      "statement": "The diagnostic proxy/formal cross-check alone is sufficient for model selection.",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0129241943359375,
+  "formal_evidence_lineage": [
+    {
+      "claim_scope": "proxy only, result gate required",
+      "decision": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+      "log_bf_value": 158.76404705020616,
+      "role": "diagnostic proxy execution",
+      "stage": "3B-23"
+    },
+    {
+      "claim_scope": "proxy language with caveats",
+      "decision": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+      "log_bf_value": 158.76404705020616,
+      "role": "proxy result gate",
+      "stage": "3B-24"
+    },
+    {
+      "claim_scope": "formal result gate required",
+      "decision": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+      "log_bf_value": 158.76404705020616,
+      "role": "formal cross-check execution",
+      "stage": "3B-26"
+    },
+    {
+      "claim_scope": "internal caveated formal evidence language",
+      "decision": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+      "log_bf_value": 158.76404705020616,
+      "role": "formal result gate",
+      "stage": "3B-27"
+    },
+    {
+      "claim_scope": "internal only; external/superiority blocked",
+      "decision": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+      "log_bf_value": 158.76404705020616,
+      "role": "formal evidence claim lock addendum",
+      "stage": "3B-28"
+    },
+    {
+      "claim_scope": "independent validation required",
+      "decision": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED",
+      "log_bf_value": 158.76404705020616,
+      "role": "external publication claim preflight",
+      "stage": "3B-29"
+    }
+  ],
+  "formal_evidence_values": {
+    "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+    "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+    "native_log_evidence_formal_crosscheck": -734.8127651694195
+  },
+  "generated_utc": "2026-05-09T13:59:03+00:00",
+  "independent_validation_requirements": [
+    {
+      "claim_unlocked_if_met": "candidate external evidence language only after result gate",
+      "met_by_stage3b30": false,
+      "minimum_artifact": "estimator config, raw run log, result JSON/CSV, acceptance markdown",
+      "requirement": "At least one evidence estimator must be independent of the chain-local Laplace proxy/formal cross-check lineage.",
+      "requirement_id": "R1_independent_estimator_family"
+    },
+    {
+      "claim_unlocked_if_met": "prevents false TT_lite-in-posterior/evidence language",
+      "met_by_stage3b30": true,
+      "minimum_artifact": "likelihood-scope audit",
+      "requirement": "DEU and native sides must use the same full-objective likelihood set; TT_lite remains excluded unless a separate matched TT_lite-inclusive branch is run.",
+      "requirement_id": "R2_matched_likelihood_scope"
+    },
+    {
+      "claim_unlocked_if_met": "supports caveated robustness language",
+      "met_by_stage3b30": false,
+      "minimum_artifact": "prior sensitivity plan and result table",
+      "requirement": "Evidence/BF result must be tested against predeclared prior-volume variants.",
+      "requirement_id": "R3_prior_volume_sensitivity"
+    },
+    {
+      "claim_unlocked_if_met": "replayability of validation",
+      "met_by_stage3b30": true,
+      "minimum_artifact": "DEU/native evidence input manifests",
+      "requirement": "Input chain files, parameter columns, priors, likelihood scope, and reference values must be frozen in manifests.",
+      "requirement_id": "R4_reproducible_input_manifests"
+    },
+    {
+      "claim_unlocked_if_met": "internal or external language depending on outcome",
+      "met_by_stage3b30": false,
+      "minimum_artifact": "result-gate/sensitivity-audit stage",
+      "requirement": "Independent validation execution must be followed by a separate result gate before any claim language is upgraded.",
+      "requirement_id": "R5_result_gate"
+    },
+    {
+      "claim_unlocked_if_met": "none at this stage; this is a guardrail",
+      "met_by_stage3b30": true,
+      "minimum_artifact": "claim matrix and blocked-claim registry",
+      "requirement": "Publication-style language must remain blocked until independent validation and final claim-lock stages are booked.",
+      "requirement_id": "R6_publication_guardrails"
+    }
+  ],
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_blocked_claims.csv",
+    "candidate_independent_estimator_configs_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_candidate_independent_estimator_configs.json",
+    "claim_gate_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_claim_gate_matrix.csv",
+    "formal_evidence_lineage_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_formal_evidence_lineage.csv",
+    "independent_estimator_execution_plan_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_independent_estimator_execution_plan.md",
+    "independent_validation_protocol_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_independent_validation_protocol.md",
+    "independent_validation_requirements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_independent_validation_requirements.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight.json",
+    "preflight_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_preflight_manifest.json",
+    "sensitivity_requirements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_sensitivity_requirements.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_tt_lite_scope.md",
+    "validation_design_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_validation_design_matrix.csv"
+  },
+  "preflight_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": true,
+    "bayes_factor_or_evidence_claims_scope": "internal formal cross-check estimator result only; external validation still required",
+    "decision_type": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "design_matrix_rows": 5,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_evidence_language_allowed_internal_caveated": true,
+    "formal_evidence_values": {
+      "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+      "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+      "native_log_evidence_formal_crosscheck": -734.8127651694195
+    },
+    "independent_validation_execution_launched_by_this_stage": false,
+    "independent_validation_preflight_written": true,
+    "independent_validation_required": true,
+    "independent_validation_requirement_count": 6,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-31 independent evidence-validation execution checkpoint",
+    "posterior_evidence_status": "independent_validation_preflighted_execution_required",
+    "recommendation": "Book Stage 3B-30. Next execute an independent evidence-validation checkpoint before any external publication, model-superiority, or final-style evidence claim.",
+    "stage3b27_decision": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b28_decision": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b29_decision": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED",
+    "tri_anchor_context_count": 3,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "script": "stage3b_30_independent_evidence_validation_preflight.py",
+  "sensitivity_requirements": [
+    {
+      "parameter_group": "DEU-only beta/p_vis",
+      "required_before_superiority": true,
+      "sensitivity_id": "S1_deu_shape_prior_width",
+      "test": "Repeat or analytically correct evidence estimate under narrower and wider DEU-only prior widths."
+    },
+    {
+      "parameter_group": "omega_b/n_s/A_planck",
+      "required_before_superiority": true,
+      "sensitivity_id": "S2_shared_shape_prior_alignment",
+      "test": "Confirm shared prior boxes and reference values remain matched across DEU/native evidence estimators."
+    },
+    {
+      "parameter_group": "all",
+      "required_before_superiority": true,
+      "sensitivity_id": "S3_estimator_family",
+      "test": "Compare chain-local formal cross-check against independent estimator family."
+    },
+    {
+      "parameter_group": "likelihoods",
+      "required_before_superiority": true,
+      "sensitivity_id": "S4_likelihood_scope",
+      "test": "Keep TT_lite excluded from formal evidence claims unless a separate matched TT_lite-inclusive run is performed."
+    },
+    {
+      "parameter_group": "all",
+      "required_before_superiority": false,
+      "sensitivity_id": "S5_chain_subset_replay",
+      "test": "Replay validation on DEU/native chain subsets to check dependence on a single chain file."
+    }
+  ],
+  "source_stage_decisions": {
+    "stage3b19": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b20": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b25": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b26": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "stage3b27": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b28": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b29": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED"
+  },
+  "stage": "3B-30",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ],
+  "validation_design_matrix": [
+    {
+      "claim_role": "necessary for any external evidence/Bayes-factor claim",
+      "purpose": "Independent evidence check using a sampler/estimator not derived from the current chain-local Laplace proxy/cross-check.",
+      "requires_new_likelihood_evaluations": true,
+      "requires_new_mcmc": false,
+      "status_after_stage3b30": "designed_not_executed",
+      "uses_existing_chains": false,
+      "validation_id": "independent_nested_sampling"
+    },
+    {
+      "claim_role": "strengthens robustness; not optional for publication-style superiority wording if nested sampling is unstable",
+      "purpose": "Optional second independent evidence family to test estimator-family sensitivity.",
+      "requires_new_likelihood_evaluations": true,
+      "requires_new_mcmc": false,
+      "status_after_stage3b30": "designed_not_executed",
+      "uses_existing_chains": false,
+      "validation_id": "thermodynamic_or_path_sampling_crosscheck"
+    },
+    {
+      "claim_role": "required before any model-superiority wording",
+      "purpose": "Evaluate whether evidence/BF direction survives predeclared prior-volume variants for DEU-only shape parameters and shared parameters.",
+      "requires_new_likelihood_evaluations": "possibly",
+      "requires_new_mcmc": false,
+      "status_after_stage3b30": "designed_not_executed",
+      "uses_existing_chains": "mixed",
+      "validation_id": "prior_volume_sensitivity_grid"
+    },
+    {
+      "claim_role": "guards against scope leakage in publication language",
+      "purpose": "Confirm full-objective likelihood scope is matched DEU/native and TT_lite remains diagnostic-only unless explicitly sampled later.",
+      "requires_new_likelihood_evaluations": false,
+      "requires_new_mcmc": false,
+      "status_after_stage3b30": "preflighted_design_only",
+      "uses_existing_chains": true,
+      "validation_id": "likelihood_scope_reproduction"
+    },
+    {
+      "claim_role": "guards against script-local arithmetic or manifest parsing mistakes",
+      "purpose": "Replay estimator calculation from written manifests with independent code/notebook or clean process.",
+      "requires_new_likelihood_evaluations": false,
+      "requires_new_mcmc": false,
+      "status_after_stage3b30": "designed_not_executed",
+      "uses_existing_chains": true,
+      "validation_id": "independent_implementation_replay"
+    }
+  ]
+}

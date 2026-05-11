@@ -1,0 +1,6 @@
+claim_id,status,reason
+model_superiority,blocked,"A diagnostic evidence proxy was executed, but a final evidence result gate and sensitivity checks are still required."
+bayes_factor_or_evidence,blocked,The Stage 3B-23 proxy result is not booked as a final marginal-likelihood/Bayes-factor claim.
+final_publication_claim,blocked,Publication-style claims require final evidence/result sensitivity gates and external robustness framing.
+tt_lite_sampled_posterior_or_evidence,blocked,TT_lite remains diagnostic-only and excluded from current DEU/native sampled likelihoods.
+physical_proof,blocked,Evidence/posterior machinery does not prove the physical mechanism.

@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason
+external_publication,The result is ready for external publication.,External review is pending.
+model_superiority,DEU is superior to native/baseline cosmology.,Requires independent reviewer result gate and manuscript-grade claim lock.
+final_publication,Final publication-style conclusion about DEU evidence.,Final claims remain gated.
+tt_lite_evidence,TT_lite was part of the sampled posterior/evidence likelihood.,TT_lite remained diagnostic-only.
+uncaveated_bayes_factor,Unqualified Bayes-factor/evidence claim.,Only internal caveated evidence language is allowed.

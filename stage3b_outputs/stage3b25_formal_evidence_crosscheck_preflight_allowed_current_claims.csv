@@ -1,0 +1,5 @@
+claim_id,status,wording
+scoped_posterior_summary,allowed_with_caveats,The scoped DEU posterior summary remains allowed with caveats.
+descriptive_deu_native_comparison,allowed_with_caveats,The matched DEU/native posterior comparison remains descriptive only.
+diagnostic_proxy_result,allowed_with_caveats,"The evidence-proxy result may be described as a diagnostic proxy, not as formal evidence."
+formal_estimator_preflight,allowed,"A formal evidence cross-check design has been preflighted, if this stage passes."

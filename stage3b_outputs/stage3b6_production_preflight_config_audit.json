@@ -1,0 +1,59 @@
+{
+  "Rminus1_cl_stop": 0.05,
+  "Rminus1_stop": 0.01,
+  "all_expected_sampled_params_present": true,
+  "all_reference_values_match_working_lock": true,
+  "all_required_full_objective_likelihoods_present": true,
+  "existing_production_chain_artifacts": [],
+  "expected_sampled_params_present": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "learn_proposal": true,
+  "likelihood_names": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "max_samples": 2000,
+  "max_samples_requested": 2000,
+  "posterior_conclusions_written": false,
+  "posterior_interpretation_allowed": false,
+  "production_chain_prefix_clean": true,
+  "production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "production_output_prefix_expected": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "production_output_prefix_matches_expected": true,
+  "reference_matches_working_lock": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "reference_point": {
+    "A_planck": 1.025,
+    "deu_damping_envelope_beta": 0.03,
+    "deu_transfer_polamp_p_vis": 1.0475,
+    "n_s": 0.981875,
+    "omega_b": 0.022
+  },
+  "required_full_objective_likelihoods_present": {
+    "planck_2018_highl_plik.TTTEEE_lite": true,
+    "planck_2018_lensing.native": true,
+    "planck_2018_lowl.EE": true,
+    "planck_2018_lowl.TT": true
+  },
+  "sampled_param_names": [
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "sampler_mcmc_present": true,
+  "tt_lite_excluded_from_production_likelihood": true
+}

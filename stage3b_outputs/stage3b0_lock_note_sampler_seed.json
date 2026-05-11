@@ -1,0 +1,237 @@
+{
+  "acceptance": {
+    "diagnostic_outcome": "STAGE3B0_LOCK_NOTE_AND_MINIMAL_SAMPLER_SEED_WRITTEN",
+    "fixed_reference_yaml_written": true,
+    "hard_guard_pass": true,
+    "lock_note_written": true,
+    "mcmc_launched_by_this_stage": false,
+    "minimal_sampler_yaml_written": true,
+    "monitoring_json_written": true,
+    "no_full_objective_local_pressure_recorded": true,
+    "script_completed": true,
+    "stage3a10_hard_guard_pass": true,
+    "stage3a10_manifest_loaded": true,
+    "stage3a10_reference_loaded": true,
+    "stage3a10_stable_working_lock_decision": true,
+    "tri_anchor_csv_written": true,
+    "tri_anchor_ledger_retained": true,
+    "working_lock_point_complete": true,
+    "working_lock_profile2_Aplanck1025": true
+  },
+  "class_extra_args_for_seed": {
+    "deu": "yes",
+    "deu_allow_double_phase_hooks": "no",
+    "deu_damping_envelope_beta": 0.03,
+    "deu_damping_envelope_hook": "yes",
+    "deu_lensed_phase_hook": "yes",
+    "deu_lensed_phase_profile": 2,
+    "deu_log10_N_today": 122.0,
+    "deu_perturbation_sound_speed_hook": "yes",
+    "deu_photon_clock_thermo": "yes",
+    "deu_polarization_source_amplitude_hook": "no",
+    "deu_transfer_polamp_hook": "yes",
+    "deu_transfer_polamp_p_vis": 1.0475,
+    "deu_use_radial_jacobian": "yes",
+    "l_max_scalars": 3500,
+    "lensing": "yes",
+    "output": "tCl,pCl,lCl"
+  },
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0017037391662597656,
+  "generated_utc": "2026-05-08T15:20:50+00:00",
+  "monitoring_points": {
+    "created_utc": "2026-05-08T15:20:50+00:00",
+    "full_objective_working_lock": {
+      "A_planck": 1.025,
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475
+    },
+    "monitoring_rules": [
+      "Track full objective loglike at the working-lock seed before any chain is trusted.",
+      "Keep highl_anchor and lowl_plus_anchor as diagnostic sentinels for objective split drift.",
+      "Do not reinterpret Stage 3B chains as posterior evidence until sampler plumbing and convergence are separately booked."
+    ],
+    "stage": "3B-0",
+    "tri_anchor_ledger": [
+      {
+        "A_planck": 1.025,
+        "anchor_label": "highl_anchor",
+        "beta": 0.029,
+        "deu_lensed_phase_profile": 2,
+        "lensing_native_loglike": -9.455015073141412,
+        "lowl_available_loglike": -212.38519126951218,
+        "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+        "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+        "n_s": 0.98,
+        "omega_b": 0.02195,
+        "p_vis": 1.0475,
+        "plik_TTTEEE_lite_loglike": -382.09644863724304,
+        "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+      },
+      {
+        "A_planck": 1.025,
+        "anchor_label": "lowl_plus_anchor",
+        "beta": 0.0295,
+        "deu_lensed_phase_profile": 2,
+        "lensing_native_loglike": -9.453534606523377,
+        "lowl_available_loglike": -212.21590707666138,
+        "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+        "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+        "n_s": 0.98125,
+        "omega_b": 0.02195,
+        "p_vis": 1.0475,
+        "plik_TTTEEE_lite_loglike": -382.1830821680578,
+        "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+      },
+      {
+        "A_planck": 1.025,
+        "anchor_label": "full_objective_working_lock",
+        "beta": 0.03,
+        "deu_lensed_phase_profile": 2,
+        "lensing_native_loglike": -9.388064537163515,
+        "lowl_available_loglike": -212.1379932252806,
+        "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+        "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+        "n_s": 0.981875,
+        "omega_b": 0.022,
+        "p_vis": 1.0475,
+        "plik_TTTEEE_lite_loglike": -382.30201119323436,
+        "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+      }
+    ],
+    "working_lock_loglikes": {
+      "lensing_native": -9.388064537163515,
+      "lowl_available": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite": -594.440004418515,
+      "plik_TTTEEE_lite": -382.30201119323436,
+      "plik_TT_lite": -157.74692094400146
+    }
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_acceptance.md",
+    "fixed_reference_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_fixed_reference_check.yaml",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed.json",
+    "lock_note_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_lock_note.md",
+    "minimal_sampler_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_minimal_sampler_seed.yaml",
+    "monitoring_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_monitoring_points.json",
+    "tri_anchor_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed_tri_anchor_monitoring_ledger.csv"
+  },
+  "previous_stage3a10_reference": {
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3a_outputs/stage3a10_full_objective_working_lock_guard.json",
+    "loaded": true,
+    "manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3a_outputs/stage3a10_full_objective_working_lock_guard_working_lock_manifest.json",
+    "manifest_loaded": true,
+    "stage3a10_diagnostic_outcome": "FULL_OBJECTIVE_WORKING_LOCK_GUARD_STABLE_TRI_LEDGER_RETAINED"
+  },
+  "sampler_seed": {
+    "fixed_parameters": {
+      "A_planck": 1.025,
+      "H0": 67.4,
+      "ln10^{10}A_s": 3.044,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "omega_cdm": 0.12,
+      "tau_reio": 0.0544
+    },
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "note": "Setup artifact only. Stage 3B-0 does not run MCMC.",
+    "sampled_parameters": {
+      "A_planck": {
+        "max": 1.03,
+        "min": 1.02,
+        "proposal": 0.0015,
+        "ref": 1.025
+      },
+      "deu_damping_envelope_beta": {
+        "max": 0.0305,
+        "min": 0.0285,
+        "proposal": 0.00025,
+        "ref": 0.03
+      },
+      "deu_transfer_polamp_p_vis": {
+        "max": 1.05,
+        "min": 1.045,
+        "proposal": 0.0005,
+        "ref": 1.0475
+      },
+      "n_s": {
+        "max": 0.9825,
+        "min": 0.9805,
+        "proposal": 0.00025,
+        "ref": 0.981875
+      },
+      "omega_b": {
+        "max": 0.0221,
+        "min": 0.0219,
+        "proposal": 2.5e-05,
+        "ref": 0.022
+      }
+    }
+  },
+  "script": "stage3b_0_lock_note_sampler_seed.py",
+  "stage": "3B-0",
+  "tri_anchor_ledger": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ],
+  "working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  }
+}

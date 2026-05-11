@@ -1,0 +1,11 @@
+{
+  "abstract_source": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_abstract.md",
+  "claim_scope": "scoped/caveated preprint statements only; no peer-review, final publication, TT_lite-in-posterior/evidence, or model-superiority claims",
+  "generated_utc": "2026-05-09T17:46:44+00:00",
+  "manuscript_source": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_manuscript_draft.md",
+  "release_kind": "author_led_preprint_server_package",
+  "source_decision": "PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED",
+  "source_stage": "3B-38",
+  "stage": "3B-39",
+  "title_placeholder": "DEU full-objective posterior and matched native/baseline comparison: author-led preprint package"
+}

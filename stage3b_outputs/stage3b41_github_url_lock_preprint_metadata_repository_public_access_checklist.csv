@@ -1,0 +1,7 @@
+check,pass,detail
+github_url_supplied,True,https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git
+github_url_syntax_valid,True,https://github.com/<owner>/<repo>
+repository_visibility_declared_public,True,public
+manual_public_access_verified_by_author,True,author attestation; no network access used
+author_led_not_peer_reviewed_confirmed,True,"preprint path, not peer-review path"
+github_access_verified_by_script,False,not attempted; this stage does not use network access

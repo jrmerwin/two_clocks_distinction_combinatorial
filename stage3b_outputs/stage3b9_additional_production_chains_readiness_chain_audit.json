@@ -1,0 +1,218 @@
+{
+  "all_chain_values_finite": true,
+  "all_expected_sampled_columns_present": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+  ],
+  "chain_files_found": true,
+  "chain_infos": [
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 2000,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          573.57283,
+          0.030305542,
+          1.0483228,
+          0.022043289,
+          0.98163705,
+          1.024498,
+          1208.8455,
+          -30.849897,
+          -30.849897,
+          1208.8455,
+          765.39749,
+          26.584826,
+          397.84573,
+          19.017396
+        ],
+        [
+          1.0,
+          573.64182,
+          0.030305542,
+          1.0483228,
+          0.022043289,
+          0.98163705,
+          1.0243696,
+          1208.9834,
+          -30.849897,
+          -30.849897,
+          1208.9834,
+          765.42534,
+          26.608688,
+          397.84309,
+          19.106316
+        ],
+        [
+          3.0,
+          573.80982,
+          0.029649615,
+          1.0489726,
+          0.02202294,
+          0.9809863,
+          1.0243696,
+          1209.3194,
+          -30.849897,
+          -30.849897,
+          1209.3194,
+          765.34974,
+          26.78084,
+          397.83701,
+          19.351849
+        ]
+      ]
+    },
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 2000,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          573.06855,
+          0.03,
+          1.0475,
+          0.022,
+          0.981875,
+          1.0245417,
+          1207.8369,
+          -30.849897,
+          -30.849897,
+          1207.8369,
+          764.39274,
+          26.509426,
+          397.85086,
+          19.083878
+        ],
+        [
+          1.0,
+          573.30482,
+          0.029800059,
+          1.0484153,
+          0.02198153,
+          0.98111318,
+          1.0245417,
+          1208.3094,
+          -30.849897,
+          -30.849897,
+          1208.3094,
+          764.60651,
+          26.707594,
+          397.82781,
+          19.167526
+        ],
+        [
+          4.0,
+          573.12334,
+          0.029800059,
+          1.0484153,
+          0.02198153,
+          0.98111318,
+          1.0248959,
+          1207.9465,
+          -30.849897,
+          -30.849897,
+          1207.9465,
+          764.54893,
+          26.641305,
+          397.83226,
+          18.923986
+        ]
+      ]
+    }
+  ],
+  "enough_rows_per_prefix": true,
+  "enough_total_rows_for_precheck": true,
+  "expected_sampled_columns_present": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "min_rows_per_chain": 1,
+  "min_total_rows": 3000,
+  "n_chain_files": 2,
+  "prefix_reports": [
+    {
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+      ],
+      "enough_rows": true,
+      "n_chain_files": 2,
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+      "rows": 4000
+    }
+  ],
+  "prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run"
+  ],
+  "special_columns_present": {
+    "minuslogpost": true,
+    "weight": true
+  },
+  "total_rows": 4000,
+  "unique_columns": [
+    "A_planck",
+    "chi2",
+    "chi2__CMB",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lensing.native",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lowl.TT",
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "minuslogpost",
+    "minuslogprior",
+    "minuslogprior__0",
+    "n_s",
+    "omega_b",
+    "weight"
+  ]
+}

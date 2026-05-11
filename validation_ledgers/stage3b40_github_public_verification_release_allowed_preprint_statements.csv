@@ -1,0 +1,7 @@
+statement_id,allowed_statement,scope
+preprint_status,This manuscript is an author-led preprint and has not yet undergone journal peer review.,preprint metadata / manuscript front matter
+public_verification,"The code, chain artifacts, validation ledgers, checksums, and reproduction commands are publicly available for reader verification in the associated GitHub repository.",data/code availability statement
+scoped_posterior,"Within the stated DEU full-objective likelihood configuration, the booked production chains support the reported scoped posterior summary.",results with caveats
+scoped_comparison,The matched DEU/native comparison is reported descriptively under the same staged validation scope.,comparison section
+internal_evidence,"The formal and independent evidence-estimator diagnostics favor DEU over the native baseline within the internal validation protocol; this is reported as a caveated estimator result, not as peer-reviewed model superiority.",evidence lineage section
+tt_lite_scope,TT_lite was monitored as diagnostic context but was excluded from the sampled production and evidence likelihoods.,methods / limitations

@@ -1,0 +1,6 @@
+claim_id,blocked,claim,reason
+blocked_01,True,Peer-reviewed independent replication has confirmed the result.,No external reviewer result exists; Stage 3B-37 external reviewer intake was intentionally bypassed for a preprint pathway.
+blocked_02,True,The model is conclusively superior to native/baseline cosmology.,Model-superiority claims remain gated; current evidence language is internal/caveated.
+blocked_03,True,TT_lite was included in the sampled posterior or evidence likelihood.,TT_lite was diagnostic-only and excluded from the production/native sampled likelihoods.
+blocked_04,True,The evidence result is final and publication-grade without caveats.,External publication and final-style claims remain blocked.
+blocked_05,True,External peer review is complete.,"The selected path is author-led preprint release, not external reviewer intake."

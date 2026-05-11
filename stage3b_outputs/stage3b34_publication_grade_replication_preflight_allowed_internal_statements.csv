@@ -1,0 +1,6 @@
+statement_id,statement,scope,claim_status
+allowed_internal_01,Internal independent-validation evidence/BF language is allowed with caveats after Stage 3B-32/33.,internal_only,allowed_with_caveats
+allowed_internal_02,Independent-validation log-BF proxy/cross-check value can be reported internally as 169.00640862086107 with caveats.,internal_only,allowed_with_caveats
+allowed_internal_03,Formal lineage log-BF value can be reported internally as 158.76404705020616 with caveats.,internal_only,allowed_with_caveats
+allowed_internal_04,"The Stage 3B DEU/native posterior comparison may be described as scoped and descriptive, not as model evidence by itself.",internal_only,allowed_with_caveats
+allowed_internal_05,The tri-anchor ledger and TT_lite diagnostic-only scope must accompany all summaries.,internal_only,required_context

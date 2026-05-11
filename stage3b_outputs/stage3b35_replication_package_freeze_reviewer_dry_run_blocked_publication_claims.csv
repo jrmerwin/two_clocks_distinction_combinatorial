@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason
+blocked_model_superiority,DEU is superior to native/baseline cosmology.,Requires independent reviewer/replication gate and manuscript-level validation.
+blocked_external_publication,The current evidence/BF result is publication-ready.,Stage 3B-34 requires external review; Stage 3B-35 only freezes package/handoff.
+blocked_final_publication,Final publication-style conclusion about DEU evidence.,Final claims remain gated until independent review is booked and passed.
+blocked_tt_lite_in_evidence,TT_lite was included in the sampled posterior/evidence likelihood.,TT_lite remained diagnostic-only in the production/evidence scope.
+blocked_uncaveated_bayes_factor,Unqualified Bayes-factor/evidence claim.,Allowed language is internal independent-validation evidence language with caveats only.

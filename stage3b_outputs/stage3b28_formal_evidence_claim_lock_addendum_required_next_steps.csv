@@ -1,0 +1,5 @@
+step_id,step,required_before,status
+stage3b29,external/publication-claim preflight or independent evidence validation,external publication-style wording,required
+independent_estimator,run an independent evidence estimator or independent validation implementation,model-superiority wording,recommended/required for stronger claims
+tt_lite_evidence_extension,run explicit TT_lite-included matched evidence/sampler branch if claiming TT_lite inclusion,TT_lite-in-posterior/evidence claims,required if TT_lite claim is desired
+external_reproducibility_pack,prepare reproducibility bundle and independent rerun checklist,publication-style claims,required

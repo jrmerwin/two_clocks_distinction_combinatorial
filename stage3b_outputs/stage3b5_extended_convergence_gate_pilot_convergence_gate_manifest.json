@@ -1,0 +1,43 @@
+{
+  "all_expected_sampled_columns_present": true,
+  "all_sampled_parameters_within_prior_bounds": true,
+  "decision_type": "EXTENDED_CONVERGENCE_GATE_PILOT_PASS",
+  "learn_proposal_requested": false,
+  "max_samples_per_chain_requested": 128,
+  "max_split_normalized_mean_range_seen": 1.4681199893182455,
+  "max_tail_normalized_shift_seen": 1.3995932676433631,
+  "mcmc_launched_by_this_stage": true,
+  "min_moving_params_required": 5,
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 5,
+  "n_chains_requested": 3,
+  "next_stage_hint": "Stage 3B-6 production-run configuration and preflight, no posterior claim yet",
+  "posterior_conclusions_written": false,
+  "posterior_evidence_status": "not_allowed_yet",
+  "posterior_interpretation_allowed": false,
+  "recommendation": "Book Stage 3B-5. Next prepare the first production-run config/preflight, but keep posterior claims gated until a separately booked production run converges.",
+  "sampler_run_statuses": [
+    "success",
+    "success",
+    "success"
+  ],
+  "split_gate_pass": true,
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b4_diagnostic_outcome": "CONVERGENCE_PRECHECK_PILOT_PASS",
+  "tail_gate_pass": true,
+  "total_chain_rows": 384,
+  "tri_anchor_monitoring_pass": true
+}

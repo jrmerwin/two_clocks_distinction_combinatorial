@@ -1,0 +1,6 @@
+estimator_id,estimator_kind,uses_current_chains,requires_new_sampling,status,purpose,can_unlock_formal_claims_by_setup_only
+bridge_sampling_crosscheck,formal_crosscheck_candidate,True,False,preflighted_not_executed,Independent bridge-sampling-style cross-check over matched posterior chain families.,False
+nested_sampling_matched_full_objective,formal_evidence_candidate,False,True,design_only_not_executed,Matched DEU/native nested-sampling evidence run over the same full-objective likelihood scope.,False
+thermodynamic_integration_ladder,formal_evidence_candidate,False,True,design_only_not_executed,Matched temperature-ladder integral check for marginal likelihood sensitivity.,False
+laplace_proxy_independent_reimplementation,diagnostic_proxy_crosscheck,True,False,preflighted_not_executed,Independent implementation of the existing local Laplace proxy to check code-path sensitivity.,False
+tt_lite_inclusive_matched_evidence_design,new_matched_design_required,False,True,blocked_until_tt_lite_matched_sampler_is_booked,Optional future evidence design if TT_lite is to be included on both sides.,False

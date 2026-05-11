@@ -1,0 +1,6 @@
+statement_id,status,statement,required_caveat
+allowed_001,allowed,This is an author-led preprint and has not yet undergone journal peer review.,Do not describe as peer reviewed.
+allowed_002,allowed,"The code, validation ledgers, checksums, and staged artifacts are publicly available for verification at https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git.",Availability is not the same as external review.
+allowed_003,allowed,The staged analysis reports a caveated DEU posterior summary and matched DEU/native comparison.,State the likelihood scope and TT_lite exclusion.
+allowed_004,allowed,The independent-validation estimator result may be reported as an author-led internal validation result with caveats.,Do not call it peer-reviewed evidence.
+allowed_005,allowed,Readers can inspect and rerun the public verification package using the provided reproduction commands.,No guarantee of third-party review completion.

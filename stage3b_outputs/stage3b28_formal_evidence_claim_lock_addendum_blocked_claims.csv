@@ -1,0 +1,6 @@
+claim_id,status,blocked_statement,reason
+model_superiority,blocked,DEU is superior to the native/baseline model.,Stage 3B-27 permits internal formal-evidence language only; model-superiority claims remain gated.
+publication_ready_bayes_factor,blocked,The reported log-BF is a final publication-ready Bayes factor.,No external publication claim gate has passed.
+tt_lite_in_evidence,blocked,TT_lite was included in the sampled/evidence likelihood.,TT_lite remains diagnostic-only and excluded from the production/evidence likelihood scope.
+external_publication_claim,blocked,The result can be stated externally without caveats.,External publication-style claims remain blocked.
+final_cosmological_claim,blocked,The staged validation establishes a final cosmological result.,Final publication-style claims remain gated.

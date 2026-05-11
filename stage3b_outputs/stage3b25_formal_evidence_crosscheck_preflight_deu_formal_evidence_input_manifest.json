@@ -1,0 +1,67 @@
+{
+  "all_expected_parameters_present_or_inferred": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+  ],
+  "created_utc": "2026-05-09T05:00:44+00:00",
+  "evidence_computed_by_this_manifest": false,
+  "expected_parameters": [
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "expected_parameters_present_or_inferred": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "formal_evidence_ready_as_input": true,
+  "label": "deu",
+  "likelihoods": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "n_chain_files": 2,
+  "sampled_parameters": [
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "source_manifest": {
+    "all_expected_params_present": true,
+    "all_values_finite": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+    ],
+    "hard_guard_pass": true,
+    "label": "deu",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "sampled_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "source_stage": "stage3b22_evidence_estimator_preflight",
+    "total_rows": 4000
+  },
+  "total_rows": 4000
+}

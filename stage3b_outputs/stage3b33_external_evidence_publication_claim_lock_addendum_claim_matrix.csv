@@ -1,0 +1,9 @@
+claim_type,status,scope,source_gate
+scoped DEU posterior summary,allowed,internal/caveated,Stage 3B-10/11
+descriptive DEU/native posterior comparison,allowed,internal/caveated descriptive comparison,Stage 3B-19/20
+formal evidence/BF language,allowed,internal formal cross-check only,Stage 3B-27/28
+independent-validation evidence/BF language,allowed,internal independent-validation estimator result only; external/final claims remain gated,Stage 3B-32
+model-superiority claim,blocked,not allowed,Stage 3B-32/33
+external publication evidence claim,blocked,not allowed,Stage 3B-32/33
+final publication-style claim,blocked,not allowed,Stage 3B-32/33
+TT_lite sampled posterior/evidence claim,blocked,not allowed,Stage 3B-32/33

@@ -1,0 +1,554 @@
+{
+  "acceptance": {
+    "allowed_current_claims_written": true,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claims_written": true,
+    "candidate_formal_estimator_configs_written": true,
+    "claim_gate_matrix_written": true,
+    "deu_formal_input_manifest_ready": true,
+    "deu_formal_manifest_written": true,
+    "diagnostic_outcome": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "evidence_or_bayes_factor_computed_by_this_stage": false,
+    "execution_plan_written": true,
+    "final_publication_claims_allowed": false,
+    "formal_estimator_design_matrix_written": true,
+    "formal_evidence_crosscheck_preflight_complete": true,
+    "hard_guard_pass": true,
+    "likelihood_matching_confirmed": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_formal_input_manifest_ready": true,
+    "native_formal_manifest_written": true,
+    "preflight_manifest_written": true,
+    "prior_matching_confirmed": true,
+    "prior_sensitivity_plan_written": true,
+    "protocol_written": true,
+    "proxy_crosswalk_written": true,
+    "required_next_steps_written": true,
+    "script_completed": true,
+    "stage3b19_comparison_loaded": true,
+    "stage3b19_comparison_pass": true,
+    "stage3b20_scoped_report_loaded": true,
+    "stage3b20_scoped_report_pass": true,
+    "stage3b21_design_loaded": true,
+    "stage3b21_design_pass": true,
+    "stage3b22_preflight_pass": true,
+    "stage3b22_reference_loaded": true,
+    "stage3b23_execution_checkpoint_pass": true,
+    "stage3b23_reference_loaded": true,
+    "stage3b24_formal_claims_blocked": true,
+    "stage3b24_hard_guard_pass": true,
+    "stage3b24_proxy_language_allowed_with_caveats": true,
+    "stage3b24_proxy_only_gate_pass": true,
+    "stage3b24_reference_loaded": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "scoped_posterior_summary",
+      "status": "allowed_with_caveats",
+      "wording": "The scoped DEU posterior summary remains allowed with caveats."
+    },
+    {
+      "claim_id": "descriptive_deu_native_comparison",
+      "status": "allowed_with_caveats",
+      "wording": "The matched DEU/native posterior comparison remains descriptive only."
+    },
+    {
+      "claim_id": "diagnostic_proxy_result",
+      "status": "allowed_with_caveats",
+      "wording": "The evidence-proxy result may be described as a diagnostic proxy, not as formal evidence."
+    },
+    {
+      "claim_id": "formal_estimator_preflight",
+      "status": "allowed",
+      "wording": "A formal evidence cross-check design has been preflighted, if this stage passes."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim_id": "formal_bayes_factor",
+      "reason": "No formal evidence estimator has been executed by this stage.",
+      "status": "blocked",
+      "unblock_requirement": "Stage 3B-26 formal estimator execution and Stage 3B-27 result gate."
+    },
+    {
+      "claim_id": "model_superiority",
+      "reason": "Diagnostic proxy and design preflight are insufficient for superiority.",
+      "status": "blocked",
+      "unblock_requirement": "Validated evidence results plus prior-volume sensitivity and claim lock."
+    },
+    {
+      "claim_id": "tt_lite_in_evidence_or_posterior",
+      "reason": "TT_lite remains diagnostic-only and excluded from current sampled likelihoods.",
+      "status": "blocked",
+      "unblock_requirement": "Matched TT_lite-inclusive sampler/evidence design."
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "reason": "Publication-style claims require formal evidence, external robustness, and final claim lock.",
+      "status": "blocked",
+      "unblock_requirement": "Dedicated publication-claim lock after formal model-selection gates."
+    },
+    {
+      "claim_id": "physical_proof",
+      "reason": "Statistical posterior/evidence work is not a physical proof.",
+      "status": "blocked",
+      "unblock_requirement": "Independent theory and external-data validation."
+    }
+  ],
+  "claim_gate_matrix": [
+    {
+      "claim_id": "scoped_posterior_summary",
+      "status": "allowed_with_caveats",
+      "unlock_or_caveat": "Use caveats from Stage 3B-20/24.",
+      "wording_or_reason": "The scoped DEU posterior summary remains allowed with caveats."
+    },
+    {
+      "claim_id": "descriptive_deu_native_comparison",
+      "status": "allowed_with_caveats",
+      "unlock_or_caveat": "Use caveats from Stage 3B-20/24.",
+      "wording_or_reason": "The matched DEU/native posterior comparison remains descriptive only."
+    },
+    {
+      "claim_id": "diagnostic_proxy_result",
+      "status": "allowed_with_caveats",
+      "unlock_or_caveat": "Use caveats from Stage 3B-20/24.",
+      "wording_or_reason": "The evidence-proxy result may be described as a diagnostic proxy, not as formal evidence."
+    },
+    {
+      "claim_id": "formal_estimator_preflight",
+      "status": "allowed",
+      "unlock_or_caveat": "Use caveats from Stage 3B-20/24.",
+      "wording_or_reason": "A formal evidence cross-check design has been preflighted, if this stage passes."
+    },
+    {
+      "claim_id": "formal_bayes_factor",
+      "status": "blocked",
+      "unlock_or_caveat": "Stage 3B-26 formal estimator execution and Stage 3B-27 result gate.",
+      "wording_or_reason": "No formal evidence estimator has been executed by this stage."
+    },
+    {
+      "claim_id": "model_superiority",
+      "status": "blocked",
+      "unlock_or_caveat": "Validated evidence results plus prior-volume sensitivity and claim lock.",
+      "wording_or_reason": "Diagnostic proxy and design preflight are insufficient for superiority."
+    },
+    {
+      "claim_id": "tt_lite_in_evidence_or_posterior",
+      "status": "blocked",
+      "unlock_or_caveat": "Matched TT_lite-inclusive sampler/evidence design.",
+      "wording_or_reason": "TT_lite remains diagnostic-only and excluded from current sampled likelihoods."
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "status": "blocked",
+      "unlock_or_caveat": "Dedicated publication-claim lock after formal model-selection gates.",
+      "wording_or_reason": "Publication-style claims require formal evidence, external robustness, and final claim lock."
+    },
+    {
+      "claim_id": "physical_proof",
+      "status": "blocked",
+      "unlock_or_caveat": "Independent theory and external-data validation.",
+      "wording_or_reason": "Statistical posterior/evidence work is not a physical proof."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "deu_formal_input_manifest": {
+    "all_expected_parameters_present_or_inferred": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+    ],
+    "created_utc": "2026-05-09T05:00:44+00:00",
+    "evidence_computed_by_this_manifest": false,
+    "expected_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "expected_parameters_present_or_inferred": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "formal_evidence_ready_as_input": true,
+    "label": "deu",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "sampled_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "source_manifest": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+      ],
+      "hard_guard_pass": true,
+      "label": "deu",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+      "sampled_parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "source_stage": "stage3b22_evidence_estimator_preflight",
+      "total_rows": 4000
+    },
+    "total_rows": 4000
+  },
+  "elapsed_s": 0.0019559860229492188,
+  "formal_estimator_design_matrix": [
+    {
+      "can_unlock_formal_claims_by_setup_only": false,
+      "estimator_id": "bridge_sampling_crosscheck",
+      "estimator_kind": "formal_crosscheck_candidate",
+      "purpose": "Independent bridge-sampling-style cross-check over matched posterior chain families.",
+      "requires_new_sampling": false,
+      "status": "preflighted_not_executed",
+      "uses_current_chains": true
+    },
+    {
+      "can_unlock_formal_claims_by_setup_only": false,
+      "estimator_id": "nested_sampling_matched_full_objective",
+      "estimator_kind": "formal_evidence_candidate",
+      "purpose": "Matched DEU/native nested-sampling evidence run over the same full-objective likelihood scope.",
+      "requires_new_sampling": true,
+      "status": "design_only_not_executed",
+      "uses_current_chains": false
+    },
+    {
+      "can_unlock_formal_claims_by_setup_only": false,
+      "estimator_id": "thermodynamic_integration_ladder",
+      "estimator_kind": "formal_evidence_candidate",
+      "purpose": "Matched temperature-ladder integral check for marginal likelihood sensitivity.",
+      "requires_new_sampling": true,
+      "status": "design_only_not_executed",
+      "uses_current_chains": false
+    },
+    {
+      "can_unlock_formal_claims_by_setup_only": false,
+      "estimator_id": "laplace_proxy_independent_reimplementation",
+      "estimator_kind": "diagnostic_proxy_crosscheck",
+      "purpose": "Independent implementation of the existing local Laplace proxy to check code-path sensitivity.",
+      "requires_new_sampling": false,
+      "status": "preflighted_not_executed",
+      "uses_current_chains": true
+    },
+    {
+      "can_unlock_formal_claims_by_setup_only": false,
+      "estimator_id": "tt_lite_inclusive_matched_evidence_design",
+      "estimator_kind": "new_matched_design_required",
+      "purpose": "Optional future evidence design if TT_lite is to be included on both sides.",
+      "requires_new_sampling": true,
+      "status": "blocked_until_tt_lite_matched_sampler_is_booked",
+      "uses_current_chains": false
+    }
+  ],
+  "generated_utc": "2026-05-09T05:00:44+00:00",
+  "native_formal_input_manifest": {
+    "all_expected_parameters_present_or_inferred": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+    ],
+    "created_utc": "2026-05-09T05:00:44+00:00",
+    "evidence_computed_by_this_manifest": false,
+    "expected_parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "expected_parameters_present_or_inferred": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "formal_evidence_ready_as_input": true,
+    "label": "native",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "sampled_parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "source_manifest": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+      ],
+      "hard_guard_pass": true,
+      "label": "native",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+      "sampled_parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "source_stage": "stage3b22_evidence_estimator_preflight",
+      "total_rows": 4000
+    },
+    "total_rows": 4000
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_blocked_claims.csv",
+    "candidate_configs_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_candidate_formal_estimator_configs.json",
+    "claim_gate_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_claim_gate_matrix.csv",
+    "design_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_formal_estimator_design_matrix.csv",
+    "deu_formal_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_deu_formal_evidence_input_manifest.json",
+    "execution_plan_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_formal_estimator_execution_plan.md",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight.json",
+    "native_formal_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_native_formal_evidence_input_manifest.json",
+    "preflight_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_preflight_manifest.json",
+    "prior_sensitivity_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_prior_volume_sensitivity_plan.csv",
+    "protocol_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_formal_evidence_crosscheck_protocol.md",
+    "proxy_crosswalk_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_proxy_to_formal_crosswalk.csv",
+    "required_next_steps_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_required_next_steps.csv",
+    "tri_anchor_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_tt_lite_scope.md"
+  },
+  "preflight_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "decision_type": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "deu_formal_input_ready": true,
+    "deu_log_evidence_proxy": -576.0487181192134,
+    "diagnostic_assessment_complete": true,
+    "estimator_kind_current": "diagnostic_proxy_not_final_evidence",
+    "evidence_or_bayes_factor_computed_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "formal_estimator_design_rows": 5,
+    "formal_evidence_crosscheck_preflight_written": true,
+    "likelihood_match": true,
+    "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_formal_input_ready": true,
+    "native_log_evidence_proxy": -734.8127651694195,
+    "next_stage_hint": "Stage 3B-26 formal evidence-estimator cross-check execution checkpoint",
+    "posterior_evidence_status": "formal_evidence_crosscheck_preflighted_execution_required",
+    "posterior_summary_allowed_with_caveats": true,
+    "prior_match": true,
+    "proxy_crosswalk_rows": 4,
+    "proxy_result_language_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-25. Next run a formal evidence-estimator cross-check execution checkpoint; formal Bayes-factor/model-superiority claims remain blocked until execution and result gates pass.",
+    "stage3b19_decision": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b20_decision": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b21_decision": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "stage3b22_decision": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b23_decision": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "stage3b24_decision": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "previous_stage3b22_reference": {
+    "diagnostic_outcome": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight.json",
+    "loaded": true
+  },
+  "previous_stage3b23_reference": {
+    "diagnostic_outcome": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint.json",
+    "loaded": true
+  },
+  "previous_stage3b24_reference": {
+    "diagnostic_outcome": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit.json",
+    "loaded": true
+  },
+  "prior_volume_sensitivity_plan": [
+    {
+      "base_prior": "Stage 3B matched prior",
+      "family": "shared_shape",
+      "model_side": "DEU_and_native",
+      "parameter": "omega_b",
+      "required_before_superiority": true,
+      "sensitivity_variant": "narrow/wide symmetric prior audit"
+    },
+    {
+      "base_prior": "Stage 3B matched prior",
+      "family": "shared_shape",
+      "model_side": "DEU_and_native",
+      "parameter": "n_s",
+      "required_before_superiority": true,
+      "sensitivity_variant": "narrow/wide symmetric prior audit"
+    },
+    {
+      "base_prior": "Stage 3B matched prior",
+      "family": "shared_calibration",
+      "model_side": "DEU_and_native",
+      "parameter": "A_planck",
+      "required_before_superiority": true,
+      "sensitivity_variant": "calibration prior-width audit"
+    },
+    {
+      "base_prior": "Stage 3B production prior",
+      "family": "DEU_only",
+      "model_side": "DEU_only",
+      "parameter": "deu_damping_envelope_beta",
+      "required_before_superiority": true,
+      "sensitivity_variant": "DEU prior-volume penalty audit"
+    },
+    {
+      "base_prior": "Stage 3B production prior",
+      "family": "DEU_only",
+      "model_side": "DEU_only",
+      "parameter": "deu_transfer_polamp_p_vis",
+      "required_before_superiority": true,
+      "sensitivity_variant": "DEU prior-volume penalty audit"
+    }
+  ],
+  "proxy_to_formal_crosswalk": [
+    {
+      "current_status": "diagnostic_proxy_recorded",
+      "formal_claim_allowed_now": false,
+      "formal_counterpart": "DEU log marginal likelihood",
+      "proxy_quantity": "deu_log_evidence_proxy",
+      "proxy_value": -576.0487181192134,
+      "required_crosscheck": "formal estimator execution and result gate"
+    },
+    {
+      "current_status": "diagnostic_proxy_recorded",
+      "formal_claim_allowed_now": false,
+      "formal_counterpart": "native log marginal likelihood",
+      "proxy_quantity": "native_log_evidence_proxy",
+      "proxy_value": -734.8127651694195,
+      "required_crosscheck": "formal estimator execution and result gate"
+    },
+    {
+      "current_status": "proxy_language_allowed_with_caveats_only",
+      "formal_claim_allowed_now": false,
+      "formal_counterpart": "log Bayes factor DEU minus native",
+      "proxy_quantity": "log_bayes_factor_proxy_deu_minus_native",
+      "proxy_value": 158.76404705020616,
+      "required_crosscheck": "independent/formal estimator, uncertainty, prior-volume sensitivity, and claim gate"
+    },
+    {
+      "current_status": "recorded",
+      "formal_claim_allowed_now": false,
+      "formal_counterpart": "audit provenance",
+      "proxy_quantity": "stage3b24_proxy_rows_loaded",
+      "proxy_value": 3,
+      "required_crosscheck": "retain rows in evidence provenance"
+    }
+  ],
+  "required_next_steps": [
+    {
+      "description": "Execute at least one formal or independent evidence estimator over matched DEU/native inputs.",
+      "next_stage_hint": "Stage 3B-26",
+      "required": true,
+      "step_id": "formal_estimator_execution"
+    },
+    {
+      "description": "Gate formal estimator result with uncertainty, numerical stability, and prior-volume sensitivity.",
+      "next_stage_hint": "Stage 3B-27",
+      "required": true,
+      "step_id": "formal_result_gate"
+    },
+    {
+      "description": "Only after formal gates can model-superiority wording be considered.",
+      "next_stage_hint": "Stage 3B-28",
+      "required": true,
+      "step_id": "model_selection_claim_lock"
+    },
+    {
+      "description": "Either keep TT_lite diagnostic-only or run a matched TT_lite-inclusive sampler/evidence branch.",
+      "next_stage_hint": "optional separate branch",
+      "required": true,
+      "step_id": "tt_lite_scope_decision"
+    }
+  ],
+  "script": "stage3b_25_formal_evidence_crosscheck_preflight.py",
+  "stage": "3B-25",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

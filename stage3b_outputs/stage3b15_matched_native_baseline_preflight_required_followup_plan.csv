@@ -1,0 +1,4 @@
+extension,purpose,claim_unlocked_if_passes
+matched_native_baseline_sampler,Generate native/baseline posterior samples with the matched full-objective likelihood family.,Potential quantitative native-vs-DEU posterior comparison; not evidence unless methodology includes it.
+explicit_model_evidence_or_information_criterion_plan,Define a valid model-comparison statistic before superiority claims.,"Only the specific statistic tested, with caveats."
+tt_lite_inclusive_sampler_optional,"If TT_lite production claims are desired, run a sampler that actually includes TT_lite.",TT_lite-inclusive posterior statements.

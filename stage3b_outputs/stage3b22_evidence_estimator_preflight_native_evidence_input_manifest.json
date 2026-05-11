@@ -1,0 +1,29 @@
+{
+  "all_expected_params_present": true,
+  "all_values_finite": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+  ],
+  "extra_arg_keys": [
+    "l_max_scalars",
+    "lensing",
+    "output"
+  ],
+  "hard_guard_pass": true,
+  "label": "native",
+  "likelihoods": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "n_chain_files": 2,
+  "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+  "sampled_parameters": [
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "total_rows": 4000
+}

@@ -1,0 +1,5 @@
+gate,pass,meaning,allows_superiority_claim
+native_baseline_context_recorded,True,There is recorded native/baseline context to discuss scope.,False
+matched_native_posterior_or_evidence_available,False,No booked matched native/baseline posterior or evidence/Bayes-factor calculation is present in Stage 3B artifacts.,False
+same_likelihood_set_comparison_available,False,Production posterior excludes TT_lite and does not constitute a full native/DEU model comparison on its own.,False
+model_superiority_claims_allowed,False,Model-superiority claims remain blocked by this extension.,False

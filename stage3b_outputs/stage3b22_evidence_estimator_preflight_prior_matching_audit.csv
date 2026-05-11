@@ -1,0 +1,6 @@
+parameter,deu_prior_min,deu_prior_max,deu_ref,native_prior_min,native_prior_max,native_ref,shared_prior_min_match,shared_prior_max_match,shared_prior_match,interpretation
+omega_b,0.0219,0.0221,0.022,0.0219,0.0221,0.022,True,True,True,
+n_s,0.9805,0.9825,0.981875,0.9805,0.9825,0.981875,True,True,True,
+A_planck,1.02,1.03,1.025,1.02,1.03,1.025,True,True,True,
+deu_damping_envelope_beta,0.0285,0.0305,0.03,,,,,,,DEU-only parameter; not present in native/baseline sampler
+deu_transfer_polamp_p_vis,1.045,1.05,1.0475,,,,,,,DEU-only parameter; not present in native/baseline sampler

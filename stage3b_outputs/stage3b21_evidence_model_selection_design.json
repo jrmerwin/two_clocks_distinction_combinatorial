@@ -1,0 +1,398 @@
+{
+  "acceptance": {
+    "allowed_claims_written": true,
+    "baseline_requirements_written": true,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claims_written": true,
+    "design_manifest_written": true,
+    "design_matrix_written": true,
+    "design_protocol_written": true,
+    "diagnostic_outcome": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "posterior_conclusions_extended_by_this_stage": false,
+    "publication_preflight_written": true,
+    "required_evidence_artifacts_written": true,
+    "script_completed": true,
+    "stage3b10_posterior_summary_written": true,
+    "stage3b10_reference_loaded": true,
+    "stage3b11_reference_loaded": true,
+    "stage3b11_robustness_pass": true,
+    "stage3b18_native_readiness_pass": true,
+    "stage3b18_reference_loaded": true,
+    "stage3b19_matched_comparison_pass": true,
+    "stage3b19_reference_loaded": true,
+    "stage3b20_final_scoped_report_pass": true,
+    "stage3b20_hard_guard_pass": true,
+    "stage3b20_reference_loaded": true,
+    "stage3b20_superiority_still_gated": true,
+    "stage3b9_deu_readiness_pass": true,
+    "stage3b9_reference_loaded": true,
+    "timeline_recap_written": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_claims": [
+    {
+      "allowed_wording": "The DEU production chains support a scoped internal posterior summary for the full-objective working-lock configuration.",
+      "claim_id": "allowed_scoped_deu_posterior_summary",
+      "required_caveat": "This is internal/staged and not a final publication claim.",
+      "source_stage": "3B-10/3B-20",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "allowed_wording": "A matched DEU/native posterior comparison was recorded descriptively for shared parameters and DEU-only shape parameters.",
+      "claim_id": "allowed_descriptive_deu_native_comparison",
+      "required_caveat": "Descriptive posterior comparison is not model evidence or superiority.",
+      "source_stage": "3B-19/3B-20",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "allowed_wording": "Both DEU and native/baseline chains passed their readiness gates under the project-defined diagnostics.",
+      "claim_id": "allowed_readiness_status",
+      "required_caveat": "Readiness gates are internal validation criteria, not external evidence metrics.",
+      "source_stage": "3B-9/3B-18",
+      "status": "allowed"
+    },
+    {
+      "allowed_wording": "TT_lite was monitored diagnostically and excluded from the sampled production likelihoods.",
+      "claim_id": "allowed_tt_lite_diagnostic_scope",
+      "required_caveat": "Do not say TT_lite was included in the sampled posterior.",
+      "source_stage": "3B-12/3B-19/3B-20",
+      "status": "allowed"
+    },
+    {
+      "allowed_wording": "The tri-anchor ledger remains part of the diagnostic context for the full-objective working lock.",
+      "claim_id": "allowed_tri_anchor_context",
+      "required_caveat": "The full-objective working lock is the production seed; high-l and lowl+TTTEEE anchors are monitoring sentinels.",
+      "source_stage": "3A-10 onward",
+      "status": "allowed"
+    }
+  ],
+  "baseline_matching_requirements": [
+    {
+      "detail": "DEU and native/baseline must use matched full-objective likelihood components.",
+      "requirement": "same_likelihood_family",
+      "status": "required"
+    },
+    {
+      "detail": "TT_lite remains diagnostic-only unless both comparison runs explicitly include it.",
+      "requirement": "tt_lite_scope_explicit",
+      "status": "required"
+    },
+    {
+      "detail": "All Planck masks/crops/ranges must match between comparison arms.",
+      "requirement": "same_data_masks",
+      "status": "required"
+    },
+    {
+      "detail": "A_planck and fixed cosmological/nuisance settings must be justified and matched where appropriate.",
+      "requirement": "same_nuisance_treatment",
+      "status": "required"
+    },
+    {
+      "detail": "Evidence design must account for beta and p_vis as DEU-only parameters.",
+      "requirement": "deu_only_parameter_penalty",
+      "status": "required"
+    },
+    {
+      "detail": "Comparison can only use runs that pass their readiness/evidence diagnostics.",
+      "requirement": "chain_or_evidence_readiness",
+      "status": "required"
+    },
+    {
+      "detail": "Existing scoped posterior summaries cannot be upgraded to model-superiority claims without the new comparison stage.",
+      "requirement": "no_retroactive_claim_upgrade",
+      "status": "required"
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked_wording": "DEU is superior to the native/baseline model.",
+      "claim_id": "blocked_model_superiority",
+      "reason": "Requires explicit evidence/model-selection execution, not just posterior/readiness/descriptive comparison.",
+      "status": "blocked",
+      "unblock_requirement": "Run and book a matched evidence/model-selection stage with predeclared metrics."
+    },
+    {
+      "blocked_wording": "A Bayes factor/evidence value favors DEU.",
+      "claim_id": "blocked_bayes_factor_or_evidence",
+      "reason": "No evidence/Bayes-factor calculation has been executed or booked.",
+      "status": "blocked",
+      "unblock_requirement": "Run an explicit evidence estimator or approved proxy with matched priors/likelihoods."
+    },
+    {
+      "blocked_wording": "This is a final publication-ready cosmological result.",
+      "claim_id": "blocked_final_publication_claim",
+      "reason": "Stage 3B-20 is a scoped internal report and final publication claims remain gated.",
+      "status": "blocked",
+      "unblock_requirement": "Complete evidence/model-selection, prior sensitivity, and external robustness gates."
+    },
+    {
+      "blocked_wording": "TT_lite was included in the sampled production posterior.",
+      "claim_id": "blocked_tt_lite_in_posterior",
+      "reason": "TT_lite was diagnostic-only and explicitly excluded from sampled production likelihoods.",
+      "status": "blocked",
+      "unblock_requirement": "Run a later sampler that explicitly includes TT_lite and book its readiness gate."
+    },
+    {
+      "blocked_wording": "The DEU hooks prove a physical mechanism or solve the cosmological problem.",
+      "claim_id": "blocked_physical_proof",
+      "reason": "The current artifacts are model/posterior diagnostics, not physical proof or external validation.",
+      "status": "blocked",
+      "unblock_requirement": "Run theory-level validation, external-data checks, and model-selection analysis."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "design_manifest": {
+    "allowed_claim_count": 5,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claim_count": 5,
+    "decision_type": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "design_matrix_rows": 5,
+    "evidence_model_selection_design_written": true,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "next_stage_hint": "Stage 3B-22 evidence/model-selection estimator setup or matched evidence preflight",
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_evidence_status": "evidence_model_selection_design_written_final_claims_still_gated",
+    "posterior_summary_allowed_with_caveats": true,
+    "publication_claim_preflight_written": true,
+    "recommendation": "Book Stage 3B-21. Next run an explicit evidence/model-selection preflight or estimator setup before any model-superiority, Bayes-factor, or publication-style claim.",
+    "required_evidence_artifact_count": 8,
+    "scoped_internal_posterior_comparison_allowed": true,
+    "stage3b18_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "stage3b19_decision": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b20_decision": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b9_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "tri_anchor_context_count": 3,
+    "tt_lite_sampled_posterior_claims_allowed": false
+  },
+  "design_matrix": [
+    {
+      "claim_not_unlocked": "physical proof or TT_lite inclusion unless explicitly sampled",
+      "claim_unlocked_if_passes": "Bayes-factor/evidence language, still caveated by prior dependence",
+      "design_id": "matched_nested_sampling_evidence",
+      "mcmc_required": "not necessarily; use nested sampler/evidence estimator",
+      "must_match": "likelihood set, nuisance treatment, data masks, priors/scopes, chain/evidence tolerances",
+      "purpose": "Compute matched log evidence for DEU and native/baseline under the same likelihood family.",
+      "status": "recommended_primary_path"
+    },
+    {
+      "claim_not_unlocked": "Bayes factor or model superiority by itself",
+      "claim_unlocked_if_passes": "descriptive information-criterion comparison only",
+      "design_id": "matched_native_deu_production_chains_ic",
+      "mcmc_required": "already partly available, but estimator validity must be audited",
+      "must_match": "effective parameter count definition, loglike components, chain quality, posterior weights",
+      "purpose": "Compute descriptive AIC/BIC/DIC/WAIC-like summaries from matched posterior chains if available.",
+      "status": "secondary_descriptive_path"
+    },
+    {
+      "claim_not_unlocked": "final publication claim without external validation",
+      "claim_unlocked_if_passes": "robustness qualifier for evidence/model-selection statements",
+      "design_id": "prior_sensitivity_evidence_grid",
+      "mcmc_required": "maybe; depends on evidence estimator",
+      "must_match": "prior families for shared parameters and DEU-only beta/p_vis treatment",
+      "purpose": "Assess whether any evidence/comparison result is stable under reasonable prior-width choices.",
+      "status": "required_for_stronger_claims"
+    },
+    {
+      "claim_not_unlocked": "retroactive TT_lite inclusion for current production posterior",
+      "claim_unlocked_if_passes": "TT_lite-included posterior claims for that new run only",
+      "design_id": "tt_lite_inclusion_extension",
+      "mcmc_required": "yes, if sampled posterior claims are desired",
+      "must_match": "TT_lite inclusion on both DEU and native/baseline sides or a justified diagnostic-only design",
+      "purpose": "Run an explicit sampled likelihood configuration including TT_lite if TT_lite posterior language is desired.",
+      "status": "optional_scope_extension"
+    },
+    {
+      "claim_not_unlocked": "evidence/Bayes factor unless evidence is computed",
+      "claim_unlocked_if_passes": "external robustness language",
+      "design_id": "external_data_or_holdout_check",
+      "mcmc_required": "likely",
+      "must_match": "external data handling, masks, priors, likelihood code, comparison metric",
+      "purpose": "Check whether posterior/model comparison survives a data split or external dataset.",
+      "status": "required_for_publication_strength"
+    }
+  ],
+  "deu_readiness_reference": {
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness.json",
+    "loaded": true,
+    "posterior_readiness_gate_pass": true
+  },
+  "elapsed_s": 0.001949310302734375,
+  "generated_utc": "2026-05-09T03:56:55+00:00",
+  "native_readiness_reference": {
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness.json",
+    "loaded": true,
+    "native_readiness_gate_pass": true
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_acceptance.md",
+    "allowed_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_allowed_current_claims.csv",
+    "baseline_requirements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_baseline_matching_requirements.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_blocked_claims.csv",
+    "design_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_design_manifest.json",
+    "design_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_design_matrix.csv",
+    "design_protocol_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_evidence_model_selection_protocol.md",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design.json",
+    "publication_preflight_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_publication_claim_preflight.md",
+    "required_evidence_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_required_evidence_artifacts.csv",
+    "timeline_recap_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_timeline_recap.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design_tt_lite_scope.md"
+  },
+  "previous_stage3b19_reference": {
+    "diagnostic_outcome": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock.json",
+    "loaded": true
+  },
+  "previous_stage3b20_reference": {
+    "diagnostic_outcome": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+    "loaded": true
+  },
+  "required_evidence_artifacts": [
+    {
+      "artifact": "matched_likelihood_manifest",
+      "description": "Defines identical DEU/native likelihood components and explicitly states TT_lite status.",
+      "required": true
+    },
+    {
+      "artifact": "matched_prior_manifest",
+      "description": "Defines shared native parameters and DEU-only beta/p_vis prior treatment.",
+      "required": true
+    },
+    {
+      "artifact": "evidence_estimator_config",
+      "description": "Specifies nested/evidence estimator, stopping criteria, seeds, and outputs.",
+      "required": true
+    },
+    {
+      "artifact": "native_evidence_run",
+      "description": "Native/baseline evidence or approved comparison run.",
+      "required": true
+    },
+    {
+      "artifact": "deu_evidence_run",
+      "description": "DEU evidence or approved comparison run using matched settings.",
+      "required": true
+    },
+    {
+      "artifact": "evidence_reproducibility_or_error_budget",
+      "description": "Independent repeat or estimator uncertainty sufficient to support any comparison.",
+      "required": true
+    },
+    {
+      "artifact": "prior_sensitivity_check",
+      "description": "Shows comparison is not an artifact of arbitrary prior widths.",
+      "required": true
+    },
+    {
+      "artifact": "claim_lock_update",
+      "description": "Maps evidence outputs to allowed and blocked external claims.",
+      "required": true
+    }
+  ],
+  "script": "stage3b_21_evidence_model_selection_design.py",
+  "stage": "3B-21",
+  "timeline_recap": [
+    {
+      "claim_status": "posterior interpretation unlocked, summary not yet written",
+      "decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+      "role": "DEU production readiness",
+      "stage": "3B-9"
+    },
+    {
+      "claim_status": "caveated posterior summary written",
+      "decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+      "role": "first DEU posterior summary",
+      "stage": "3B-10"
+    },
+    {
+      "claim_status": "robustness passed, final claims still gated",
+      "decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+      "role": "posterior robustness",
+      "stage": "3B-11"
+    },
+    {
+      "claim_status": "native comparison ready, superiority still gated",
+      "decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+      "role": "native/baseline readiness",
+      "stage": "3B-18"
+    },
+    {
+      "claim_status": "descriptive comparison written, superiority still gated",
+      "decision": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+      "role": "matched descriptive comparison",
+      "stage": "3B-19"
+    },
+    {
+      "claim_status": "internal scoped report complete, evidence/model-selection still required",
+      "decision": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+      "role": "final scoped internal report",
+      "stage": "3B-20"
+    },
+    {
+      "claim_status": "design/preflight only; final claims still gated",
+      "decision": "this stage",
+      "role": "evidence/model-selection design",
+      "stage": "3B-21"
+    }
+  ],
+  "tri_anchor_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

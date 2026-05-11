@@ -1,0 +1,8 @@
+requirement,status,detail
+same_likelihood_family,required,DEU and native/baseline must use matched full-objective likelihood components.
+tt_lite_scope_explicit,required,TT_lite remains diagnostic-only unless both comparison runs explicitly include it.
+same_data_masks,required,All Planck masks/crops/ranges must match between comparison arms.
+same_nuisance_treatment,required,A_planck and fixed cosmological/nuisance settings must be justified and matched where appropriate.
+deu_only_parameter_penalty,required,Evidence design must account for beta and p_vis as DEU-only parameters.
+chain_or_evidence_readiness,required,Comparison can only use runs that pass their readiness/evidence diagnostics.
+no_retroactive_claim_upgrade,required,Existing scoped posterior summaries cannot be upgraded to model-superiority claims without the new comparison stage.

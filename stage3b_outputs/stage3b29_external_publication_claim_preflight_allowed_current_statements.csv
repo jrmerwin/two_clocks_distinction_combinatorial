@@ -1,0 +1,6 @@
+statement_id,audience_scope,allowed,statement,required_caveat,numeric_value
+allowed_001,internal_project_record,True,The Stage 3B formal cross-check estimator recorded matched DEU and native log-evidence-style values under the scoped full-objective likelihood configuration.,"Use as an internal formal cross-check estimator result, not as a final publication-grade evidence claim.",
+allowed_002,internal_project_record,True,The formal cross-check log-BF-style value is positive for DEU relative to native under the matched scoped estimator lineage.,Do not phrase this as model superiority or decisive external evidence.,158.76404705020616
+allowed_003,internal_project_record,True,The DEU formal cross-check log-evidence-style value was recorded.,The estimator lineage and prior-volume assumptions must accompany the value.,-576.0487181192134
+allowed_004,internal_project_record,True,The native formal cross-check log-evidence-style value was recorded.,The native baseline must be described as matched to the scoped full-objective likelihood and excluded TT_lite.,-734.8127651694195
+allowed_005,external_preprint_draft_only_if_caveated,True,A formal cross-check evidence estimator has been run as part of an internal validation workflow.,External/publication-grade claims require independent validation before model-superiority language.,

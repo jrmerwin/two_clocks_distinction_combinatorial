@@ -1,0 +1,6 @@
+claim_type,status_after_stage3b36,scope,reason
+internal independent-validation evidence/BF language,allowed_with_caveats,internal/reviewer handoff only,Stage 3B-32/33/35 gates allow internal independent-validation evidence language with caveats.
+external publication claim,blocked,not allowed,No external reviewer result has been booked by this stage.
+model-superiority claim,blocked,not allowed,Independent review has not been completed and manuscript-grade claim lock has not passed.
+final publication-style claim,blocked,not allowed,"Stage 3B-36 is a handoff gate, not a publication result gate."
+TT_lite sampled posterior/evidence claim,blocked,not allowed,TT_lite remains diagnostic-only and excluded from sampled posterior/evidence likelihoods.

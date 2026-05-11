@@ -1,0 +1,29 @@
+{
+  "author_led_preprint_package_written": true,
+  "decision_type": "PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED",
+  "evidence_values": {
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "independent_minus_formal_log_bf": 10.242361570654907,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "proxy_log_bayes_factor_lineage": 158.76404705020616
+  },
+  "external_publication_claims_allowed": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": false,
+  "model_superiority_claims_allowed": false,
+  "n_deu_native_comparison_rows": 5,
+  "n_deu_parameter_summary_rows": 5,
+  "n_tri_anchor_rows": 3,
+  "new_evidence_computed_by_this_stage": false,
+  "next_stage_hint": "Stage 3B-39 preprint submission dry run or manuscript polish package",
+  "peer_review_or_external_review_claims_allowed": false,
+  "posterior_evidence_status": "author_led_preprint_package_assembled_claims_scoped_and_gated",
+  "preprint_submission_ready_for_author_review": true,
+  "recommendation": "Book Stage 3B-38. The author-led preprint package is assembled; use only the scoped/caveated wording and do not claim peer review, model superiority, or final publication-grade validation.",
+  "stage3b32_decision": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+  "stage3b33_decision": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+  "stage3b37_decision": "PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+  "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+}

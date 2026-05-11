@@ -1,0 +1,6 @@
+claim_id,blocked_statement,reason
+B1,DEU is superior to native/baseline.,Independent evidence validation has not executed or passed a result gate.
+B2,The formal logBF is publication-ready.,Stage 3B-30 is a preflight/design stage only.
+B3,TT_lite was included in the production posterior or evidence comparison.,TT_lite remains diagnostic-only and excluded from sampled/evidence likelihood scope.
+B4,Final publication-style cosmological claims are allowed.,Publication guardrails still require independent validation and final claim-lock.
+B5,The diagnostic proxy/formal cross-check alone is sufficient for model selection.,An independent estimator family is still required.

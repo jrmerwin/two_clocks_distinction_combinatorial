@@ -1,0 +1,524 @@
+{
+  "point_deltas": [
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -157.74692094400146,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -382.30201119323436,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -212.1379932252806,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -9.388064537163515,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -594.440004418515,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": 0.0,
+      "label": "working_lock",
+      "loglike": -603.8280689556785,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.21347306622718065,
+      "label": "posterior_mean",
+      "loglike": -157.53344787777428,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.03365289015948747,
+      "label": "posterior_mean",
+      "loglike": -382.2683583030749,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": -0.05084693298761067,
+      "label": "posterior_mean",
+      "loglike": -212.18884015826822,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": -0.04675096296302428,
+      "label": "posterior_mean",
+      "loglike": -9.43481550012654,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": -0.0171940428281232,
+      "label": "posterior_mean",
+      "loglike": -594.4571984613431,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": -0.06394500579108353,
+      "label": "posterior_mean",
+      "loglike": -603.8920139614696,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.3330236576876473,
+      "label": "posterior_median",
+      "loglike": -157.4138972863138,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0532428619785037,
+      "label": "posterior_median",
+      "loglike": -382.24876833125586,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": -0.049811953278293686,
+      "label": "posterior_median",
+      "loglike": -212.1878051785589,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": -0.03933942838393456,
+      "label": "posterior_median",
+      "loglike": -9.42740396554745,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": 0.003430908700238433,
+      "label": "posterior_median",
+      "loglike": -594.4365735098147,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": -0.0359085196836304,
+      "label": "posterior_median",
+      "loglike": -603.8639774753622,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.5815247849854757,
+      "label": "map_like_chain_row",
+      "loglike": -157.16539615901598,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.09613723267386831,
+      "label": "map_like_chain_row",
+      "loglike": -382.2058739605605,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": -0.07499160523295245,
+      "label": "map_like_chain_row",
+      "loglike": -212.21298483051356,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": -0.014852212243505747,
+      "label": "map_like_chain_row",
+      "loglike": -9.402916749407021,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": 0.021145627440887438,
+      "label": "map_like_chain_row",
+      "loglike": -594.4188587910741,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": 0.006293415197433205,
+      "label": "map_like_chain_row",
+      "loglike": -603.8217755404811,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.859386842415887,
+      "label": "tri_anchor_highl",
+      "loglike": -156.88753410158557,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.205562555991321,
+      "label": "tri_anchor_highl",
+      "loglike": -382.09644863724304,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": -0.24719804423156688,
+      "label": "tri_anchor_highl",
+      "loglike": -212.38519126951218,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": -0.06695053597789702,
+      "label": "tri_anchor_highl",
+      "loglike": -9.455015073141412,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": -0.041635488240217455,
+      "label": "tri_anchor_highl",
+      "loglike": -594.4816399067552,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": -0.10858602421808428,
+      "label": "tri_anchor_highl",
+      "loglike": -603.9366549798966,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.7627885428852039,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -156.98413240111626,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.11892902517655557,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -382.1830821680578,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": -0.0779138513807709,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -212.21590707666138,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": -0.06547006935986133,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -9.453534606523377,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0410151737958131,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -594.3989892447191,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": -0.02445489556407665,
+      "label": "tri_anchor_lowl_plus",
+      "loglike": -603.8525238512426,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TT_lite",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -157.74692094400146,
+      "reference_label": "working_lock",
+      "reference_loglike": -157.74692094400146,
+      "status": "success"
+    },
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -382.30201119323436,
+      "reference_label": "working_lock",
+      "reference_loglike": -382.30201119323436,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_available",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -212.1379932252806,
+      "reference_label": "working_lock",
+      "reference_loglike": -212.1379932252806,
+      "status": "success"
+    },
+    {
+      "bundle": "lensing_native",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -9.388064537163515,
+      "reference_label": "working_lock",
+      "reference_loglike": -9.388064537163515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -594.440004418515,
+      "reference_label": "working_lock",
+      "reference_loglike": -594.440004418515,
+      "status": "success"
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "delta_vs_reference": 0.0,
+      "label": "tri_anchor_full_objective",
+      "loglike": -603.8280689556785,
+      "reference_label": "working_lock",
+      "reference_loglike": -603.8280689556785,
+      "status": "success"
+    }
+  ],
+  "point_evaluations": [
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "working_lock",
+      "lensing_native__loglike": -9.388064537163515,
+      "lowl_available__loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.440004418515,
+      "plik_TTTEEE_lite__loglike": -382.30201119323436,
+      "plik_TT_lite__loglike": -157.74692094400146,
+      "point": {
+        "A_planck": 1.025,
+        "beta": 0.03,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.981875,
+        "omega_b": 0.022,
+        "p_vis": 1.0475
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "posterior_mean",
+      "lensing_native__loglike": -9.43481550012654,
+      "lowl_available__loglike": -212.18884015826822,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8920139614696,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.4571984613431,
+      "plik_TTTEEE_lite__loglike": -382.2683583030749,
+      "plik_TT_lite__loglike": -157.53344787777428,
+      "point": {
+        "A_planck": 1.0250557243798117,
+        "beta": 0.02949121724807528,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.9815232201591104,
+        "omega_b": 0.021980020954662106,
+        "p_vis": 1.0474182267750214
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "posterior_median",
+      "lensing_native__loglike": -9.42740396554745,
+      "lowl_available__loglike": -212.1878051785589,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8639774753622,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.4365735098147,
+      "plik_TTTEEE_lite__loglike": -382.24876833125586,
+      "plik_TT_lite__loglike": -157.4138972863138,
+      "point": {
+        "A_planck": 1.0250715,
+        "beta": 0.029503285,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.9815207,
+        "omega_b": 0.021972856,
+        "p_vis": 1.0473475
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "map_like_chain_row",
+      "lensing_native__loglike": -9.402916749407021,
+      "lowl_available__loglike": -212.21298483051356,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8217755404811,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.4188587910741,
+      "plik_TTTEEE_lite__loglike": -382.2058739605605,
+      "plik_TT_lite__loglike": -157.16539615901598,
+      "point": {
+        "A_planck": 1.0250579,
+        "beta": 0.029595717,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556,
+        "p_vis": 1.0473467
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "tri_anchor_highl",
+      "lensing_native__loglike": -9.455015073141412,
+      "lowl_available__loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.4816399067552,
+      "plik_TTTEEE_lite__loglike": -382.09644863724304,
+      "plik_TT_lite__loglike": -156.88753410158557,
+      "point": {
+        "A_planck": 1.025,
+        "beta": 0.029,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.98,
+        "omega_b": 0.02195,
+        "p_vis": 1.0475
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "tri_anchor_lowl_plus",
+      "lensing_native__loglike": -9.453534606523377,
+      "lowl_available__loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.3989892447191,
+      "plik_TTTEEE_lite__loglike": -382.1830821680578,
+      "plik_TT_lite__loglike": -156.98413240111626,
+      "point": {
+        "A_planck": 1.025,
+        "beta": 0.0295,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.98125,
+        "omega_b": 0.02195,
+        "p_vis": 1.0475
+      },
+      "status": "success"
+    },
+    {
+      "failure_message": "",
+      "failure_type": "",
+      "label": "tri_anchor_full_objective",
+      "lensing_native__loglike": -9.388064537163515,
+      "lowl_available__loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native__loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite__loglike": -594.440004418515,
+      "plik_TTTEEE_lite__loglike": -382.30201119323436,
+      "plik_TT_lite__loglike": -157.74692094400146,
+      "point": {
+        "A_planck": 1.025,
+        "beta": 0.03,
+        "deu_lensed_phase_profile": 2,
+        "n_s": 0.981875,
+        "omega_b": 0.022,
+        "p_vis": 1.0475
+      },
+      "status": "success"
+    }
+  ]
+}

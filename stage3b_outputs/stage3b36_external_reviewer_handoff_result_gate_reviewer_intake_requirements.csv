@@ -1,0 +1,7 @@
+requirement_id,requirement,required_for_result_gate
+reviewer_identity,Record reviewer identity or anonymized reviewer handle and date of review.,True
+environment_reconstruction,"Reviewer confirms repo root, local CLASS-DEU build, venv activation, and COBAYA_PACKAGES_PATH setup.",True
+artifact_hash_verification,Reviewer verifies Stage 3B-35 SHA256 manifest or records exact deviations.,True
+reproduction_commands,Reviewer dry-runs or executes the listed reproduction commands and records pass/fail status.,True
+claim_boundary_acknowledgement,Reviewer acknowledges TT_lite diagnostic-only status and blocked publication/model-superiority claims.,True
+independent_result_summary,Reviewer provides an independent result summary or states that validation was not completed.,True

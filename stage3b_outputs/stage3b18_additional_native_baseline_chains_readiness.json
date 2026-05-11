@@ -1,0 +1,1120 @@
+{
+  "acceptance": {
+    "additional_native_mcmc_launched_by_this_stage": true,
+    "additional_native_prefixes_clean_or_force_cleaned_before_run": true,
+    "additional_native_sampler_yaml_written": true,
+    "all_additional_native_sampler_runs_success": true,
+    "blocked_claims_csv_written": true,
+    "combined_native_chain_file_count_at_least_readiness_min": true,
+    "combined_native_chain_files_found": true,
+    "combined_native_chain_has_enough_rows_for_assessment": true,
+    "combined_native_chain_has_expected_sampled_columns": true,
+    "combined_native_chain_values_finite": true,
+    "deu_shape_params_absent_from_native_sampler": true,
+    "diagnostic_outcome": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "matched_comparison_scope_written": true,
+    "model_superiority_claims_allowed": false,
+    "native_autocorr_ess_diagnostics_recorded": true,
+    "native_chain_audit_json_written": true,
+    "native_chain_columns_csv_written": true,
+    "native_config_audit_written": true,
+    "native_config_has_expected_sampled_params": true,
+    "native_config_has_no_deu_keys": true,
+    "native_deu_context_csv_written": true,
+    "native_ess_csv_written": true,
+    "native_ess_json_written": true,
+    "native_execution_yaml_loaded": true,
+    "native_full_objective_likelihoods_present": true,
+    "native_readiness_gate_pass": true,
+    "native_reference_comparison_csv_written": true,
+    "native_reference_eval_success": true,
+    "native_reference_eval_written": true,
+    "native_reference_matches_stage3b15_sampler_ref": true,
+    "native_reference_matches_stage3b16_checkpoint": true,
+    "native_sample_stats_csv_written": true,
+    "native_sample_stats_json_written": true,
+    "native_sampled_parameter_motion_threshold_met": true,
+    "native_sampled_parameters_within_prior_bounds": true,
+    "native_segment_csv_written": true,
+    "native_segment_json_written": true,
+    "native_segment_split_diagnostics_recorded": true,
+    "native_tail_csv_written": true,
+    "native_tail_diagnostics_recorded": true,
+    "native_tail_json_written": true,
+    "native_tt_lite_excluded": true,
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_summary_allowed_with_caveats": true,
+    "readiness_manifest_written": true,
+    "sampler_runs_json_written": true,
+    "script_completed": true,
+    "stage3b0_hard_guard_pass": true,
+    "stage3b0_reference_loaded": true,
+    "stage3b15_hard_guard_pass": true,
+    "stage3b15_preflight_pass": true,
+    "stage3b15_reference_loaded": true,
+    "stage3b16_checkpoint_pass": true,
+    "stage3b16_hard_guard_pass": true,
+    "stage3b16_reference_loaded": true,
+    "stage3b17_hard_guard_pass": true,
+    "stage3b17_more_chains_needed": true,
+    "stage3b17_native_readiness_false": true,
+    "stage3b17_reference_loaded": true,
+    "tri_anchor_context_csv_written": true,
+    "tri_anchor_context_retained": true
+  },
+  "additional_native_chain_prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01"
+  ],
+  "additional_native_sampler_runs": [
+    {
+      "elapsed_s": 1274.3314554691315,
+      "label": "additional_native_chain01",
+      "mcmc_launched_by_this_stage": true,
+      "posterior_interpretation_allowed": false,
+      "sampler_type": "MCMC",
+      "status": "success",
+      "updated_info_available": true
+    }
+  ],
+  "base_native_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 1275.7299635410309,
+  "generated_utc": "2026-05-09T03:00:28+00:00",
+  "native_autocorr_ess_rows": [
+    {
+      "ess_lag1_proxy": 294.42860767148795,
+      "gate_pass": true,
+      "lag1_autocorr": 0.8628787973582673,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "omega_b"
+    },
+    {
+      "ess_lag1_proxy": 304.7394867124055,
+      "gate_pass": true,
+      "lag1_autocorr": 0.8584167577838074,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "n_s"
+    },
+    {
+      "ess_lag1_proxy": 1042.1809841263512,
+      "gate_pass": true,
+      "lag1_autocorr": 0.5866150035441745,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "A_planck"
+    }
+  ],
+  "native_autocorr_ess_summary": {
+    "diagnostics_recorded": true,
+    "ess_gate_pass": true,
+    "min_ess_lag1_proxy_seen": 294.42860767148795,
+    "min_required_ess": 50.0,
+    "note": "Lag-1 ESS proxy only; not a final convergence diagnostic or posterior evidence."
+  },
+  "native_chain_audit": {
+    "all_chain_values_finite": true,
+    "all_expected_sampled_columns_present": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+    ],
+    "chain_files_found": true,
+    "chain_infos": [
+      {
+        "all_numeric_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ],
+        "rows_preview": [
+          [
+            1.0,
+            865.55804,
+            0.021990003,
+            0.98196557,
+            1.0245428,
+            1769.79,
+            -19.336971,
+            -19.336971,
+            1769.79,
+            1334.3794,
+            19.754058,
+            395.96399,
+            19.692552
+          ],
+          [
+            1.0,
+            834.24598,
+            0.021936356,
+            0.981415,
+            1.0235992,
+            1707.1659,
+            -19.336971,
+            -19.336971,
+            1707.1659,
+            1272.5301,
+            19.750505,
+            395.96671,
+            18.918571
+          ],
+          [
+            7.0,
+            733.23034,
+            0.021936356,
+            0.981415,
+            1.0200756,
+            1505.1346,
+            -19.336971,
+            -19.336971,
+            1505.1346,
+            1073.4601,
+            19.78773,
+            395.98158,
+            15.905239
+          ]
+        ]
+      },
+      {
+        "all_numeric_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ],
+        "rows_preview": [
+          [
+            1.0,
+            883.08484,
+            0.022,
+            0.981875,
+            1.0250552,
+            1804.8436,
+            -19.336971,
+            -19.336971,
+            1804.8436,
+            1368.9845,
+            19.753788,
+            395.93349,
+            20.171817
+          ],
+          [
+            1.0,
+            800.24585,
+            0.022,
+            0.981875,
+            1.0224199,
+            1639.1656,
+            -19.336971,
+            -19.336971,
+            1639.1656,
+            1205.7351,
+            19.761084,
+            395.97541,
+            17.69407
+          ],
+          [
+            1.0,
+            798.86911,
+            0.022,
+            0.981875,
+            1.0223732,
+            1636.4122,
+            -19.336971,
+            -19.336971,
+            1636.4122,
+            1203.0134,
+            19.761399,
+            395.98427,
+            17.653127
+          ]
+        ]
+      }
+    ],
+    "enough_rows_per_prefix": true,
+    "enough_total_rows_for_precheck": true,
+    "expected_sampled_columns_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "min_rows_per_chain": 1,
+    "min_total_rows": 3000,
+    "n_chain_files": 2,
+    "prefix_reports": [
+      {
+        "chain_files": [
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+        ],
+        "enough_rows": true,
+        "n_chain_files": 2,
+        "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+        "rows": 4000
+      }
+    ],
+    "prefixes": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run"
+    ],
+    "special_columns_present": {
+      "minuslogpost": true,
+      "weight": true
+    },
+    "total_rows": 4000,
+    "unique_columns": [
+      "A_planck",
+      "chi2",
+      "chi2__CMB",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lensing.native",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lowl.TT",
+      "minuslogpost",
+      "minuslogprior",
+      "minuslogprior__0",
+      "n_s",
+      "omega_b",
+      "weight"
+    ]
+  },
+  "native_config_audit": {
+    "all_expected_native_sampled_params_present": true,
+    "all_required_full_objective_likelihoods_present": true,
+    "deu_shape_params_absence_detail": {
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true
+    },
+    "deu_shape_params_absent_from_native_sampler": true,
+    "expected_native_sampled_params_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "extra_arg_keys": [
+      "l_max_scalars",
+      "lensing",
+      "output"
+    ],
+    "extra_args_have_no_deu_keys": true,
+    "likelihood_names": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "mcmc_settings": {
+      "Rminus1_cl_stop": 0.05,
+      "Rminus1_stop": 0.01,
+      "learn_proposal": true,
+      "max_samples": 2000,
+      "max_tries": 10000
+    },
+    "output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "output_prefix_expected": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "output_prefix_matches_expected": true,
+    "required_full_objective_likelihoods_present": {
+      "planck_2018_highl_plik.TTTEEE_lite": true,
+      "planck_2018_lensing.native": true,
+      "planck_2018_lowl.EE": true,
+      "planck_2018_lowl.TT": true
+    },
+    "sampled_param_names": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "sampler_mcmc_present": true,
+    "tt_lite_excluded": true
+  },
+  "native_deu_context": [
+    {
+      "bundle": "plik_TTTEEE_lite",
+      "comparison": "native_fixed_reference_minus_deu_working_lock",
+      "context_note": "Reference delta only; not evidence or model-superiority claim.",
+      "deu_working_lock_loglike": "-382.30201119323436",
+      "finite": "True",
+      "interpretation_allowed": "False",
+      "native_loglike": "-682.6862841492145",
+      "native_minus_deu": "-300.3842729559802",
+      "note": "Reference delta only; not a Bayes factor, not evidence, and not model superiority."
+    },
+    {
+      "bundle": "lowl_available",
+      "comparison": "native_fixed_reference_minus_deu_working_lock",
+      "context_note": "Reference delta only; not evidence or model-superiority claim.",
+      "deu_working_lock_loglike": "-212.1379932252806",
+      "finite": "True",
+      "interpretation_allowed": "False",
+      "native_loglike": "-207.84360434887708",
+      "native_minus_deu": "4.294388876403531",
+      "note": "Reference delta only; not a Bayes factor, not evidence, and not model superiority."
+    },
+    {
+      "bundle": "lensing_native",
+      "comparison": "native_fixed_reference_minus_deu_working_lock",
+      "context_note": "Reference delta only; not evidence or model-superiority claim.",
+      "deu_working_lock_loglike": "-9.388064537163515",
+      "finite": "True",
+      "interpretation_allowed": "False",
+      "native_loglike": "-10.05829195887283",
+      "native_minus_deu": "-0.6702274217093152",
+      "note": "Reference delta only; not a Bayes factor, not evidence, and not model superiority."
+    },
+    {
+      "bundle": "lowl_plus_plik_TTTEEE_lite",
+      "comparison": "native_fixed_reference_minus_deu_working_lock",
+      "context_note": "Reference delta only; not evidence or model-superiority claim.",
+      "deu_working_lock_loglike": "-594.440004418515",
+      "finite": "True",
+      "interpretation_allowed": "False",
+      "native_loglike": "-890.5298884980916",
+      "native_minus_deu": "-296.0898840795767",
+      "note": "Reference delta only; not a Bayes factor, not evidence, and not model superiority."
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "comparison": "native_fixed_reference_minus_deu_working_lock",
+      "context_note": "Reference delta only; not evidence or model-superiority claim.",
+      "deu_working_lock_loglike": "-603.8280689556785",
+      "finite": "True",
+      "interpretation_allowed": "False",
+      "native_loglike": "-900.5881804569644",
+      "native_minus_deu": "-296.7601115012859",
+      "note": "Reference delta only; not a Bayes factor, not evidence, and not model superiority."
+    },
+    {
+      "bundle": "lowl_plik_TTTEEE_lite_lensing_native",
+      "context": "native_current_reference",
+      "context_note": "Native reference values are recorded for matched-comparison setup only.",
+      "deu_reference_or_posterior_context": "DEU posterior summary already written with caveats; not a direct evidence comparison.",
+      "native_reference_loglike": -900.5881804569644
+    },
+    {
+      "context": "deu_posterior_summary",
+      "context_note": "DEU posterior is caveated and scoped; model superiority remains gated.",
+      "parameter_summary_count": 5,
+      "robustness_decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS"
+    }
+  ],
+  "native_reference_comparisons": [
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "plik_TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -207.84360434887708,
+      "key": "lowl_available",
+      "observed": -207.84360434887708,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "lensing_native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -890.5298884980916,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -890.5298884980916,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -900.5881804569644,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -900.5881804569644,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "planck_2018_highl_plik.TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -9.876859999848904,
+      "key": "planck_2018_lowl.TT",
+      "observed": -9.876859999848904,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -197.96674434902818,
+      "key": "planck_2018_lowl.EE",
+      "observed": -197.96674434902818,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "planck_2018_lensing.native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "plik_TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -207.84360434887708,
+      "key": "lowl_available",
+      "observed": -207.84360434887708,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "lensing_native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -890.5298884980916,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -890.5298884980916,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_bundle_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -900.5881804569644,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -900.5881804569644,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "planck_2018_highl_plik.TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -9.876859999848904,
+      "key": "planck_2018_lowl.TT",
+      "observed": -9.876859999848904,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -197.96674434902818,
+      "key": "planck_2018_lowl.EE",
+      "observed": -197.96674434902818,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_readiness_ref_components_vs_stage3b16_checkpoint",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "planck_2018_lensing.native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    }
+  ],
+  "native_reference_eval": {
+    "bundle_loglikes": {
+      "lensing_native": -10.05829195887283,
+      "lensing_native__finite": true,
+      "lowl_available": -207.84360434887708,
+      "lowl_available__finite": true,
+      "lowl_plik_TTTEEE_lite_lensing_native": -900.5881804569644,
+      "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+      "lowl_plus_plik_TTTEEE_lite": -890.5298884980916,
+      "lowl_plus_plik_TTTEEE_lite__finite": true,
+      "plik_TTTEEE_lite": -682.6862841492145,
+      "plik_TTTEEE_lite__finite": true,
+      "plik_TT_lite": null,
+      "plik_TT_lite__finite": false
+    },
+    "component_loglikes": {
+      "planck_2018_highl_plik.TTTEEE_lite": -682.6862841492145,
+      "planck_2018_lensing.native": -10.05829195887283,
+      "planck_2018_lowl.EE": -197.96674434902818,
+      "planck_2018_lowl.TT": -9.876859999848904
+    },
+    "elapsed_s": 1.2720746994018555,
+    "label": "native_baseline_additional_readiness_reference_point",
+    "point": {
+      "A_planck": 1.025,
+      "n_s": 0.981875,
+      "omega_b": 0.022
+    },
+    "status": "success"
+  },
+  "native_sample_stats_rows": [
+    {
+      "max": 0.022056177,
+      "mean": 0.02193528122575,
+      "min": 0.021900159,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "omega_b",
+      "prior_max": 0.0221,
+      "prior_min": 0.0219,
+      "span": 0.00015601800000000082,
+      "unique_rounded_12": 1181,
+      "within_prior": true
+    },
+    {
+      "max": 0.98249963,
+      "mean": 0.98176250008,
+      "min": 0.98050073,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "n_s",
+      "prior_max": 0.9825,
+      "prior_min": 0.9805,
+      "span": 0.0019988999999999146,
+      "unique_rounded_12": 1183,
+      "within_prior": true
+    },
+    {
+      "max": 1.0250552,
+      "mean": 1.020052987475,
+      "min": 1.02,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "A_planck",
+      "prior_max": 1.03,
+      "prior_min": 1.02,
+      "span": 0.005055199999999926,
+      "unique_rounded_12": 1239,
+      "within_prior": true
+    }
+  ],
+  "native_sample_stats_summary": {
+    "all_sampled_parameters_with_motion": true,
+    "all_sampled_parameters_within_prior_bounds": true,
+    "header": [
+      "weight",
+      "minuslogpost",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "motion_by_parameter": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "motion_count": 3,
+    "n_rows": 4000
+  },
+  "native_segment_split_rows": [
+    {
+      "max": 0.022055275,
+      "mean": 0.021936335289,
+      "min": 0.021900159,
+      "n": 1000,
+      "parameter": "omega_b",
+      "segment": 1,
+      "variance": 9.504663689184008e-10
+    },
+    {
+      "max": 0.022048569,
+      "mean": 0.021933515203,
+      "min": 0.021900645,
+      "n": 1000,
+      "parameter": "omega_b",
+      "segment": 2,
+      "variance": 7.630342929367242e-10
+    },
+    {
+      "max": 0.022056177,
+      "mean": 0.021939668974,
+      "min": 0.021900219,
+      "n": 1000,
+      "parameter": "omega_b",
+      "segment": 3,
+      "variance": 9.301692517010224e-10
+    },
+    {
+      "max": 0.022023398,
+      "mean": 0.021931605437,
+      "min": 0.021900709,
+      "n": 1000,
+      "parameter": "omega_b",
+      "segment": 4,
+      "variance": 6.76855367179215e-10
+    },
+    {
+      "gate_pass": true,
+      "max": 0.021939668974,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 0.02193528122575,
+      "min": 0.021931605437,
+      "n": 4000,
+      "normalized_segment_range": 0.27986731624575034,
+      "parameter": "omega_b",
+      "pooled_std": 2.8811999586697217e-05,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 8.063537000002619e-06,
+      "variance": null
+    },
+    {
+      "max": 0.98247155,
+      "mean": 0.9816744412,
+      "min": 0.98055768,
+      "n": 1000,
+      "parameter": "n_s",
+      "segment": 1,
+      "variance": 2.439508400592213e-07
+    },
+    {
+      "max": 0.98249963,
+      "mean": 0.98186439317,
+      "min": 0.98050073,
+      "n": 1000,
+      "parameter": "n_s",
+      "segment": 2,
+      "variance": 2.2935356731656816e-07
+    },
+    {
+      "max": 0.98249804,
+      "mean": 0.98177385308,
+      "min": 0.98053566,
+      "n": 1000,
+      "parameter": "n_s",
+      "segment": 3,
+      "variance": 2.5401196861012315e-07
+    },
+    {
+      "max": 0.98248744,
+      "mean": 0.98173731287,
+      "min": 0.98051853,
+      "n": 1000,
+      "parameter": "n_s",
+      "segment": 4,
+      "variance": 3.0980963715962204e-07
+    },
+    {
+      "gate_pass": true,
+      "max": 0.98186439317,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 0.98176250008,
+      "min": 0.9816744412,
+      "n": 4000,
+      "normalized_segment_range": 0.37304226038652083,
+      "parameter": "n_s",
+      "pooled_std": 0.0005091969199498203,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.00018995196999993524,
+      "variance": null
+    },
+    {
+      "max": 1.0245428,
+      "mean": 1.0200513221,
+      "min": 1.0200001,
+      "n": 1000,
+      "parameter": "A_planck",
+      "segment": 1,
+      "variance": 3.440502768927993e-08
+    },
+    {
+      "max": 1.0202861,
+      "mean": 1.0200462246,
+      "min": 1.02,
+      "n": 1000,
+      "parameter": "A_planck",
+      "segment": 2,
+      "variance": 2.0268197145544614e-09
+    },
+    {
+      "max": 1.0250552,
+      "mean": 1.0200662382,
+      "min": 1.02,
+      "n": 1000,
+      "parameter": "A_planck",
+      "segment": 3,
+      "variance": 5.0246168989749766e-08
+    },
+    {
+      "max": 1.0203074,
+      "mean": 1.020048165,
+      "min": 1.0200001,
+      "n": 1000,
+      "parameter": "A_planck",
+      "segment": 4,
+      "variance": 1.7881675625625089e-09
+    },
+    {
+      "gate_pass": true,
+      "max": 1.0200662382,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 1.020052987475,
+      "min": 1.0200462246,
+      "n": 4000,
+      "normalized_segment_range": 0.1345756741777781,
+      "parameter": "A_planck",
+      "pooled_std": 0.00014871632724430987,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 2.001360000014607e-05,
+      "variance": null
+    },
+    {
+      "max": 865.55804,
+      "mean": 732.52019634,
+      "min": 729.9945,
+      "n": 1000,
+      "parameter": "minuslogpost",
+      "segment": 1,
+      "variance": 30.04419511324786
+    },
+    {
+      "max": 740.22007,
+      "mean": 732.14722626,
+      "min": 729.97341,
+      "n": 1000,
+      "parameter": "minuslogpost",
+      "segment": 2,
+      "variance": 2.086656795992205
+    },
+    {
+      "max": 883.08484,
+      "mean": 732.93722976,
+      "min": 729.84925,
+      "n": 1000,
+      "parameter": "minuslogpost",
+      "segment": 3,
+      "variance": 42.8168209388662
+    },
+    {
+      "max": 739.64343,
+      "mean": 732.2364830399999,
+      "min": 729.91096,
+      "n": 1000,
+      "parameter": "minuslogpost",
+      "segment": 4,
+      "variance": 1.7650636584347903
+    },
+    {
+      "gate_pass": true,
+      "max": 732.93722976,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 732.46028385,
+      "min": 732.14722626,
+      "n": 4000,
+      "normalized_segment_range": 0.18039532290105248,
+      "parameter": "minuslogpost",
+      "pooled_std": 4.379290367928949,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.7900035000000116,
+      "variance": null
+    }
+  ],
+  "native_segment_split_summary": {
+    "diagnostics_recorded": true,
+    "max_allowed_normalized_segment_range": 8.0,
+    "max_normalized_segment_range_seen": 0.37304226038652083,
+    "n_chain_files": 2,
+    "n_rows": 4000,
+    "n_segments_used": 4,
+    "note": "Segment split diagnostic; readiness is conservative and not a posterior claim.",
+    "segment_gate_pass": true
+  },
+  "native_tail_diagnostics_rows": [
+    {
+      "first_half_mean": 0.021934925246,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 2000,
+      "n_second": 2000,
+      "normalized_tail_shift": 0.024583098302864727,
+      "overall_std": 2.8961341293492727e-05,
+      "parameter": "omega_b",
+      "second_half_mean": 0.0219356372055
+    },
+    {
+      "first_half_mean": 0.981769417185,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 2000,
+      "n_second": 2000,
+      "normalized_tail_shift": 0.02693432855212772,
+      "overall_std": 0.0005136274317450871,
+      "parameter": "n_s",
+      "second_half_mean": 0.981755582975
+    },
+    {
+      "first_half_mean": 1.02004877335,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 2000,
+      "n_second": 2000,
+      "normalized_tail_shift": 0.056615432091532636,
+      "overall_std": 0.0001488684213570623,
+      "parameter": "A_planck",
+      "second_half_mean": 1.0200572016
+    }
+  ],
+  "native_tail_diagnostics_summary": {
+    "diagnostics_recorded": true,
+    "max_allowed_normalized_tail_shift": 8.0,
+    "max_normalized_tail_shift_seen": 0.056615432091532636,
+    "note": "Crude first-half/second-half diagnostic; not posterior evidence.",
+    "tail_gate_pass": true
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_acceptance.md",
+    "additional_native_chain_prefixes": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01"
+    ],
+    "additional_sampler_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml",
+    "base_native_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_blocked_claims.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness.json",
+    "matched_comparison_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_matched_comparison_scope.md",
+    "native_autocorr_ess_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.csv",
+    "native_autocorr_ess_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.json",
+    "native_chain_audit_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_audit.json",
+    "native_chain_columns_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_columns.csv",
+    "native_config_audit": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_config_audit.json",
+    "native_deu_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_deu_context.csv",
+    "native_reference_comparison_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_comparison.csv",
+    "native_reference_eval": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_eval.json",
+    "native_sample_stats_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.csv",
+    "native_sample_stats_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.json",
+    "native_segment_split_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.csv",
+    "native_segment_split_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.json",
+    "native_tail_diagnostics_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.csv",
+    "native_tail_diagnostics_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.json",
+    "readiness_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_readiness_manifest.json",
+    "sampler_runs_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_sampler_runs.json",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_tri_anchor_context.csv"
+  },
+  "previous_stage3b15_reference": {
+    "diagnostic_outcome": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight.json",
+    "loaded": true
+  },
+  "previous_stage3b16_reference": {
+    "diagnostic_outcome": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint.json",
+    "loaded": true
+  },
+  "previous_stage3b17_reference": {
+    "diagnostic_outcome": "NATIVE_BASELINE_READINESS_RECORDED_MORE_CHAINS_NEEDED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b17_native_baseline_readiness_comparison_gate.json",
+    "loaded": true,
+    "native_readiness_gate_pass": false
+  },
+  "readiness_manifest": {
+    "additional_native_chain_prefixes": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01"
+    ],
+    "additional_native_sampler_run_statuses": [
+      "success"
+    ],
+    "base_native_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "decision_type": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "deu_shape_params_absent_from_native_sampler": true,
+    "diagnostic_assessment_complete": true,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "mcmc_launched_by_this_stage": true,
+    "min_chain_files_for_readiness": 2,
+    "model_superiority_claims_allowed": false,
+    "native_config_has_no_deu_keys": true,
+    "native_ess_gate_pass": true,
+    "native_max_normalized_segment_range_seen": 0.37304226038652083,
+    "native_max_normalized_tail_shift_seen": 0.056615432091532636,
+    "native_min_ess_lag1_proxy_seen": 294.42860767148795,
+    "native_motion_by_parameter": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "native_motion_count": 3,
+    "native_n_chain_files": 2,
+    "native_readiness_gate_pass": true,
+    "native_reference_eval_status": "success",
+    "native_reference_matches_stage3b15_sampler_ref": true,
+    "native_reference_matches_stage3b16_checkpoint": true,
+    "native_segment_gate_pass": true,
+    "native_tail_gate_pass": true,
+    "native_total_chain_rows": 4000,
+    "native_tt_lite_excluded": true,
+    "next_stage_hint": "Stage 3B-19 matched DEU/native comparison summary and claim-lock preflight",
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_evidence_status": "native_readiness_passed_comparison_ready_superiority_still_gated",
+    "posterior_summary_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-18. Next write a matched DEU/native comparison summary and claim-lock preflight; model-superiority claims remain gated until that stage.",
+    "stage3b0_working_lock_point": {
+      "A_planck": 1.025,
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475
+    },
+    "stage3b15_decision": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b16_decision": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b17_diagnostic_outcome": "NATIVE_BASELINE_READINESS_RECORDED_MORE_CHAINS_NEEDED",
+    "tri_anchor_context_retained": true
+  },
+  "removed_artifacts_before_run": [],
+  "script": "stage3b_18_additional_native_baseline_chains_readiness.py",
+  "stage": "3B-18",
+  "tri_anchor_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

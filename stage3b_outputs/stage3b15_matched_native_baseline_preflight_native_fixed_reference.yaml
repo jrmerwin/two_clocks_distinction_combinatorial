@@ -1,0 +1,27 @@
+theory:
+  classy:
+    extra_args:
+      l_max_scalars: 3500
+      lensing: 'yes'
+      output: tCl,pCl,lCl
+packages_path: /home/merwijas/deu_class/cobaya_packages
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_lensing.native: null
+params:
+  omega_b:
+    value: 0.022
+  n_s:
+    value: 0.981875
+  A_planck:
+    value: 1.025
+  H0:
+    value: 67.4
+  ln10^{10}A_s:
+    value: 3.044
+  omega_cdm:
+    value: 0.12
+  tau_reio:
+    value: 0.0544

@@ -1,0 +1,12 @@
+claim_id,status,claim,required_qualifier
+A1,allowed_scoped_internal,A caveated DEU production posterior summary may be reported for the full-objective working-lock configuration.,Internal staged result; not final publication evidence.
+A2,allowed_scoped_internal,A descriptive matched DEU/native comparison of shared sampled parameters may be reported.,Descriptive posterior comparison only; not model evidence or superiority.
+A3,allowed_scoped_internal,DEU-only shape parameters beta and p_vis may be summarized as DEU-only posterior parameters.,No native analogue; do not compare as shared parameters.
+A4,allowed_scoped_internal,The native/baseline sampler side is readiness-cleared for descriptive comparison.,Readiness-cleared chains do not imply evidence or model preference.
+A5,allowed_scoped_internal,The tri-anchor ledger was retained as context throughout the posterior and comparison stages.,"Tri-anchor context is monitoring context, not a separate posterior mode claim."
+A6,allowed_scoped_internal,TT_lite may be discussed as a diagnostic-only monitor.,TT_lite was not part of the sampled production posterior likelihood.
+P_omega_b,allowed_descriptive_table_row,Parameter row for omega_b may be included in scoped summary tables.,descriptive posterior comparison only; not model evidence or superiority
+P_n_s,allowed_descriptive_table_row,Parameter row for n_s may be included in scoped summary tables.,descriptive posterior comparison only; not model evidence or superiority
+P_A_planck,allowed_descriptive_table_row,Parameter row for A_planck may be included in scoped summary tables.,descriptive posterior comparison only; not model evidence or superiority
+P_beta,allowed_descriptive_table_row,Parameter row for beta may be included in scoped summary tables.,DEU-only shape parameter; no native analogue
+P_p_vis,allowed_descriptive_table_row,Parameter row for p_vis may be included in scoped summary tables.,DEU-only shape parameter; no native analogue

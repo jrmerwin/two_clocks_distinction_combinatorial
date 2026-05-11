@@ -1,0 +1,4 @@
+next_step_id,required_step,purpose
+stage3b28,Formal evidence claim lock and final scoped report addendum,Decide exact wording now allowed after the result gate.
+independent_estimator_optional,Independent estimator or external review,Strengthen claims beyond the current internal formal cross-check.
+tt_lite_extension_optional,Separate TT_lite-included sampler/evidence design,Needed before any TT_lite-in-posterior/evidence statement.

@@ -1,0 +1,5 @@
+comparison,formal_log_bf,proxy_log_bf,difference,abs_difference,tolerance,gate_pass
+stage3b26_manifest_stage3b24_proxy,158.76404705020616,158.76404705020616,0.0,0.0,1e-08,True
+stage3b26_manifest_stage3b23_proxy,158.76404705020616,158.76404705020616,0.0,0.0,1e-08,True
+stage3b24_result_gate_proxy,158.76404705020616,158.76404705020616,0.0,0.0,1e-08,True
+stage3b23_execution_proxy,158.76404705020616,158.76404705020616,0.0,0.0,1e-08,True

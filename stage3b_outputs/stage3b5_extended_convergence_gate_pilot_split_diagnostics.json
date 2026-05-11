@@ -1,0 +1,244 @@
+{
+  "diagnostics_recorded": true,
+  "max_allowed_normalized_mean_range": 25.0,
+  "max_normalized_mean_range_seen": 1.4681199893182455,
+  "n_prefixes": 3,
+  "note": "Crude short-chain split diagnostics only; not a convergence claim and not posterior evidence.",
+  "required_parameter_split_gate_pass": true,
+  "split_rows": [
+    {
+      "max": 0.030468793,
+      "mean": 0.0295783988671875,
+      "min": 0.028535561,
+      "n": 128,
+      "parameter": "deu_damping_envelope_beta",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 3.3778953678576967e-07
+    },
+    {
+      "max": 0.030419373,
+      "mean": 0.02982818859375,
+      "min": 0.028811606,
+      "n": 128,
+      "parameter": "deu_damping_envelope_beta",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 2.0379440598910903e-07
+    },
+    {
+      "max": 0.030474856,
+      "mean": 0.029231581765625,
+      "min": 0.028501701,
+      "n": 128,
+      "parameter": "deu_damping_envelope_beta",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 2.695622387885116e-07
+    },
+    {
+      "chain_mean_range": 0.0005966068281249987,
+      "max": 0.02982818859375,
+      "mean": 0.02954605640885417,
+      "min": 0.029231581765625,
+      "n": 384,
+      "normalized_mean_range": 1.1473588842674955,
+      "parameter": "deu_damping_envelope_beta",
+      "pooled_std": 0.000519982750214976,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 1.0498892,
+      "mean": 1.04801676484375,
+      "min": 1.0452604,
+      "n": 128,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 1.8000618049747902e-06
+    },
+    {
+      "max": 1.049898,
+      "mean": 1.0474533578125,
+      "min": 1.0450959,
+      "n": 128,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 2.0034202730093304e-06
+    },
+    {
+      "max": 1.0494406,
+      "mean": 1.0480228796875,
+      "min": 1.0464086,
+      "n": 128,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 5.843710117101391e-07
+    },
+    {
+      "chain_mean_range": 0.0005695218749999231,
+      "max": 1.0480228796875,
+      "mean": 1.04783100078125,
+      "min": 1.0474533578125,
+      "n": 384,
+      "normalized_mean_range": 0.47091768225117075,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "pooled_std": 0.0012093873228063677,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 0.022099926,
+      "mean": 0.0220147676953125,
+      "min": 0.02190824,
+      "n": 128,
+      "parameter": "omega_b",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 2.3822808049379386e-09
+    },
+    {
+      "max": 0.022057727,
+      "mean": 0.0219846083046875,
+      "min": 0.021904263,
+      "n": 128,
+      "parameter": "omega_b",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 2.062002405000903e-09
+    },
+    {
+      "max": 0.022088172,
+      "mean": 0.0219830435546875,
+      "min": 0.021914035,
+      "n": 128,
+      "parameter": "omega_b",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 1.8374520837607809e-09
+    },
+    {
+      "chain_mean_range": 3.172414062499809e-05,
+      "max": 0.0220147676953125,
+      "mean": 0.0219941398515625,
+      "min": 0.0219830435546875,
+      "n": 384,
+      "normalized_mean_range": 0.6932832024943182,
+      "parameter": "omega_b",
+      "pooled_std": 4.575928063864794e-05,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 0.9824902,
+      "mean": 0.982037016875,
+      "min": 0.98091709,
+      "n": 128,
+      "parameter": "n_s",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 1.5188125388779127e-07
+    },
+    {
+      "max": 0.98243894,
+      "mean": 0.981301794921875,
+      "min": 0.98052036,
+      "n": 128,
+      "parameter": "n_s",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 2.4916137156376526e-07
+    },
+    {
+      "max": 0.98249245,
+      "mean": 0.98153457828125,
+      "min": 0.98053434,
+      "n": 128,
+      "parameter": "n_s",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 3.51333634223791e-07
+    },
+    {
+      "chain_mean_range": 0.0007352219531250315,
+      "max": 0.982037016875,
+      "mean": 0.9816244633593749,
+      "min": 0.981301794921875,
+      "n": 384,
+      "normalized_mean_range": 1.4681199893182455,
+      "parameter": "n_s",
+      "pooled_std": 0.0005007914601492813,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 1.0271048,
+      "mean": 1.02502238671875,
+      "min": 1.0230734,
+      "n": 128,
+      "parameter": "A_planck",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 7.073131528143535e-07
+    },
+    {
+      "max": 1.0270195,
+      "mean": 1.025000875,
+      "min": 1.0220693,
+      "n": 128,
+      "parameter": "A_planck",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 8.486886521259834e-07
+    },
+    {
+      "max": 1.0273554,
+      "mean": 1.02533185234375,
+      "min": 1.0238971,
+      "n": 128,
+      "parameter": "A_planck",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 5.626218872385355e-07
+    },
+    {
+      "chain_mean_range": 0.000330977343750094,
+      "max": 1.02533185234375,
+      "mean": 1.0251183713541667,
+      "min": 1.025000875,
+      "n": 384,
+      "normalized_mean_range": 0.3938510261006429,
+      "parameter": "A_planck",
+      "pooled_std": 0.0008403617657848062,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 577.44458,
+      "mean": 574.214506953125,
+      "min": 573.0408,
+      "n": 128,
+      "parameter": "minuslogpost",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "variance": 0.7492897768890722
+    },
+    {
+      "max": 580.30958,
+      "mean": 574.03070078125,
+      "min": 572.91748,
+      "n": 128,
+      "parameter": "minuslogpost",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "variance": 1.2782839630812812
+    },
+    {
+      "max": 576.38948,
+      "mean": 573.749211328125,
+      "min": 573.00162,
+      "n": 128,
+      "parameter": "minuslogpost",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "variance": 0.48322320342894015
+    },
+    {
+      "chain_mean_range": 0.46529562499995336,
+      "max": 574.214506953125,
+      "mean": 573.9981396875,
+      "min": 573.749211328125,
+      "n": 384,
+      "normalized_mean_range": 0.5086087187892327,
+      "parameter": "minuslogpost",
+      "pooled_std": 0.9148400485693831,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    }
+  ]
+}

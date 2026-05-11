@@ -1,0 +1,7 @@
+stage,purpose,hard_guard_pass,diagnostic_outcome,mcmc_launched_by_stage,final_publication_claims_allowed
+3B-9,DEU posterior readiness,True,ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS,True,
+3B-10,First caveated DEU posterior summary,True,FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN,False,False
+3B-11,Posterior robustness/comparison checks,True,POSTERIOR_ROBUSTNESS_COMPARISON_PASS,False,False
+3B-15,Matched native baseline preflight,True,MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED,False,False
+3B-18,Additional native chains/readiness,True,ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED,True,False
+3B-19,Matched DEU/native comparison claim lock,True,MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED,False,False

@@ -1,0 +1,5 @@
+sensitivity_id,deu_only_prior_width_factor,base_log_bayes_factor_crosscheck,adjusted_log_bayes_factor_crosscheck,delta_vs_base,interpretation,row_index,audit_scope
+deu_only_prior_volume_factor_0.5,0.5,158.76404705020616,160.15034141132605,1.3862943611198943,prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim,1,formal prior-volume sensitivity row inherited from Stage 3B-26
+deu_only_prior_volume_factor_1,1.0,158.76404705020616,158.76404705020616,0.0,prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim,2,formal prior-volume sensitivity row inherited from Stage 3B-26
+deu_only_prior_volume_factor_2,2.0,158.76404705020616,157.37775268908626,-1.3862943611198943,prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim,3,formal prior-volume sensitivity row inherited from Stage 3B-26
+deu_only_prior_volume_factor_4,4.0,158.76404705020616,155.99145832796637,-2.7725887222397887,prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim,4,formal prior-volume sensitivity row inherited from Stage 3B-26

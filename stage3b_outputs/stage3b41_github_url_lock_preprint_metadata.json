@@ -1,0 +1,317 @@
+{
+  "acceptance": {
+    "allowed_preprint_statements_written": true,
+    "author_led_not_peer_reviewed_confirmed": true,
+    "blocked_claims_written": true,
+    "claim_compliance_matrix_written": true,
+    "diagnostic_outcome": "GITHUB_URL_LOCK_PREPRINT_METADATA_PASS_AUTHOR_LED_PUBLIC_VERIFICATION_READY",
+    "evidence_lineage_written": true,
+    "final_publication_claims_allowed": false,
+    "github_access_verified_by_script": false,
+    "github_url_lock_written": true,
+    "github_url_supplied": true,
+    "github_url_syntax_valid": true,
+    "hard_guard_pass": true,
+    "manual_public_access_verified_by_author": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_certification_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "peer_review_or_external_review_claims_allowed": false,
+    "preprint_metadata_written": true,
+    "preprint_release_notes_written": true,
+    "public_verification_statement_written": true,
+    "repository_public_access_checklist_written": true,
+    "script_completed": true,
+    "stage3b40_hard_guard_pass": true,
+    "stage3b40_public_verification_release_pass_or_present": true,
+    "stage3b40_reference_loaded": true,
+    "submission_manifest_written": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_preprint_statements": [
+    {
+      "required_caveat": "Do not describe as peer reviewed.",
+      "statement": "This is an author-led preprint and has not yet undergone journal peer review.",
+      "statement_id": "allowed_001",
+      "status": "allowed"
+    },
+    {
+      "required_caveat": "Availability is not the same as external review.",
+      "statement": "The code, validation ledgers, checksums, and staged artifacts are publicly available for verification at https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git.",
+      "statement_id": "allowed_002",
+      "status": "allowed"
+    },
+    {
+      "required_caveat": "State the likelihood scope and TT_lite exclusion.",
+      "statement": "The staged analysis reports a caveated DEU posterior summary and matched DEU/native comparison.",
+      "statement_id": "allowed_003",
+      "status": "allowed"
+    },
+    {
+      "required_caveat": "Do not call it peer-reviewed evidence.",
+      "statement": "The independent-validation estimator result may be reported as an author-led internal validation result with caveats.",
+      "statement_id": "allowed_004",
+      "status": "allowed"
+    },
+    {
+      "required_caveat": "No guarantee of third-party review completion.",
+      "statement": "Readers can inspect and rerun the public verification package using the provided reproduction commands.",
+      "statement_id": "allowed_005",
+      "status": "allowed"
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim": "The result has been peer reviewed or externally certified.",
+      "claim_id": "blocked_001",
+      "reason": "No external reviewer result is booked on the preprint path."
+    },
+    {
+      "claim": "The model has final publication-grade superiority over native/baseline cosmology.",
+      "claim_id": "blocked_002",
+      "reason": "Public-verification release is not a final publication claim gate."
+    },
+    {
+      "claim": "TT_lite was part of the sampled posterior or evidence likelihood.",
+      "claim_id": "blocked_003",
+      "reason": "TT_lite remains diagnostic-only and excluded from sampled production likelihoods."
+    },
+    {
+      "claim": "The evidence result is independent peer-review confirmation.",
+      "claim_id": "blocked_004",
+      "reason": "It is an author-led independent-validation estimator lineage, publicly verifiable but not externally reviewed."
+    },
+    {
+      "claim": "The preprint is an official final result requiring no further replication.",
+      "claim_id": "blocked_005",
+      "reason": "Further external or community replication remains welcome and distinct from author-led release."
+    }
+  ],
+  "claim_compliance_matrix": [
+    {
+      "category": "allowed_preprint_statement",
+      "caveat_or_reason": "Do not describe as peer reviewed.",
+      "id": "allowed_001",
+      "status": "allowed_with_caveat",
+      "text": "This is an author-led preprint and has not yet undergone journal peer review."
+    },
+    {
+      "category": "allowed_preprint_statement",
+      "caveat_or_reason": "Availability is not the same as external review.",
+      "id": "allowed_002",
+      "status": "allowed_with_caveat",
+      "text": "The code, validation ledgers, checksums, and staged artifacts are publicly available for verification at https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git."
+    },
+    {
+      "category": "allowed_preprint_statement",
+      "caveat_or_reason": "State the likelihood scope and TT_lite exclusion.",
+      "id": "allowed_003",
+      "status": "allowed_with_caveat",
+      "text": "The staged analysis reports a caveated DEU posterior summary and matched DEU/native comparison."
+    },
+    {
+      "category": "allowed_preprint_statement",
+      "caveat_or_reason": "Do not call it peer-reviewed evidence.",
+      "id": "allowed_004",
+      "status": "allowed_with_caveat",
+      "text": "The independent-validation estimator result may be reported as an author-led internal validation result with caveats."
+    },
+    {
+      "category": "allowed_preprint_statement",
+      "caveat_or_reason": "No guarantee of third-party review completion.",
+      "id": "allowed_005",
+      "status": "allowed_with_caveat",
+      "text": "Readers can inspect and rerun the public verification package using the provided reproduction commands."
+    },
+    {
+      "category": "blocked_claim",
+      "caveat_or_reason": "No external reviewer result is booked on the preprint path.",
+      "id": "blocked_001",
+      "status": "blocked",
+      "text": "The result has been peer reviewed or externally certified."
+    },
+    {
+      "category": "blocked_claim",
+      "caveat_or_reason": "Public-verification release is not a final publication claim gate.",
+      "id": "blocked_002",
+      "status": "blocked",
+      "text": "The model has final publication-grade superiority over native/baseline cosmology."
+    },
+    {
+      "category": "blocked_claim",
+      "caveat_or_reason": "TT_lite remains diagnostic-only and excluded from sampled production likelihoods.",
+      "id": "blocked_003",
+      "status": "blocked",
+      "text": "TT_lite was part of the sampled posterior or evidence likelihood."
+    },
+    {
+      "category": "blocked_claim",
+      "caveat_or_reason": "It is an author-led independent-validation estimator lineage, publicly verifiable but not externally reviewed.",
+      "id": "blocked_004",
+      "status": "blocked",
+      "text": "The evidence result is independent peer-review confirmation."
+    },
+    {
+      "category": "blocked_claim",
+      "caveat_or_reason": "Further external or community replication remains welcome and distinct from author-led release.",
+      "id": "blocked_005",
+      "status": "blocked",
+      "text": "The preprint is an official final result requiring no further replication."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0012841224670410156,
+  "evidence_lineage": [
+    {
+      "quantity": "deu_log_evidence_independent_validation",
+      "scope": "author-led internal independent-validation estimator",
+      "value": -542.2974790661433
+    },
+    {
+      "quantity": "native_log_evidence_independent_validation",
+      "scope": "author-led internal independent-validation estimator",
+      "value": -711.3038876870044
+    },
+    {
+      "quantity": "log_bayes_factor_independent_validation_deu_minus_native",
+      "scope": "author-led internal independent-validation estimator; not peer-review certification",
+      "value": 169.00640862086107
+    },
+    {
+      "quantity": "formal_log_bayes_factor_lineage",
+      "scope": "formal/proxy lineage",
+      "value": 158.76404705020616
+    },
+    {
+      "quantity": "proxy_log_bayes_factor_lineage",
+      "scope": "diagnostic proxy lineage",
+      "value": 158.76404705020616
+    }
+  ],
+  "generated_utc": "2026-05-10T02:03:33+00:00",
+  "github_url_lock": {
+    "input_metadata": {
+      "author_led_not_peer_reviewed_confirmed": true,
+      "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/<tag>",
+      "github_url": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git",
+      "manual_public_access_verified": true,
+      "preprint_identifier_or_url": "pending",
+      "preprint_server": "ai.arXiv.org",
+      "preprint_title": "Two Clocks in a Distinction-Combinatorial Universe:\nA Boltzmann/Cobaya Realization of Local Visibility Calibration\nand Global Photon Propagation",
+      "repository_visibility": "public"
+    },
+    "url_info": {
+      "owner": "jrmerwin",
+      "repo": "two_clocks_distinction_combinatorial",
+      "syntax_valid": true,
+      "url": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git"
+    }
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_acceptance.md",
+    "allowed_preprint_statements": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_allowed_preprint_statements.csv",
+    "blocked_claims": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_blocked_claims.csv",
+    "claim_compliance_matrix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_claim_compliance_matrix.csv",
+    "evidence_lineage": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_evidence_lineage.csv",
+    "github_url_input_template": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_github_url_input_template.json",
+    "github_url_lock": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_github_url_lock.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata.json",
+    "preprint_metadata": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_preprint_metadata.json",
+    "preprint_release_notes": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_preprint_release_notes.md",
+    "public_verification_statement": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_public_verification_statement.md",
+    "repository_public_access_checklist": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_repository_public_access_checklist.csv",
+    "submission_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_submission_manifest.json",
+    "tri_anchor_context": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_tri_anchor_context.csv",
+    "tt_lite_scope": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b41_github_url_lock_preprint_metadata_tt_lite_scope.md"
+  },
+  "previous_stage3b40_reference": {
+    "diagnostic_outcome": "GITHUB_PUBLIC_VERIFICATION_RELEASE_PASS_AUTHOR_LED_PREPRINT_READY",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release.json",
+    "loaded": true
+  },
+  "repository_public_access_checklist": [
+    {
+      "check": "github_url_supplied",
+      "detail": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git",
+      "pass": true
+    },
+    {
+      "check": "github_url_syntax_valid",
+      "detail": "https://github.com/<owner>/<repo>",
+      "pass": true
+    },
+    {
+      "check": "repository_visibility_declared_public",
+      "detail": "public",
+      "pass": true
+    },
+    {
+      "check": "manual_public_access_verified_by_author",
+      "detail": "author attestation; no network access used",
+      "pass": true
+    },
+    {
+      "check": "author_led_not_peer_reviewed_confirmed",
+      "detail": "preprint path, not peer-review path",
+      "pass": true
+    },
+    {
+      "check": "github_access_verified_by_script",
+      "detail": "not attempted; this stage does not use network access",
+      "pass": false
+    }
+  ],
+  "script": "stage3b_41_github_url_lock_preprint_metadata.py",
+  "stage": "3B-41",
+  "submission_manifest": {
+    "author_led_evidence_preference_statement_allowed_with_caveats": true,
+    "author_led_not_peer_reviewed_confirmed": true,
+    "author_led_preprint_submission_ready": true,
+    "decision_type": "GITHUB_URL_LOCK_PREPRINT_METADATA_PASS_AUTHOR_LED_PUBLIC_VERIFICATION_READY",
+    "evidence_lineage": {
+      "deu_log_evidence_independent_validation": -542.2974790661433,
+      "formal_log_bayes_factor_lineage": 158.76404705020616,
+      "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+      "native_log_evidence_independent_validation": -711.3038876870044,
+      "proxy_log_bayes_factor_lineage": 158.76404705020616
+    },
+    "final_publication_claims_allowed": false,
+    "github_access_verified_by_script": false,
+    "github_owner": "jrmerwin",
+    "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/<tag>",
+    "github_repo": "two_clocks_distinction_combinatorial",
+    "github_url": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git",
+    "internal_independent_validation_evidence_language_allowed_with_caveats": true,
+    "manual_public_access_verified_by_author": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_certification_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-42 preprint final manuscript claim polish and submission package freeze",
+    "peer_review_or_external_review_claims_allowed": false,
+    "posterior_evidence_status": "author_led_public_verification_url_locked_preprint_ready",
+    "preprint_identifier_or_url": "pending",
+    "preprint_server": "ai.arXiv.org",
+    "preprint_title": "Two Clocks in a Distinction-Combinatorial Universe:\nA Boltzmann/Cobaya Realization of Local Visibility Calibration\nand Global Photon Propagation",
+    "public_verification_package_url_locked": true,
+    "recommendation": "Book Stage 3B-41. Use the locked GitHub URL in the preprint and keep peer-review/final-superiority claims out of scope.",
+    "stage3b40_decision": "GITHUB_PUBLIC_VERIFICATION_RELEASE_PASS_AUTHOR_LED_PREPRINT_READY",
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "tri_anchor_context": [
+    {
+      "anchor_label": "highl_anchor",
+      "context": "retained tri-anchor monitoring context"
+    },
+    {
+      "anchor_label": "lowl_plus_anchor",
+      "context": "retained tri-anchor monitoring context"
+    },
+    {
+      "anchor_label": "full_objective_working_lock",
+      "context": "retained tri-anchor monitoring context"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+claim_id,status,wording,caveat_or_unlock
+proxy_result_recorded,allowed_with_caveat,"A matched diagnostic evidence proxy was recorded, with log-BF-proxy direction positive for DEU.","Call it a diagnostic proxy, not a Bayes factor or final evidence."
+proxy_robustness_audited,allowed_with_caveat,The Stage 3B-23 proxy robustness gate passed and Stage 3B-24 audited the result.,Robustness here is internal to the diagnostic proxy estimator.
+scoped_posterior_comparison_still_allowed,allowed_with_caveat,"The scoped, caveated DEU/native posterior comparison remains allowed.",Do not convert descriptive posterior differences into model evidence.
+formal_bayes_factor,blocked,Do not call the diagnostic proxy value a formal Bayes factor.,Run and book a formal evidence estimator or independent cross-check with an explicit claim gate.
+model_superiority,blocked,Do not claim DEU is superior to native/baseline from the proxy alone.,Pass a model-selection claim gate with validated evidence methodology.
+tt_lite_in_evidence,blocked,Do not claim TT_lite was included in the sampled posterior or evidence comparison.,Run a matched sampler/evidence design that explicitly includes TT_lite.
+final_publication_claim,blocked,Do not make final publication-style claims from this proxy audit.,Book a publication-claim lock after formal evidence and external robustness stages.

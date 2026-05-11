@@ -1,0 +1,4 @@
+quantity,value,interpretation_scope,proxy_gate_value,proxy_execution_value,formal_minus_proxy_gate,formal_minus_proxy_execution
+deu_log_evidence_formal_crosscheck,-576.0487181192134,formal cross-check estimator value; scoped internal language only,,,,
+native_log_evidence_formal_crosscheck,-734.8127651694195,formal cross-check estimator value; scoped internal language only,,,,
+log_bayes_factor_formal_crosscheck_deu_minus_native,158.76404705020616,may be stated only as a caveated matched formal cross-check result; not final publication evidence,158.76404705020616,158.76404705020616,0.0,0.0

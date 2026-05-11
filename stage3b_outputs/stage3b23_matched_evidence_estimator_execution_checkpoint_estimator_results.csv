@@ -1,0 +1,4 @@
+family,estimator_id,status,log_evidence_proxy,n_parameters,n_rows,minuslogpost_min,log_prior_volume,interpretation,log_bayes_factor_proxy_deu_minus_native
+deu,laplace_chain_local_proxy,success,-576.0487181192134,5,4000,572.83932,-30.84989694079671,diagnostic proxy only,
+native,laplace_chain_local_proxy,success,-734.8127651694195,3,4000,729.84925,-19.336971475826505,diagnostic proxy only,
+deu_minus_native,laplace_chain_local_proxy_difference,success,,,,,,diagnostic proxy only; Bayes-factor/model-superiority claims remain blocked,158.76404705020616

@@ -1,0 +1,462 @@
+{
+  "acceptance": {
+    "baseline_context_written": true,
+    "caveat_registry_written": true,
+    "claim_matrix_final_publication_claim_blocked": true,
+    "claim_matrix_model_superiority_claim_blocked": true,
+    "claim_matrix_written": true,
+    "diagnostic_outcome": "EXTERNAL_MODEL_COMPARISON_PREFLIGHT_PASS_FINAL_CLAIMS_STILL_GATED",
+    "external_framing_written": true,
+    "final_claim_preflight_manifest_written": true,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_comparison_scope_written": true,
+    "model_superiority_claims_allowed": false,
+    "posterior_summary_allowed_with_caveats": true,
+    "posterior_summary_recap_recorded": true,
+    "script_completed": true,
+    "stage3b0_reference_loaded": true,
+    "stage3b10_final_publication_claims_not_allowed": true,
+    "stage3b10_hard_guard_pass": true,
+    "stage3b10_posterior_summary_written": true,
+    "stage3b10_reference_loaded": true,
+    "stage3b11_final_publication_claims_not_allowed": true,
+    "stage3b11_hard_guard_pass": true,
+    "stage3b11_reference_loaded": true,
+    "stage3b11_robustness_gate_pass": true,
+    "stage3b9_hard_guard_pass": true,
+    "stage3b9_posterior_readiness_gate_pass": true,
+    "stage3b9_reference_loaded": true,
+    "tri_anchor_claim_context_written": true,
+    "tt_lite_status_explicit": true
+  },
+  "baseline_context": [
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -118.7767874187623
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -109.63734343550323
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -114.7542343348315
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -105.83758406300996
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -110.92316996822484
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -101.24186769892259
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -62.564861832602006
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -55.80310943666697
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -4.022553083930789
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -3.7997593724932406
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -3.831064366606739
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -4.595716364087423
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -118.7767874187623
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -109.63734343550323
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -114.7542343348315
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -105.83758406300996
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -110.92316996822484
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -101.24186769892259
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_baseline",
+      "value": -62.564861832602006
+    },
+    {
+      "bundle": null,
+      "context_type": "stage3a_fixed_regression_gap",
+      "interpretation": "diagnostic loglike gap/context only; not a Bayes factor or posterior model comparison",
+      "metric": "final_profile2_minus_native_same_shape",
+      "value": -55.80310943666697
+    },
+    {
+      "bundle": "production_full_objective",
+      "context_type": "model_comparison_scope",
+      "interpretation": "Production posterior samples the DEU full-objective configuration; it is not a sampled native/LambdaCDM posterior comparison.",
+      "metric": "posterior_scope",
+      "value": null
+    },
+    {
+      "bundle": "primary_objectives",
+      "context_type": "tri_anchor_decision_scope",
+      "interpretation": "Primary objectives remain split; prefer the full-objective anchor for full Planck work and preserve a tri-anchor ledger.",
+      "metric": "MIXED_PRIMARY_TIEBREAK_RECORDED",
+      "value": null
+    }
+  ],
+  "claim_matrix": [
+    {
+      "claim_id": "internal_caveated_posterior_summary",
+      "claim_text": "A first internal posterior summary for the DEU full-objective production sampler may be reported with caveats.",
+      "evidence_gate": "Stage 3B-9 readiness + Stage 3B-10 summary + Stage 3B-11 robustness",
+      "required_caveat": "Use Stage 3B-10 caveats; not a final publication claim.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "final_publication_style_claim",
+      "claim_text": "This is a final external/publication-level cosmological result.",
+      "evidence_gate": "Stage 3B-12 preflight blocks this claim by design.",
+      "required_caveat": "Final publication-style claims remain gated until a later final-claim lock explicitly allows them.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "model_superiority_or_bayes_factor",
+      "claim_text": "DEU is preferred over native/LambdaCDM by model comparison evidence.",
+      "evidence_gate": "Requires separate external/model-comparison stage; Stage 3A gaps are diagnostic context only.",
+      "required_caveat": "No explicit sampled model-comparison/Bayes-factor stage has been booked.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_included_in_production_likelihood",
+      "claim_text": "TT_lite was included in the production posterior likelihood.",
+      "evidence_gate": "Stage 3B preflight/robustness TT_lite diagnostic status.",
+      "required_caveat": "TT_lite remains diagnostic-only in the current production posterior.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_monitoring_context",
+      "claim_text": "TT_lite can be discussed as diagnostic monitoring context only.",
+      "evidence_gate": "Stage 3B-11 TT_lite diagnostic ledger.",
+      "required_caveat": "Do not treat TT_lite diagnostic checks as production likelihood evidence.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "tri_anchor_context_required",
+      "claim_text": "Tri-anchor split context must remain attached to posterior statements.",
+      "evidence_gate": "Stage 3A-9 tie-break + Stage 3A-10/3B-0 tri-anchor ledger.",
+      "required_caveat": "High-l, lowl+TTTEEE, and full-objective anchors remain recorded; production posterior uses the full-objective working lock.",
+      "status": "required"
+    },
+    {
+      "claim_id": "baseline_native_context",
+      "claim_text": "Native/baseline comparisons can be described as fixed diagnostic context.",
+      "evidence_gate": "Stage 3A regression/baseline artifacts where parseable.",
+      "required_caveat": "Do not describe fixed diagnostic gaps as a posterior model comparison or Bayes factor.",
+      "status": "allowed_as_context_only"
+    },
+    {
+      "claim_id": "external_abstract_style_summary",
+      "claim_text": "A concise external-facing summary may state that the internal DEU posterior workflow passed readiness and robustness gates.",
+      "evidence_gate": "Stage 3B-9 + Stage 3B-11.",
+      "required_caveat": "Phrase as workflow/readiness result, not final cosmological evidence or model superiority.",
+      "status": "allowed_with_caveats"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.008841753005981445,
+  "final_claim_preflight_manifest": {
+    "baseline_context_rows": 22,
+    "claim_matrix_rows": 8,
+    "decision_type": "EXTERNAL_MODEL_COMPARISON_PREFLIGHT_PASS_FINAL_CLAIMS_STILL_GATED",
+    "diagnostic_assessment_complete": true,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "next_stage_hint": "Stage 3B-13 scoped final-claim lock or explicit model-comparison extension",
+    "parameter_summary_count": 5,
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_evidence_status": "robustness_passed_external_claims_preflighted_final_claims_still_gated",
+    "posterior_summary_allowed_with_caveats": true,
+    "posterior_summary_already_written_by_stage3b10": true,
+    "recommendation": "Book Stage 3B-12. Use only the scoped/caveated posterior wording; run the next claim-lock or explicit model-comparison stage before stronger final claims.",
+    "stage3b10_decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+    "stage3b11_decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+    "stage3b9_readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "tri_anchor_context_retained": true,
+    "tt_lite_status": {
+      "allowed_statement": "TT_lite was monitored as a diagnostic context but was excluded from the production sampler likelihood.",
+      "blocked_statement": "Do not claim the production posterior directly includes TT_lite unless a later sampler explicitly includes it.",
+      "rows_recorded": 7,
+      "status": "diagnostic_only_not_sampled_likelihood",
+      "tt_lite_diagnostic_recorded_by_stage3b11": true,
+      "tt_lite_in_production_likelihood": false
+    }
+  },
+  "generated_utc": "2026-05-08T23:21:57+00:00",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_acceptance.md",
+    "baseline_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_baseline_context.csv",
+    "caveat_registry_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_caveat_registry.md",
+    "claim_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_claim_matrix.csv",
+    "external_framing_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_external_framing.md",
+    "final_claim_preflight_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_final_claim_preflight_manifest.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight.json",
+    "model_comparison_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_model_comparison_scope.md",
+    "posterior_summary_recap_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_posterior_summary_recap.csv",
+    "tri_anchor_claim_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_tri_anchor_claim_context.csv",
+    "tt_lite_status_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b12_external_model_comparison_preflight_tt_lite_status.md"
+  },
+  "posterior_summary_recap": [
+    {
+      "display_name": "beta",
+      "mean_minus_working_lock": -0.0005087827519247197,
+      "median_minus_working_lock": -0.0004967149999999983,
+      "n_values": 4000,
+      "parameter": "deu_damping_envelope_beta",
+      "prior_max": 0.0305,
+      "prior_min": 0.0285,
+      "q025": 0.028567552,
+      "q160": 0.028849905,
+      "q500": 0.029503285,
+      "q840": 0.030128599,
+      "q975": 0.030423268,
+      "weighted_mean": 0.02949121724807528,
+      "weighted_sd": 0.0005524725209021037,
+      "within_prior_minmax": true,
+      "working_lock_value": 0.03
+    },
+    {
+      "display_name": "p_vis",
+      "mean_minus_working_lock": -8.177322497870954e-05,
+      "median_minus_working_lock": -0.00015249999999999986,
+      "n_values": 4000,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prior_max": 1.05,
+      "prior_min": 1.045,
+      "q025": 1.0452071,
+      "q160": 1.0459375,
+      "q500": 1.0473475,
+      "q840": 1.048932,
+      "q975": 1.0498123,
+      "weighted_mean": 1.0474182267750214,
+      "weighted_sd": 0.001318023057604206,
+      "within_prior_minmax": true,
+      "working_lock_value": 1.0475
+    },
+    {
+      "display_name": "omega_b",
+      "mean_minus_working_lock": -1.9979045337892992e-05,
+      "median_minus_working_lock": -2.714399999999978e-05,
+      "n_values": 4000,
+      "parameter": "omega_b",
+      "prior_max": 0.0221,
+      "prior_min": 0.0219,
+      "q025": 0.021905925,
+      "q160": 0.021927323,
+      "q500": 0.021972856,
+      "q840": 0.0220347,
+      "q975": 0.022084005,
+      "weighted_mean": 0.021980020954662106,
+      "weighted_sd": 4.953628242491131e-05,
+      "within_prior_minmax": true,
+      "working_lock_value": 0.022
+    },
+    {
+      "display_name": "n_s",
+      "mean_minus_working_lock": -0.0003517798408896322,
+      "median_minus_working_lock": -0.0003543000000000296,
+      "n_values": 4000,
+      "parameter": "n_s",
+      "prior_max": 0.9825,
+      "prior_min": 0.9805,
+      "q025": 0.98056612,
+      "q160": 0.98086835,
+      "q500": 0.9815207,
+      "q840": 0.98217567,
+      "q975": 0.98247175,
+      "weighted_mean": 0.9815232201591104,
+      "weighted_sd": 0.0005680687805706126,
+      "within_prior_minmax": true,
+      "working_lock_value": 0.981875
+    },
+    {
+      "display_name": "A_planck",
+      "mean_minus_working_lock": 5.572437981182787e-05,
+      "median_minus_working_lock": 7.150000000000212e-05,
+      "n_values": 4000,
+      "parameter": "A_planck",
+      "prior_max": 1.03,
+      "prior_min": 1.02,
+      "q025": 1.0233787,
+      "q160": 1.0242044,
+      "q500": 1.0250715,
+      "q840": 1.0259026,
+      "q975": 1.0267361,
+      "weighted_mean": 1.0250557243798117,
+      "weighted_sd": 0.0008464612795648388,
+      "within_prior_minmax": true,
+      "working_lock_value": 1.025
+    }
+  ],
+  "previous_stage3b10_reference": {
+    "diagnostic_outcome": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b10_first_posterior_summary.json",
+    "loaded": true
+  },
+  "previous_stage3b11_reference": {
+    "diagnostic_outcome": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b11_posterior_robustness_comparison.json",
+    "loaded": true,
+    "robustness_gate_pass": true
+  },
+  "previous_stage3b9_reference": {
+    "diagnostic_outcome": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness.json",
+    "loaded": true,
+    "posterior_readiness_gate_pass": true
+  },
+  "script": "stage3b_12_external_model_comparison_preflight.py",
+  "stage": "3B-12",
+  "tri_anchor_claim_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ],
+  "tt_lite_status": {
+    "allowed_statement": "TT_lite was monitored as a diagnostic context but was excluded from the production sampler likelihood.",
+    "blocked_statement": "Do not claim the production posterior directly includes TT_lite unless a later sampler explicitly includes it.",
+    "rows_recorded": 7,
+    "status": "diagnostic_only_not_sampled_likelihood",
+    "tt_lite_diagnostic_recorded_by_stage3b11": true,
+    "tt_lite_in_production_likelihood": false
+  }
+}

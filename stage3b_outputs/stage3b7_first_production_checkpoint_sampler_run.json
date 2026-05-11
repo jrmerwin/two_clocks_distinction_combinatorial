@@ -1,0 +1,9 @@
+{
+  "elapsed_s": 1051.9497299194336,
+  "label": "first_production_checkpoint",
+  "mcmc_launched_by_this_stage": true,
+  "posterior_interpretation_allowed": false,
+  "sampler_type": "MCMC",
+  "status": "success",
+  "updated_info_available": true
+}

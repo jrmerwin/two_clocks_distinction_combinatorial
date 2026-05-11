@@ -1,0 +1,6 @@
+claim_id,claim,reason
+blocked_001,The result has been peer reviewed or externally certified.,No external reviewer result is booked on the preprint path.
+blocked_002,The model has final publication-grade superiority over native/baseline cosmology.,Public-verification release is not a final publication claim gate.
+blocked_003,TT_lite was part of the sampled posterior or evidence likelihood.,TT_lite remains diagnostic-only and excluded from sampled production likelihoods.
+blocked_004,The evidence result is independent peer-review confirmation.,"It is an author-led independent-validation estimator lineage, publicly verifiable but not externally reviewed."
+blocked_005,The preprint is an official final result requiring no further replication.,Further external or community replication remains welcome and distinct from author-led release.

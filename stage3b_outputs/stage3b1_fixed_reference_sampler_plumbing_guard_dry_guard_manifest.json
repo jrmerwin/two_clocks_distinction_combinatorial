@@ -1,0 +1,58 @@
+{
+  "decision_type": "SAMPLER_PLUMBING_DRY_GUARD_PASS",
+  "fixed_reference_eval_status": "success",
+  "fixed_reference_matches_working_lock_loglikes": true,
+  "likelihood_audit": {
+    "all_required_full_objective_likelihoods_present": true,
+    "likelihood_names": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "required_full_objective_likelihoods_present": {
+      "planck_2018_highl_plik.TTTEEE_lite": true,
+      "planck_2018_lensing.native": true,
+      "planck_2018_lowl.EE": true,
+      "planck_2018_lowl.TT": true
+    },
+    "tt_lite_in_sampler_likelihood": false
+  },
+  "mcmc_launched_by_this_stage": false,
+  "next_stage_hint": "Stage 3B-2 tiny sampler smoke test with tri-anchor monitoring",
+  "recommendation": "Book Stage 3B-1, then run a tiny non-interpretive sampler smoke test. Do not interpret chains as posterior evidence yet.",
+  "sampled_param_audit": {
+    "all_expected_sampled_params_present": true,
+    "expected_sampled_params_present": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "reference_point": {
+      "A_planck": 1.025,
+      "deu_damping_envelope_beta": 0.03,
+      "deu_transfer_polamp_p_vis": 1.0475,
+      "n_s": 0.981875,
+      "omega_b": 0.022
+    },
+    "sampled_param_names": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ]
+  },
+  "sampler_reference_eval_status": "success",
+  "sampler_reference_matches_fixed_reference_and_working_lock": true,
+  "working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  }
+}

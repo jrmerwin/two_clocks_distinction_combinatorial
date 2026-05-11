@@ -1,0 +1,32 @@
+{
+  "bundle_loglikes": {
+    "lensing_native": -9.388064537163515,
+    "lensing_native__finite": true,
+    "lowl_available": -212.1379932252806,
+    "lowl_available__finite": true,
+    "lowl_plik_TTTEEE_lite_lensing_native": -603.8280689556785,
+    "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+    "lowl_plus_plik_TTTEEE_lite": -594.440004418515,
+    "lowl_plus_plik_TTTEEE_lite__finite": true,
+    "plik_TTTEEE_lite": -382.30201119323436,
+    "plik_TTTEEE_lite__finite": true,
+    "plik_TT_lite": null,
+    "plik_TT_lite__finite": false
+  },
+  "component_loglikes": {
+    "planck_2018_highl_plik.TTTEEE_lite": -382.30201119323436,
+    "planck_2018_lensing.native": -9.388064537163515,
+    "planck_2018_lowl.EE": -198.9254294796825,
+    "planck_2018_lowl.TT": -13.212563745598118
+  },
+  "elapsed_s": 1.3943073749542236,
+  "label": "minimal_sampler_yaml_reference_point",
+  "point": {
+    "A_planck": 1.025,
+    "deu_damping_envelope_beta": 0.03,
+    "deu_transfer_polamp_p_vis": 1.0475,
+    "n_s": 0.981875,
+    "omega_b": 0.022
+  },
+  "status": "success"
+}

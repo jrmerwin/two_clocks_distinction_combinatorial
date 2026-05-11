@@ -1,0 +1,5 @@
+allowed_statement_id,statement,scope,value,formal_lineage_value,proxy_lineage_value
+internal_independent_validation_result_recorded,An independent validation estimator was executed over the readiness-cleared DEU and native chain families and passed its internal consistency gate.,internal staged validation only,,,
+internal_independent_log_bf_value,The scoped internal independent-validation log-BF-style diagnostic for DEU minus native may be reported with caveats.,internal caveated evidence language only,169.00640862086107,,
+lineage_comparison,The independent-validation result may be compared to the formal/proxy evidence lineage as a consistency diagnostic.,diagnostic lineage comparison only,,158.76404705020616,158.76404705020616
+tt_lite_scope,TT_lite remains diagnostic-only and was not part of the sampled posterior/evidence likelihood.,scope caveat required whenever TT_lite is mentioned,,,

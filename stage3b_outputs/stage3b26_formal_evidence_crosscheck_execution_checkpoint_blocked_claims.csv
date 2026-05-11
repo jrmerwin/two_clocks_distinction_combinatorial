@@ -1,0 +1,5 @@
+claim_id,status,reason
+formal_bayes_factor,blocked,A result gate/sensitivity audit has not yet passed for this formal cross-check execution.
+model_superiority,blocked,"Superiority requires a formal result gate, uncertainty/sensitivity audit, and claim lock."
+tt_lite_in_evidence_or_posterior,blocked,TT_lite remains diagnostic-only and excluded from current sampled likelihood/evidence scope.
+final_publication_claim,blocked,Publication-style claims require a later final claim lock after formal result gates.

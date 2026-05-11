@@ -1,0 +1,548 @@
+{
+  "acceptance": {
+    "chain_audit_json_written": true,
+    "chain_columns_csv_written": true,
+    "checkpoint_manifest_written": true,
+    "claim_scope_written": true,
+    "deu_shape_params_absent_from_native_sampler": true,
+    "diagnostic_outcome": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "model_superiority_claims_allowed": false,
+    "native_chain_files_found": true,
+    "native_chain_has_enough_rows_for_checkpoint": true,
+    "native_chain_has_expected_sampled_columns": true,
+    "native_chain_values_finite": true,
+    "native_execution_config_audit_written": true,
+    "native_execution_yaml_written": true,
+    "native_extra_args_have_no_deu_keys": true,
+    "native_full_objective_likelihoods_present": true,
+    "native_mcmc_launched_by_this_stage": true,
+    "native_prefix_clean_or_force_cleaned_before_run": true,
+    "native_ref_eval_written": true,
+    "native_reference_eval_success": true,
+    "native_reference_matches_stage3b15_sampler_ref": true,
+    "native_sampled_parameter_motion_threshold_met": true,
+    "native_sampled_parameters_within_prior_bounds": true,
+    "native_sampler_has_expected_native_params": true,
+    "native_sampler_run_success": true,
+    "native_sampler_yaml_loaded": true,
+    "native_tt_lite_excluded": true,
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_summary_allowed_with_caveats": true,
+    "reference_comparison_csv_written": true,
+    "sample_stats_csv_written": true,
+    "sample_stats_json_written": true,
+    "sampler_run_json_written": true,
+    "script_completed": true,
+    "stage3b0_hard_guard_pass": true,
+    "stage3b0_reference_loaded": true,
+    "stage3b15_hard_guard_pass": true,
+    "stage3b15_preflight_pass": true,
+    "stage3b15_reference_loaded": true,
+    "stage3b15_superiority_still_gated": true,
+    "tri_anchor_context_csv_written": true,
+    "tri_anchor_context_retained": true
+  },
+  "chain_audit": {
+    "all_chain_values_finite": true,
+    "all_expected_sampled_columns_present": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt"
+    ],
+    "chain_files_found": true,
+    "chain_infos": [
+      {
+        "all_numeric_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ],
+        "rows_preview": [
+          [
+            1.0,
+            865.55804,
+            0.021990003,
+            0.98196557,
+            1.0245428,
+            1769.79,
+            -19.336971,
+            -19.336971,
+            1769.79,
+            1334.3794,
+            19.754058,
+            395.96399,
+            19.692552
+          ],
+          [
+            1.0,
+            834.24598,
+            0.021936356,
+            0.981415,
+            1.0235992,
+            1707.1659,
+            -19.336971,
+            -19.336971,
+            1707.1659,
+            1272.5301,
+            19.750505,
+            395.96671,
+            18.918571
+          ],
+          [
+            7.0,
+            733.23034,
+            0.021936356,
+            0.981415,
+            1.0200756,
+            1505.1346,
+            -19.336971,
+            -19.336971,
+            1505.1346,
+            1073.4601,
+            19.78773,
+            395.98158,
+            15.905239
+          ]
+        ]
+      }
+    ],
+    "enough_rows_per_prefix": true,
+    "enough_total_rows_for_precheck": true,
+    "expected_sampled_columns_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "min_rows_per_chain": 1,
+    "min_total_rows": 1000,
+    "n_chain_files": 1,
+    "prefix_reports": [
+      {
+        "chain_files": [
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt"
+        ],
+        "enough_rows": true,
+        "n_chain_files": 1,
+        "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+        "rows": 2000
+      }
+    ],
+    "prefixes": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run"
+    ],
+    "special_columns_present": {
+      "minuslogpost": true,
+      "weight": true
+    },
+    "total_rows": 2000,
+    "unique_columns": [
+      "A_planck",
+      "chi2",
+      "chi2__CMB",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lensing.native",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lowl.TT",
+      "minuslogpost",
+      "minuslogprior",
+      "minuslogprior__0",
+      "n_s",
+      "omega_b",
+      "weight"
+    ]
+  },
+  "checkpoint_manifest": {
+    "decision_type": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+    "deu_shape_params_absent_from_native_sampler": true,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "mcmc_launched_by_this_stage": true,
+    "model_superiority_claims_allowed": false,
+    "native_all_chain_values_finite": true,
+    "native_all_expected_sampled_columns_present": true,
+    "native_chain_files_found": true,
+    "native_extra_args_have_no_deu_keys": true,
+    "native_mcmc_launched_by_this_stage": true,
+    "native_motion_by_parameter": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "native_motion_count": 3,
+    "native_n_chain_files": 1,
+    "native_parameters_within_prior_bounds": true,
+    "native_reference_eval_status": "success",
+    "native_reference_matches_stage3b15_sampler_ref": true,
+    "native_sampler_run_status": "success",
+    "native_total_chain_rows": 2000,
+    "native_tt_lite_excluded": true,
+    "next_stage_hint": "Stage 3B-17 native/baseline readiness and matched comparison gate",
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_evidence_status": "native_sampler_checkpoint_passed_superiority_still_gated",
+    "posterior_summary_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-16. Next run a native/baseline readiness and comparison gate before any model-superiority or final publication claim.",
+    "stage3b0_working_lock_point": {
+      "A_planck": 1.025,
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475
+    },
+    "stage3b15_decision": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+    "tri_anchor_context_retained": true
+  },
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 1248.7192542552948,
+  "existing_artifacts_before_run": [],
+  "generated_utc": "2026-05-09T01:56:24+00:00",
+  "native_execution_config_audit": {
+    "all_expected_native_sampled_params_present": true,
+    "all_required_full_objective_likelihoods_present": true,
+    "deu_shape_params_absence_detail": {
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true
+    },
+    "deu_shape_params_absent_from_native_sampler": true,
+    "existing_chain_artifacts_before_run": [],
+    "expected_native_sampled_params_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "extra_arg_keys": [
+      "l_max_scalars",
+      "lensing",
+      "output"
+    ],
+    "extra_args_have_no_deu_keys": true,
+    "likelihood_names": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "mcmc_settings": {
+      "Rminus1_cl_stop": 0.05,
+      "Rminus1_stop": 0.01,
+      "learn_proposal": true,
+      "max_samples": 2000,
+      "max_tries": 10000
+    },
+    "output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "output_prefix_expected": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "output_prefix_matches_expected": true,
+    "required_full_objective_likelihoods_present": {
+      "planck_2018_highl_plik.TTTEEE_lite": true,
+      "planck_2018_lensing.native": true,
+      "planck_2018_lowl.EE": true,
+      "planck_2018_lowl.TT": true
+    },
+    "sampled_param_names": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "sampler_mcmc_present": true,
+    "tt_lite_excluded": true
+  },
+  "native_execution_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml",
+  "native_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+  "native_reference_eval": {
+    "bundle_loglikes": {
+      "lensing_native": -10.05829195887283,
+      "lensing_native__finite": true,
+      "lowl_available": -207.84360434887708,
+      "lowl_available__finite": true,
+      "lowl_plik_TTTEEE_lite_lensing_native": -900.5881804569644,
+      "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+      "lowl_plus_plik_TTTEEE_lite": -890.5298884980916,
+      "lowl_plus_plik_TTTEEE_lite__finite": true,
+      "plik_TTTEEE_lite": -682.6862841492145,
+      "plik_TTTEEE_lite__finite": true,
+      "plik_TT_lite": null,
+      "plik_TT_lite__finite": false
+    },
+    "component_loglikes": {
+      "planck_2018_highl_plik.TTTEEE_lite": -682.6862841492145,
+      "planck_2018_lensing.native": -10.05829195887283,
+      "planck_2018_lowl.EE": -197.96674434902818,
+      "planck_2018_lowl.TT": -9.876859999848904
+    },
+    "elapsed_s": 2.522456645965576,
+    "label": "native_execution_reference_point",
+    "point": {
+      "A_planck": 1.025,
+      "n_s": 0.981875,
+      "omega_b": 0.022
+    },
+    "status": "success"
+  },
+  "native_sampler_run": {
+    "elapsed_s": 1246.1572089195251,
+    "label": "native_baseline_checkpoint",
+    "mcmc_launched_by_this_stage": true,
+    "posterior_interpretation_allowed": false,
+    "sampler_type": "MCMC",
+    "status": "success",
+    "updated_info_available": true
+  },
+  "native_sampler_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight_native_sampler_seed.yaml",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_acceptance.md",
+    "chain_audit_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_chain_audit.json",
+    "chain_columns_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_chain_columns.csv",
+    "checkpoint_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_checkpoint_manifest.json",
+    "claim_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_claim_scope.md",
+    "execution_yaml": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_execution_sampler.yaml",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint.json",
+    "native_chain_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+    "native_execution_config_audit": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_native_execution_config_audit.json",
+    "native_reference_eval": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_native_reference_eval.json",
+    "reference_comparison_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_reference_comparison.csv",
+    "sample_stats_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_sample_stats.csv",
+    "sample_stats_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_sample_stats.json",
+    "sampler_run_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_sampler_run.json",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b16_native_baseline_sampler_checkpoint_tri_anchor_context.csv"
+  },
+  "previous_stage3b0_reference": {
+    "diagnostic_outcome": "STAGE3B0_LOCK_NOTE_AND_MINIMAL_SAMPLER_SEED_WRITTEN",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b0_lock_note_sampler_seed.json",
+    "loaded": true
+  },
+  "previous_stage3b15_reference": {
+    "diagnostic_outcome": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b15_matched_native_baseline_preflight.json",
+    "loaded": true
+  },
+  "reference_comparisons": [
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "plik_TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -207.84360434887708,
+      "key": "lowl_available",
+      "observed": -207.84360434887708,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "lensing_native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -890.5298884980916,
+      "key": "lowl_plus_plik_TTTEEE_lite",
+      "observed": -890.5298884980916,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_bundle_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -900.5881804569644,
+      "key": "lowl_plik_TTTEEE_lite_lensing_native",
+      "observed": -900.5881804569644,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -682.6862841492145,
+      "key": "planck_2018_highl_plik.TTTEEE_lite",
+      "observed": -682.6862841492145,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -9.876859999848904,
+      "key": "planck_2018_lowl.TT",
+      "observed": -9.876859999848904,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -197.96674434902818,
+      "key": "planck_2018_lowl.EE",
+      "observed": -197.96674434902818,
+      "pass": true,
+      "tolerance": 1e-05
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "native_execution_ref_components_vs_stage3b15_sampler_ref",
+      "difference": 0.0,
+      "expected": -10.05829195887283,
+      "key": "planck_2018_lensing.native",
+      "observed": -10.05829195887283,
+      "pass": true,
+      "tolerance": 1e-05
+    }
+  ],
+  "removed_artifacts_before_run": [],
+  "sample_stats_rows": [
+    {
+      "max": 0.022055275,
+      "mean": 0.021934925246,
+      "min": 0.021900159,
+      "motion_recorded": true,
+      "n_values": 2000,
+      "parameter": "omega_b",
+      "prior_max": 0.0221,
+      "prior_min": 0.0219,
+      "span": 0.00015511600000000028,
+      "unique_rounded_12": 580,
+      "within_prior": true
+    },
+    {
+      "max": 0.98249963,
+      "mean": 0.981769417185,
+      "min": 0.98050073,
+      "motion_recorded": true,
+      "n_values": 2000,
+      "parameter": "n_s",
+      "prior_max": 0.9825,
+      "prior_min": 0.9805,
+      "span": 0.0019988999999999146,
+      "unique_rounded_12": 580,
+      "within_prior": true
+    },
+    {
+      "max": 1.0245428,
+      "mean": 1.02004877335,
+      "min": 1.02,
+      "motion_recorded": true,
+      "n_values": 2000,
+      "parameter": "A_planck",
+      "prior_max": 1.03,
+      "prior_min": 1.02,
+      "span": 0.004542800000000069,
+      "unique_rounded_12": 927,
+      "within_prior": true
+    }
+  ],
+  "sample_stats_summary": {
+    "all_sampled_parameters_with_motion": true,
+    "all_sampled_parameters_within_prior_bounds": true,
+    "header": [
+      "weight",
+      "minuslogpost",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "motion_by_parameter": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "motion_count": 3,
+    "n_rows": 2000
+  },
+  "script": "stage3b_16_native_baseline_sampler_checkpoint.py",
+  "stage": "3B-16",
+  "tri_anchor_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

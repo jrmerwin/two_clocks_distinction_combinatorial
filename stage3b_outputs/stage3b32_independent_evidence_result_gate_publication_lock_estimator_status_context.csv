@@ -1,0 +1,3 @@
+stage,estimator_status,result_gate_required_before_stage3b32,result_gate_passed_by_stage3b32,new_mcmc_launched,new_evidence_computed_by_stage3b32,proxy_log_bf,formal_log_bf,independent_validation_log_bf,max_allowed_abs_lineage_delta,lineage_gate_pass
+3B-31,independent validation executed,True,True,False,False,,,,,
+lineage,,,,,,158.76404705020616,158.76404705020616,169.00640862086107,25.0,True

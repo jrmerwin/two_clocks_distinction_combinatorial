@@ -1,0 +1,7 @@
+check_id,required_check,status_after_stage3b33
+review_001,Independent reproduction of DEU and native chain inputs,required_before_external_claim
+review_002,Independent implementation or estimator-method cross-check,required_before_external_claim
+review_003,Prior-volume sensitivity under publication-grade protocol,required_before_external_claim
+review_004,"Likelihood-scope review, including TT_lite diagnostic-only status",required_before_external_claim
+review_005,Manuscript language review separating internal evidence from external claims,required_before_external_claim
+review_006,Tri-anchor/context lineage audit,required_before_external_claim

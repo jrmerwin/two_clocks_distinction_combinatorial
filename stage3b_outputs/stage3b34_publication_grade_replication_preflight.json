@@ -1,0 +1,607 @@
+{
+  "acceptance": {
+    "allowed_internal_statements_written": true,
+    "artifact_manifest_written": true,
+    "blocked_publication_claims_written": true,
+    "diagnostic_outcome": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "evidence_lineage_recap_written": true,
+    "evidence_values_finite": true,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "independent_reviewer_protocol_written": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "preflight_manifest_written": true,
+    "replication_checklist_written": true,
+    "replication_report_written": true,
+    "reproducibility_commands_written": true,
+    "required_core_artifacts_all_present": true,
+    "reviewer_checklist_written": true,
+    "script_completed": true,
+    "stage3b28_internal_formal_claim_lock_pass": true,
+    "stage3b28_reference_loaded": true,
+    "stage3b31_expected_decision": true,
+    "stage3b31_reference_loaded": true,
+    "stage3b32_expected_decision": true,
+    "stage3b32_independent_result_gate_pass": true,
+    "stage3b32_reference_loaded": true,
+    "stage3b33_expected_decision": true,
+    "stage3b33_external_publication_claims_blocked": true,
+    "stage3b33_final_publication_claims_blocked": true,
+    "stage3b33_hard_guard_pass": true,
+    "stage3b33_internal_evidence_language_allowed": true,
+    "stage3b33_model_superiority_claims_blocked": true,
+    "stage3b33_reference_loaded": true,
+    "stage3b33_tt_lite_claims_blocked": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_internal_statements": [
+    {
+      "claim_status": "allowed_with_caveats",
+      "scope": "internal_only",
+      "statement": "Internal independent-validation evidence/BF language is allowed with caveats after Stage 3B-32/33.",
+      "statement_id": "allowed_internal_01"
+    },
+    {
+      "claim_status": "allowed_with_caveats",
+      "scope": "internal_only",
+      "statement": "Independent-validation log-BF proxy/cross-check value can be reported internally as 169.00640862086107 with caveats.",
+      "statement_id": "allowed_internal_02"
+    },
+    {
+      "claim_status": "allowed_with_caveats",
+      "scope": "internal_only",
+      "statement": "Formal lineage log-BF value can be reported internally as 158.76404705020616 with caveats.",
+      "statement_id": "allowed_internal_03"
+    },
+    {
+      "claim_status": "allowed_with_caveats",
+      "scope": "internal_only",
+      "statement": "The Stage 3B DEU/native posterior comparison may be described as scoped and descriptive, not as model evidence by itself.",
+      "statement_id": "allowed_internal_04"
+    },
+    {
+      "claim_status": "required_context",
+      "scope": "internal_only",
+      "statement": "The tri-anchor ledger and TT_lite diagnostic-only scope must accompany all summaries.",
+      "statement_id": "allowed_internal_05"
+    }
+  ],
+  "artifact_manifest_rows": [
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness.json",
+      "stage_or_context": "3B-9 DEU readiness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_acceptance.md",
+      "stage_or_context": "3B-9 DEU readiness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b10_first_posterior_summary.json",
+      "stage_or_context": "3B-10 posterior summary"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b10_first_posterior_summary_acceptance.md",
+      "stage_or_context": "3B-10 posterior summary"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b11_posterior_robustness_comparison.json",
+      "stage_or_context": "3B-11 posterior robustness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b11_posterior_robustness_comparison_acceptance.md",
+      "stage_or_context": "3B-11 posterior robustness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness.json",
+      "stage_or_context": "3B-18 native readiness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_acceptance.md",
+      "stage_or_context": "3B-18 native readiness"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock.json",
+      "stage_or_context": "3B-19 matched DEU/native comparison"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_acceptance.md",
+      "stage_or_context": "3B-19 matched DEU/native comparison"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+      "stage_or_context": "3B-20 final scoped internal report"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_acceptance.md",
+      "stage_or_context": "3B-20 final scoped internal report"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight.json",
+      "stage_or_context": "3B-22 evidence estimator preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_acceptance.md",
+      "stage_or_context": "3B-22 evidence estimator preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint.json",
+      "stage_or_context": "3B-23 proxy estimator execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_acceptance.md",
+      "stage_or_context": "3B-23 proxy estimator execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit.json",
+      "stage_or_context": "3B-24 proxy result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_acceptance.md",
+      "stage_or_context": "3B-24 proxy result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight.json",
+      "stage_or_context": "3B-25 formal evidence preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight_acceptance.md",
+      "stage_or_context": "3B-25 formal evidence preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint.json",
+      "stage_or_context": "3B-26 formal evidence execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_acceptance.md",
+      "stage_or_context": "3B-26 formal evidence execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit.json",
+      "stage_or_context": "3B-27 formal result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_acceptance.md",
+      "stage_or_context": "3B-27 formal result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b28_formal_evidence_claim_lock_addendum.json",
+      "stage_or_context": "3B-28 formal evidence claim lock"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b28_formal_evidence_claim_lock_addendum_acceptance.md",
+      "stage_or_context": "3B-28 formal evidence claim lock"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b29_external_publication_claim_preflight.json",
+      "stage_or_context": "3B-29 external publication preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b29_external_publication_claim_preflight_acceptance.md",
+      "stage_or_context": "3B-29 external publication preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight.json",
+      "stage_or_context": "3B-30 independent validation preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight_acceptance.md",
+      "stage_or_context": "3B-30 independent validation preflight"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint.json",
+      "stage_or_context": "3B-31 independent validation execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_acceptance.md",
+      "stage_or_context": "3B-31 independent validation execution"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+      "stage_or_context": "3B-32 independent validation result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_acceptance.md",
+      "stage_or_context": "3B-32 independent validation result gate"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+      "stage_or_context": "3B-33 external evidence publication claim lock"
+    },
+    {
+      "artifact_role": "required_core_stage_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_acceptance.md",
+      "stage_or_context": "3B-33 external evidence publication claim lock"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "stage_or_context": "DEU production chain base"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "stage_or_context": "DEU production chain additional"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "stage_or_context": "native baseline chain base"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "stage_or_context": "native baseline chain additional"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b10_first_posterior_summary_posterior_summary.md",
+      "stage_or_context": "Stage 3B-10 posterior markdown"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_final_scoped_report.md",
+      "stage_or_context": "Stage 3B-20 final scoped report"
+    },
+    {
+      "artifact_role": "replication_high_value_artifact",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_publication_claim_lock.md",
+      "stage_or_context": "Stage 3B-33 publication claim lock"
+    }
+  ],
+  "blocked_publication_claims": [
+    {
+      "blocked_claim": "External publication claim that DEU is superior to native/baseline cosmology.",
+      "claim_id": "blocked_external_01",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    },
+    {
+      "blocked_claim": "Final Bayes-factor/evidence claim without independent reviewer replication.",
+      "claim_id": "blocked_external_02",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    },
+    {
+      "blocked_claim": "Claim that TT_lite was included in the sampled posterior/evidence likelihood.",
+      "claim_id": "blocked_external_03",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    },
+    {
+      "blocked_claim": "Final cosmological-result language beyond the scoped internal report.",
+      "claim_id": "blocked_external_04",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    },
+    {
+      "blocked_claim": "Claim that the evidence result is publication-grade without external replication package review.",
+      "claim_id": "blocked_external_05",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    },
+    {
+      "blocked_claim": "Use of the internal validation result as a standalone model-selection conclusion.",
+      "claim_id": "blocked_external_06",
+      "required_unlock": "Stage 3B-35+ independent replication/reviewer gate",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.015741586685180664,
+  "evidence_lineage_recap": [
+    {
+      "lineage_item": "proxy/formal log-BF lineage",
+      "scope": "internal lineage context",
+      "value": 158.76404705020616
+    },
+    {
+      "lineage_item": "formal cross-check log-BF",
+      "scope": "internal formal cross-check",
+      "value": 158.76404705020616
+    },
+    {
+      "lineage_item": "independent-validation DEU log evidence",
+      "scope": "internal independent-validation",
+      "value": -542.2974790661433
+    },
+    {
+      "lineage_item": "independent-validation native log evidence",
+      "scope": "internal independent-validation",
+      "value": -711.3038876870044
+    },
+    {
+      "lineage_item": "independent-validation log-BF DEU-native",
+      "scope": "internal independent-validation",
+      "value": 169.00640862086107
+    }
+  ],
+  "evidence_values": {
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "proxy_log_bayes_factor_lineage": 158.76404705020616
+  },
+  "generated_utc": "2026-05-09T15:22:09+00:00",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_acceptance.md",
+    "allowed_internal_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_allowed_internal_statements.csv",
+    "artifact_manifest_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_artifact_manifest.csv",
+    "blocked_publication_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_blocked_publication_claims.csv",
+    "evidence_lineage_recap_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_evidence_lineage_recap.csv",
+    "independent_reviewer_protocol_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_independent_reviewer_protocol.md",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight.json",
+    "preflight_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_preflight_manifest.json",
+    "replication_checklist_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_replication_checklist.csv",
+    "replication_report_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_replication_preflight_report.md",
+    "reproducibility_commands_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_reproducibility_commands.md",
+    "reviewer_checklist_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_reviewer_checklist.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_tri_anchor_context.csv",
+    "tt_lite_publication_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_tt_lite_publication_scope.md"
+  },
+  "preflight_manifest": {
+    "artifact_manifest_rows": 43,
+    "decision_type": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "evidence_values_finite": true,
+    "external_publication_claims_allowed": false,
+    "external_reviewer_required": true,
+    "final_publication_claims_allowed": false,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "internal_independent_validation_evidence_language_allowed": true,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-35 independent replication package freeze or external reviewer dry run",
+    "posterior_evidence_status": "publication_grade_replication_preflighted_external_review_required",
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "publication_grade_replication_preflight_written": true,
+    "recommendation": "Book Stage 3B-34. Internal independent-validation evidence language remains allowed with caveats; external/publication, model-superiority, TT_lite-in-evidence/posterior, and final-style claims require an independent replication/reviewer gate.",
+    "replication_checklist_rows": 10,
+    "required_core_artifacts_all_present": true,
+    "stage3b32_decision": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "stage3b33_decision": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "tri_anchor_context_count": 3,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "previous_stage3b33_reference": {
+    "diagnostic_outcome": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+    "loaded": true
+  },
+  "replication_checklist_rows": [
+    {
+      "category": "environment",
+      "check_id": "replication_01",
+      "requirement": "Run from ~/deu_class/CLASS-DEU after activating ~/deu_class/deu_boltzmann_start/.venv and setting COBAYA_PACKAGES_PATH.",
+      "status": "required"
+    },
+    {
+      "category": "code provenance",
+      "check_id": "replication_02",
+      "requirement": "Use the local CLASS-DEU build; do not substitute a pip-installed classy build.",
+      "status": "required"
+    },
+    {
+      "category": "chain provenance",
+      "check_id": "replication_03",
+      "requirement": "Verify two DEU chain files and two native/baseline chain files are present before evidence replication.",
+      "status": "required"
+    },
+    {
+      "category": "DEU posterior",
+      "check_id": "replication_04",
+      "requirement": "Reproduce Stage 3B-10 parameter summaries from the two DEU production chains.",
+      "status": "required"
+    },
+    {
+      "category": "native posterior",
+      "check_id": "replication_05",
+      "requirement": "Reproduce Stage 3B-19 native parameter summaries from the two native/baseline chains.",
+      "status": "required"
+    },
+    {
+      "category": "formal evidence lineage",
+      "check_id": "replication_06",
+      "requirement": "Reproduce the Stage 3B-26/27 formal cross-check lineage before reading independent-validation results.",
+      "status": "required"
+    },
+    {
+      "category": "independent validation lineage",
+      "check_id": "replication_07",
+      "requirement": "Reproduce Stage 3B-31/32 independent-validation evidence lineage and sensitivity/consistency rows.",
+      "status": "required"
+    },
+    {
+      "category": "TT_lite scope",
+      "check_id": "replication_08",
+      "requirement": "Confirm TT_lite remains diagnostic-only and is not claimed as sampled posterior/evidence likelihood.",
+      "status": "required"
+    },
+    {
+      "category": "tri-anchor context",
+      "check_id": "replication_09",
+      "requirement": "Retain the high-l, lowl+TTTEEE, and full-objective working-lock tri-anchor context.",
+      "status": "required"
+    },
+    {
+      "category": "claim discipline",
+      "check_id": "replication_10",
+      "requirement": "Do not permit model-superiority, external-publication, or final-style claims until an external reviewer/replication gate is booked.",
+      "status": "required"
+    }
+  ],
+  "reviewer_checklist": [
+    {
+      "check_id": "reviewer_01",
+      "required_check": "Rebuild local CLASS-DEU and verify classy import resolves to the local build.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_02",
+      "required_check": "Rerun the Stage 3B-33 claim lock and Stage 3B-34 preflight from a clean git checkout.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_03",
+      "required_check": "Independently recompute DEU/native posterior summaries from the archived chain files.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_04",
+      "required_check": "Independently recompute at least one evidence estimator family, not just read Stage 3B-31 outputs.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_05",
+      "required_check": "Confirm prior matching and likelihood matching, including TT_lite diagnostic-only status.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_06",
+      "required_check": "Confirm tri-anchor context is retained and no final/publication claim is made without reviewer signoff.",
+      "status": "required_before_external_claims"
+    },
+    {
+      "check_id": "reviewer_07",
+      "required_check": "Record exact command transcript, git commit, tags, environment variables, and package path.",
+      "status": "required_before_external_claims"
+    }
+  ],
+  "script": "stage3b_34_publication_grade_replication_preflight.py",
+  "stage": "3B-34",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

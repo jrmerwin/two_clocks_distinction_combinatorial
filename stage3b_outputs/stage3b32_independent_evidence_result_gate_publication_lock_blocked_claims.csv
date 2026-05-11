@@ -1,0 +1,6 @@
+blocked_claim_id,blocked_statement,reason
+model_superiority,DEU is superior to native/baseline.,Stage 3B-32 permits internal evidence-validation language only; model-superiority requires a later claim lock.
+external_publication_evidence,The evidence result is ready for external publication as a final Bayes factor.,External publication/final-style claims remain gated.
+final_publication_claim,The final publication conclusion is established.,Final publication-style claims require manuscript guardrails and final claim preflight.
+tt_lite_sampled_posterior_or_evidence,TT_lite was included in the sampled posterior or evidence likelihood.,TT_lite remained diagnostic-only and excluded from the production/evidence likelihood scope.
+uncaveated_bayes_factor,The log-BF value can be stated without caveats.,"Only scoped internal, caveated evidence-validation language is allowed."

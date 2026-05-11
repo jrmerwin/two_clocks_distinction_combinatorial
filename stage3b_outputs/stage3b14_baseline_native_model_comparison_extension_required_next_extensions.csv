@@ -1,0 +1,8 @@
+extension_id,priority,name,purpose,next_stage_hint,extension,reason,minimum_output
+ext_001,required_for_model_superiority,Explicit native/baseline model-comparison extension,Compare DEU scoped posterior/fit context against native/baseline under matched likelihood scope.,Stage 3B-14 explicit baseline/native model-comparison extension,,,
+ext_002,required_for_publication_claim,Final publication-claim lock,"Review all caveats, TT_lite scope, tri-anchor context, and model-comparison evidence before external claims.",Stage 3B-15 final claim lock after model-comparison extension,,,
+ext_003,optional_but_recommended,TT_lite-inclusive sensitivity sampler or fixed diagnostic,Clarify whether diagnostic TT_lite behavior changes the production posterior story.,"TT_lite sensitivity branch, not a replacement for the current full-objective posterior.",,,
+ext_004,optional_but_recommended,Best-fit optimizer check at/near posterior summary,Avoid overinterpreting chain MAP-like rows as optimizer outputs.,Separate best-fit check if manuscript-style best-fit numbers are needed.,,,
+,,,,,matched_native_baseline_sampler_or_evidence,Required before claiming DEU superiority over native/baseline cosmology.,Native/baseline posterior or evidence artifact with same likelihood scope and explicit comparison table.
+,,,,,TT_lite_inclusion_or_formal_exclusion_note,TT_lite was diagnostic-only in production; any TT_lite-inclusive claim needs a separate run or explicit exclusion statement.,Booked TT_lite scope note or sampler including TT_lite.
+,,,,,final_publication_claim_lock,Final external claims require a separate claim-lock after comparison scope is complete.,Final claim matrix with every claim mapped to evidence artifacts.

@@ -1,0 +1,42 @@
+{
+  "all_expected_params_present": true,
+  "all_values_finite": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+  ],
+  "extra_arg_keys": [
+    "deu",
+    "deu_allow_double_phase_hooks",
+    "deu_damping_envelope_hook",
+    "deu_lensed_phase_hook",
+    "deu_lensed_phase_profile",
+    "deu_log10_N_today",
+    "deu_perturbation_sound_speed_hook",
+    "deu_photon_clock_thermo",
+    "deu_polarization_source_amplitude_hook",
+    "deu_transfer_polamp_hook",
+    "deu_use_radial_jacobian",
+    "l_max_scalars",
+    "lensing",
+    "output"
+  ],
+  "hard_guard_pass": true,
+  "label": "deu",
+  "likelihoods": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "n_chain_files": 2,
+  "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "sampled_parameters": [
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "total_rows": 4000
+}

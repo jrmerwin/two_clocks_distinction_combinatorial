@@ -1,0 +1,67 @@
+{
+  "all_sampled_parameters_with_motion": true,
+  "all_sampled_parameters_within_prior_bounds": true,
+  "header": [
+    "weight",
+    "minuslogpost",
+    "omega_b",
+    "n_s",
+    "A_planck",
+    "chi2__CMB",
+    "minuslogprior",
+    "minuslogprior__0",
+    "chi2",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lowl.TT",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lensing.native"
+  ],
+  "motion_by_parameter": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 3,
+  "n_rows": 4000,
+  "stats_rows": [
+    {
+      "max": 0.022056177,
+      "mean": 0.02193528122575,
+      "min": 0.021900159,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "omega_b",
+      "prior_max": 0.0221,
+      "prior_min": 0.0219,
+      "span": 0.00015601800000000082,
+      "unique_rounded_12": 1181,
+      "within_prior": true
+    },
+    {
+      "max": 0.98249963,
+      "mean": 0.98176250008,
+      "min": 0.98050073,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "n_s",
+      "prior_max": 0.9825,
+      "prior_min": 0.9805,
+      "span": 0.0019988999999999146,
+      "unique_rounded_12": 1183,
+      "within_prior": true
+    },
+    {
+      "max": 1.0250552,
+      "mean": 1.020052987475,
+      "min": 1.02,
+      "motion_recorded": true,
+      "n_values": 4000,
+      "parameter": "A_planck",
+      "prior_max": 1.03,
+      "prior_min": 1.02,
+      "span": 0.005055199999999926,
+      "unique_rounded_12": 1239,
+      "within_prior": true
+    }
+  ]
+}

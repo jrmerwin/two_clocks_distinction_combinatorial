@@ -1,0 +1,401 @@
+{
+  "acceptance": {
+    "allowed_proxy_statements_written": true,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claims_written": true,
+    "claim_matrix_written": true,
+    "diagnostic_outcome": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "estimator_robustness_gate_pass": true,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "log_bayes_factor_proxy_recorded": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "posterior_conclusions_extended_by_this_stage": false,
+    "proxy_result_language_allowed_with_caveats": true,
+    "proxy_result_summary_recorded": true,
+    "required_next_steps_written": true,
+    "result_gate_manifest_written": true,
+    "result_gate_report_written": true,
+    "robustness_rows_recorded": true,
+    "script_completed": true,
+    "sensitivity_audit_recorded": true,
+    "stage3b19_matched_comparison_loaded": true,
+    "stage3b19_matched_comparison_pass": true,
+    "stage3b20_scoped_report_loaded": true,
+    "stage3b20_scoped_report_pass": true,
+    "stage3b21_design_loaded": true,
+    "stage3b21_design_pass": true,
+    "stage3b22_preflight_pass": true,
+    "stage3b22_reference_loaded": true,
+    "stage3b23_evidence_claims_blocked": true,
+    "stage3b23_evidence_proxy_computed": true,
+    "stage3b23_execution_checkpoint_pass": true,
+    "stage3b23_hard_guard_pass": true,
+    "stage3b23_reference_loaded": true,
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_proxy_statements": [
+    {
+      "allowed": true,
+      "claim_id": "proxy_result_recorded",
+      "required_caveat": "Call it a diagnostic proxy, not a Bayes factor or final evidence.",
+      "wording": "A matched diagnostic evidence proxy was recorded, with log-BF-proxy direction positive for DEU."
+    },
+    {
+      "allowed": true,
+      "claim_id": "proxy_robustness_audited",
+      "required_caveat": "Robustness here is internal to the diagnostic proxy estimator.",
+      "wording": "The Stage 3B-23 proxy robustness gate passed and Stage 3B-24 audited the result."
+    },
+    {
+      "allowed": true,
+      "claim_id": "scoped_posterior_comparison_still_allowed",
+      "required_caveat": "Do not convert descriptive posterior differences into model evidence.",
+      "wording": "The scoped, caveated DEU/native posterior comparison remains allowed."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked": true,
+      "blocked_statement": "Do not call the diagnostic proxy value a formal Bayes factor.",
+      "claim_id": "formal_bayes_factor",
+      "required_unlock": "Run and book a formal evidence estimator or independent cross-check with an explicit claim gate."
+    },
+    {
+      "blocked": true,
+      "blocked_statement": "Do not claim DEU is superior to native/baseline from the proxy alone.",
+      "claim_id": "model_superiority",
+      "required_unlock": "Pass a model-selection claim gate with validated evidence methodology."
+    },
+    {
+      "blocked": true,
+      "blocked_statement": "Do not claim TT_lite was included in the sampled posterior or evidence comparison.",
+      "claim_id": "tt_lite_in_evidence",
+      "required_unlock": "Run a matched sampler/evidence design that explicitly includes TT_lite."
+    },
+    {
+      "blocked": true,
+      "blocked_statement": "Do not make final publication-style claims from this proxy audit.",
+      "claim_id": "final_publication_claim",
+      "required_unlock": "Book a publication-claim lock after formal evidence and external robustness stages."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0024461746215820312,
+  "estimator_results_rows_loaded": 3,
+  "generated_utc": "2026-05-09T04:40:09+00:00",
+  "logpost_rows_loaded": 2,
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_acceptance.md",
+    "allowed_proxy_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_allowed_proxy_statements.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_blocked_claims.csv",
+    "claim_update_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_claim_update_matrix.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit.json",
+    "proxy_result_summary_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_proxy_result_summary.csv",
+    "required_next_steps_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_required_next_steps.csv",
+    "result_gate_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_result_gate_manifest.json",
+    "result_gate_report_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_result_gate_report.md",
+    "robustness_gate_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_robustness_gate.csv",
+    "sensitivity_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_sensitivity_audit.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit_tt_lite_scope.md"
+  },
+  "per_chain_rows_loaded": 4,
+  "previous_stage3b23_reference": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "diagnostic_outcome": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint.json",
+    "loaded": true
+  },
+  "proxy_result_summary": [
+    {
+      "claim_status": "diagnostic_proxy_only_not_formal_evidence",
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "quantity": "deu_log_evidence_proxy",
+      "value": -576.0487181192134
+    },
+    {
+      "claim_status": "diagnostic_proxy_only_not_formal_evidence",
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "quantity": "native_log_evidence_proxy",
+      "value": -734.8127651694195
+    },
+    {
+      "claim_status": "proxy_result_may_be_reported_only_with_proxy_caveat",
+      "direction": "positive_for_deu",
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "formal_bayes_factor_claim_allowed": false,
+      "model_superiority_claim_allowed": false,
+      "quantity": "log_bayes_factor_proxy_deu_minus_native",
+      "value": 158.76404705020616
+    }
+  ],
+  "raw_robustness_rows_loaded": 5,
+  "required_next_steps": [
+    {
+      "description": "Run a formal or independently validated evidence estimator over matched DEU/native likelihoods and priors.",
+      "required": true,
+      "step_id": "formal_evidence_estimator_cross_check"
+    },
+    {
+      "description": "Vary estimator assumptions/settings and require sign/magnitude stability before model-selection wording.",
+      "required": true,
+      "step_id": "estimator_sensitivity_grid"
+    },
+    {
+      "description": "Either keep TT_lite diagnostic-only in all claims or run an explicit TT_lite-inclusive matched design.",
+      "required": true,
+      "step_id": "tt_lite_explicit_scope_decision"
+    },
+    {
+      "description": "After evidence/model-selection validation, run a final claim-lock stage before external publication-style claims.",
+      "required": true,
+      "step_id": "publication_claim_lock"
+    }
+  ],
+  "result_gate_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "decision_type": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "deu_log_evidence_proxy": -576.0487181192134,
+    "diagnostic_assessment_complete": true,
+    "estimator_id": "laplace_chain_local_proxy",
+    "estimator_kind": "diagnostic_proxy_not_final_evidence",
+    "estimator_robustness_gate_pass": true,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_proxy": -734.8127651694195,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-25 formal evidence-estimator cross-check or publication-claim lock preflight",
+    "posterior_conclusions_extended_by_this_stage": false,
+    "posterior_evidence_status": "diagnostic_proxy_audited_formal_evidence_claims_still_gated",
+    "posterior_summary_allowed_with_caveats": true,
+    "proxy_result_language_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-24. Proxy-only evidence-result language is allowed with caveats; formal Bayes-factor, model-superiority, and final publication claims remain gated.",
+    "sensitivity_rows_recorded": 8,
+    "stage3b21_decision": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "stage3b22_decision": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b23_decision": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "robustness_gate_rows": [
+    {
+      "check": "deu_per_chain_logZ_proxy_range",
+      "gate_pass": true,
+      "interpretation": "stability diagnostic only; does not validate final evidence",
+      "pass": "True",
+      "row_index": 1,
+      "source": "stage3b23_estimator_robustness_csv",
+      "threshold": "12.0",
+      "value": "0.02338944736038684"
+    },
+    {
+      "check": "deu_family_logZ_proxy_finite",
+      "gate_pass": true,
+      "interpretation": "family-level proxy finite",
+      "pass": "True",
+      "row_index": 2,
+      "source": "stage3b23_estimator_robustness_csv",
+      "threshold": "",
+      "value": "-576.0487181192134"
+    },
+    {
+      "check": "native_per_chain_logZ_proxy_range",
+      "gate_pass": true,
+      "interpretation": "stability diagnostic only; does not validate final evidence",
+      "pass": "True",
+      "row_index": 3,
+      "source": "stage3b23_estimator_robustness_csv",
+      "threshold": "12.0",
+      "value": "0.41620847116666937"
+    },
+    {
+      "check": "native_family_logZ_proxy_finite",
+      "gate_pass": true,
+      "interpretation": "family-level proxy finite",
+      "pass": "True",
+      "row_index": 4,
+      "source": "stage3b23_estimator_robustness_csv",
+      "threshold": "",
+      "value": "-734.8127651694195"
+    },
+    {
+      "check": "log_bayes_factor_proxy_finite",
+      "gate_pass": true,
+      "interpretation": "proxy finite and not absurdly large; not a Bayes-factor claim",
+      "pass": "True",
+      "row_index": 5,
+      "source": "stage3b23_estimator_robustness_csv",
+      "threshold": "1000.0",
+      "value": "158.76404705020616"
+    }
+  ],
+  "script": "stage3b_24_evidence_result_gate_sensitivity_audit.py",
+  "sensitivity_audit": [
+    {
+      "audit_item": "manifest_robustness_gate",
+      "interpretation": "required for proxy-result gate; not a formal evidence validation",
+      "source": "execution_manifest",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "audit_item": "per_chain_results_recorded",
+      "interpretation": "checks that DEU/native chain-family pieces were summarized",
+      "source": "per_chain_estimator_results_csv",
+      "status": "pass",
+      "value": 4
+    },
+    {
+      "audit_item": "logpost_summary_recorded",
+      "interpretation": "diagnostic support for proxy estimator inputs",
+      "source": "logpost_summary_csv",
+      "status": "pass",
+      "value": 2
+    },
+    {
+      "audit_item": "robustness_row_1",
+      "details": {
+        "check": "deu_per_chain_logZ_proxy_range",
+        "gate_pass": true,
+        "interpretation": "stability diagnostic only; does not validate final evidence",
+        "pass": "True",
+        "row_index": 1,
+        "source": "stage3b23_estimator_robustness_csv",
+        "threshold": "12.0",
+        "value": "0.02338944736038684"
+      },
+      "interpretation": "sensitivity/robustness row for diagnostic proxy only",
+      "source": "stage3b23_estimator_robustness_csv",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "audit_item": "robustness_row_2",
+      "details": {
+        "check": "deu_family_logZ_proxy_finite",
+        "gate_pass": true,
+        "interpretation": "family-level proxy finite",
+        "pass": "True",
+        "row_index": 2,
+        "source": "stage3b23_estimator_robustness_csv",
+        "threshold": "",
+        "value": "-576.0487181192134"
+      },
+      "interpretation": "sensitivity/robustness row for diagnostic proxy only",
+      "source": "stage3b23_estimator_robustness_csv",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "audit_item": "robustness_row_3",
+      "details": {
+        "check": "native_per_chain_logZ_proxy_range",
+        "gate_pass": true,
+        "interpretation": "stability diagnostic only; does not validate final evidence",
+        "pass": "True",
+        "row_index": 3,
+        "source": "stage3b23_estimator_robustness_csv",
+        "threshold": "12.0",
+        "value": "0.41620847116666937"
+      },
+      "interpretation": "sensitivity/robustness row for diagnostic proxy only",
+      "source": "stage3b23_estimator_robustness_csv",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "audit_item": "robustness_row_4",
+      "details": {
+        "check": "native_family_logZ_proxy_finite",
+        "gate_pass": true,
+        "interpretation": "family-level proxy finite",
+        "pass": "True",
+        "row_index": 4,
+        "source": "stage3b23_estimator_robustness_csv",
+        "threshold": "",
+        "value": "-734.8127651694195"
+      },
+      "interpretation": "sensitivity/robustness row for diagnostic proxy only",
+      "source": "stage3b23_estimator_robustness_csv",
+      "status": "pass",
+      "value": true
+    },
+    {
+      "audit_item": "robustness_row_5",
+      "details": {
+        "check": "log_bayes_factor_proxy_finite",
+        "gate_pass": true,
+        "interpretation": "proxy finite and not absurdly large; not a Bayes-factor claim",
+        "pass": "True",
+        "row_index": 5,
+        "source": "stage3b23_estimator_robustness_csv",
+        "threshold": "1000.0",
+        "value": "158.76404705020616"
+      },
+      "interpretation": "sensitivity/robustness row for diagnostic proxy only",
+      "source": "stage3b23_estimator_robustness_csv",
+      "status": "pass",
+      "value": true
+    }
+  ],
+  "stage": "3B-24",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

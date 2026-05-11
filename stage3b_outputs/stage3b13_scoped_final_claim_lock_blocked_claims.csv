@@ -1,0 +1,6 @@
+claim_id,status,claim,reason,unblock_condition
+blocked_001,blocked,DEU is superior to ΛCDM or the native baseline.,No explicit baseline/native model-comparison evidence stage has been booked.,Run and book an explicit model-comparison extension with matched likelihood scope and clear criteria.
+blocked_002,blocked,The production posterior includes TT_lite.,TT_lite was diagnostic-only and excluded from the production sampler likelihood.,Run a separate production sampler including TT_lite or state TT_lite only as diagnostic context.
+blocked_003,blocked,Final publication-style claim or external robustness claim.,Stage 3B-12 explicitly kept final publication claims blocked.,Book a final claim-lock after external/model-comparison and robustness scope is complete.
+blocked_004,blocked,All Planck likelihood components prefer the same DEU anchor.,The tri-anchor split is retained and must remain visible.,Run additional diagnostics demonstrating consensus across the relevant objectives.
+blocked_005,blocked,The MAP-like chain row is an optimizer result or independent best fit.,Stage 3B-10 records it as a chain diagnostic only.,Run a separate optimizer/best-fit stage if that claim is needed.

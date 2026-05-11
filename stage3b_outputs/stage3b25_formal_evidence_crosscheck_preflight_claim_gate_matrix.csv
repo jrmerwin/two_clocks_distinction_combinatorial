@@ -1,0 +1,10 @@
+claim_id,status,wording_or_reason,unlock_or_caveat
+scoped_posterior_summary,allowed_with_caveats,The scoped DEU posterior summary remains allowed with caveats.,Use caveats from Stage 3B-20/24.
+descriptive_deu_native_comparison,allowed_with_caveats,The matched DEU/native posterior comparison remains descriptive only.,Use caveats from Stage 3B-20/24.
+diagnostic_proxy_result,allowed_with_caveats,"The evidence-proxy result may be described as a diagnostic proxy, not as formal evidence.",Use caveats from Stage 3B-20/24.
+formal_estimator_preflight,allowed,"A formal evidence cross-check design has been preflighted, if this stage passes.",Use caveats from Stage 3B-20/24.
+formal_bayes_factor,blocked,No formal evidence estimator has been executed by this stage.,Stage 3B-26 formal estimator execution and Stage 3B-27 result gate.
+model_superiority,blocked,Diagnostic proxy and design preflight are insufficient for superiority.,Validated evidence results plus prior-volume sensitivity and claim lock.
+tt_lite_in_evidence_or_posterior,blocked,TT_lite remains diagnostic-only and excluded from current sampled likelihoods.,Matched TT_lite-inclusive sampler/evidence design.
+final_publication_claim,blocked,"Publication-style claims require formal evidence, external robustness, and final claim lock.",Dedicated publication-claim lock after formal model-selection gates.
+physical_proof,blocked,Statistical posterior/evidence work is not a physical proof.,Independent theory and external-data validation.

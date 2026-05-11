@@ -1,0 +1,5 @@
+statement_id,allowed_scope,statement,value_context,required_caveat
+allowed_internal_evidence_language,internal-review only,The independent-validation evidence estimator result may be discussed internally with explicit caveats.,log_BF_independent_DEU_minus_native=169.00640862086107,Not an external publication claim and not a model-superiority claim.
+allowed_replication_package_ready,internal/external reviewer handoff,A publication-grade replication preflight package has been frozen for independent review.,artifact_manifest_rows=43,Package readiness is not the same as reviewer validation.
+allowed_formal_lineage_context,internal-review only,Formal/proxy/independent evidence lineage values may be compared as estimator-lineage diagnostics.,formal_log_BF=158.76404705020616; proxy_log_BF=158.76404705020616,Lineage agreement does not authorize final publication-style claims.
+allowed_tri_anchor_context,internal/external reviewer context,The tri-anchor ledger is retained as monitoring context for the DEU working-lock history.,tri_anchor_context_count=3,Tri-anchor monitoring is not an independent model-selection result.

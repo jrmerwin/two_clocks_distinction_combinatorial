@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason,required_unlock
+B1,DEU is superior to native/baseline cosmology.,No explicit evidence/Bayes-factor/model-selection stage has been run and booked.,Explicit evidence/model-selection design and execution with matched assumptions.
+B2,"Bayes factor, evidence ratio, or model-selection preference favors DEU.",Current chains support descriptive posterior comparison only.,Evidence computation or agreed model-comparison criterion.
+B3,TT_lite was part of the sampled production posterior.,TT_lite was explicitly excluded from production/native sampled likelihoods and retained as diagnostic context.,A later sampler explicitly including TT_lite.
+B4,Final publication-style cosmological claims are allowed.,"The project has a scoped internal report and comparison lock, not publication-level external validation.","Publication preflight, robustness suite, external data checks, and approved claim lock."
+B5,The observed A_planck shift proves a physical effect.,Shared-parameter shifts are descriptive posterior comparisons only.,Targeted physical interpretation and external robustness tests.

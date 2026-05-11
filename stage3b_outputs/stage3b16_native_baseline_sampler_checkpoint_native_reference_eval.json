@@ -1,0 +1,30 @@
+{
+  "bundle_loglikes": {
+    "lensing_native": -10.05829195887283,
+    "lensing_native__finite": true,
+    "lowl_available": -207.84360434887708,
+    "lowl_available__finite": true,
+    "lowl_plik_TTTEEE_lite_lensing_native": -900.5881804569644,
+    "lowl_plik_TTTEEE_lite_lensing_native__finite": true,
+    "lowl_plus_plik_TTTEEE_lite": -890.5298884980916,
+    "lowl_plus_plik_TTTEEE_lite__finite": true,
+    "plik_TTTEEE_lite": -682.6862841492145,
+    "plik_TTTEEE_lite__finite": true,
+    "plik_TT_lite": null,
+    "plik_TT_lite__finite": false
+  },
+  "component_loglikes": {
+    "planck_2018_highl_plik.TTTEEE_lite": -682.6862841492145,
+    "planck_2018_lensing.native": -10.05829195887283,
+    "planck_2018_lowl.EE": -197.96674434902818,
+    "planck_2018_lowl.TT": -9.876859999848904
+  },
+  "elapsed_s": 2.522456645965576,
+  "label": "native_execution_reference_point",
+  "point": {
+    "A_planck": 1.025,
+    "n_s": 0.981875,
+    "omega_b": 0.022
+  },
+  "status": "success"
+}

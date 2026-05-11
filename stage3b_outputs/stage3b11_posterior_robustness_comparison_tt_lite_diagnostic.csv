@@ -1,0 +1,8 @@
+label,bundle,loglike,reference_label,reference_loglike,delta_vs_reference,status
+working_lock,plik_TT_lite,-157.74692094400146,working_lock,-157.74692094400146,0.0,success
+posterior_mean,plik_TT_lite,-157.53344787777428,working_lock,-157.74692094400146,0.21347306622718065,success
+posterior_median,plik_TT_lite,-157.4138972863138,working_lock,-157.74692094400146,0.3330236576876473,success
+map_like_chain_row,plik_TT_lite,-157.16539615901598,working_lock,-157.74692094400146,0.5815247849854757,success
+tri_anchor_highl,plik_TT_lite,-156.88753410158557,working_lock,-157.74692094400146,0.859386842415887,success
+tri_anchor_lowl_plus,plik_TT_lite,-156.98413240111626,working_lock,-157.74692094400146,0.7627885428852039,success
+tri_anchor_full_objective,plik_TT_lite,-157.74692094400146,working_lock,-157.74692094400146,0.0,success

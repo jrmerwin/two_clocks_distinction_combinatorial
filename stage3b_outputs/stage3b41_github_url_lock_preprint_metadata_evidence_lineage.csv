@@ -1,0 +1,6 @@
+quantity,value,scope
+deu_log_evidence_independent_validation,-542.2974790661433,author-led internal independent-validation estimator
+native_log_evidence_independent_validation,-711.3038876870044,author-led internal independent-validation estimator
+log_bayes_factor_independent_validation_deu_minus_native,169.00640862086107,author-led internal independent-validation estimator; not peer-review certification
+formal_log_bayes_factor_lineage,158.76404705020616,formal/proxy lineage
+proxy_log_bayes_factor_lineage,158.76404705020616,diagnostic proxy lineage

@@ -1,0 +1,229 @@
+{
+  "created_utc": "2026-05-09T04:28:20+00:00",
+  "deu": {
+    "best_row_index_zero_based": 1681,
+    "best_row_parameter_values": {
+      "A_planck": 1.0250579,
+      "deu_damping_envelope_beta": 0.029595717,
+      "deu_transfer_polamp_p_vis": 1.0473467,
+      "n_s": 0.98118992,
+      "omega_b": 0.021959556
+    },
+    "cov_jitter_added": 6.168126694532546e-17,
+    "cov_logdet": -77.30797545206683,
+    "estimator_id": "laplace_chain_local_proxy",
+    "estimator_kind": "diagnostic_proxy_not_final_evidence",
+    "family": "deu",
+    "log_evidence_proxy": -576.0487181192134,
+    "log_prior_volume": -30.84989694079671,
+    "max_logposterior": -572.83932,
+    "minuslogpost_min": 572.83932,
+    "n_parameters": 5,
+    "n_rows": 4000,
+    "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+    "parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "status": "success"
+  },
+  "estimator_id": "laplace_chain_local_proxy",
+  "estimator_kind": "diagnostic_proxy_not_final_evidence",
+  "matched_difference": {
+    "estimator_id": "laplace_chain_local_proxy_difference",
+    "family": "deu_minus_native",
+    "interpretation": "diagnostic proxy only; Bayes-factor/model-superiority claims remain blocked",
+    "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "log_evidence_proxy": null,
+    "status": "success"
+  },
+  "native": {
+    "best_row_index_zero_based": 2355,
+    "best_row_parameter_values": {
+      "A_planck": 1.0200026,
+      "n_s": 0.98249758,
+      "omega_b": 0.021903315
+    },
+    "cov_jitter_added": 9.371018082210263e-18,
+    "cov_logdet": -54.114604489720314,
+    "estimator_id": "laplace_chain_local_proxy",
+    "estimator_kind": "diagnostic_proxy_not_final_evidence",
+    "family": "native",
+    "log_evidence_proxy": -734.8127651694195,
+    "log_prior_volume": -19.336971475826505,
+    "max_logposterior": -729.84925,
+    "minuslogpost_min": 729.84925,
+    "n_parameters": 3,
+    "n_rows": 4000,
+    "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+    "parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "status": "success"
+  },
+  "per_chain_results": [
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "chain_index": 1,
+      "cov_jitter_added": 6.056411313771223e-17,
+      "cov_logdet": -77.40410180528251,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "deu",
+      "log_evidence_proxy": -576.0967812958213,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1665,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250023,
+        "deu_damping_envelope_beta": 0.0296942,
+        "deu_transfer_polamp_p_vis": 1.0473113,
+        "n_s": 0.98088114,
+        "omega_b": 0.021962874
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "cov_jitter_added": 6.190371381448779e-17,
+      "cov_logdet": -77.3093429105619,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "deu",
+      "log_evidence_proxy": -576.0733918484609,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.86331,
+      "minuslogpost_min": 572.86331,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1515,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200043,
+        "n_s": 0.98239807,
+        "omega_b": 0.021904256
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "chain_index": 1,
+      "cov_jitter_added": 8.578299838960411e-18,
+      "cov_logdet": -54.44080834045858,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "native",
+      "log_evidence_proxy": -735.1000270947886,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.97341,
+      "minuslogpost_min": 729.97341,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "cov_jitter_added": 1.0128909040098435e-17,
+      "cov_logdet": -53.856711398125114,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "native",
+      "log_evidence_proxy": -734.683818623622,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "robustness": [
+    {
+      "check": "deu_per_chain_logZ_proxy_range",
+      "interpretation": "stability diagnostic only; does not validate final evidence",
+      "pass": true,
+      "threshold": 12.0,
+      "value": 0.02338944736038684
+    },
+    {
+      "check": "deu_family_logZ_proxy_finite",
+      "interpretation": "family-level proxy finite",
+      "pass": true,
+      "threshold": null,
+      "value": -576.0487181192134
+    },
+    {
+      "check": "native_per_chain_logZ_proxy_range",
+      "interpretation": "stability diagnostic only; does not validate final evidence",
+      "pass": true,
+      "threshold": 12.0,
+      "value": 0.41620847116666937
+    },
+    {
+      "check": "native_family_logZ_proxy_finite",
+      "interpretation": "family-level proxy finite",
+      "pass": true,
+      "threshold": null,
+      "value": -734.8127651694195
+    },
+    {
+      "check": "log_bayes_factor_proxy_finite",
+      "interpretation": "proxy finite and not absurdly large; not a Bayes-factor claim",
+      "pass": true,
+      "threshold": 1000.0,
+      "value": 158.76404705020616
+    }
+  ],
+  "stage": "3B-23"
+}

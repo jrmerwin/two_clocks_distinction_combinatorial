@@ -1,0 +1,11 @@
+check_id,category,requirement,status
+replication_01,environment,Run from ~/deu_class/CLASS-DEU after activating ~/deu_class/deu_boltzmann_start/.venv and setting COBAYA_PACKAGES_PATH.,required
+replication_02,code provenance,Use the local CLASS-DEU build; do not substitute a pip-installed classy build.,required
+replication_03,chain provenance,Verify two DEU chain files and two native/baseline chain files are present before evidence replication.,required
+replication_04,DEU posterior,Reproduce Stage 3B-10 parameter summaries from the two DEU production chains.,required
+replication_05,native posterior,Reproduce Stage 3B-19 native parameter summaries from the two native/baseline chains.,required
+replication_06,formal evidence lineage,Reproduce the Stage 3B-26/27 formal cross-check lineage before reading independent-validation results.,required
+replication_07,independent validation lineage,Reproduce Stage 3B-31/32 independent-validation evidence lineage and sensitivity/consistency rows.,required
+replication_08,TT_lite scope,Confirm TT_lite remains diagnostic-only and is not claimed as sampled posterior/evidence likelihood.,required
+replication_09,tri-anchor context,"Retain the high-l, lowl+TTTEEE, and full-objective working-lock tri-anchor context.",required
+replication_10,claim discipline,"Do not permit model-superiority, external-publication, or final-style claims until an external reviewer/replication gate is booked.",required

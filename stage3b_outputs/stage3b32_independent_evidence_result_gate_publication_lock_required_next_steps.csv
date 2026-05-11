@@ -1,0 +1,4 @@
+next_step_id,required_action,blocks_until_done
+external_publication_claim_lock,Write an external-publication evidence claim lock that decides whether any non-internal wording is allowed.,"external publication evidence claims, final-style claims"
+model_superiority_claim_lock,"Separate evidence strength, prior sensitivity, native baseline matching, and TT_lite scope before any superiority wording.",model-superiority claims
+manuscript_guardrail_addendum,Update manuscript guardrails with independent-validation result scope and forbidden wording.,publication-style claims

@@ -1,0 +1,6 @@
+source,metric,value,scope
+stage3b32_independent_gate,deu_log_evidence_independent_validation,-542.2974790661433,internal independent-validation/formal evidence lineage with caveats; not peer-reviewed certification
+stage3b32_independent_gate,native_log_evidence_independent_validation,-711.3038876870044,internal independent-validation/formal evidence lineage with caveats; not peer-reviewed certification
+stage3b32_independent_gate,log_bayes_factor_independent_validation_deu_minus_native,169.00640862086107,internal independent-validation/formal evidence lineage with caveats; not peer-reviewed certification
+stage3b32_independent_gate,formal_log_bayes_factor_lineage,158.76404705020616,internal independent-validation/formal evidence lineage with caveats; not peer-reviewed certification
+stage3b32_independent_gate,proxy_log_bayes_factor_lineage,158.76404705020616,internal independent-validation/formal evidence lineage with caveats; not peer-reviewed certification

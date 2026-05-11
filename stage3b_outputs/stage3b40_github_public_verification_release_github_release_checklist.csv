@@ -1,0 +1,11 @@
+check,pass
+Stage 3B-37 preprint path booked,True
+Stage 3B-38 manuscript package booked,True
+Stage 3B-39 submission readiness booked,True
+Frozen package lineage present,True
+Core release artifacts present,True
+Core release artifact SHA256 hashes computed,True
+Allowed preprint statements written,True
+Blocked claim list written,True
+No peer-review claim allowed,True
+No TT_lite sampled posterior/evidence claim allowed,True

@@ -1,0 +1,6 @@
+statement_id,statement,numeric_value,required_qualifier,allowed
+allowed_internal_001,The independent-validation estimator produced an internal log-BF-style diagnostic for DEU minus native.,169.00640862086107,internal independent-validation estimator result; not external publication evidence and not model superiority,True
+allowed_internal_002,The formal cross-check and independent-validation lineages are both recorded and finite.,,lineage agreement is an internal audit result only,True
+allowed_internal_003,The DEU/native posterior comparison may be described as scoped and descriptive.,,descriptive posterior comparison; not evidence or superiority,True
+allowed_internal_004,TT_lite remained a diagnostic/monitoring context and was excluded from sampled posterior/evidence likelihoods.,,do not claim TT_lite was sampled in posterior or evidence calculations,True
+allowed_internal_005,"The tri-anchor ledger was retained through posterior, comparison, and evidence-validation stages.",,"contextual diagnostic lineage, not a separate posterior model",True

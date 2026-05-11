@@ -1,0 +1,348 @@
+{
+  "acceptance": {
+    "allowed_preprint_csv_written": true,
+    "artifact_index_csv_written": true,
+    "blocked_claims_csv_written": true,
+    "diagnostic_outcome": "PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "evidence_lineage_csv_written": true,
+    "external_publication_claims_blocked": true,
+    "external_review_not_claimed": true,
+    "external_reviewer_result_not_required_for_this_path": true,
+    "final_publication_claims_blocked": true,
+    "hard_guard_pass": true,
+    "internal_independent_validation_language_allowed_with_caveats": true,
+    "lineage_values_finite": true,
+    "mcmc_not_launched_by_this_stage": true,
+    "model_superiority_claims_blocked": true,
+    "new_evidence_not_computed_by_this_stage": true,
+    "preprint_guardrails_written": true,
+    "preprint_release_path_selected": true,
+    "preprint_scope_written": true,
+    "replication_package_recap_csv_written": true,
+    "required_artifacts_present": true,
+    "reviewer_commands_not_executed_by_this_stage": true,
+    "scope_manifest_written": true,
+    "script_completed": true,
+    "stage3b32_expected_decision": true,
+    "stage3b32_hard_guard_pass": true,
+    "stage3b32_reference_loaded": true,
+    "stage3b33_expected_decision": true,
+    "stage3b33_hard_guard_pass": true,
+    "stage3b33_reference_loaded": true,
+    "stage3b34_expected_decision": true,
+    "stage3b34_hard_guard_pass": true,
+    "stage3b34_reference_loaded": true,
+    "stage3b35_expected_decision": true,
+    "stage3b35_hard_guard_pass": true,
+    "stage3b35_package_frozen": true,
+    "stage3b35_reference_loaded": true,
+    "stage3b36_expected_decision": true,
+    "stage3b36_hard_guard_pass": true,
+    "stage3b36_package_sha256_verified": true,
+    "stage3b36_reference_loaded": true,
+    "stage3b36_required_artifacts_present": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_claims_blocked": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_preprint_statements": [
+    {
+      "allowed": true,
+      "required_caveat": "Author-led preprint; not independently peer-reviewed or externally replicated.",
+      "statement": "This preprint reports an internally validated DEU posterior analysis and matched native-baseline comparison under the documented Stage 3B pipeline.",
+      "statement_id": "preprint_scope_01"
+    },
+    {
+      "allowed": true,
+      "required_caveat": "TT_lite was diagnostic-only and was not part of the sampled production likelihood.",
+      "statement": "The DEU production posterior is caveated and is based on the full-objective likelihood set used in the production sampler.",
+      "statement_id": "preprint_scope_02"
+    },
+    {
+      "allowed": true,
+      "required_caveat": "Descriptive comparison does not by itself establish model superiority.",
+      "statement": "The matched native/baseline comparison is descriptive and readiness-cleared on both sides.",
+      "statement_id": "preprint_scope_03"
+    },
+    {
+      "allowed": true,
+      "numeric_context": "log-BF-style value = 169.00640862086107",
+      "required_caveat": "This is allowed only as internal estimator language with caveats, not as a peer-reviewed or final Bayes-factor claim.",
+      "statement": "An internal independent-validation estimator reported a log-BF-style diagnostic favoring DEU over native within the documented estimator setup.",
+      "statement_id": "preprint_scope_04"
+    },
+    {
+      "allowed": true,
+      "required_caveat": "No external reviewer result has been booked.",
+      "statement": "The replication package was frozen and checksum-verified for author-led reproducibility and future independent review.",
+      "statement_id": "preprint_scope_05"
+    }
+  ],
+  "artifact_index": [
+    {
+      "artifact_key": "stage32_json",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+      "sha256": "d3c373298f313bd44c5fdd36f3fc219a05a8ca3a4d67ea0bd5e5001b42cbae8f"
+    },
+    {
+      "artifact_key": "stage33_json",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+      "sha256": "b6937e493f1cc178cf872b9dc2e45f5caa9b30c6d3e2be49070499f2d0db6bee"
+    },
+    {
+      "artifact_key": "stage34_json",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight.json",
+      "sha256": "2f9aeb83380776bdd56ae097b4050c57d7079b0cec75102f8209ea6755dabb27"
+    },
+    {
+      "artifact_key": "stage35_json",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "sha256": "0f050937ffa44ef26e7eafef22fddf395db2a5182ec4e83e22ed019d8dffc6d6"
+    },
+    {
+      "artifact_key": "stage36_json",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate.json",
+      "sha256": "c10abc3d69277c05821513496193159272035488f4e9f042f1f25243cf486da0"
+    },
+    {
+      "artifact_key": "stage35_package_manifest_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "sha256": "e664def2c2dd3987b4612efa29042a5bcc08b5b065085258b0676063834a2907"
+    },
+    {
+      "artifact_key": "stage35_sha256_manifest_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "sha256": "034cbdbfd494da3ad582876d49d7ebfe01b26137ad602a8c046f5b94062b8dff"
+    },
+    {
+      "artifact_key": "stage36_package_integrity_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_package_integrity_audit.csv",
+      "sha256": "9abc6d78bb9b3617dde000208c23137fd2c8c5dfba4debf6e855d1b5f0819d2f"
+    },
+    {
+      "artifact_key": "stage36_sha256_verification_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_sha256_verification.csv",
+      "sha256": "385e136e6908e0b60b444f37f709112522926ef8f32bd7f5e95074ad607669c8"
+    },
+    {
+      "artifact_key": "stage36_evidence_lineage_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_evidence_lineage_lock.csv",
+      "sha256": "a504178730b63c9d56ce00fb81e6ae9e618cb5b8c10156736394b4da8a853897"
+    },
+    {
+      "artifact_key": "stage36_tri_anchor_csv",
+      "exists": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785"
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked": true,
+      "claim": "Peer-reviewed independent replication has confirmed the result.",
+      "claim_id": "blocked_01",
+      "reason": "No external reviewer result exists; Stage 3B-37 external reviewer intake was intentionally bypassed for a preprint pathway."
+    },
+    {
+      "blocked": true,
+      "claim": "The model is conclusively superior to native/baseline cosmology.",
+      "claim_id": "blocked_02",
+      "reason": "Model-superiority claims remain gated; current evidence language is internal/caveated."
+    },
+    {
+      "blocked": true,
+      "claim": "TT_lite was included in the sampled posterior or evidence likelihood.",
+      "claim_id": "blocked_03",
+      "reason": "TT_lite was diagnostic-only and excluded from the production/native sampled likelihoods."
+    },
+    {
+      "blocked": true,
+      "claim": "The evidence result is final and publication-grade without caveats.",
+      "claim_id": "blocked_04",
+      "reason": "External publication and final-style claims remain blocked."
+    },
+    {
+      "blocked": true,
+      "claim": "External peer review is complete.",
+      "claim_id": "blocked_05",
+      "reason": "The selected path is author-led preprint release, not external reviewer intake."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0019114017486572266,
+  "evidence_lineage": {
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "source_manifest_key": "handoff_manifest"
+  },
+  "generated_utc": "2026-05-09T16:31:17+00:00",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_acceptance.md",
+    "allowed_preprint_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_allowed_preprint_statements.csv",
+    "artifact_index_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_artifact_index.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_blocked_claims.csv",
+    "evidence_lineage_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_evidence_lineage_for_preprint.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+    "preprint_guardrails_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_guardrails.md",
+    "preprint_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_scope_lock.md",
+    "replication_package_recap_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_replication_package_recap.csv",
+    "scope_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_scope_manifest.json",
+    "tri_anchor_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tt_lite_preprint_scope.md"
+  },
+  "preprint_release_path_selected": true,
+  "previous_stage3b36_reference": {
+    "decision": "EXTERNAL_REVIEWER_HANDOFF_RESULT_GATE_PASS_REVIEW_PENDING_PUBLICATION_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate.json",
+    "loaded": true
+  },
+  "replication_package_recap": [
+    {
+      "item": "stage35_decision",
+      "value": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED"
+    },
+    {
+      "item": "stage36_decision",
+      "value": "EXTERNAL_REVIEWER_HANDOFF_RESULT_GATE_PASS_REVIEW_PENDING_PUBLICATION_STILL_GATED"
+    },
+    {
+      "item": "publication_grade_replication_package_frozen",
+      "value": true
+    },
+    {
+      "item": "stage35_package_manifest_rows",
+      "value": 99
+    },
+    {
+      "item": "stage35_sha256_rows",
+      "value": 99
+    },
+    {
+      "item": "stage36_package_manifest_rows_checked",
+      "value": 99
+    },
+    {
+      "item": "stage36_sha256_rows_checked",
+      "value": 99
+    },
+    {
+      "item": "stage36_sha256_verification_pass",
+      "value": true
+    },
+    {
+      "item": "external_review_completed",
+      "value": false
+    },
+    {
+      "item": "preprint_path_selected",
+      "value": true
+    },
+    {
+      "item": "stage35_package_manifest_csv",
+      "value": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv"
+    },
+    {
+      "item": "stage35_sha256_manifest_csv",
+      "value": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv"
+    }
+  ],
+  "scope_manifest": {
+    "artifact_index_rows": 11,
+    "decision_type": "PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "evidence_lineage": {
+      "deu_log_evidence_independent_validation": -542.2974790661433,
+      "formal_log_bayes_factor_lineage": 158.76404705020616,
+      "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+      "native_log_evidence_independent_validation": -711.3038876870044,
+      "proxy_log_bayes_factor_lineage": 158.76404705020616,
+      "source_manifest_key": "handoff_manifest"
+    },
+    "external_publication_claims_allowed": false,
+    "external_review_completed_by_this_stage": false,
+    "external_reviewer_result_required_for_this_path": false,
+    "final_publication_claims_allowed": false,
+    "internal_independent_validation_evidence_language_allowed_with_caveats": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-38 preprint manuscript assembly or optional external-review branch",
+    "package_recap_rows": 12,
+    "posterior_evidence_status": "preprint_scope_locked_internal_evidence_language_allowed_external_review_not_claimed_publication_still_gated",
+    "preprint_internal_evidence_language_allowed_with_caveats": true,
+    "preprint_release_path_selected": true,
+    "recommendation": "Book Stage 3B-37 as a preprint-release scope lock. Use only author-led preprint/internal evidence wording with caveats; do not claim external peer review, model superiority, or final publication-grade evidence.",
+    "required_artifacts_present": true,
+    "reviewer_commands_executed_by_this_stage": false,
+    "sha256_rows_available": 11,
+    "stage3b32_decision": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "stage3b33_decision": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "stage3b34_decision": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "stage3b35_decision": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED",
+    "stage3b36_decision": "EXTERNAL_REVIEWER_HANDOFF_RESULT_GATE_PASS_REVIEW_PENDING_PUBLICATION_STILL_GATED",
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "script": "stage3b_37_preprint_release_scope_lock.py",
+  "stage": "3B-37",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

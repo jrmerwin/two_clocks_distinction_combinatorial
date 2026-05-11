@@ -1,0 +1,5 @@
+sensitivity_id,deu_only_prior_width_factor,base_log_bayes_factor_independent_validation,adjusted_log_bayes_factor_independent_validation,delta_vs_base,interpretation
+deu_only_prior_volume_factor_0.5,0.5,169.00640862086107,170.39270298198096,1.3862943611198943,prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked
+deu_only_prior_volume_factor_1,1.0,169.00640862086107,169.00640862086107,0.0,prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked
+deu_only_prior_volume_factor_2,2.0,169.00640862086107,167.62011425974117,-1.3862943611198943,prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked
+deu_only_prior_volume_factor_4,4.0,169.00640862086107,166.23381989862128,-2.7725887222397887,prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked

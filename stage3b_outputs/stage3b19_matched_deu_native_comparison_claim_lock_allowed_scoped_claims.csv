@@ -1,0 +1,7 @@
+claim_id,status,claim,required_caveat
+A1,allowed_scoped,The DEU production posterior summary passed readiness and robustness gates and may be discussed with caveats.,"Internal staged posterior summary, not a final publication claim."
+A2,allowed_scoped,The native/baseline sampler and readiness gate passed with matched full-objective likelihood scope.,Native readiness supports descriptive comparison only.
+A3,allowed_scoped,"DEU and native posteriors can be compared descriptively for shared parameters omega_b, n_s, and A_planck.",Descriptive posterior comparison is not model evidence.
+A4,allowed_scoped,DEU-only beta and p_vis posterior summaries have no native analogue.,Do not treat absence in native as evidence by itself.
+A5,allowed_scoped,TT_lite remained diagnostic-only and excluded from sampled production likelihoods.,Do not claim TT_lite was part of either sampled posterior.
+A6,allowed_scoped,The tri-anchor ledger remains retained as objective-split context.,"Tri-anchor context is monitoring context, not a posterior component."

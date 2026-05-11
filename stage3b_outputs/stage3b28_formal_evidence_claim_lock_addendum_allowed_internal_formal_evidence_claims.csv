@@ -1,0 +1,6 @@
+claim_id,status,statement,required_caveat
+internal_formal_crosscheck_recorded,allowed_internal_caveated,A matched formal cross-check evidence-estimator result has been recorded for the DEU and native/baseline chain families.,Internal staged validation only; not a publication-level evidence claim.
+internal_log_evidence_values,allowed_internal_caveated,Internal formal cross-check log-evidence values were DEU=-576.0487181192134 and native=-734.8127651694195.,These values are tied to the estimator and staged matched-chain setup.
+internal_log_bf_direction,allowed_internal_caveated,The internal formal cross-check log-BF-style value was DEU-minus-native=158.76404705020616.,This is not a final Bayes-factor claim and does not by itself authorize model-superiority wording.
+proxy_formal_lineage,allowed_internal_caveated,The formal cross-check result is consistent with the prior diagnostic proxy lineage recorded in Stages 3B-23 through 3B-27.,"Agreement is an internal consistency check, not independent external validation."
+posterior_summary_context,allowed_internal_caveated,The formal evidence addendum may be attached to the scoped internal posterior report.,The posterior report remains scoped and caveated.

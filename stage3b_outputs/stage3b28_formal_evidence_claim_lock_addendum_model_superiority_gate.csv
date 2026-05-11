@@ -1,0 +1,5 @@
+gate,pass,allowed,scope
+internal_formal_evidence_language,True,True,internal caveated formal cross-check estimator result
+model_superiority,False,False,blocked until explicit superiority/publication gate
+final_publication_claims,False,False,blocked
+tt_lite_sampled_posterior_or_evidence,False,False,blocked; TT_lite diagnostic only

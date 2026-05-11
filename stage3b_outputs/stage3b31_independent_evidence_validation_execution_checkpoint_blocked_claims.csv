@@ -1,0 +1,6 @@
+claim_id,status,reason
+independent_validation_bayes_factor,blocked,Independent-validation execution has not yet passed a result gate and claim lock.
+external_publication_evidence,blocked,External/publication evidence language requires independent result gate plus publication claim lock.
+model_superiority,blocked,"Superiority requires independent validation result gate, sensitivity audit, and scoped claim lock."
+tt_lite_in_evidence_or_posterior,blocked,TT_lite remains diagnostic-only and excluded from the sampled/evidence scope.
+final_publication_claim,blocked,Final publication-style claims require a later final claim-lock stage.
