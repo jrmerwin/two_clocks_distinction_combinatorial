@@ -1,0 +1,6 @@
+claim_id,status,allowed_wording,required_caveat,source_stage
+allowed_scoped_deu_posterior_summary,allowed_with_caveats,The DEU production chains support a scoped internal posterior summary for the full-objective working-lock configuration.,This is internal/staged and not a final publication claim.,3B-10/3B-20
+allowed_descriptive_deu_native_comparison,allowed_with_caveats,A matched DEU/native posterior comparison was recorded descriptively for shared parameters and DEU-only shape parameters.,Descriptive posterior comparison is not model evidence or superiority.,3B-19/3B-20
+allowed_readiness_status,allowed,Both DEU and native/baseline chains passed their readiness gates under the project-defined diagnostics.,"Readiness gates are internal validation criteria, not external evidence metrics.",3B-9/3B-18
+allowed_tt_lite_diagnostic_scope,allowed,TT_lite was monitored diagnostically and excluded from the sampled production likelihoods.,Do not say TT_lite was included in the sampled posterior.,3B-12/3B-19/3B-20
+allowed_tri_anchor_context,allowed,The tri-anchor ledger remains part of the diagnostic context for the full-objective working lock.,The full-objective working lock is the production seed; high-l and lowl+TTTEEE anchors are monitoring sentinels.,3A-10 onward

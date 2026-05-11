@@ -1,0 +1,4 @@
+statement_id,allowed_scope,statement,required_caveat,value_context
+package_frozen_for_review,external reviewer handoff,The replication package is frozen and ready for independent reviewer handoff.,This does not mean the reviewer has validated the package.,
+internal_independent_validation_evidence_language,internal/reviewer handoff only,The internal independent-validation evidence/BF lineage may be reported to the reviewer with caveats.,Not an external publication or model-superiority claim.,log_BF_independent=169.00640862086107
+hash_manifest_available,external reviewer handoff,A SHA256 manifest is available for the frozen package.,The reviewer must verify or record deviations independently.,

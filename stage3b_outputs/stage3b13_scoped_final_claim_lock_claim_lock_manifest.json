@@ -1,0 +1,22 @@
+{
+  "allowed_claim_count": 10,
+  "blocked_claim_count": 5,
+  "decision_type": "SCOPED_FINAL_CLAIM_LOCK_PASS_MODEL_COMPARISON_EXTENSION_REQUIRED",
+  "external_publication_claims_written_by_this_stage": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": false,
+  "model_superiority_claims_allowed": false,
+  "next_stage_hint": "Stage 3B-14 explicit baseline/native model-comparison extension",
+  "parameter_summary_count": 5,
+  "posterior_conclusions_extended_by_this_stage": false,
+  "posterior_evidence_status": "scoped_claims_locked_model_comparison_extension_required",
+  "posterior_summary_allowed_with_caveats": true,
+  "recommendation": "Book Stage 3B-13. Use only the allowed scoped/caveated posterior claims. Next run an explicit baseline/native model-comparison extension before model-superiority or publication-style claims.",
+  "required_extension_count": 4,
+  "scoped_internal_posterior_claims_allowed": true,
+  "stage3b10_decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+  "stage3b11_decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+  "stage3b12_decision": "EXTERNAL_MODEL_COMPARISON_PREFLIGHT_PASS_FINAL_CLAIMS_STILL_GATED",
+  "stage3b9_readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "tri_anchor_context_count": 3
+}

@@ -1,0 +1,6 @@
+check,value,threshold,pass,interpretation,row_index,audit_scope
+all_independent_validation_logbf_values_finite,3,3,True,all paired DEU/native independent-validation values finite,1,Stage 3B-31 independent-validation consistency row
+independent_validation_logbf_sign_consistent,[1],single sign,True,sign consistency only; not model-superiority,2,Stage 3B-31 independent-validation consistency row
+independent_validation_sign_matches_formal_crosscheck,168.86622546497017,158.76404705020616,True,sign agreement with Stage 3B-26/27 formal cross-check lineage,3,Stage 3B-31 independent-validation consistency row
+independent_validation_sign_matches_proxy_lineage,168.86622546497017,158.76404705020616,True,sign agreement with Stage 3B-23/24 proxy lineage,4,Stage 3B-31 independent-validation consistency row
+independent_validation_spread_within_checkpoint_gate,0.22541315589080568,250.0,True,loose checkpoint consistency gate; result gate still required,5,Stage 3B-31 independent-validation consistency row

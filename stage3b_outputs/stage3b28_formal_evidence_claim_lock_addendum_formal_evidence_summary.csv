@@ -1,0 +1,6 @@
+quantity,value,scope
+deu_log_evidence_formal_crosscheck,-576.0487181192134,internal formal cross-check estimator result
+native_log_evidence_formal_crosscheck,-734.8127651694195,internal formal cross-check estimator result
+log_bayes_factor_formal_crosscheck_deu_minus_native,158.76404705020616,internal formal cross-check estimator result; not model-superiority claim
+formal_estimator_count,3,Stage 3B-27 consistency gate context
+prior_volume_sensitivity_rows,4,Stage 3B-27 sensitivity gate context

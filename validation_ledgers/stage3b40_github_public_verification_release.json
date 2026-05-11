@@ -1,0 +1,249 @@
+{
+  "acceptance": {
+    "allowed_statements_written": true,
+    "author_led_preprint_release_allowed": true,
+    "blocked_claims_written": true,
+    "claim_matrix_written": true,
+    "core_required_artifacts_present": true,
+    "core_required_sha256_computed": true,
+    "diagnostic_outcome": "GITHUB_PUBLIC_VERIFICATION_RELEASE_PASS_AUTHOR_LED_PREPRINT_READY",
+    "evidence_lineage_written": true,
+    "final_publication_claims_allowed": false,
+    "github_publish_plan_written": true,
+    "github_readme_written": true,
+    "github_release_checklist_written": true,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "peer_review_claims_allowed": false,
+    "preprint_wording_written": true,
+    "public_github_verification_package_ready": true,
+    "public_verification_report_written": true,
+    "release_manifest_csv_written": true,
+    "release_manifest_json_written": true,
+    "replication_freeze_lineage_loaded": true,
+    "repository_layout_written": true,
+    "scope_manifest_written": true,
+    "script_completed": true,
+    "sha256_manifest_csv_written": true,
+    "stage3b37_preprint_scope_loaded_and_passed": true,
+    "stage3b38_manuscript_package_loaded_and_passed": true,
+    "stage3b39_submission_readiness_loaded_and_passed": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true,
+    "verification_commands_written": true
+  },
+  "core_required_artifact_count": 23,
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.04332304000854492,
+  "evidence_lineage": [
+    {
+      "quantity": "deu_log_evidence_independent_validation",
+      "scope": "internal/preprint evidence lineage with caveats",
+      "value": -542.2974790661433
+    },
+    {
+      "quantity": "native_log_evidence_independent_validation",
+      "scope": "internal/preprint evidence lineage with caveats",
+      "value": -711.3038876870044
+    },
+    {
+      "quantity": "log_bayes_factor_independent_validation_deu_minus_native",
+      "scope": "internal/preprint evidence lineage with caveats",
+      "value": 169.00640862086107
+    },
+    {
+      "quantity": "formal_log_bayes_factor_lineage",
+      "scope": "internal/preprint evidence lineage with caveats",
+      "value": 158.76404705020616
+    },
+    {
+      "quantity": "proxy_log_bayes_factor_lineage",
+      "scope": "internal/preprint evidence lineage with caveats",
+      "value": 158.76404705020616
+    }
+  ],
+  "generated_utc": "2026-05-09T20:26:20+00:00",
+  "github_release_checklist": [
+    {
+      "check": "Stage 3B-37 preprint path booked",
+      "pass": true
+    },
+    {
+      "check": "Stage 3B-38 manuscript package booked",
+      "pass": true
+    },
+    {
+      "check": "Stage 3B-39 submission readiness booked",
+      "pass": true
+    },
+    {
+      "check": "Frozen package lineage present",
+      "pass": true
+    },
+    {
+      "check": "Core release artifacts present",
+      "pass": true
+    },
+    {
+      "check": "Core release artifact SHA256 hashes computed",
+      "pass": true
+    },
+    {
+      "check": "Allowed preprint statements written",
+      "pass": true
+    },
+    {
+      "check": "Blocked claim list written",
+      "pass": true
+    },
+    {
+      "check": "No peer-review claim allowed",
+      "pass": true
+    },
+    {
+      "check": "No TT_lite sampled posterior/evidence claim allowed",
+      "pass": true
+    }
+  ],
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_acceptance.md",
+    "allowed_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_allowed_preprint_statements.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_blocked_claims.csv",
+    "claim_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_claim_matrix.csv",
+    "evidence_lineage_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_evidence_lineage.csv",
+    "github_publish_plan_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_github_publish_plan.md",
+    "github_readme": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_github_readme.md",
+    "github_release_checklist_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_github_release_checklist.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release.json",
+    "preprint_wording_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_preprint_wording.md",
+    "public_verification_report": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_public_verification_report.md",
+    "release_manifest_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_release_artifact_manifest.csv",
+    "release_manifest_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_release_artifact_manifest.json",
+    "repository_layout_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_repository_layout.md",
+    "scope_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_scope_manifest.json",
+    "sha256_manifest_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_sha256_manifest.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_tt_lite_scope.md",
+    "verification_commands_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b40_github_public_verification_release_verification_commands.md"
+  },
+  "release_artifact_count": 198,
+  "scope_manifest": {
+    "author_led_preprint_release_allowed": true,
+    "core_required_artifact_count": 23,
+    "core_required_artifacts_present": 23,
+    "decision_type": "GITHUB_PUBLIC_VERIFICATION_RELEASE_PASS_AUTHOR_LED_PREPRINT_READY",
+    "evidence_lineage": [
+      {
+        "quantity": "deu_log_evidence_independent_validation",
+        "scope": "internal/preprint evidence lineage with caveats",
+        "value": -542.2974790661433
+      },
+      {
+        "quantity": "native_log_evidence_independent_validation",
+        "scope": "internal/preprint evidence lineage with caveats",
+        "value": -711.3038876870044
+      },
+      {
+        "quantity": "log_bayes_factor_independent_validation_deu_minus_native",
+        "scope": "internal/preprint evidence lineage with caveats",
+        "value": 169.00640862086107
+      },
+      {
+        "quantity": "formal_log_bayes_factor_lineage",
+        "scope": "internal/preprint evidence lineage with caveats",
+        "value": 158.76404705020616
+      },
+      {
+        "quantity": "proxy_log_bayes_factor_lineage",
+        "scope": "internal/preprint evidence lineage with caveats",
+        "value": 158.76404705020616
+      }
+    ],
+    "external_reviewer_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "internal_evidence_language_allowed_with_caveats": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-41 preprint repository URL lock and submission metadata finalization",
+    "peer_review_claims_allowed": false,
+    "posterior_evidence_status": "author_led_preprint_public_verification_ready_claims_scoped",
+    "public_github_verification_package_ready": true,
+    "public_reader_verification_language_allowed": true,
+    "recommendation": "Book Stage 3B-40. Publish the repository/package link with the author-led preprint; retain caveats and blocked-claim boundaries.",
+    "release_artifact_count": 198,
+    "stage_status_count": 7,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "script": "stage3b_40_github_public_verification_release.py",
+  "stage": "3B-40",
+  "stage_status": [
+    {
+      "diagnostic_outcome": "PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+      "exists": true,
+      "expected_decision": "PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+      "stage_stem": "stage3b37_preprint_release_scope_lock"
+    },
+    {
+      "diagnostic_outcome": "PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED",
+      "exists": true,
+      "expected_decision": "PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package.json",
+      "stage_stem": "stage3b38_preprint_manuscript_package"
+    },
+    {
+      "diagnostic_outcome": "PREPRINT_SUBMISSION_READINESS_GATE_PASS_AUTHOR_LED_RELEASE_READY_CLAIMS_GATED",
+      "exists": true,
+      "expected_decision": "PREPRINT_SUBMISSION_READINESS_GATE_PASS_AUTHOR_LED_RELEASE_READY_CLAIMS_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate.json",
+      "stage_stem": "stage3b39_preprint_submission_readiness_gate"
+    },
+    {
+      "diagnostic_outcome": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED",
+      "exists": true,
+      "expected_decision": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "stage_stem": "stage3b35_replication_package_freeze_reviewer_dry_run"
+    },
+    {
+      "diagnostic_outcome": "EXTERNAL_REVIEWER_HANDOFF_RESULT_GATE_PASS_REVIEW_PENDING_PUBLICATION_STILL_GATED",
+      "exists": true,
+      "expected_decision": "EXTERNAL_REVIEWER_HANDOFF_RESULT_GATE_PASS_REVIEW_PENDING_PUBLICATION_STILL_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate.json",
+      "stage_stem": "stage3b36_external_reviewer_handoff_result_gate"
+    },
+    {
+      "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+      "exists": true,
+      "expected_decision": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+      "stage_stem": "stage3b32_independent_evidence_result_gate_publication_lock"
+    },
+    {
+      "diagnostic_outcome": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+      "exists": true,
+      "expected_decision": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+      "expected_decision_match": true,
+      "hard_guard_pass": true,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+      "stage_stem": "stage3b33_external_evidence_publication_claim_lock_addendum"
+    }
+  ],
+  "tri_anchor_context_count": 3
+}

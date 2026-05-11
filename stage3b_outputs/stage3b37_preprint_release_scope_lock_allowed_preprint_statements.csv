@@ -1,0 +1,6 @@
+statement_id,allowed,statement,required_caveat,numeric_context
+preprint_scope_01,True,This preprint reports an internally validated DEU posterior analysis and matched native-baseline comparison under the documented Stage 3B pipeline.,Author-led preprint; not independently peer-reviewed or externally replicated.,
+preprint_scope_02,True,The DEU production posterior is caveated and is based on the full-objective likelihood set used in the production sampler.,TT_lite was diagnostic-only and was not part of the sampled production likelihood.,
+preprint_scope_03,True,The matched native/baseline comparison is descriptive and readiness-cleared on both sides.,Descriptive comparison does not by itself establish model superiority.,
+preprint_scope_04,True,An internal independent-validation estimator reported a log-BF-style diagnostic favoring DEU over native within the documented estimator setup.,"This is allowed only as internal estimator language with caveats, not as a peer-reviewed or final Bayes-factor claim.",log-BF-style value = 169.00640862086107
+preprint_scope_05,True,The replication package was frozen and checksum-verified for author-led reproducibility and future independent review.,No external reviewer result has been booked.,

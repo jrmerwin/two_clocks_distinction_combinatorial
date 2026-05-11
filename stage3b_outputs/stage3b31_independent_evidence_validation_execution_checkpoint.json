@@ -1,0 +1,1230 @@
+{
+  "acceptance": {
+    "agreement_csv_written": true,
+    "all_independent_validation_results_finite": true,
+    "allowed_claims_written": true,
+    "blocked_claims_written": true,
+    "claim_scope_written": true,
+    "consistency_csv_written": true,
+    "deu_chain_expected_params_present": true,
+    "deu_chain_inputs_found": true,
+    "deu_chain_values_finite": true,
+    "deu_execution_yaml_loaded": true,
+    "deu_input_manifest_loaded": true,
+    "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "execution_manifest_written": true,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_evidence_language_allowed_internal_caveated": true,
+    "hard_guard_pass": true,
+    "independent_validation_consistency_gate_pass": true,
+    "independent_validation_evidence_claims_allowed": false,
+    "independent_validation_execution_launched_by_this_stage": true,
+    "independent_validation_result_gate_required": true,
+    "independent_validation_results_computed": true,
+    "logscore_summary_written": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_expected_params_present": true,
+    "native_chain_inputs_found": true,
+    "native_chain_values_finite": true,
+    "native_execution_yaml_loaded": true,
+    "native_input_manifest_loaded": true,
+    "per_chain_results_written": true,
+    "prior_volume_sensitivity_recorded": true,
+    "proxy_formal_independent_agreement_recorded": true,
+    "results_csv_written": true,
+    "results_json_written": true,
+    "script_completed": true,
+    "sensitivity_csv_written": true,
+    "stage3b26_formal_execution_checkpoint_pass": true,
+    "stage3b26_reference_loaded": true,
+    "stage3b27_formal_result_gate_pass": true,
+    "stage3b27_reference_loaded": true,
+    "stage3b28_internal_evidence_claim_lock_pass": true,
+    "stage3b28_reference_loaded": true,
+    "stage3b29_publication_preflight_pass": true,
+    "stage3b29_reference_loaded": true,
+    "stage3b30_execution_required": true,
+    "stage3b30_hard_guard_pass": true,
+    "stage3b30_no_execution_launched": true,
+    "stage3b30_preflight_pass": true,
+    "stage3b30_reference_loaded": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "independent_validation_executed",
+      "status": "allowed",
+      "wording": "An independent evidence-validation execution checkpoint has been recorded."
+    },
+    {
+      "claim_id": "internal_formal_evidence_lineage",
+      "status": "allowed_with_caveats",
+      "wording": "The Stage 3B formal evidence/BF lineage remains discussable internally with caveats."
+    },
+    {
+      "claim_id": "scoped_posterior_summary",
+      "status": "allowed_with_caveats",
+      "wording": "The scoped posterior summary and descriptive DEU/native posterior comparison remain allowed with caveats."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim_id": "independent_validation_bayes_factor",
+      "reason": "Independent-validation execution has not yet passed a result gate and claim lock.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "external_publication_evidence",
+      "reason": "External/publication evidence language requires independent result gate plus publication claim lock.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "model_superiority",
+      "reason": "Superiority requires independent validation result gate, sensitivity audit, and scoped claim lock.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_in_evidence_or_posterior",
+      "reason": "TT_lite remains diagnostic-only and excluded from the sampled/evidence scope.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "reason": "Final publication-style claims require a later final claim-lock stage.",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "deu_chain_audit": {
+    "all_expected_parameters_present": true,
+    "all_values_finite": true,
+    "chain_infos": [
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 15,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      },
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 15,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      }
+    ],
+    "expected_parameters_present": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "header": [
+      "weight",
+      "minuslogpost",
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "total_rows": 4000
+  },
+  "deu_input_manifest": {
+    "all_expected_parameters_present_or_inferred": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+    ],
+    "created_utc": "2026-05-09T05:00:44+00:00",
+    "evidence_computed_by_this_manifest": false,
+    "expected_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "expected_parameters_present_or_inferred": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "formal_evidence_ready_as_input": true,
+    "label": "deu",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "sampled_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "source_manifest": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+      ],
+      "hard_guard_pass": true,
+      "label": "deu",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+      "sampled_parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "source_stage": "stage3b22_evidence_estimator_preflight",
+      "total_rows": 4000
+    },
+    "total_rows": 4000
+  },
+  "deu_results": [
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.14737600694,
+      "log_evidence_independent_validation": -542.2974790661433,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.1671,
+      "log_evidence_independent_validation": -542.3172030592033,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.08625,
+      "log_evidence_independent_validation": -542.2363530592032,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "elapsed_s": 0.12471771240234375,
+  "execution_manifest": {
+    "decision_type": "INDEPENDENT_EVIDENCE_VALIDATION_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "deu_chain_files": 2,
+    "deu_chain_rows": 4000,
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_evidence_language_allowed_internal_caveated": true,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "independent_validation_consistency_gate_pass": true,
+    "independent_validation_estimator_count": 3,
+    "independent_validation_evidence_claims_allowed": false,
+    "independent_validation_execution_launched_by_this_stage": true,
+    "independent_validation_result_computed_by_this_stage": true,
+    "independent_validation_result_gate_required": true,
+    "lineage_agreement_rows": 3,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_files": 2,
+    "native_chain_rows": 4000,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "new_mcmc_launched_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-32 independent evidence-validation result gate and publication-claim lock",
+    "posterior_evidence_status": "independent_validation_executed_result_gate_required",
+    "prior_volume_sensitivity_rows": 4,
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "recommendation": "Book Stage 3B-31. Next run an independent-validation result gate/sensitivity audit before any external evidence, model-superiority, or final-style claim.",
+    "representative_independent_estimator_id": "independent_top20_logmean_validation",
+    "stage3b26_decision": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "stage3b27_decision": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b28_decision": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b29_decision": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED",
+    "stage3b30_decision": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "formal_lineage": {
+    "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+    "deu_log_evidence_proxy": -576.0487181192134,
+    "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+    "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "native_log_evidence_formal_crosscheck": -734.8127651694195,
+    "native_log_evidence_proxy": -734.8127651694195
+  },
+  "generated_utc": "2026-05-09T14:11:47+00:00",
+  "independent_logscore_summary": [
+    {
+      "A_planck__mean": 1.0250557243798117,
+      "A_planck__q50": 1.0250715,
+      "A_planck__sd": 0.0008464612795648388,
+      "deu_damping_envelope_beta__mean": 0.02949121724807528,
+      "deu_damping_envelope_beta__q50": 0.029503285,
+      "deu_damping_envelope_beta__sd": 0.0005524725209021037,
+      "deu_transfer_polamp_p_vis__mean": 1.0474182267750214,
+      "deu_transfer_polamp_p_vis__q50": 1.0473475,
+      "deu_transfer_polamp_p_vis__sd": 0.001318023057604206,
+      "family": "DEU",
+      "max_logposterior": -572.83932,
+      "minuslogpost_found": true,
+      "minuslogpost_max": 581.07629,
+      "minuslogpost_min": 572.83932,
+      "minuslogpost_q05": 573.08625,
+      "minuslogpost_q10": 573.1671,
+      "minuslogpost_q50": 573.6872,
+      "n_rows": 4000,
+      "n_s__mean": 0.9815232201591104,
+      "n_s__q50": 0.9815207,
+      "n_s__sd": 0.0005680687805706126,
+      "omega_b__mean": 0.021980020954662106,
+      "omega_b__q50": 0.021972856,
+      "omega_b__sd": 4.953628242491131e-05
+    },
+    {
+      "A_planck__mean": 1.0200422931369661,
+      "A_planck__q50": 1.0200261,
+      "A_planck__sd": 0.00012027435537001794,
+      "family": "native",
+      "max_logposterior": -729.84925,
+      "minuslogpost_found": true,
+      "minuslogpost_max": 883.08484,
+      "minuslogpost_min": 729.84925,
+      "minuslogpost_q05": 730.35432,
+      "minuslogpost_q10": 730.5204,
+      "minuslogpost_q50": 731.79504,
+      "n_rows": 4000,
+      "n_s__mean": 0.9817776301030928,
+      "n_s__q50": 0.98186963,
+      "n_s__sd": 0.000515600514952671,
+      "omega_b__mean": 0.021934116700883653,
+      "omega_b__q50": 0.02192558,
+      "omega_b__sd": 2.8648401127727596e-05
+    }
+  ],
+  "independent_validation_consistency": [
+    {
+      "check": "all_independent_validation_logbf_values_finite",
+      "interpretation": "all paired DEU/native independent-validation values finite",
+      "pass": true,
+      "threshold": 3,
+      "value": 3
+    },
+    {
+      "check": "independent_validation_logbf_sign_consistent",
+      "interpretation": "sign consistency only; not model-superiority",
+      "pass": true,
+      "threshold": "single sign",
+      "value": [
+        1
+      ]
+    },
+    {
+      "check": "independent_validation_sign_matches_formal_crosscheck",
+      "interpretation": "sign agreement with Stage 3B-26/27 formal cross-check lineage",
+      "pass": true,
+      "threshold": 158.76404705020616,
+      "value": 168.86622546497017
+    },
+    {
+      "check": "independent_validation_sign_matches_proxy_lineage",
+      "interpretation": "sign agreement with Stage 3B-23/24 proxy lineage",
+      "pass": true,
+      "threshold": 158.76404705020616,
+      "value": 168.86622546497017
+    },
+    {
+      "check": "independent_validation_spread_within_checkpoint_gate",
+      "interpretation": "loose checkpoint consistency gate; result gate still required",
+      "pass": true,
+      "threshold": 250.0,
+      "value": 0.22541315589080568
+    }
+  ],
+  "independent_validation_results": [
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.2974790661433,
+      "deu_status": "success",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+      "native_log_evidence_independent_validation": -711.3038876870044,
+      "native_status": "success"
+    },
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.3172030592033,
+      "deu_status": "success",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 168.86622546497017,
+      "native_log_evidence_independent_validation": -711.1834285241735,
+      "native_status": "success"
+    },
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.2363530592032,
+      "deu_status": "success",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 168.78099546497026,
+      "native_log_evidence_independent_validation": -711.0173485241735,
+      "native_status": "success"
+    }
+  ],
+  "native_chain_audit": {
+    "all_expected_parameters_present": true,
+    "all_values_finite": true,
+    "chain_infos": [
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      },
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      }
+    ],
+    "expected_parameters_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "header": [
+      "weight",
+      "minuslogpost",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "total_rows": 4000
+  },
+  "native_input_manifest": {
+    "all_expected_parameters_present_or_inferred": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+    ],
+    "created_utc": "2026-05-09T05:00:44+00:00",
+    "evidence_computed_by_this_manifest": false,
+    "expected_parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "expected_parameters_present_or_inferred": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "formal_evidence_ready_as_input": true,
+    "label": "native",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "sampled_parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "source_manifest": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+      ],
+      "hard_guard_pass": true,
+      "label": "native",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+      "sampled_parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "source_stage": "stage3b22_evidence_estimator_preflight",
+      "total_rows": 4000
+    },
+    "total_rows": 4000
+  },
+  "native_results": [
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.6408591628309,
+      "log_evidence_independent_validation": -711.3038876870044,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.5204,
+      "log_evidence_independent_validation": -711.1834285241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.35432,
+      "log_evidence_independent_validation": -711.0173485241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_blocked_claims.csv",
+    "claim_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_independent_validation_claim_scope.md",
+    "consistency_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_independent_validation_consistency.csv",
+    "execution_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_execution_manifest.json",
+    "independent_logscore_summary_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_independent_logscore_summary.csv",
+    "independent_validation_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_independent_validation_results.csv",
+    "independent_validation_results_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_independent_validation_results.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint.json",
+    "per_chain_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_per_chain_independent_validation_results.csv",
+    "prior_volume_sensitivity_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_prior_volume_sensitivity_results.csv",
+    "proxy_formal_independent_agreement_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_proxy_formal_independent_agreement.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint_tt_lite_scope.md"
+  },
+  "per_chain_independent_validation_results": [
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.1436805069591,
+      "log_evidence_independent_validation": -542.2937835661623,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.16984,
+      "log_evidence_independent_validation": -542.3199430592033,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.09094,
+      "log_evidence_independent_validation": -542.2410430592033,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1665,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250023,
+        "deu_damping_envelope_beta": 0.0296942,
+        "deu_transfer_polamp_p_vis": 1.0473113,
+        "n_s": 0.98088114,
+        "omega_b": 0.021962874
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.1527639752102,
+      "log_evidence_independent_validation": -542.3028670344135,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.86331,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 572.86331,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1665,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250023,
+        "deu_damping_envelope_beta": 0.0296942,
+        "deu_transfer_polamp_p_vis": 1.0473113,
+        "n_s": 0.98088114,
+        "omega_b": 0.021962874
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.16404,
+      "log_evidence_independent_validation": -542.3141430592033,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.86331,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.86331,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1665,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250023,
+        "deu_damping_envelope_beta": 0.0296942,
+        "deu_transfer_polamp_p_vis": 1.0473113,
+        "n_s": 0.98088114,
+        "omega_b": 0.021962874
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.0831,
+      "log_evidence_independent_validation": -542.2332030592032,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.86331,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.86331,
+      "n_parameters": 5,
+      "n_rows": 2000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1515,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200043,
+        "n_s": 0.98239807,
+        "omega_b": 0.021904256
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.6385388186902,
+      "log_evidence_independent_validation": -711.3015673428637,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.97341,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 729.97341,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1515,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200043,
+        "n_s": 0.98239807,
+        "omega_b": 0.021904256
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.50173,
+      "log_evidence_independent_validation": -711.1647585241734,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.97341,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.97341,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1515,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200043,
+        "n_s": 0.98239807,
+        "omega_b": 0.021904256
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "chain_index": 1,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.37827,
+      "log_evidence_independent_validation": -711.0412985241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.97341,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.97341,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.6456156377279,
+      "log_evidence_independent_validation": -711.3086441619014,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.55935,
+      "log_evidence_independent_validation": -711.2223785241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "chain_index": 2,
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.32456,
+      "log_evidence_independent_validation": -710.9875885241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 2000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "previous_stage3b30_reference": {
+    "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b30_independent_evidence_validation_preflight.json",
+    "loaded": true
+  },
+  "prior_volume_sensitivity_results": [
+    {
+      "adjusted_log_bayes_factor_independent_validation": 170.39270298198096,
+      "base_log_bayes_factor_independent_validation": 169.00640862086107,
+      "delta_vs_base": 1.3862943611198943,
+      "deu_only_prior_width_factor": 0.5,
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "sensitivity_id": "deu_only_prior_volume_factor_0.5"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": 169.00640862086107,
+      "base_log_bayes_factor_independent_validation": 169.00640862086107,
+      "delta_vs_base": 0.0,
+      "deu_only_prior_width_factor": 1.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "sensitivity_id": "deu_only_prior_volume_factor_1"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": 167.62011425974117,
+      "base_log_bayes_factor_independent_validation": 169.00640862086107,
+      "delta_vs_base": -1.3862943611198943,
+      "deu_only_prior_width_factor": 2.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "sensitivity_id": "deu_only_prior_volume_factor_2"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": 166.23381989862128,
+      "base_log_bayes_factor_independent_validation": 169.00640862086107,
+      "delta_vs_base": -2.7725887222397887,
+      "deu_only_prior_width_factor": 4.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "sensitivity_id": "deu_only_prior_volume_factor_4"
+    }
+  ],
+  "proxy_formal_independent_agreement": [
+    {
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": 10.242361570654907,
+      "delta_vs_proxy": 10.242361570654907,
+      "estimator_id": "independent_top20_logmean_validation",
+      "independent_validation_logbf": 169.00640862086107,
+      "sign_matches_formal": true,
+      "sign_matches_proxy": true,
+      "stage3b23_24_proxy_logbf": 158.76404705020616,
+      "stage3b26_27_formal_logbf": 158.76404705020616
+    },
+    {
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": 10.102178414764012,
+      "delta_vs_proxy": 10.102178414764012,
+      "estimator_id": "independent_q10_free_energy_validation",
+      "independent_validation_logbf": 168.86622546497017,
+      "sign_matches_formal": true,
+      "sign_matches_proxy": true,
+      "stage3b23_24_proxy_logbf": 158.76404705020616,
+      "stage3b26_27_formal_logbf": 158.76404705020616
+    },
+    {
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": 10.016948414764101,
+      "delta_vs_proxy": 10.016948414764101,
+      "estimator_id": "independent_q05_free_energy_validation",
+      "independent_validation_logbf": 168.78099546497026,
+      "sign_matches_formal": true,
+      "sign_matches_proxy": true,
+      "stage3b23_24_proxy_logbf": 158.76404705020616,
+      "stage3b26_27_formal_logbf": 158.76404705020616
+    }
+  ],
+  "script": "stage3b_31_independent_evidence_validation_execution_checkpoint.py",
+  "stage": "3B-31",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+field,value
+representative_estimator_id,formal_laplace_full_covariance_crosscheck
+formal_estimator_count,3
+formal_crosscheck_gate_pass,True
+deu_chain_files,2
+native_chain_files,2
+deu_chain_rows,4000
+native_chain_rows,4000
+stage3b26_diagnostic_outcome,FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED

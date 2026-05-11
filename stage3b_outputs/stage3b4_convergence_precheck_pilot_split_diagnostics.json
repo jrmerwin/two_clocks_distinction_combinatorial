@@ -1,0 +1,187 @@
+{
+  "diagnostics_recorded": true,
+  "n_prefixes": 2,
+  "note": "Crude short-chain split diagnostics only; not a convergence claim and not posterior evidence.",
+  "split_rows": [
+    {
+      "max": 0.030432206,
+      "mean": 0.029746910854166666,
+      "min": 0.028709469,
+      "n": 96,
+      "parameter": "deu_damping_envelope_beta",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 2.3238103405549436e-07
+    },
+    {
+      "max": 0.030319597,
+      "mean": 0.02930147417708333,
+      "min": 0.028504133,
+      "n": 96,
+      "parameter": "deu_damping_envelope_beta",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 2.4654922681126295e-07
+    },
+    {
+      "chain_mean_range": 0.0004454366770833343,
+      "max": 0.029746910854166666,
+      "mean": 0.029524192515625,
+      "min": 0.02930147417708333,
+      "n": 192,
+      "normalized_mean_range": 0.9102586872177446,
+      "parameter": "deu_damping_envelope_beta",
+      "pooled_std": 0.0004893517451009842,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 1.0497919,
+      "mean": 1.0477449291666667,
+      "min": 1.0450925,
+      "n": 96,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 1.6959793738771788e-06
+    },
+    {
+      "max": 1.0499511,
+      "mean": 1.0484550791666667,
+      "min": 1.0463612,
+      "n": 96,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 8.860046117719107e-07
+    },
+    {
+      "chain_mean_range": 0.000710149999999965,
+      "max": 1.0484550791666667,
+      "mean": 1.0481000041666668,
+      "min": 1.0477449291666667,
+      "n": 192,
+      "normalized_mean_range": 0.6250119443769047,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "pooled_std": 0.0011362182857288228,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 0.022096185,
+      "mean": 0.021993950791666664,
+      "min": 0.021908501,
+      "n": 96,
+      "parameter": "omega_b",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 2.4357138848403594e-09
+    },
+    {
+      "max": 0.022047356,
+      "mean": 0.021947465208333333,
+      "min": 0.021902073,
+      "n": 96,
+      "parameter": "omega_b",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 8.629805819350789e-10
+    },
+    {
+      "chain_mean_range": 4.6485583333331915e-05,
+      "max": 0.021993950791666664,
+      "mean": 0.021970708,
+      "min": 0.021947465208333333,
+      "n": 192,
+      "normalized_mean_range": 1.1446223902460102,
+      "parameter": "omega_b",
+      "pooled_std": 4.061215622677179e-05,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 0.9824795,
+      "mean": 0.98215734875,
+      "min": 0.98129191,
+      "n": 96,
+      "parameter": "n_s",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 6.889787208262954e-08
+    },
+    {
+      "max": 0.98216163,
+      "mean": 0.9814834365624999,
+      "min": 0.9805343,
+      "n": 96,
+      "parameter": "n_s",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 1.4986686370910838e-07
+    },
+    {
+      "chain_mean_range": 0.0006739121875001253,
+      "max": 0.98215734875,
+      "mean": 0.98182039265625,
+      "min": 0.9814834365624999,
+      "n": 192,
+      "normalized_mean_range": 2.037650287830422,
+      "parameter": "n_s",
+      "pooled_std": 0.00033073005290700294,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 1.0274597,
+      "mean": 1.02499703125,
+      "min": 1.0233779,
+      "n": 96,
+      "parameter": "A_planck",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 6.711026371184364e-07
+    },
+    {
+      "max": 1.0276244,
+      "mean": 1.0253110760416666,
+      "min": 1.0228912,
+      "n": 96,
+      "parameter": "A_planck",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 8.375441271041858e-07
+    },
+    {
+      "chain_mean_range": 0.00031404479166652344,
+      "max": 1.0253110760416666,
+      "mean": 1.0251540536458332,
+      "min": 1.02499703125,
+      "n": 192,
+      "normalized_mean_range": 0.3615870017716038,
+      "parameter": "A_planck",
+      "pooled_std": 0.0008685179227346497,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    },
+    {
+      "max": 577.82403,
+      "mean": 574.0754497916666,
+      "min": 572.87477,
+      "n": 96,
+      "parameter": "minuslogpost",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain01",
+      "variance": 0.9925356172673228
+    },
+    {
+      "max": 577.94824,
+      "mean": 573.8758895833333,
+      "min": 572.96033,
+      "n": 96,
+      "parameter": "minuslogpost",
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b4_convergence_precheck_pilot_chain02",
+      "variance": 0.7264773332924612
+    },
+    {
+      "chain_mean_range": 0.19956020833330967,
+      "max": 574.0754497916666,
+      "mean": 573.9756696874999,
+      "min": 573.8758895833333,
+      "n": 192,
+      "normalized_mean_range": 0.21525307892656412,
+      "parameter": "minuslogpost",
+      "pooled_std": 0.9270957206674464,
+      "prefix": "__SPLIT_SUMMARY__",
+      "variance": null
+    }
+  ]
+}

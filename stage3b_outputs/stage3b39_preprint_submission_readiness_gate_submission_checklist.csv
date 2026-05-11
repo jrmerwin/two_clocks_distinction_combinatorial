@@ -1,0 +1,11 @@
+check,required,pass,detail
+Stage 3B-38 package hard guard passed,True,True,PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED
+Stage 3B-38 expected preprint package outcome,True,True,PREPRINT_MANUSCRIPT_PACKAGE_PASS_AUTHOR_LED_PREPRINT_READY_CLAIMS_GATED
+All required Stage 3B-38 package artifacts exist,True,True,16/16 artifacts present
+Preprint release scope lock present,True,True,PREPRINT_RELEASE_SCOPE_LOCK_PASS_PUBLICATION_CLAIMS_STILL_GATED
+No MCMC launched by this stage,True,True,Stage 3B-39 is package QA only
+No new evidence computed by this stage,True,True,Evidence lineage is copied/audited only
+Peer-review/external-review claims remain blocked,True,True,Author-led preprint branch
+Model-superiority claims remain blocked,True,True,Only scoped/caveated descriptive and internal evidence wording allowed
+TT_lite sampled-posterior/evidence claims remain blocked,True,True,TT_lite diagnostic-only scope retained
+Final publication-style claims remain blocked,True,True,"Preprint-server package, not final publication certification"

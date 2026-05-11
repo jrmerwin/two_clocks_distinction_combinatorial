@@ -1,0 +1,16 @@
+chain_file,column,n_rows
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,weight,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,minuslogpost,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,deu_damping_envelope_beta,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,deu_transfer_polamp_p_vis,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,omega_b,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,n_s,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,A_planck,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2__CMB,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,minuslogprior,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,minuslogprior__0,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2__planck_2018_highl_plik.TTTEEE_lite,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2__planck_2018_lowl.TT,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2__planck_2018_lowl.EE,2000
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,chi2__planck_2018_lensing.native,2000

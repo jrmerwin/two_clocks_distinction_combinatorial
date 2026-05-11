@@ -1,0 +1,5 @@
+claim_id,statement,scope,condition
+A1,A caveated internal DEU posterior summary has been written and robustness-checked.,internal,Stage 3B-10/11/20 booked
+A2,A matched DEU/native descriptive posterior comparison has been written.,internal,Stage 3B-19/20 booked
+A3,A formal cross-check evidence/BF estimator result exists for internal discussion with caveats.,internal_caveated,Stage 3B-27/28 booked
+A4,External/publication claims require independent evidence validation.,guardrail,Stage 3B-29 booked

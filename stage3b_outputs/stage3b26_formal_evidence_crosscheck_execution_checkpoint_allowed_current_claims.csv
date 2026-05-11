@@ -1,0 +1,4 @@
+claim_id,status,wording
+formal_crosscheck_executed,allowed,A formal/cross-check evidence-estimator execution checkpoint has been recorded.
+crosscheck_values_internal,allowed_with_caveats,The DEU/native cross-check log-evidence and log-BF values may be inspected internally as gated diagnostics.
+scoped_posterior_summary,allowed_with_caveats,The scoped posterior summary and descriptive DEU/native posterior comparison remain allowed with caveats.

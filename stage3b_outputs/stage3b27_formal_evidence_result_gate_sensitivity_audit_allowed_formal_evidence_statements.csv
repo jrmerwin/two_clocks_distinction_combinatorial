@@ -1,0 +1,5 @@
+claim_id,claim,allowed_scope,required_caveat
+formal_crosscheck_value_internal,The matched formal cross-check estimator recorded log BF(DEU-native) = 158.76404705.,internal scoped formal-estimator result with caveats,Not a final publication Bayes factor; model-superiority claims remain blocked.
+formal_crosscheck_matches_proxy,The formal cross-check value agrees with the previously booked diagnostic proxy lineage within the configured tolerance.,method/audit statement,Agreement is among this project's estimator artifacts only; it is not external validation.
+prior_sensitivity_recorded,Prior-volume sensitivity rows were recorded and passed the Stage 3B-27 gate.,internal sensitivity-audit statement,Sensitivity audit does not replace external model comparison or publication review.
+posterior_summary_still_allowed,The caveated DEU posterior summary and matched DEU/native descriptive comparison remain allowed.,already booked scoped posterior language,TT_lite remains diagnostic-only and outside the sampled posterior/evidence likelihood.

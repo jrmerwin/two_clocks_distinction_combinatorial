@@ -1,0 +1,9 @@
+artifact,required,description
+matched_likelihood_manifest,True,Defines identical DEU/native likelihood components and explicitly states TT_lite status.
+matched_prior_manifest,True,Defines shared native parameters and DEU-only beta/p_vis prior treatment.
+evidence_estimator_config,True,"Specifies nested/evidence estimator, stopping criteria, seeds, and outputs."
+native_evidence_run,True,Native/baseline evidence or approved comparison run.
+deu_evidence_run,True,DEU evidence or approved comparison run using matched settings.
+evidence_reproducibility_or_error_budget,True,Independent repeat or estimator uncertainty sufficient to support any comparison.
+prior_sensitivity_check,True,Shows comparison is not an artifact of arbitrary prior widths.
+claim_lock_update,True,Maps evidence outputs to allowed and blocked external claims.

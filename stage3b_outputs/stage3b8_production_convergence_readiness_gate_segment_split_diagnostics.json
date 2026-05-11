@@ -1,0 +1,312 @@
+{
+  "diagnostics_recorded": true,
+  "max_allowed_normalized_segment_range": 8.0,
+  "max_normalized_segment_range_seen": 0.5429263542218558,
+  "n_chain_files": 1,
+  "n_rows": 2000,
+  "n_segments_used": 4,
+  "note": "Segment split diagnostic; readiness is conservative and not a posterior claim.",
+  "segment_gate_pass": true,
+  "segment_rows": [
+    {
+      "max": 0.03047047,
+      "mean": 0.029626134239999997,
+      "min": 0.028542191,
+      "n": 500,
+      "parameter": "deu_damping_envelope_beta",
+      "segment": 1,
+      "variance": 2.4286569946340523e-07
+    },
+    {
+      "max": 0.030463636,
+      "mean": 0.029456648176,
+      "min": 0.028549199,
+      "n": 500,
+      "parameter": "deu_damping_envelope_beta",
+      "segment": 2,
+      "variance": 2.5750443746788054e-07
+    },
+    {
+      "max": 0.030481551,
+      "mean": 0.029458701444,
+      "min": 0.02852939,
+      "n": 500,
+      "parameter": "deu_damping_envelope_beta",
+      "segment": 3,
+      "variance": 3.012633447384716e-07
+    },
+    {
+      "max": 0.030499613,
+      "mean": 0.029635143660000002,
+      "min": 0.028515852,
+      "n": 500,
+      "parameter": "deu_damping_envelope_beta",
+      "segment": 4,
+      "variance": 2.6692201206876595e-07
+    },
+    {
+      "gate_pass": true,
+      "max": 0.029635143660000002,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 0.02954415688,
+      "min": 0.029456648176,
+      "n": 2000,
+      "normalized_segment_range": 0.3453493855998198,
+      "parameter": "deu_damping_envelope_beta",
+      "pooled_std": 0.0005168547895053608,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.00017849548400000054,
+      "variance": null
+    },
+    {
+      "max": 1.0497597,
+      "mean": 1.0474155988,
+      "min": 1.0450006,
+      "n": 500,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "segment": 1,
+      "variance": 1.7602044632049768e-06
+    },
+    {
+      "max": 1.0499238,
+      "mean": 1.0472236313999999,
+      "min": 1.0451135,
+      "n": 500,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "segment": 2,
+      "variance": 1.380468751497054e-06
+    },
+    {
+      "max": 1.0498143,
+      "mean": 1.0474262116,
+      "min": 1.0450592,
+      "n": 500,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "segment": 3,
+      "variance": 2.011936898782943e-06
+    },
+    {
+      "max": 1.0499778,
+      "mean": 1.0470930183999998,
+      "min": 1.0450016,
+      "n": 500,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "segment": 4,
+      "variance": 1.4160078214243006e-06
+    },
+    {
+      "gate_pass": true,
+      "max": 1.0474262116,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 1.04728961505,
+      "min": 1.0470930183999998,
+      "n": 2000,
+      "normalized_segment_range": 0.26000944500274,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "pooled_std": 0.0012814657559713871,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.00033319320000013697,
+      "variance": null
+    },
+    {
+      "max": 0.02209092,
+      "mean": 0.021981130958,
+      "min": 0.021906699,
+      "n": 500,
+      "parameter": "omega_b",
+      "segment": 1,
+      "variance": 2.2744844057878224e-09
+    },
+    {
+      "max": 0.022090492,
+      "mean": 0.021969783889999997,
+      "min": 0.021900248,
+      "n": 500,
+      "parameter": "omega_b",
+      "segment": 2,
+      "variance": 2.6742774453686588e-09
+    },
+    {
+      "max": 0.022094211,
+      "mean": 0.021985718488,
+      "min": 0.021900765,
+      "n": 500,
+      "parameter": "omega_b",
+      "segment": 3,
+      "variance": 2.5582147352804226e-09
+    },
+    {
+      "max": 0.02207138,
+      "mean": 0.021965483806,
+      "min": 0.021902486,
+      "n": 500,
+      "parameter": "omega_b",
+      "segment": 4,
+      "variance": 1.4206816906737202e-09
+    },
+    {
+      "gate_pass": true,
+      "max": 0.021985718488,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 0.0219755292855,
+      "min": 0.021965483806,
+      "n": 2000,
+      "normalized_segment_range": 0.42830939423935643,
+      "parameter": "omega_b",
+      "pooled_std": 4.724314309270347e-05,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 2.023468199999906e-05,
+      "variance": null
+    },
+    {
+      "max": 0.98249686,
+      "mean": 0.98168862992,
+      "min": 0.98052799,
+      "n": 500,
+      "parameter": "n_s",
+      "segment": 1,
+      "variance": 2.76931923563517e-07
+    },
+    {
+      "max": 0.9824657,
+      "mean": 0.98139480584,
+      "min": 0.98052765,
+      "n": 500,
+      "parameter": "n_s",
+      "segment": 2,
+      "variance": 2.886878502788514e-07
+    },
+    {
+      "max": 0.98249144,
+      "mean": 0.9816076822,
+      "min": 0.98050565,
+      "n": 500,
+      "parameter": "n_s",
+      "segment": 3,
+      "variance": 3.920400126704974e-07
+    },
+    {
+      "max": 0.98249805,
+      "mean": 0.98137680702,
+      "min": 0.98051535,
+      "n": 500,
+      "parameter": "n_s",
+      "segment": 4,
+      "variance": 3.617939192999301e-07
+    },
+    {
+      "gate_pass": true,
+      "max": 0.98168862992,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 0.981516981245,
+      "min": 0.98137680702,
+      "n": 2000,
+      "normalized_segment_range": 0.5429263542218558,
+      "parameter": "n_s",
+      "pooled_std": 0.0005743373803377236,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.0003118229000000916,
+      "variance": null
+    },
+    {
+      "max": 1.0273186,
+      "mean": 1.025038183,
+      "min": 1.0225477,
+      "n": 500,
+      "parameter": "A_planck",
+      "segment": 1,
+      "variance": 7.083118442595161e-07
+    },
+    {
+      "max": 1.028335,
+      "mean": 1.0250331940000001,
+      "min": 1.0224184,
+      "n": 500,
+      "parameter": "A_planck",
+      "segment": 2,
+      "variance": 9.299812523486932e-07
+    },
+    {
+      "max": 1.0276245,
+      "mean": 1.0250922789999999,
+      "min": 1.0223195,
+      "n": 500,
+      "parameter": "A_planck",
+      "segment": 3,
+      "variance": 6.540389060711487e-07
+    },
+    {
+      "max": 1.0276991,
+      "mean": 1.0249821018,
+      "min": 1.0224381,
+      "n": 500,
+      "parameter": "A_planck",
+      "segment": 4,
+      "variance": 8.02258960377508e-07
+    },
+    {
+      "gate_pass": true,
+      "max": 1.0250922789999999,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 1.02503643945,
+      "min": 1.0249821018,
+      "n": 2000,
+      "normalized_segment_range": 0.12526221885056293,
+      "parameter": "A_planck",
+      "pooled_std": 0.0008795724761292934,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.0001101771999998391,
+      "variance": null
+    },
+    {
+      "max": 577.6837,
+      "mean": 573.91192176,
+      "min": 572.88934,
+      "n": 500,
+      "parameter": "minuslogpost",
+      "segment": 1,
+      "variance": 0.7034284682999014
+    },
+    {
+      "max": 581.07629,
+      "mean": 574.1197232999999,
+      "min": 572.93043,
+      "n": 500,
+      "parameter": "minuslogpost",
+      "segment": 2,
+      "variance": 1.3216434044057184
+    },
+    {
+      "max": 579.10595,
+      "mean": 573.9851969,
+      "min": 572.94251,
+      "n": 500,
+      "parameter": "minuslogpost",
+      "segment": 3,
+      "variance": 0.6915783036322523
+    },
+    {
+      "max": 578.48506,
+      "mean": 573.81522662,
+      "min": 572.83932,
+      "n": 500,
+      "parameter": "minuslogpost",
+      "segment": 4,
+      "variance": 0.7119421678613003
+    },
+    {
+      "gate_pass": true,
+      "max": 574.1197232999999,
+      "max_allowed_normalized_segment_range": 8.0,
+      "mean": 573.958017145,
+      "min": 573.81522662,
+      "n": 2000,
+      "normalized_segment_range": 0.32889300124779175,
+      "parameter": "minuslogpost",
+      "pooled_std": 0.9258229237007437,
+      "segment": "__SEGMENT_SUMMARY__",
+      "segment_mean_range": 0.3044966799999429,
+      "variance": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "decision_type": "PRODUCTION_CONVERGENCE_ASSESSMENT_RECORDED_MORE_CHAINS_NEEDED",
+  "diagnostic_assessment_complete": true,
+  "ess_gate_pass": true,
+  "max_normalized_segment_range_seen": 0.5429263542218558,
+  "max_normalized_tail_shift_seen": 0.08393214535689333,
+  "mcmc_launched_by_this_stage": false,
+  "min_chain_files_for_readiness": 2,
+  "min_ess_lag1_proxy_seen": 93.10354460883367,
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 5,
+  "n_chain_files": 1,
+  "next_stage_hint": "Stage 3B-9 additional production chains for readiness gate",
+  "posterior_conclusions_written": false,
+  "posterior_evidence_status": "not_allowed_single_chain_or_insufficient_chain_files",
+  "posterior_interpretation_allowed": false,
+  "posterior_readiness_gate_pass": false,
+  "production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "production_reference_eval_status": "success",
+  "production_reference_matches_stage3b1_sampler_ref": true,
+  "production_reference_matches_stage3b7_checkpoint": true,
+  "production_reference_matches_working_lock": true,
+  "recommendation": "Book Stage 3B-8 as a diagnostic assessment, but do not make posterior claims. Run an additional production-chain stage to obtain multiple independent chain files.",
+  "segment_gate_pass": true,
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b7_diagnostic_outcome": "FIRST_PRODUCTION_CHECKPOINT_PASS",
+  "tail_gate_pass": true,
+  "total_chain_rows": 2000,
+  "tri_anchor_monitoring_pass": true
+}

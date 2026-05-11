@@ -1,0 +1,20 @@
+{
+  "display_values": {
+    "A_planck": 1.0250579,
+    "beta": 0.029595717,
+    "n_s": 0.98118992,
+    "omega_b": 0.021959556,
+    "p_vis": 1.0473467
+  },
+  "found": true,
+  "parameter_values": {
+    "A_planck": 1.0250579,
+    "deu_damping_envelope_beta": 0.029595717,
+    "deu_transfer_polamp_p_vis": 1.0473467,
+    "n_s": 0.98118992,
+    "omega_b": 0.021959556
+  },
+  "row_index_zero_based": 1681,
+  "selection_column": "minuslogpost",
+  "selection_value": 572.83932
+}

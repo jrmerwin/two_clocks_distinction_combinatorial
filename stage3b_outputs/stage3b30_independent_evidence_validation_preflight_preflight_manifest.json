@@ -1,0 +1,29 @@
+{
+  "bayes_factor_or_evidence_claims_allowed": true,
+  "bayes_factor_or_evidence_claims_scope": "internal formal cross-check estimator result only; external validation still required",
+  "decision_type": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+  "design_matrix_rows": 5,
+  "external_publication_claims_allowed": false,
+  "final_publication_claims_allowed": false,
+  "formal_evidence_language_allowed_internal_caveated": true,
+  "formal_evidence_values": {
+    "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+    "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+    "native_log_evidence_formal_crosscheck": -734.8127651694195
+  },
+  "independent_validation_execution_launched_by_this_stage": false,
+  "independent_validation_preflight_written": true,
+  "independent_validation_required": true,
+  "independent_validation_requirement_count": 6,
+  "mcmc_launched_by_this_stage": false,
+  "model_superiority_claims_allowed": false,
+  "new_evidence_computed_by_this_stage": false,
+  "next_stage_hint": "Stage 3B-31 independent evidence-validation execution checkpoint",
+  "posterior_evidence_status": "independent_validation_preflighted_execution_required",
+  "recommendation": "Book Stage 3B-30. Next execute an independent evidence-validation checkpoint before any external publication, model-superiority, or final-style evidence claim.",
+  "stage3b27_decision": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+  "stage3b28_decision": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+  "stage3b29_decision": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED",
+  "tri_anchor_context_count": 3,
+  "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+}

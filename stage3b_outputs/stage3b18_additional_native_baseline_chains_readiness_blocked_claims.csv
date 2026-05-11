@@ -1,0 +1,6 @@
+claim,status,reason
+DEU is superior to native/baseline,blocked,Native/baseline readiness and comparison claim-lock not yet cleared.
+Bayes-factor/evidence superiority,blocked,No evidence/Bayes-factor stage has been booked.
+Final publication-style cosmological claim,blocked,Final claim preflight remains gated.
+TT_lite is part of the production posterior,blocked,TT_lite is diagnostic-only in this production workflow.
+Native reference delta alone establishes model comparison,blocked,Reference deltas are not posterior/evidence comparison.

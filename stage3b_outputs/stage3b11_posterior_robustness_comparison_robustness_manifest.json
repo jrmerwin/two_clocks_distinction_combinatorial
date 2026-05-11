@@ -1,0 +1,22 @@
+{
+  "decision_type": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+  "diagnostic_assessment_complete": true,
+  "final_publication_claims_allowed": false,
+  "max_chain_median_shift_norm": 2.0,
+  "max_leave_one_out_median_shift_norm": 1.5,
+  "mcmc_launched_by_this_stage": false,
+  "next_stage_hint": "Stage 3B-12 external/model-comparison framing and final-claim preflight",
+  "point_evaluations_success": true,
+  "posterior_evidence_status": "robustness_checks_passed_final_claims_still_gated",
+  "posterior_robustness_gate_pass": true,
+  "posterior_summary_already_written_by_stage3b10": true,
+  "recommendation": "Book Stage 3B-11. Next run an external/model-comparison framing stage before any final publication-style claim.",
+  "recomputed_summary_recorded": true,
+  "split_robustness_gate_pass": true,
+  "split_robustness_recorded": true,
+  "stage3b10_decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+  "stage3b10_summary_reproduced": true,
+  "stage3b9_readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "tri_anchor_context_retained": true,
+  "tt_lite_diagnostic_recorded": true
+}

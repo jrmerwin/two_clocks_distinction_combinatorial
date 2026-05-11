@@ -1,0 +1,206 @@
+{
+  "deu_results": [
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.14737600694,
+      "log_evidence_independent_validation": -542.2974790661433,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.1671,
+      "log_evidence_independent_validation": -542.3172030592033,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "DEU",
+      "independent_logscore": -573.08625,
+      "log_evidence_independent_validation": -542.2363530592032,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "native_results": [
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.6408591628309,
+      "log_evidence_independent_validation": -711.3038876870044,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "mean exp(logposterior) over top 20 percent posterior-mass diagnostic subset",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.5204,
+      "log_evidence_independent_validation": -711.1834285241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 10th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "family": "native",
+      "independent_logscore": -730.35432,
+      "log_evidence_independent_validation": -711.0173485241735,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "method_note": "negative 5th percentile minuslogpost free-energy diagnostic",
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    }
+  ],
+  "paired_results": [
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.2974790661433,
+      "deu_status": "success",
+      "estimator_id": "independent_top20_logmean_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+      "native_log_evidence_independent_validation": -711.3038876870044,
+      "native_status": "success"
+    },
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.3172030592033,
+      "deu_status": "success",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 168.86622546497017,
+      "native_log_evidence_independent_validation": -711.1834285241735,
+      "native_status": "success"
+    },
+    {
+      "claim_status": "independent_validation_executed_result_gate_required",
+      "deu_log_evidence_independent_validation": -542.2363530592032,
+      "deu_status": "success",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "estimator_kind": "independent_chain_logscore_validation_not_publication_evidence",
+      "log_bayes_factor_independent_validation_deu_minus_native": 168.78099546497026,
+      "native_log_evidence_independent_validation": -711.0173485241735,
+      "native_status": "success"
+    }
+  ]
+}

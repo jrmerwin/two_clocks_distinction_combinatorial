@@ -1,0 +1,128 @@
+{
+  "candidate_estimators": [
+    {
+      "claim_unlocked_by_setup_only": false,
+      "estimator_id": "matched_nested_sampling",
+      "execution_stage_required": "Stage 3B-23 or later",
+      "notes": "Requires actual nested/evidence run; this preflight only prepares inputs.",
+      "purpose": "Compute matched DEU/native evidences with the same full-objective likelihood set and declared priors.",
+      "status": "preferred_future_execution"
+    },
+    {
+      "claim_unlocked_by_setup_only": false,
+      "estimator_id": "bridge_sampling_from_readiness_chains",
+      "execution_stage_required": "Stage 3B-23 or later",
+      "notes": "Must validate estimator assumptions and normalization before any evidence claim.",
+      "purpose": "Use readiness-cleared posterior chains as inputs to a separately validated bridge estimator.",
+      "status": "candidate_future_execution"
+    },
+    {
+      "claim_unlocked_by_setup_only": false,
+      "estimator_id": "thermodynamic_integration",
+      "execution_stage_required": "future evidence extension",
+      "notes": "More expensive; useful if bridge/nested estimates disagree.",
+      "purpose": "Run matched tempered chains for a direct marginal-likelihood estimate.",
+      "status": "optional_future_execution"
+    },
+    {
+      "claim_unlocked_by_setup_only": false,
+      "estimator_id": "information_criteria_context",
+      "execution_stage_required": "optional context stage",
+      "notes": "Information criteria are not Bayes factors and cannot by themselves support superiority claims here.",
+      "purpose": "Record AIC/BIC/IC-like context if desired.",
+      "status": "descriptive_only"
+    },
+    {
+      "claim_unlocked_by_setup_only": false,
+      "estimator_id": "tt_lite_inclusive_evidence",
+      "execution_stage_required": "new matched TT_lite-inclusive sampler/readiness stages",
+      "notes": "Current production chains exclude TT_lite; do not retrofit TT_lite evidence claims.",
+      "purpose": "Evidence including TT_lite on both sides.",
+      "status": "blocked_until_new_matched_sampler"
+    }
+  ],
+  "configs_are_setup_only": true,
+  "created_utc": "2026-05-09T04:14:34+00:00",
+  "evidence_computed_by_this_stage": false,
+  "matched_evidence_inputs": {
+    "deu": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+      ],
+      "extra_arg_keys": [
+        "deu",
+        "deu_allow_double_phase_hooks",
+        "deu_damping_envelope_hook",
+        "deu_lensed_phase_hook",
+        "deu_lensed_phase_profile",
+        "deu_log10_N_today",
+        "deu_perturbation_sound_speed_hook",
+        "deu_photon_clock_thermo",
+        "deu_polarization_source_amplitude_hook",
+        "deu_transfer_polamp_hook",
+        "deu_use_radial_jacobian",
+        "l_max_scalars",
+        "lensing",
+        "output"
+      ],
+      "hard_guard_pass": true,
+      "label": "deu",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+      "sampled_parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "total_rows": 4000
+    },
+    "native": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+      ],
+      "extra_arg_keys": [
+        "l_max_scalars",
+        "lensing",
+        "output"
+      ],
+      "hard_guard_pass": true,
+      "label": "native",
+      "likelihoods": [
+        "planck_2018_highl_plik.TTTEEE_lite",
+        "planck_2018_lowl.TT",
+        "planck_2018_lowl.EE",
+        "planck_2018_lensing.native"
+      ],
+      "n_chain_files": 2,
+      "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+      "sampled_parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "total_rows": 4000
+    }
+  },
+  "required_execution_controls": [
+    "same full-objective likelihood set on both sides",
+    "same shared parameter priors for omega_b, n_s, and A_planck",
+    "DEU-only beta and p_vis priors declared and counted as extra model degrees of freedom",
+    "TT_lite excluded unless a later matched TT_lite-inclusive run is booked",
+    "estimator uncertainty and numerical stability reported before any Bayes-factor claim"
+  ],
+  "stage": "3B-22"
+}

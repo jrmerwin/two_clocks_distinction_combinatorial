@@ -1,0 +1,4 @@
+step_id,next_stage,description,unlocks
+N1,Stage 3B-20,Write final scoped internal report or evidence/model-selection design.,"A final scoped report, not model superiority by default."
+N2,optional evidence stage,Run explicit evidence/model-selection comparison if model-superiority claims are desired.,Potential model-comparison language if it passes.
+N3,optional TT_lite-inclusive sampler,Run a separate sampler if TT_lite must be part of a sampled posterior claim.,TT_lite posterior inclusion language only if successful.

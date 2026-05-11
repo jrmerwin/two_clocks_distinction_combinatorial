@@ -1,0 +1,7 @@
+requirement_id,requirement,minimum_artifact,claim_unlocked_if_met,met_by_stage3b30
+R1_independent_estimator_family,At least one evidence estimator must be independent of the chain-local Laplace proxy/formal cross-check lineage.,"estimator config, raw run log, result JSON/CSV, acceptance markdown",candidate external evidence language only after result gate,False
+R2_matched_likelihood_scope,DEU and native sides must use the same full-objective likelihood set; TT_lite remains excluded unless a separate matched TT_lite-inclusive branch is run.,likelihood-scope audit,prevents false TT_lite-in-posterior/evidence language,True
+R3_prior_volume_sensitivity,Evidence/BF result must be tested against predeclared prior-volume variants.,prior sensitivity plan and result table,supports caveated robustness language,False
+R4_reproducible_input_manifests,"Input chain files, parameter columns, priors, likelihood scope, and reference values must be frozen in manifests.",DEU/native evidence input manifests,replayability of validation,True
+R5_result_gate,Independent validation execution must be followed by a separate result gate before any claim language is upgraded.,result-gate/sensitivity-audit stage,internal or external language depending on outcome,False
+R6_publication_guardrails,Publication-style language must remain blocked until independent validation and final claim-lock stages are booked.,claim matrix and blocked-claim registry,none at this stage; this is a guardrail,True

@@ -1,0 +1,8 @@
+stage,role,decision,claim_status
+3B-9,DEU production readiness,ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS,"posterior interpretation unlocked, summary not yet written"
+3B-10,first DEU posterior summary,FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN,caveated posterior summary written
+3B-11,posterior robustness,POSTERIOR_ROBUSTNESS_COMPARISON_PASS,"robustness passed, final claims still gated"
+3B-18,native/baseline readiness,ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED,"native comparison ready, superiority still gated"
+3B-19,matched descriptive comparison,MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED,"descriptive comparison written, superiority still gated"
+3B-20,final scoped internal report,FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED,"internal scoped report complete, evidence/model-selection still required"
+3B-21,evidence/model-selection design,this stage,design/preflight only; final claims still gated

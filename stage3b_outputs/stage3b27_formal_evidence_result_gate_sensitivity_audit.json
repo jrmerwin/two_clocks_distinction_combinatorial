@@ -1,0 +1,464 @@
+{
+  "acceptance": {
+    "allowed_claims_csv_written": true,
+    "bayes_factor_or_evidence_claims_allowed_with_internal_caveats": true,
+    "blocked_claims_csv_written": true,
+    "claim_matrix_csv_written": true,
+    "consistency_csv_written": true,
+    "diagnostic_outcome": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "estimator_status_csv_written": true,
+    "final_publication_claims_allowed": false,
+    "formal_crosscheck_gate_pass": true,
+    "formal_estimator_consistency_gate_pass": true,
+    "formal_estimator_consistency_recorded": true,
+    "formal_estimator_count_recorded": true,
+    "formal_evidence_result_gate_pass": true,
+    "formal_evidence_result_language_allowed_with_caveats": true,
+    "formal_evidence_values_recorded": true,
+    "formal_summary_csv_written": true,
+    "gate_manifest_written": true,
+    "gate_report_written": true,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "prior_volume_sensitivity_recorded": true,
+    "proxy_agreement_csv_written": true,
+    "proxy_formal_agreement_gate_pass": true,
+    "proxy_formal_agreement_recorded": true,
+    "required_next_csv_written": true,
+    "script_completed": true,
+    "sensitivity_csv_written": true,
+    "sensitivity_gate_pass": true,
+    "stage3b24_proxy_gate_pass": true,
+    "stage3b24_reference_loaded": true,
+    "stage3b25_preflight_pass": true,
+    "stage3b25_reference_loaded": true,
+    "stage3b26_execution_checkpoint_pass": true,
+    "stage3b26_hard_guard_pass": true,
+    "stage3b26_reference_loaded": true,
+    "stage3b26_result_gate_required": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_formal_evidence_statements": [
+    {
+      "allowed_scope": "internal scoped formal-estimator result with caveats",
+      "claim": "The matched formal cross-check estimator recorded log BF(DEU-native) = 158.76404705.",
+      "claim_id": "formal_crosscheck_value_internal",
+      "required_caveat": "Not a final publication Bayes factor; model-superiority claims remain blocked."
+    },
+    {
+      "allowed_scope": "method/audit statement",
+      "claim": "The formal cross-check value agrees with the previously booked diagnostic proxy lineage within the configured tolerance.",
+      "claim_id": "formal_crosscheck_matches_proxy",
+      "required_caveat": "Agreement is among this project's estimator artifacts only; it is not external validation."
+    },
+    {
+      "allowed_scope": "internal sensitivity-audit statement",
+      "claim": "Prior-volume sensitivity rows were recorded and passed the Stage 3B-27 gate.",
+      "claim_id": "prior_sensitivity_recorded",
+      "required_caveat": "Sensitivity audit does not replace external model comparison or publication review."
+    },
+    {
+      "allowed_scope": "already booked scoped posterior language",
+      "claim": "The caveated DEU posterior summary and matched DEU/native descriptive comparison remain allowed.",
+      "claim_id": "posterior_summary_still_allowed",
+      "required_caveat": "TT_lite remains diagnostic-only and outside the sampled posterior/evidence likelihood."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked_claim": "DEU is superior to the native/baseline model.",
+      "claim_id": "model_superiority",
+      "reason": "Requires a separate final claim lock/publication preflight after formal result gating."
+    },
+    {
+      "blocked_claim": "The reported log BF is a final publication-grade Bayes factor.",
+      "claim_id": "publication_bayes_factor",
+      "reason": "Stage 3B-27 allows only scoped internal formal cross-check language."
+    },
+    {
+      "blocked_claim": "TT_lite was included in the sampled posterior or evidence estimator.",
+      "claim_id": "tt_lite_in_evidence",
+      "reason": "TT_lite was diagnostic-only in this pipeline."
+    },
+    {
+      "blocked_claim": "The result is externally validated or robust to all estimator choices.",
+      "claim_id": "external_validation",
+      "reason": "External validation and independent estimator/review remain separate follow-up work."
+    },
+    {
+      "blocked_claim": "This completes final publication-style claims.",
+      "claim_id": "final_publication_claim",
+      "reason": "Final publication-style claims remain explicitly gated."
+    }
+  ],
+  "claim_matrix": [
+    {
+      "claim_id": "formal_crosscheck_value_internal",
+      "scope_or_reason": "internal scoped formal-estimator result with caveats",
+      "statement": "The matched formal cross-check estimator recorded log BF(DEU-native) = 158.76404705.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "formal_crosscheck_matches_proxy",
+      "scope_or_reason": "method/audit statement",
+      "statement": "The formal cross-check value agrees with the previously booked diagnostic proxy lineage within the configured tolerance.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "prior_sensitivity_recorded",
+      "scope_or_reason": "internal sensitivity-audit statement",
+      "statement": "Prior-volume sensitivity rows were recorded and passed the Stage 3B-27 gate.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "posterior_summary_still_allowed",
+      "scope_or_reason": "already booked scoped posterior language",
+      "statement": "The caveated DEU posterior summary and matched DEU/native descriptive comparison remain allowed.",
+      "status": "allowed_with_caveats"
+    },
+    {
+      "claim_id": "model_superiority",
+      "scope_or_reason": "Requires a separate final claim lock/publication preflight after formal result gating.",
+      "statement": "DEU is superior to the native/baseline model.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "publication_bayes_factor",
+      "scope_or_reason": "Stage 3B-27 allows only scoped internal formal cross-check language.",
+      "statement": "The reported log BF is a final publication-grade Bayes factor.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_in_evidence",
+      "scope_or_reason": "TT_lite was diagnostic-only in this pipeline.",
+      "statement": "TT_lite was included in the sampled posterior or evidence estimator.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "external_validation",
+      "scope_or_reason": "External validation and independent estimator/review remain separate follow-up work.",
+      "statement": "The result is externally validated or robust to all estimator choices.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "scope_or_reason": "Final publication-style claims remain explicitly gated.",
+      "statement": "This completes final publication-style claims.",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.0019142627716064453,
+  "estimator_status_context": [
+    {
+      "field": "representative_estimator_id",
+      "value": "formal_laplace_full_covariance_crosscheck"
+    },
+    {
+      "field": "formal_estimator_count",
+      "value": 3
+    },
+    {
+      "field": "formal_crosscheck_gate_pass",
+      "value": true
+    },
+    {
+      "field": "deu_chain_files",
+      "value": 2
+    },
+    {
+      "field": "native_chain_files",
+      "value": 2
+    },
+    {
+      "field": "deu_chain_rows",
+      "value": 4000
+    },
+    {
+      "field": "native_chain_rows",
+      "value": 4000
+    },
+    {
+      "field": "stage3b26_diagnostic_outcome",
+      "value": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED"
+    }
+  ],
+  "formal_estimator_consistency_rows": [
+    {
+      "audit_scope": "formal estimator consistency row inherited from Stage 3B-26",
+      "check": "all_formal_crosscheck_logbf_values_finite",
+      "interpretation": "all paired DEU/native cross-checks finite",
+      "pass": "True",
+      "row_index": 1,
+      "threshold": "3",
+      "value": "3"
+    },
+    {
+      "audit_scope": "formal estimator consistency row inherited from Stage 3B-26",
+      "check": "formal_crosscheck_logbf_sign_consistent",
+      "interpretation": "sign consistency only; not model-superiority",
+      "pass": "True",
+      "row_index": 2,
+      "threshold": "single sign",
+      "value": "[1]"
+    },
+    {
+      "audit_scope": "formal estimator consistency row inherited from Stage 3B-26",
+      "check": "formal_crosscheck_logbf_spread_within_gate",
+      "interpretation": "loose numerical consistency gate",
+      "pass": "True",
+      "row_index": 3,
+      "threshold": "500.0",
+      "value": "1.779176761134977"
+    },
+    {
+      "audit_scope": "formal estimator consistency row inherited from Stage 3B-26",
+      "check": "formal_crosscheck_proxy_delta_within_gate",
+      "interpretation": "cross-check broadly agrees with Stage 3B-23/24 proxy; formal claim still blocked",
+      "pass": "True",
+      "row_index": 4,
+      "threshold": "500.0",
+      "value": "0.05976328728729641"
+    }
+  ],
+  "formal_evidence_summary": [
+    {
+      "interpretation_scope": "formal cross-check estimator value; scoped internal language only",
+      "quantity": "deu_log_evidence_formal_crosscheck",
+      "value": -576.0487181192134
+    },
+    {
+      "interpretation_scope": "formal cross-check estimator value; scoped internal language only",
+      "quantity": "native_log_evidence_formal_crosscheck",
+      "value": -734.8127651694195
+    },
+    {
+      "formal_minus_proxy_execution": 0.0,
+      "formal_minus_proxy_gate": 0.0,
+      "interpretation_scope": "may be stated only as a caveated matched formal cross-check result; not final publication evidence",
+      "proxy_execution_value": 158.76404705020616,
+      "proxy_gate_value": 158.76404705020616,
+      "quantity": "log_bayes_factor_formal_crosscheck_deu_minus_native",
+      "value": 158.76404705020616
+    }
+  ],
+  "gate_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": true,
+    "bayes_factor_or_evidence_claims_scope": "internal formal cross-check estimator result only",
+    "decision_type": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+    "external_publication_claims_written_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "formal_crosscheck_gate_pass": true,
+    "formal_estimator_consistency_gate_pass": true,
+    "formal_estimator_count": 3,
+    "formal_estimator_count_gate_pass": true,
+    "formal_evidence_result_gate_pass": true,
+    "formal_evidence_result_language_allowed_with_caveats": true,
+    "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_formal_crosscheck": -734.8127651694195,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-28 formal evidence claim lock and final scoped report addendum",
+    "posterior_evidence_status": "formal_evidence_result_gate_passed_caveated_internal_evidence_language_allowed",
+    "posterior_summary_allowed_with_caveats": true,
+    "prior_volume_sensitivity_rows": 4,
+    "prior_volume_sensitivity_rows_gate_pass": true,
+    "proxy_formal_agreement_gate_pass": true,
+    "recommendation": "Book Stage 3B-27. Formal cross-check evidence/BF language is allowed only with internal caveats; model-superiority and final publication claims remain gated.",
+    "sensitivity_gate_pass": true,
+    "stage3b24_decision": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "stage3b24_log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "stage3b25_decision": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b26_decision": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "generated_utc": "2026-05-09T05:44:47+00:00",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_acceptance.md",
+    "allowed_formal_evidence_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_allowed_formal_evidence_statements.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_blocked_claims.csv",
+    "claim_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_claim_matrix.csv",
+    "estimator_status_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_estimator_status_context.csv",
+    "formal_estimator_consistency_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_formal_estimator_consistency_audit.csv",
+    "formal_evidence_summary_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_formal_evidence_summary.csv",
+    "formal_sensitivity_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_formal_sensitivity_audit.csv",
+    "gate_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_gate_manifest.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit.json",
+    "proxy_formal_agreement_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_proxy_formal_agreement.csv",
+    "required_next_steps_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_required_next_steps.csv",
+    "result_gate_report_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_result_gate_report.md",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b27_formal_evidence_result_gate_sensitivity_audit_tt_lite_scope.md"
+  },
+  "previous_stage3b20_scoped_report_loaded": true,
+  "previous_stage3b21_design_loaded": true,
+  "previous_stage3b24_reference": {
+    "diagnostic_outcome": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit.json",
+    "loaded": true
+  },
+  "previous_stage3b25_reference": {
+    "diagnostic_outcome": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight.json",
+    "loaded": true
+  },
+  "previous_stage3b26_reference": {
+    "diagnostic_outcome": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint.json",
+    "loaded": true
+  },
+  "proxy_formal_agreement_rows": [
+    {
+      "abs_difference": 0.0,
+      "comparison": "stage3b26_manifest_stage3b24_proxy",
+      "difference": 0.0,
+      "formal_log_bf": 158.76404705020616,
+      "gate_pass": true,
+      "proxy_log_bf": 158.76404705020616,
+      "tolerance": 1e-08
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "stage3b26_manifest_stage3b23_proxy",
+      "difference": 0.0,
+      "formal_log_bf": 158.76404705020616,
+      "gate_pass": true,
+      "proxy_log_bf": 158.76404705020616,
+      "tolerance": 1e-08
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "stage3b24_result_gate_proxy",
+      "difference": 0.0,
+      "formal_log_bf": 158.76404705020616,
+      "gate_pass": true,
+      "proxy_log_bf": 158.76404705020616,
+      "tolerance": 1e-08
+    },
+    {
+      "abs_difference": 0.0,
+      "comparison": "stage3b23_execution_proxy",
+      "difference": 0.0,
+      "formal_log_bf": 158.76404705020616,
+      "gate_pass": true,
+      "proxy_log_bf": 158.76404705020616,
+      "tolerance": 1e-08
+    }
+  ],
+  "required_next_steps": [
+    {
+      "next_step_id": "stage3b28",
+      "purpose": "Decide exact wording now allowed after the result gate.",
+      "required_step": "Formal evidence claim lock and final scoped report addendum"
+    },
+    {
+      "next_step_id": "independent_estimator_optional",
+      "purpose": "Strengthen claims beyond the current internal formal cross-check.",
+      "required_step": "Independent estimator or external review"
+    },
+    {
+      "next_step_id": "tt_lite_extension_optional",
+      "purpose": "Needed before any TT_lite-in-posterior/evidence statement.",
+      "required_step": "Separate TT_lite-included sampler/evidence design"
+    }
+  ],
+  "script": "stage3b_27_formal_evidence_result_gate_sensitivity_audit.py",
+  "sensitivity_audit_rows": [
+    {
+      "adjusted_log_bayes_factor_crosscheck": "160.15034141132605",
+      "audit_scope": "formal prior-volume sensitivity row inherited from Stage 3B-26",
+      "base_log_bayes_factor_crosscheck": "158.76404705020616",
+      "delta_vs_base": "1.3862943611198943",
+      "deu_only_prior_width_factor": "0.5",
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "row_index": 1,
+      "sensitivity_id": "deu_only_prior_volume_factor_0.5"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": "158.76404705020616",
+      "audit_scope": "formal prior-volume sensitivity row inherited from Stage 3B-26",
+      "base_log_bayes_factor_crosscheck": "158.76404705020616",
+      "delta_vs_base": "0.0",
+      "deu_only_prior_width_factor": "1.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "row_index": 2,
+      "sensitivity_id": "deu_only_prior_volume_factor_1"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": "157.37775268908626",
+      "audit_scope": "formal prior-volume sensitivity row inherited from Stage 3B-26",
+      "base_log_bayes_factor_crosscheck": "158.76404705020616",
+      "delta_vs_base": "-1.3862943611198943",
+      "deu_only_prior_width_factor": "2.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "row_index": 3,
+      "sensitivity_id": "deu_only_prior_volume_factor_2"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": "155.99145832796637",
+      "audit_scope": "formal prior-volume sensitivity row inherited from Stage 3B-26",
+      "base_log_bayes_factor_crosscheck": "158.76404705020616",
+      "delta_vs_base": "-2.7725887222397887",
+      "deu_only_prior_width_factor": "4.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "row_index": 4,
+      "sensitivity_id": "deu_only_prior_volume_factor_4"
+    }
+  ],
+  "stage": "3B-27",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

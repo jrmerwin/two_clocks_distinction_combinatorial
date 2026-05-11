@@ -1,0 +1,5 @@
+step_id,required,next_stage_hint,description
+formal_estimator_execution,True,Stage 3B-26,Execute at least one formal or independent evidence estimator over matched DEU/native inputs.
+formal_result_gate,True,Stage 3B-27,"Gate formal estimator result with uncertainty, numerical stability, and prior-volume sensitivity."
+model_selection_claim_lock,True,Stage 3B-28,Only after formal gates can model-superiority wording be considered.
+tt_lite_scope_decision,True,optional separate branch,Either keep TT_lite diagnostic-only or run a matched TT_lite-inclusive sampler/evidence branch.

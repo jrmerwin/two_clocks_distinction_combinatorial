@@ -1,0 +1,39 @@
+{
+  "all_chain_values_finite": true,
+  "all_expected_sampled_columns_present": true,
+  "all_sampled_parameters_within_prior_bounds": true,
+  "decision_type": "FIRST_PRODUCTION_CHECKPOINT_PASS",
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 5,
+  "next_stage_hint": "Stage 3B-8 production convergence assessment and posterior-readiness gate",
+  "posterior_conclusions_written": false,
+  "posterior_evidence_status": "production_run_started_but_not_cleared_for_interpretation",
+  "posterior_interpretation_allowed": false,
+  "production_chain_files_found": true,
+  "production_mcmc_launched_by_this_stage": true,
+  "production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "production_reference_eval_status": "success",
+  "production_reference_matches_stage3b1_sampler_ref": true,
+  "production_reference_matches_stage3b6_preflight": true,
+  "production_reference_matches_working_lock": true,
+  "production_sampler_run_status": "success",
+  "recommendation": "Book Stage 3B-7. Next run Stage 3B-8 production convergence assessment/posterior-readiness gate. Do not claim posterior evidence until that gate passes.",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b6_diagnostic_outcome": "PRODUCTION_PREFLIGHT_PASS",
+  "stage3b6_preflight_decision": "PRODUCTION_PREFLIGHT_PASS",
+  "total_chain_rows": 2000,
+  "tri_anchor_monitoring_pass": true
+}

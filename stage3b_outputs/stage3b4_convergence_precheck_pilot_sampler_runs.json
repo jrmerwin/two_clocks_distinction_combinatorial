@@ -1,0 +1,22 @@
+{
+  "run_results": [
+    {
+      "elapsed_s": 83.5233039855957,
+      "label": "chain01",
+      "mcmc_launched_by_this_stage": true,
+      "posterior_interpretation_allowed": false,
+      "sampler_type": "MCMC",
+      "status": "success",
+      "updated_info_available": true
+    },
+    {
+      "elapsed_s": 89.23511624336243,
+      "label": "chain02",
+      "mcmc_launched_by_this_stage": true,
+      "posterior_interpretation_allowed": false,
+      "sampler_type": "MCMC",
+      "status": "success",
+      "updated_info_available": true
+    }
+  ]
+}

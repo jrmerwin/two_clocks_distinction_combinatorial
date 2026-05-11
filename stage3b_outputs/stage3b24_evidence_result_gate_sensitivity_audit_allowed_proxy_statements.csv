@@ -1,0 +1,4 @@
+claim_id,allowed,wording,required_caveat
+proxy_result_recorded,True,"A matched diagnostic evidence proxy was recorded, with log-BF-proxy direction positive for DEU.","Call it a diagnostic proxy, not a Bayes factor or final evidence."
+proxy_robustness_audited,True,The Stage 3B-23 proxy robustness gate passed and Stage 3B-24 audited the result.,Robustness here is internal to the diagnostic proxy estimator.
+scoped_posterior_comparison_still_allowed,True,"The scoped, caveated DEU/native posterior comparison remains allowed.",Do not convert descriptive posterior differences into model evidence.

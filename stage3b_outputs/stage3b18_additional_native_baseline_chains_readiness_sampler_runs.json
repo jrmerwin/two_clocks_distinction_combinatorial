@@ -1,0 +1,13 @@
+{
+  "run_results": [
+    {
+      "elapsed_s": 1274.3314554691315,
+      "label": "additional_native_chain01",
+      "mcmc_launched_by_this_stage": true,
+      "posterior_interpretation_allowed": false,
+      "sampler_type": "MCMC",
+      "status": "success",
+      "updated_info_available": true
+    }
+  ]
+}

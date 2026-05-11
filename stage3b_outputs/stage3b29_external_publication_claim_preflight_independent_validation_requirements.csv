@@ -1,0 +1,7 @@
+requirement_id,requirement,details,blocks_claims
+validation_001,Independent evidence estimator family,"Run a distinct estimator family or externally audited formal evidence workflow, not just the current chain-local formal cross-check.","model-superiority, final Bayes-factor publication claim"
+validation_002,Prior-volume sensitivity campaign,Predefine matched prior-volume alternatives for shared and DEU-only dimensions and report sensitivity of log-BF-style values.,prior-insensitive evidence claim
+validation_003,Matched likelihood-scope declaration,Keep full-objective likelihood matching explicit and keep TT_lite exclusion visible unless a separate TT_lite-included branch is booked.,TT_lite-in-posterior/evidence claim
+validation_004,Native/baseline reproducibility check,Confirm native sampler/evidence inputs reproduce the Stage 3B-15/16/18 lineage before independent evidence execution.,native comparison robustness claim
+validation_005,DEU reproducibility check,Confirm DEU sampler/evidence inputs reproduce the Stage 3B-9/10/11/27/28 lineage before independent evidence execution.,DEU posterior/evidence robustness claim
+validation_006,Final claim-lock review,Write a final claim-lock stage that distinguishes internal evidence language from any external/publication wording.,external/publication claims

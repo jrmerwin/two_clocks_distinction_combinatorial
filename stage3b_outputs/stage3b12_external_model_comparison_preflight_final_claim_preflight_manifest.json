@@ -1,0 +1,29 @@
+{
+  "baseline_context_rows": 22,
+  "claim_matrix_rows": 8,
+  "decision_type": "EXTERNAL_MODEL_COMPARISON_PREFLIGHT_PASS_FINAL_CLAIMS_STILL_GATED",
+  "diagnostic_assessment_complete": true,
+  "external_publication_claims_written_by_this_stage": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": false,
+  "model_superiority_claims_allowed": false,
+  "next_stage_hint": "Stage 3B-13 scoped final-claim lock or explicit model-comparison extension",
+  "parameter_summary_count": 5,
+  "posterior_conclusions_extended_by_this_stage": false,
+  "posterior_evidence_status": "robustness_passed_external_claims_preflighted_final_claims_still_gated",
+  "posterior_summary_allowed_with_caveats": true,
+  "posterior_summary_already_written_by_stage3b10": true,
+  "recommendation": "Book Stage 3B-12. Use only the scoped/caveated posterior wording; run the next claim-lock or explicit model-comparison stage before stronger final claims.",
+  "stage3b10_decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+  "stage3b11_decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+  "stage3b9_readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "tri_anchor_context_retained": true,
+  "tt_lite_status": {
+    "allowed_statement": "TT_lite was monitored as a diagnostic context but was excluded from the production sampler likelihood.",
+    "blocked_statement": "Do not claim the production posterior directly includes TT_lite unless a later sampler explicitly includes it.",
+    "rows_recorded": 7,
+    "status": "diagnostic_only_not_sampled_likelihood",
+    "tt_lite_diagnostic_recorded_by_stage3b11": true,
+    "tt_lite_in_production_likelihood": false
+  }
+}

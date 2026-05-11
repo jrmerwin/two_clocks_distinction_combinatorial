@@ -1,0 +1,8 @@
+{
+  "elapsed_s": 25.933802366256714,
+  "mcmc_launched_by_this_stage": true,
+  "posterior_interpretation_allowed": false,
+  "sampler_type": "MCMC",
+  "status": "success",
+  "updated_info_available": true
+}

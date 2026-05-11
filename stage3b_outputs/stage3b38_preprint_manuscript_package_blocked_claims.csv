@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason
+B1,This work has passed peer review or independent external review.,No reviewer branch result is booked for this path.
+B2,DEU is proven superior to native/baseline cosmology.,Model-superiority claims remain blocked.
+B3,The evidence/Bayes factor is final or publication-grade.,Evidence language remains internal/caveated.
+B4,TT_lite was included in the sampled posterior or evidence likelihood.,TT_lite is diagnostic-only in this lineage.
+B5,This is a final publication-style claim rather than a preprint/technical report result.,Final publication claims remain gated.

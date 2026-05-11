@@ -1,0 +1,198 @@
+{
+  "all_chain_values_finite": true,
+  "all_expected_sampled_columns_present": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+  ],
+  "chain_files_found": true,
+  "chain_infos": [
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 13,
+      "n_rows": 2000,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          865.55804,
+          0.021990003,
+          0.98196557,
+          1.0245428,
+          1769.79,
+          -19.336971,
+          -19.336971,
+          1769.79,
+          1334.3794,
+          19.754058,
+          395.96399,
+          19.692552
+        ],
+        [
+          1.0,
+          834.24598,
+          0.021936356,
+          0.981415,
+          1.0235992,
+          1707.1659,
+          -19.336971,
+          -19.336971,
+          1707.1659,
+          1272.5301,
+          19.750505,
+          395.96671,
+          18.918571
+        ],
+        [
+          7.0,
+          733.23034,
+          0.021936356,
+          0.981415,
+          1.0200756,
+          1505.1346,
+          -19.336971,
+          -19.336971,
+          1505.1346,
+          1073.4601,
+          19.78773,
+          395.98158,
+          15.905239
+        ]
+      ]
+    },
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 13,
+      "n_rows": 2000,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          883.08484,
+          0.022,
+          0.981875,
+          1.0250552,
+          1804.8436,
+          -19.336971,
+          -19.336971,
+          1804.8436,
+          1368.9845,
+          19.753788,
+          395.93349,
+          20.171817
+        ],
+        [
+          1.0,
+          800.24585,
+          0.022,
+          0.981875,
+          1.0224199,
+          1639.1656,
+          -19.336971,
+          -19.336971,
+          1639.1656,
+          1205.7351,
+          19.761084,
+          395.97541,
+          17.69407
+        ],
+        [
+          1.0,
+          798.86911,
+          0.022,
+          0.981875,
+          1.0223732,
+          1636.4122,
+          -19.336971,
+          -19.336971,
+          1636.4122,
+          1203.0134,
+          19.761399,
+          395.98427,
+          17.653127
+        ]
+      ]
+    }
+  ],
+  "enough_rows_per_prefix": true,
+  "enough_total_rows_for_precheck": true,
+  "expected_sampled_columns_present": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "min_rows_per_chain": 1,
+  "min_total_rows": 3000,
+  "n_chain_files": 2,
+  "prefix_reports": [
+    {
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+      ],
+      "enough_rows": true,
+      "n_chain_files": 2,
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+      "rows": 4000
+    }
+  ],
+  "prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run"
+  ],
+  "special_columns_present": {
+    "minuslogpost": true,
+    "weight": true
+  },
+  "total_rows": 4000,
+  "unique_columns": [
+    "A_planck",
+    "chi2",
+    "chi2__CMB",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lensing.native",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lowl.TT",
+    "minuslogpost",
+    "minuslogprior",
+    "minuslogprior__0",
+    "n_s",
+    "omega_b",
+    "weight"
+  ]
+}

@@ -1,0 +1,11 @@
+category,id,text,status,caveat_or_reason
+allowed_preprint_statement,allowed_001,This is an author-led preprint and has not yet undergone journal peer review.,allowed_with_caveat,Do not describe as peer reviewed.
+allowed_preprint_statement,allowed_002,"The code, validation ledgers, checksums, and staged artifacts are publicly available for verification at https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git.",allowed_with_caveat,Availability is not the same as external review.
+allowed_preprint_statement,allowed_003,The staged analysis reports a caveated DEU posterior summary and matched DEU/native comparison.,allowed_with_caveat,State the likelihood scope and TT_lite exclusion.
+allowed_preprint_statement,allowed_004,The independent-validation estimator result may be reported as an author-led internal validation result with caveats.,allowed_with_caveat,Do not call it peer-reviewed evidence.
+allowed_preprint_statement,allowed_005,Readers can inspect and rerun the public verification package using the provided reproduction commands.,allowed_with_caveat,No guarantee of third-party review completion.
+blocked_claim,blocked_001,The result has been peer reviewed or externally certified.,blocked,No external reviewer result is booked on the preprint path.
+blocked_claim,blocked_002,The model has final publication-grade superiority over native/baseline cosmology.,blocked,Public-verification release is not a final publication claim gate.
+blocked_claim,blocked_003,TT_lite was part of the sampled posterior or evidence likelihood.,blocked,TT_lite remains diagnostic-only and excluded from sampled production likelihoods.
+blocked_claim,blocked_004,The evidence result is independent peer-review confirmation.,blocked,"It is an author-led independent-validation estimator lineage, publicly verifiable but not externally reviewed."
+blocked_claim,blocked_005,The preprint is an official final result requiring no further replication.,blocked,Further external or community replication remains welcome and distinct from author-led release.

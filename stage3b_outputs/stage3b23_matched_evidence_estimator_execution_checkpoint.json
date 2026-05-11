@@ -1,0 +1,502 @@
+{
+  "acceptance": {
+    "allowed_claims_written": true,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claims_written": true,
+    "claim_scope_written": true,
+    "deu_estimator_success": true,
+    "deu_input_manifest_loaded": true,
+    "diagnostic_outcome": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "estimator_results_csv_written": true,
+    "estimator_results_json_written": true,
+    "estimator_robustness_gate_pass": true,
+    "estimator_robustness_recorded": true,
+    "evidence_estimator_execution_launched_by_this_stage": true,
+    "evidence_proxy_computed_by_this_stage": true,
+    "execution_manifest_written": true,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "logpost_summary_csv_written": true,
+    "matched_log_bayes_factor_proxy_recorded": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_estimator_success": true,
+    "native_input_manifest_loaded": true,
+    "per_chain_estimator_results_recorded": true,
+    "per_chain_results_csv_written": true,
+    "robustness_csv_written": true,
+    "script_completed": true,
+    "stage3b18_native_readiness_pass": true,
+    "stage3b19_matched_comparison_pass": true,
+    "stage3b20_final_scoped_report_pass": true,
+    "stage3b21_design_pass": true,
+    "stage3b22_evidence_claims_blocked": true,
+    "stage3b22_hard_guard_pass": true,
+    "stage3b22_preflight_pass": true,
+    "stage3b22_reference_loaded": true,
+    "stage3b9_deu_readiness_pass": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "scoped_deu_posterior",
+      "status": "allowed_with_caveats",
+      "wording": "The DEU full-objective posterior has been summarized under the staged readiness/robustness gates."
+    },
+    {
+      "claim_id": "descriptive_deu_native_comparison",
+      "status": "allowed_with_caveats",
+      "wording": "DEU/native posterior parameter differences may be described as matched-chain descriptive context."
+    },
+    {
+      "claim_id": "evidence_proxy_executed",
+      "status": "allowed_with_caveats",
+      "wording": "A matched diagnostic evidence proxy was executed and recorded; it is not a final Bayes-factor claim."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim_id": "model_superiority",
+      "reason": "A diagnostic evidence proxy was executed, but a final evidence result gate and sensitivity checks are still required.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "bayes_factor_or_evidence",
+      "reason": "The Stage 3B-23 proxy result is not booked as a final marginal-likelihood/Bayes-factor claim.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "reason": "Publication-style claims require final evidence/result sensitivity gates and external robustness framing.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_sampled_posterior_or_evidence",
+      "reason": "TT_lite remains diagnostic-only and excluded from current DEU/native sampled likelihoods.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "physical_proof",
+      "reason": "Evidence/posterior machinery does not prove the physical mechanism.",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "deu_chain_input": {
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+    ],
+    "header": [
+      "weight",
+      "minuslogpost",
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "rows": 4000
+  },
+  "elapsed_s": 0.18824982643127441,
+  "estimator_results": {
+    "created_utc": "2026-05-09T04:28:20+00:00",
+    "deu": {
+      "best_row_index_zero_based": 1681,
+      "best_row_parameter_values": {
+        "A_planck": 1.0250579,
+        "deu_damping_envelope_beta": 0.029595717,
+        "deu_transfer_polamp_p_vis": 1.0473467,
+        "n_s": 0.98118992,
+        "omega_b": 0.021959556
+      },
+      "cov_jitter_added": 6.168126694532546e-17,
+      "cov_logdet": -77.30797545206683,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "deu",
+      "log_evidence_proxy": -576.0487181192134,
+      "log_prior_volume": -30.84989694079671,
+      "max_logposterior": -572.83932,
+      "minuslogpost_min": 572.83932,
+      "n_parameters": 5,
+      "n_rows": 4000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    "estimator_id": "laplace_chain_local_proxy",
+    "estimator_kind": "diagnostic_proxy_not_final_evidence",
+    "matched_difference": {
+      "estimator_id": "laplace_chain_local_proxy_difference",
+      "family": "deu_minus_native",
+      "interpretation": "diagnostic proxy only; Bayes-factor/model-superiority claims remain blocked",
+      "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+      "log_evidence_proxy": null,
+      "status": "success"
+    },
+    "native": {
+      "best_row_index_zero_based": 2355,
+      "best_row_parameter_values": {
+        "A_planck": 1.0200026,
+        "n_s": 0.98249758,
+        "omega_b": 0.021903315
+      },
+      "cov_jitter_added": 9.371018082210263e-18,
+      "cov_logdet": -54.114604489720314,
+      "estimator_id": "laplace_chain_local_proxy",
+      "estimator_kind": "diagnostic_proxy_not_final_evidence",
+      "family": "native",
+      "log_evidence_proxy": -734.8127651694195,
+      "log_prior_volume": -19.336971475826505,
+      "max_logposterior": -729.84925,
+      "minuslogpost_min": 729.84925,
+      "n_parameters": 3,
+      "n_rows": 4000,
+      "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+      "parameters": [
+        "omega_b",
+        "n_s",
+        "A_planck"
+      ],
+      "status": "success"
+    },
+    "per_chain_results": [
+      {
+        "best_row_index_zero_based": 1681,
+        "best_row_parameter_values": {
+          "A_planck": 1.0250579,
+          "deu_damping_envelope_beta": 0.029595717,
+          "deu_transfer_polamp_p_vis": 1.0473467,
+          "n_s": 0.98118992,
+          "omega_b": 0.021959556
+        },
+        "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "chain_index": 1,
+        "cov_jitter_added": 6.056411313771223e-17,
+        "cov_logdet": -77.40410180528251,
+        "estimator_id": "laplace_chain_local_proxy",
+        "estimator_kind": "diagnostic_proxy_not_final_evidence",
+        "family": "deu",
+        "log_evidence_proxy": -576.0967812958213,
+        "log_prior_volume": -30.84989694079671,
+        "max_logposterior": -572.83932,
+        "minuslogpost_min": 572.83932,
+        "n_parameters": 5,
+        "n_rows": 2000,
+        "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+        "parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 1665,
+        "best_row_parameter_values": {
+          "A_planck": 1.0250023,
+          "deu_damping_envelope_beta": 0.0296942,
+          "deu_transfer_polamp_p_vis": 1.0473113,
+          "n_s": 0.98088114,
+          "omega_b": 0.021962874
+        },
+        "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+        "chain_index": 2,
+        "cov_jitter_added": 6.190371381448779e-17,
+        "cov_logdet": -77.3093429105619,
+        "estimator_id": "laplace_chain_local_proxy",
+        "estimator_kind": "diagnostic_proxy_not_final_evidence",
+        "family": "deu",
+        "log_evidence_proxy": -576.0733918484609,
+        "log_prior_volume": -30.84989694079671,
+        "max_logposterior": -572.86331,
+        "minuslogpost_min": 572.86331,
+        "n_parameters": 5,
+        "n_rows": 2000,
+        "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+        "parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 1515,
+        "best_row_parameter_values": {
+          "A_planck": 1.0200043,
+          "n_s": 0.98239807,
+          "omega_b": 0.021904256
+        },
+        "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "chain_index": 1,
+        "cov_jitter_added": 8.578299838960411e-18,
+        "cov_logdet": -54.44080834045858,
+        "estimator_id": "laplace_chain_local_proxy",
+        "estimator_kind": "diagnostic_proxy_not_final_evidence",
+        "family": "native",
+        "log_evidence_proxy": -735.1000270947886,
+        "log_prior_volume": -19.336971475826505,
+        "max_logposterior": -729.97341,
+        "minuslogpost_min": 729.97341,
+        "n_parameters": 3,
+        "n_rows": 2000,
+        "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+        "parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 355,
+        "best_row_parameter_values": {
+          "A_planck": 1.0200026,
+          "n_s": 0.98249758,
+          "omega_b": 0.021903315
+        },
+        "chain_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+        "chain_index": 2,
+        "cov_jitter_added": 1.0128909040098435e-17,
+        "cov_logdet": -53.856711398125114,
+        "estimator_id": "laplace_chain_local_proxy",
+        "estimator_kind": "diagnostic_proxy_not_final_evidence",
+        "family": "native",
+        "log_evidence_proxy": -734.683818623622,
+        "log_prior_volume": -19.336971475826505,
+        "max_logposterior": -729.84925,
+        "minuslogpost_min": 729.84925,
+        "n_parameters": 3,
+        "n_rows": 2000,
+        "notes": "Laplace proxy from posterior chain covariance and best chain log posterior. This is an execution checkpoint diagnostic, not a final evidence/Bayes-factor claim.",
+        "parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      }
+    ],
+    "robustness": [
+      {
+        "check": "deu_per_chain_logZ_proxy_range",
+        "interpretation": "stability diagnostic only; does not validate final evidence",
+        "pass": true,
+        "threshold": 12.0,
+        "value": 0.02338944736038684
+      },
+      {
+        "check": "deu_family_logZ_proxy_finite",
+        "interpretation": "family-level proxy finite",
+        "pass": true,
+        "threshold": null,
+        "value": -576.0487181192134
+      },
+      {
+        "check": "native_per_chain_logZ_proxy_range",
+        "interpretation": "stability diagnostic only; does not validate final evidence",
+        "pass": true,
+        "threshold": 12.0,
+        "value": 0.41620847116666937
+      },
+      {
+        "check": "native_family_logZ_proxy_finite",
+        "interpretation": "family-level proxy finite",
+        "pass": true,
+        "threshold": null,
+        "value": -734.8127651694195
+      },
+      {
+        "check": "log_bayes_factor_proxy_finite",
+        "interpretation": "proxy finite and not absurdly large; not a Bayes-factor claim",
+        "pass": true,
+        "threshold": 1000.0,
+        "value": 158.76404705020616
+      }
+    ],
+    "stage": "3B-23"
+  },
+  "execution_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "decision_type": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "deu_estimator_status": "success",
+    "deu_log_evidence_proxy": -576.0487181192134,
+    "estimator_id": "laplace_chain_local_proxy",
+    "estimator_kind": "diagnostic_proxy_not_final_evidence",
+    "estimator_robustness_gate_pass": true,
+    "evidence_estimator_execution_launched_by_this_stage": true,
+    "evidence_proxy_computed_by_this_stage": true,
+    "final_publication_claims_allowed": false,
+    "log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_estimator_status": "success",
+    "native_log_evidence_proxy": -734.8127651694195,
+    "next_stage_hint": "Stage 3B-24 evidence result gate and sensitivity audit",
+    "posterior_evidence_status": "diagnostic_proxy_executed_result_gate_required",
+    "posterior_summary_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-23. Next run an evidence-result gate/sensitivity stage before any model-superiority or Bayes-factor wording.",
+    "robustness_rows_recorded": 5,
+    "stage3b18_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "stage3b19_decision": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b20_decision": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b21_decision": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "stage3b22_decision": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b9_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "generated_utc": "2026-05-09T04:28:20+00:00",
+  "logpost_summary": [
+    {
+      "A_planck__mean": 1.0250557243798117,
+      "A_planck__q50": 1.0250715,
+      "deu_damping_envelope_beta__mean": 0.02949121724807528,
+      "deu_damping_envelope_beta__q50": 0.029503285,
+      "deu_transfer_polamp_p_vis__mean": 1.0474182267750214,
+      "deu_transfer_polamp_p_vis__q50": 1.0473475,
+      "family": "deu",
+      "max_logposterior": -572.83932,
+      "minuslogpost_found": true,
+      "minuslogpost_max": 581.07629,
+      "minuslogpost_median": 573.6872,
+      "minuslogpost_min": 572.83932,
+      "n_rows": 4000,
+      "n_s__mean": 0.9815232201591104,
+      "n_s__q50": 0.9815207,
+      "omega_b__mean": 0.021980020954662106,
+      "omega_b__q50": 0.021972856
+    },
+    {
+      "A_planck__mean": 1.0200422931369661,
+      "A_planck__q50": 1.0200261,
+      "family": "native",
+      "max_logposterior": -729.84925,
+      "minuslogpost_found": true,
+      "minuslogpost_max": 883.08484,
+      "minuslogpost_median": 731.79504,
+      "minuslogpost_min": 729.84925,
+      "n_rows": 4000,
+      "n_s__mean": 0.9817776301030928,
+      "n_s__q50": 0.98186963,
+      "omega_b__mean": 0.021934116700883653,
+      "omega_b__q50": 0.02192558
+    }
+  ],
+  "native_chain_input": {
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+    ],
+    "header": [
+      "weight",
+      "minuslogpost",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "rows": 4000
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_blocked_claims.csv",
+    "estimator_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_estimator_results.csv",
+    "estimator_results_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_estimator_results.json",
+    "estimator_robustness_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_estimator_robustness.csv",
+    "evidence_claim_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_evidence_claim_scope.md",
+    "execution_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_execution_manifest.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint.json",
+    "logpost_summary_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_logpost_summary.csv",
+    "per_chain_estimator_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_per_chain_estimator_results.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint_tt_lite_scope.md"
+  },
+  "previous_stage3b22_reference": {
+    "diagnostic_outcome": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight.json",
+    "loaded": true
+  },
+  "script": "stage3b_23_matched_evidence_estimator_execution_checkpoint.py",
+  "stage": "3B-23",
+  "tri_anchor_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

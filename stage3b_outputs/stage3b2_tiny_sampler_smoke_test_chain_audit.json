@@ -1,0 +1,122 @@
+{
+  "all_chain_values_finite": true,
+  "all_expected_sampled_columns_present": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt"
+  ],
+  "chain_files_found": true,
+  "chain_infos": [
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 16,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          575.72006,
+          0.030483485,
+          1.0469429,
+          0.022005169,
+          0.98141659,
+          1.0264,
+          1213.1399,
+          -30.849897,
+          -30.849897,
+          1213.1399,
+          771.39522,
+          26.288638,
+          397.80932,
+          17.646727
+        ],
+        [
+          1.0,
+          577.36895,
+          0.029818753,
+          1.046831,
+          0.022051309,
+          0.98080153,
+          1.0267496,
+          1216.4377,
+          -30.849897,
+          -30.849897,
+          1216.4377,
+          774.74116,
+          26.391871,
+          397.8151,
+          17.48957
+        ],
+        [
+          2.0,
+          574.35914,
+          0.029794079,
+          1.0466877,
+          0.022052123,
+          0.98074302,
+          1.0253645,
+          1210.4181,
+          -30.849897,
+          -30.849897,
+          1210.4181,
+          767.60096,
+          26.663321,
+          397.84866,
+          18.305123
+        ]
+      ]
+    }
+  ],
+  "chain_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test",
+  "enough_rows_for_smoke": true,
+  "expected_sampled_columns_present": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "min_required_rows": 4,
+  "n_chain_files": 1,
+  "special_columns_present": {
+    "minuslogpost": true,
+    "weight": true
+  },
+  "total_rows": 16,
+  "unique_columns": [
+    "A_planck",
+    "chi2",
+    "chi2__CMB",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lensing.native",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lowl.TT",
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "minuslogpost",
+    "minuslogprior",
+    "minuslogprior__0",
+    "n_s",
+    "omega_b",
+    "weight"
+  ]
+}

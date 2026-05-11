@@ -1,0 +1,5 @@
+claim_id,status,wording
+scoped_deu_posterior,allowed_with_caveats,The DEU posterior summary is readiness-cleared and robustness-checked within the scoped project pipeline.
+descriptive_deu_native_comparison,allowed_with_caveats,A descriptive matched DEU/native posterior comparison has been recorded.
+evidence_setup_ready,allowed,"Matched evidence/model-selection estimator inputs have been preflighted, if this stage passes."
+tt_lite_diagnostic_only,allowed,TT_lite remains diagnostic-only and excluded from sampled production/native likelihoods.

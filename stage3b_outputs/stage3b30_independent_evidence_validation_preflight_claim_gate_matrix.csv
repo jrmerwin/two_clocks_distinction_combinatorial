@@ -1,0 +1,10 @@
+claim_id,status,scope,statement,reason_or_condition
+A1,allowed,internal,A caveated internal DEU posterior summary has been written and robustness-checked.,Stage 3B-10/11/20 booked
+A2,allowed,internal,A matched DEU/native descriptive posterior comparison has been written.,Stage 3B-19/20 booked
+A3,allowed,internal_caveated,A formal cross-check evidence/BF estimator result exists for internal discussion with caveats.,Stage 3B-27/28 booked
+A4,allowed,guardrail,External/publication claims require independent evidence validation.,Stage 3B-29 booked
+B1,blocked,external_or_superiority,DEU is superior to native/baseline.,Independent evidence validation has not executed or passed a result gate.
+B2,blocked,external_or_superiority,The formal logBF is publication-ready.,Stage 3B-30 is a preflight/design stage only.
+B3,blocked,external_or_superiority,TT_lite was included in the production posterior or evidence comparison.,TT_lite remains diagnostic-only and excluded from sampled/evidence likelihood scope.
+B4,blocked,external_or_superiority,Final publication-style cosmological claims are allowed.,Publication guardrails still require independent validation and final claim-lock.
+B5,blocked,external_or_superiority,The diagnostic proxy/formal cross-check alone is sufficient for model selection.,An independent estimator family is still required.

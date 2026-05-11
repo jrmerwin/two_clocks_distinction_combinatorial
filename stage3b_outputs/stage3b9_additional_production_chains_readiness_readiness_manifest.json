@@ -1,0 +1,49 @@
+{
+  "additional_chain_prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01"
+  ],
+  "additional_sampler_run_statuses": [
+    "success"
+  ],
+  "base_production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "decision_type": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "diagnostic_assessment_complete": true,
+  "ess_gate_pass": true,
+  "max_normalized_segment_range_seen": 0.33629031943004045,
+  "max_normalized_tail_shift_seen": 0.19452728952488885,
+  "mcmc_launched_by_this_stage": true,
+  "min_chain_files_for_readiness": 2,
+  "min_ess_lag1_proxy_seen": 179.60593678392613,
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 5,
+  "n_chain_files": 2,
+  "next_stage_hint": "Stage 3B-10 first posterior summary with tri-anchor caveats",
+  "posterior_conclusions_written": false,
+  "posterior_evidence_status": "readiness_gate_passed_but_summary_not_yet_written",
+  "posterior_interpretation_allowed": true,
+  "posterior_readiness_gate_pass": true,
+  "production_reference_eval_status": "success",
+  "production_reference_matches_stage3b1_sampler_ref": true,
+  "production_reference_matches_stage3b7_checkpoint": true,
+  "production_reference_matches_working_lock": true,
+  "recommendation": "Book Stage 3B-9. Next write the first posterior-summary draft with explicit caveats and the tri-anchor ledger retained.",
+  "segment_gate_pass": true,
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b8_diagnostic_outcome": "PRODUCTION_CONVERGENCE_ASSESSMENT_RECORDED_MORE_CHAINS_NEEDED",
+  "tail_gate_pass": true,
+  "total_chain_rows": 4000,
+  "tri_anchor_monitoring_pass": true
+}

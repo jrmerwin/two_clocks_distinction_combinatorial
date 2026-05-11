@@ -1,0 +1,44 @@
+{
+  "all_deu_shape_params_absent_from_native_sampler": true,
+  "all_full_objective_likelihoods_present": true,
+  "all_native_sampled_params_present": true,
+  "deu_shape_params_absent_from_native_sampler": {
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true
+  },
+  "full_objective_likelihoods_present": {
+    "planck_2018_highl_plik.TTTEEE_lite": true,
+    "planck_2018_lensing.native": true,
+    "planck_2018_lowl.EE": true,
+    "planck_2018_lowl.TT": true
+  },
+  "mcmc_launched_by_this_stage": false,
+  "mcmc_sampler_present_in_native_seed": true,
+  "native_config_is_preflight_only": true,
+  "native_fixed_extra_args_deu_keys": [],
+  "native_fixed_extra_args_have_no_deu_keys": true,
+  "native_likelihood_names": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "native_sampled_params_present": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "native_sampler_extra_args_deu_keys": [],
+  "native_sampler_extra_args_have_no_deu_keys": true,
+  "native_sampler_reference_point": {
+    "A_planck": 1.025,
+    "n_s": 0.981875,
+    "omega_b": 0.022
+  },
+  "native_sampler_sampled_params": [
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "tt_lite_excluded_from_native_sampler": true
+}

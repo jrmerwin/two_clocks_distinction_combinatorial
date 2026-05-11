@@ -1,0 +1,10 @@
+claim_id,status,statement,scope_or_reason
+formal_crosscheck_value_internal,allowed_with_caveats,The matched formal cross-check estimator recorded log BF(DEU-native) = 158.76404705.,internal scoped formal-estimator result with caveats
+formal_crosscheck_matches_proxy,allowed_with_caveats,The formal cross-check value agrees with the previously booked diagnostic proxy lineage within the configured tolerance.,method/audit statement
+prior_sensitivity_recorded,allowed_with_caveats,Prior-volume sensitivity rows were recorded and passed the Stage 3B-27 gate.,internal sensitivity-audit statement
+posterior_summary_still_allowed,allowed_with_caveats,The caveated DEU posterior summary and matched DEU/native descriptive comparison remain allowed.,already booked scoped posterior language
+model_superiority,blocked,DEU is superior to the native/baseline model.,Requires a separate final claim lock/publication preflight after formal result gating.
+publication_bayes_factor,blocked,The reported log BF is a final publication-grade Bayes factor.,Stage 3B-27 allows only scoped internal formal cross-check language.
+tt_lite_in_evidence,blocked,TT_lite was included in the sampled posterior or evidence estimator.,TT_lite was diagnostic-only in this pipeline.
+external_validation,blocked,The result is externally validated or robust to all estimator choices.,External validation and independent estimator/review remain separate follow-up work.
+final_publication_claim,blocked,This completes final publication-style claims.,Final publication-style claims remain explicitly gated.

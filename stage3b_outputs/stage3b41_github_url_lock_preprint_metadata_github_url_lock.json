@@ -1,0 +1,19 @@
+{
+  "input_metadata": {
+    "author_led_not_peer_reviewed_confirmed": true,
+    "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/<tag>",
+    "github_url": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git",
+    "manual_public_access_verified": true,
+    "preprint_identifier_or_url": "pending",
+    "preprint_server": "ai.arXiv.org",
+    "preprint_title": "Two Clocks in a Distinction-Combinatorial Universe:\nA Boltzmann/Cobaya Realization of Local Visibility Calibration\nand Global Photon Propagation",
+    "repository_visibility": "public"
+  },
+  "locked_utc": "2026-05-10T02:03:33+00:00",
+  "url_info": {
+    "owner": "jrmerwin",
+    "repo": "two_clocks_distinction_combinatorial",
+    "syntax_valid": true,
+    "url": "https://github.com/jrmerwin/two_clocks_distinction_combinatorial.git"
+  }
+}

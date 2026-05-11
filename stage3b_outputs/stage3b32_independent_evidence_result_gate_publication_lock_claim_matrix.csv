@@ -1,0 +1,7 @@
+claim_class,allowed_after_stage3b32,scope,required_wording
+internal_independent_validation_evidence_language,True,Allowed only as a scoped internal independent-validation estimator result with caveats.,"independent validation result, not final publication evidence"
+bayes_factor_or_evidence_language,True,Internal caveated evidence/BF language only; not an external or final claim.,internal formal-plus-independent validation lineage
+model_superiority,False,Blocked. Requires a later model-superiority claim lock and external validation package.,do not claim DEU is superior from this stage alone
+external_publication_claim,False,Blocked. Requires an external/publication claim-lock stage.,not publication-ready wording
+tt_lite_in_evidence_or_posterior,False,Blocked. TT_lite remains diagnostic-only and excluded from sampled/evidence likelihoods.,TT_lite diagnostic-only
+final_publication_style_claim,False,Blocked. Requires final publication claim preflight and manuscript guardrails.,final claims not allowed

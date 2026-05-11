@@ -1,0 +1,6 @@
+statement_type,allowed_statement,required_caveat
+release_status,The author-led preprint manuscript package is assembled and passed the Stage 3B-39 submission-readiness gate.,This is not a peer-review certification.
+posterior_summary,"The DEU posterior summary and matched native comparison may be reported as scoped, caveated internal analysis results.",Do not phrase this as final model superiority.
+evidence_lineage,The internal independent-validation evidence/BF lineage may be reported with caveats.,Do not present it as externally validated peer-reviewed evidence.
+tt_lite_scope,TT_lite may be described as a diagnostic monitor excluded from sampled posterior/evidence likelihoods.,Do not imply TT_lite was sampled in the production posterior or evidence calculation.
+tri_anchor_context,"The tri-anchor ledger may be described as retained context for monitoring high-l, lowl+TTTEEE, and full-objective behavior.","It is monitoring context, not a substitute for a likelihood-scope statement."

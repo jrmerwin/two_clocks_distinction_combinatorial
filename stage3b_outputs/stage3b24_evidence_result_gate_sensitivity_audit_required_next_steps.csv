@@ -1,0 +1,5 @@
+step_id,required,description
+formal_evidence_estimator_cross_check,True,Run a formal or independently validated evidence estimator over matched DEU/native likelihoods and priors.
+estimator_sensitivity_grid,True,Vary estimator assumptions/settings and require sign/magnitude stability before model-selection wording.
+tt_lite_explicit_scope_decision,True,Either keep TT_lite diagnostic-only in all claims or run an explicit TT_lite-inclusive matched design.
+publication_claim_lock,True,"After evidence/model-selection validation, run a final claim-lock stage before external publication-style claims."

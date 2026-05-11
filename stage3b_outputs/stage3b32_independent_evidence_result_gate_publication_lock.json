@@ -1,0 +1,439 @@
+{
+  "acceptance": {
+    "allowed_claims_csv_written": true,
+    "bayes_factor_or_evidence_claims_allowed_with_internal_caveats": true,
+    "blocked_claims_csv_written": true,
+    "claim_matrix_csv_written": true,
+    "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "estimator_status_csv_written": true,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "gate_manifest_written": true,
+    "hard_guard_pass": true,
+    "independent_consistency_csv_written": true,
+    "independent_consistency_gate_pass": true,
+    "independent_lineage_agreement_gate_pass": true,
+    "independent_sensitivity_csv_written": true,
+    "independent_sensitivity_gate_pass": true,
+    "independent_summary_csv_written": true,
+    "independent_summary_values_recorded": true,
+    "independent_validation_evidence_claims_allowed": true,
+    "independent_validation_result_gate_pass": true,
+    "lineage_agreement_csv_written": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "required_next_csv_written": true,
+    "result_gate_report_written": true,
+    "script_completed": true,
+    "stage3b26_formal_execution_checkpoint_pass": true,
+    "stage3b27_formal_result_gate_pass": true,
+    "stage3b28_internal_claim_lock_pass": true,
+    "stage3b29_publication_preflight_pass": true,
+    "stage3b30_hard_guard_pass": true,
+    "stage3b30_preflight_pass": true,
+    "stage3b30_reference_loaded": true,
+    "stage3b31_execution_checkpoint_pass": true,
+    "stage3b31_hard_guard_pass": true,
+    "stage3b31_independent_validation_executed": true,
+    "stage3b31_mcmc_launched_false": true,
+    "stage3b31_reference_loaded": true,
+    "stage3b31_result_gate_required": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_independent_validation_statements": [
+    {
+      "allowed_statement_id": "internal_independent_validation_result_recorded",
+      "scope": "internal staged validation only",
+      "statement": "An independent validation estimator was executed over the readiness-cleared DEU and native chain families and passed its internal consistency gate."
+    },
+    {
+      "allowed_statement_id": "internal_independent_log_bf_value",
+      "scope": "internal caveated evidence language only",
+      "statement": "The scoped internal independent-validation log-BF-style diagnostic for DEU minus native may be reported with caveats.",
+      "value": 169.00640862086107
+    },
+    {
+      "allowed_statement_id": "lineage_comparison",
+      "formal_lineage_value": 158.76404705020616,
+      "proxy_lineage_value": 158.76404705020616,
+      "scope": "diagnostic lineage comparison only",
+      "statement": "The independent-validation result may be compared to the formal/proxy evidence lineage as a consistency diagnostic."
+    },
+    {
+      "allowed_statement_id": "tt_lite_scope",
+      "scope": "scope caveat required whenever TT_lite is mentioned",
+      "statement": "TT_lite remains diagnostic-only and was not part of the sampled posterior/evidence likelihood."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "blocked_claim_id": "model_superiority",
+      "blocked_statement": "DEU is superior to native/baseline.",
+      "reason": "Stage 3B-32 permits internal evidence-validation language only; model-superiority requires a later claim lock."
+    },
+    {
+      "blocked_claim_id": "external_publication_evidence",
+      "blocked_statement": "The evidence result is ready for external publication as a final Bayes factor.",
+      "reason": "External publication/final-style claims remain gated."
+    },
+    {
+      "blocked_claim_id": "final_publication_claim",
+      "blocked_statement": "The final publication conclusion is established.",
+      "reason": "Final publication-style claims require manuscript guardrails and final claim preflight."
+    },
+    {
+      "blocked_claim_id": "tt_lite_sampled_posterior_or_evidence",
+      "blocked_statement": "TT_lite was included in the sampled posterior or evidence likelihood.",
+      "reason": "TT_lite remained diagnostic-only and excluded from the production/evidence likelihood scope."
+    },
+    {
+      "blocked_claim_id": "uncaveated_bayes_factor",
+      "blocked_statement": "The log-BF value can be stated without caveats.",
+      "reason": "Only scoped internal, caveated evidence-validation language is allowed."
+    }
+  ],
+  "claim_matrix": [
+    {
+      "allowed_after_stage3b32": true,
+      "claim_class": "internal_independent_validation_evidence_language",
+      "required_wording": "independent validation result, not final publication evidence",
+      "scope": "Allowed only as a scoped internal independent-validation estimator result with caveats."
+    },
+    {
+      "allowed_after_stage3b32": true,
+      "claim_class": "bayes_factor_or_evidence_language",
+      "required_wording": "internal formal-plus-independent validation lineage",
+      "scope": "Internal caveated evidence/BF language only; not an external or final claim."
+    },
+    {
+      "allowed_after_stage3b32": false,
+      "claim_class": "model_superiority",
+      "required_wording": "do not claim DEU is superior from this stage alone",
+      "scope": "Blocked. Requires a later model-superiority claim lock and external validation package."
+    },
+    {
+      "allowed_after_stage3b32": false,
+      "claim_class": "external_publication_claim",
+      "required_wording": "not publication-ready wording",
+      "scope": "Blocked. Requires an external/publication claim-lock stage."
+    },
+    {
+      "allowed_after_stage3b32": false,
+      "claim_class": "tt_lite_in_evidence_or_posterior",
+      "required_wording": "TT_lite diagnostic-only",
+      "scope": "Blocked. TT_lite remains diagnostic-only and excluded from sampled/evidence likelihoods."
+    },
+    {
+      "allowed_after_stage3b32": false,
+      "claim_class": "final_publication_style_claim",
+      "required_wording": "final claims not allowed",
+      "scope": "Blocked. Requires final publication claim preflight and manuscript guardrails."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.01630687713623047,
+  "estimator_status_context": [
+    {
+      "estimator_status": "independent validation executed",
+      "new_evidence_computed_by_stage3b32": false,
+      "new_mcmc_launched": false,
+      "result_gate_passed_by_stage3b32": true,
+      "result_gate_required_before_stage3b32": true,
+      "stage": "3B-31"
+    },
+    {
+      "formal_log_bf": 158.76404705020616,
+      "independent_validation_log_bf": 169.00640862086107,
+      "lineage_gate_pass": true,
+      "max_allowed_abs_lineage_delta": 25.0,
+      "proxy_log_bf": 158.76404705020616,
+      "stage": "lineage"
+    }
+  ],
+  "gate_manifest": {
+    "agreement_rows": 3,
+    "all_independent_values_finite": true,
+    "bayes_factor_or_evidence_claims_allowed": true,
+    "bayes_factor_or_evidence_claims_scope": "internal independent-validation estimator result only; external/final claims remain gated",
+    "consistency_rows": 5,
+    "decision_type": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "external_publication_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_evidence_language_allowed_internal_caveated": true,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "independent_consistency_gate_pass": true,
+    "independent_lineage_agreement_gate_pass": true,
+    "independent_minus_formal_log_bf": 10.242361570654907,
+    "independent_minus_proxy_log_bf": 10.242361570654907,
+    "independent_sensitivity_gate_pass": true,
+    "independent_validation_evidence_claims_allowed": true,
+    "independent_validation_result_gate_pass": true,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "max_allowed_abs_lineage_delta": 25.0,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-33 external evidence publication-claim lock and manuscript guardrail addendum",
+    "posterior_evidence_status": "independent_validation_result_gate_passed_internal_evidence_language_allowed_publication_still_gated",
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "recommendation": "Book Stage 3B-32. Internal independent-validation evidence/BF language is allowed with caveats; external publication, model-superiority, TT_lite-in-evidence/posterior, and final-style claims remain gated.",
+    "sensitivity_rows": 4,
+    "stage3b26_decision": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "stage3b27_decision": "FORMAL_EVIDENCE_RESULT_GATE_PASS_CAVEATED_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b28_decision": "FORMAL_EVIDENCE_CLAIM_LOCK_ADDENDUM_PASS_INTERNAL_EVIDENCE_ALLOWED_SUPERIORITY_STILL_GATED",
+    "stage3b29_decision": "EXTERNAL_PUBLICATION_CLAIM_PREFLIGHT_PASS_INDEPENDENT_VALIDATION_REQUIRED",
+    "stage3b30_decision": "INDEPENDENT_EVIDENCE_VALIDATION_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "stage3b31_decision": "INDEPENDENT_EVIDENCE_VALIDATION_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "generated_utc": "2026-05-09T14:35:11+00:00",
+  "independent_consistency_audit_rows": [
+    {
+      "audit_scope": "Stage 3B-31 independent-validation consistency row",
+      "check": "all_independent_validation_logbf_values_finite",
+      "interpretation": "all paired DEU/native independent-validation values finite",
+      "pass": "True",
+      "row_index": 1,
+      "threshold": "3",
+      "value": "3"
+    },
+    {
+      "audit_scope": "Stage 3B-31 independent-validation consistency row",
+      "check": "independent_validation_logbf_sign_consistent",
+      "interpretation": "sign consistency only; not model-superiority",
+      "pass": "True",
+      "row_index": 2,
+      "threshold": "single sign",
+      "value": "[1]"
+    },
+    {
+      "audit_scope": "Stage 3B-31 independent-validation consistency row",
+      "check": "independent_validation_sign_matches_formal_crosscheck",
+      "interpretation": "sign agreement with Stage 3B-26/27 formal cross-check lineage",
+      "pass": "True",
+      "row_index": 3,
+      "threshold": "158.76404705020616",
+      "value": "168.86622546497017"
+    },
+    {
+      "audit_scope": "Stage 3B-31 independent-validation consistency row",
+      "check": "independent_validation_sign_matches_proxy_lineage",
+      "interpretation": "sign agreement with Stage 3B-23/24 proxy lineage",
+      "pass": "True",
+      "row_index": 4,
+      "threshold": "158.76404705020616",
+      "value": "168.86622546497017"
+    },
+    {
+      "audit_scope": "Stage 3B-31 independent-validation consistency row",
+      "check": "independent_validation_spread_within_checkpoint_gate",
+      "interpretation": "loose checkpoint consistency gate; result gate still required",
+      "pass": "True",
+      "row_index": 5,
+      "threshold": "250.0",
+      "value": "0.22541315589080568"
+    }
+  ],
+  "independent_evidence_summary": [
+    {
+      "interpretation_scope": "independent validation estimator value; internal caveated language only",
+      "quantity": "deu_log_evidence_independent_validation",
+      "value": -542.2974790661433
+    },
+    {
+      "interpretation_scope": "independent validation estimator value; internal caveated language only",
+      "quantity": "native_log_evidence_independent_validation",
+      "value": -711.3038876870044
+    },
+    {
+      "formal_lineage_value": 158.76404705020616,
+      "independent_minus_formal": 10.242361570654907,
+      "independent_minus_proxy": 10.242361570654907,
+      "interpretation_scope": "may be stated only as a caveated internal independent-validation result; not publication evidence or model-superiority",
+      "lineage_delta_gate_pass": true,
+      "max_allowed_abs_lineage_delta": 25.0,
+      "proxy_lineage_value": 158.76404705020616,
+      "quantity": "log_bayes_factor_independent_validation_deu_minus_native",
+      "value": 169.00640862086107
+    }
+  ],
+  "independent_sensitivity_audit_rows": [
+    {
+      "adjusted_log_bayes_factor_independent_validation": "170.39270298198096",
+      "audit_scope": "Stage 3B-31 independent-validation prior-volume sensitivity row",
+      "base_log_bayes_factor_independent_validation": "169.00640862086107",
+      "delta_vs_base": "1.3862943611198943",
+      "deu_only_prior_width_factor": "0.5",
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "row_index": 1,
+      "sensitivity_id": "deu_only_prior_volume_factor_0.5"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": "169.00640862086107",
+      "audit_scope": "Stage 3B-31 independent-validation prior-volume sensitivity row",
+      "base_log_bayes_factor_independent_validation": "169.00640862086107",
+      "delta_vs_base": "0.0",
+      "deu_only_prior_width_factor": "1.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "row_index": 2,
+      "sensitivity_id": "deu_only_prior_volume_factor_1"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": "167.62011425974117",
+      "audit_scope": "Stage 3B-31 independent-validation prior-volume sensitivity row",
+      "base_log_bayes_factor_independent_validation": "169.00640862086107",
+      "delta_vs_base": "-1.3862943611198943",
+      "deu_only_prior_width_factor": "2.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "row_index": 3,
+      "sensitivity_id": "deu_only_prior_volume_factor_2"
+    },
+    {
+      "adjusted_log_bayes_factor_independent_validation": "166.23381989862128",
+      "audit_scope": "Stage 3B-31 independent-validation prior-volume sensitivity row",
+      "base_log_bayes_factor_independent_validation": "169.00640862086107",
+      "delta_vs_base": "-2.7725887222397887",
+      "deu_only_prior_width_factor": "4.0",
+      "interpretation": "prior-volume sensitivity diagnostic only; no publication/model-superiority claim unlocked",
+      "row_index": 4,
+      "sensitivity_id": "deu_only_prior_volume_factor_4"
+    }
+  ],
+  "lineage_agreement_audit_rows": [
+    {
+      "audit_scope": "Stage 3B-31 proxy/formal/independent agreement row",
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": "10.242361570654907",
+      "delta_vs_proxy": "10.242361570654907",
+      "estimator_id": "independent_top20_logmean_validation",
+      "independent_validation_logbf": "169.00640862086107",
+      "row_index": 1,
+      "sign_matches_formal": "True",
+      "sign_matches_proxy": "True",
+      "stage3b23_24_proxy_logbf": "158.76404705020616",
+      "stage3b26_27_formal_logbf": "158.76404705020616"
+    },
+    {
+      "audit_scope": "Stage 3B-31 proxy/formal/independent agreement row",
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": "10.102178414764012",
+      "delta_vs_proxy": "10.102178414764012",
+      "estimator_id": "independent_q10_free_energy_validation",
+      "independent_validation_logbf": "168.86622546497017",
+      "row_index": 2,
+      "sign_matches_formal": "True",
+      "sign_matches_proxy": "True",
+      "stage3b23_24_proxy_logbf": "158.76404705020616",
+      "stage3b26_27_formal_logbf": "158.76404705020616"
+    },
+    {
+      "audit_scope": "Stage 3B-31 proxy/formal/independent agreement row",
+      "claim_status": "agreement_recorded_result_gate_required",
+      "delta_vs_formal": "10.016948414764101",
+      "delta_vs_proxy": "10.016948414764101",
+      "estimator_id": "independent_q05_free_energy_validation",
+      "independent_validation_logbf": "168.78099546497026",
+      "row_index": 3,
+      "sign_matches_formal": "True",
+      "sign_matches_proxy": "True",
+      "stage3b23_24_proxy_logbf": "158.76404705020616",
+      "stage3b26_27_formal_logbf": "158.76404705020616"
+    }
+  ],
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_acceptance.md",
+    "allowed_independent_validation_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_allowed_independent_validation_statements.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_blocked_claims.csv",
+    "claim_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_claim_matrix.csv",
+    "estimator_status_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_estimator_status_context.csv",
+    "gate_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_gate_manifest.json",
+    "independent_consistency_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_consistency_audit.csv",
+    "independent_evidence_summary_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_evidence_summary.csv",
+    "independent_sensitivity_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_sensitivity_audit.csv",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+    "lineage_agreement_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_lineage_agreement_audit.csv",
+    "required_next_steps_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_required_next_steps.csv",
+    "result_gate_report_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_result_gate_report.md",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tt_lite_scope.md"
+  },
+  "previous_stage3b31_reference": {
+    "diagnostic_outcome": "INDEPENDENT_EVIDENCE_VALIDATION_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b31_independent_evidence_validation_execution_checkpoint.json",
+    "loaded": true
+  },
+  "required_next_steps": [
+    {
+      "blocks_until_done": "external publication evidence claims, final-style claims",
+      "next_step_id": "external_publication_claim_lock",
+      "required_action": "Write an external-publication evidence claim lock that decides whether any non-internal wording is allowed."
+    },
+    {
+      "blocks_until_done": "model-superiority claims",
+      "next_step_id": "model_superiority_claim_lock",
+      "required_action": "Separate evidence strength, prior sensitivity, native baseline matching, and TT_lite scope before any superiority wording."
+    },
+    {
+      "blocks_until_done": "publication-style claims",
+      "next_step_id": "manuscript_guardrail_addendum",
+      "required_action": "Update manuscript guardrails with independent-validation result scope and forbidden wording."
+    }
+  ],
+  "script": "stage3b_32_independent_evidence_result_gate_publication_lock.py",
+  "stage": "3B-32",
+  "tri_anchor_context_rows": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+quantity,value,claim_scope
+DEU independent-validation log evidence,-542.2974790661433,internal independent-validation estimator result with caveats
+native independent-validation log evidence,-711.3038876870044,internal independent-validation estimator result with caveats
+"log BF independent validation, DEU - native",169.00640862086107,preprint may report as internal estimator result; not model-superiority/final claim
+formal/proxy log BF lineage,158.76404705020616,lineage/cross-check context
+independent minus formal log BF,10.242361570654907,sensitivity/lineage context

@@ -1,0 +1,674 @@
+{
+  "acceptance": {
+    "allowed_claims_written": true,
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "blocked_claims_written": true,
+    "chain_input_audit_written": true,
+    "deu_chain_expected_params_present": true,
+    "deu_chain_inputs_found": true,
+    "deu_chain_values_finite": true,
+    "deu_input_manifest_written": true,
+    "deu_sampler_yaml_loaded": true,
+    "diagnostic_outcome": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "estimator_configs_written": true,
+    "evidence_estimator_execution_launched_by_this_stage": false,
+    "evidence_or_bayes_factor_computed_by_this_stage": false,
+    "execution_plan_written": true,
+    "final_publication_claims_allowed": false,
+    "hard_guard_pass": true,
+    "likelihood_matching_audit_written": true,
+    "matched_full_objective_likelihoods_and_tt_lite_scope": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_expected_params_present": true,
+    "native_chain_inputs_found": true,
+    "native_chain_values_finite": true,
+    "native_input_manifest_written": true,
+    "native_sampler_yaml_loaded": true,
+    "preflight_manifest_written": true,
+    "prior_matching_audit_written": true,
+    "protocol_written": true,
+    "script_completed": true,
+    "shared_prior_match": true,
+    "stage3b18_native_readiness_pass": true,
+    "stage3b18_reference_loaded": true,
+    "stage3b19_matched_comparison_pass": true,
+    "stage3b19_reference_loaded": true,
+    "stage3b20_final_scoped_report_pass": true,
+    "stage3b20_reference_loaded": true,
+    "stage3b21_design_pass": true,
+    "stage3b21_evidence_claims_blocked": true,
+    "stage3b21_hard_guard_pass": true,
+    "stage3b21_reference_loaded": true,
+    "stage3b9_deu_readiness_pass": true,
+    "stage3b9_reference_loaded": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "scoped_deu_posterior",
+      "status": "allowed_with_caveats",
+      "wording": "The DEU posterior summary is readiness-cleared and robustness-checked within the scoped project pipeline."
+    },
+    {
+      "claim_id": "descriptive_deu_native_comparison",
+      "status": "allowed_with_caveats",
+      "wording": "A descriptive matched DEU/native posterior comparison has been recorded."
+    },
+    {
+      "claim_id": "evidence_setup_ready",
+      "status": "allowed",
+      "wording": "Matched evidence/model-selection estimator inputs have been preflighted, if this stage passes."
+    },
+    {
+      "claim_id": "tt_lite_diagnostic_only",
+      "status": "allowed",
+      "wording": "TT_lite remains diagnostic-only and excluded from sampled production/native likelihoods."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim_id": "model_superiority",
+      "reason": "No evidence/model-selection estimator has been executed.",
+      "status": "blocked",
+      "unblock_requirement": "Run matched evidence estimator and book comparison gate."
+    },
+    {
+      "claim_id": "bayes_factor_or_evidence",
+      "reason": "This stage writes setup only; no marginal likelihood or Bayes factor is computed.",
+      "status": "blocked",
+      "unblock_requirement": "Book evidence estimator execution and uncertainty assessment."
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "reason": "Current report is scoped/internal and evidence claims remain gated.",
+      "status": "blocked",
+      "unblock_requirement": "Evidence, prior-sensitivity, TT_lite scope, and external robustness gates."
+    },
+    {
+      "claim_id": "tt_lite_sampled_posterior",
+      "reason": "TT_lite remains diagnostic-only in the current production/native samplers.",
+      "status": "blocked",
+      "unblock_requirement": "Run explicit matched TT_lite-inclusive samplers."
+    },
+    {
+      "claim_id": "physical_proof",
+      "reason": "Posterior/evidence pipelines do not prove a physical mechanism.",
+      "status": "blocked",
+      "unblock_requirement": "Independent theory and external-data validation."
+    }
+  ],
+  "candidate_estimator_configs": {
+    "candidate_estimators": [
+      {
+        "claim_unlocked_by_setup_only": false,
+        "estimator_id": "matched_nested_sampling",
+        "execution_stage_required": "Stage 3B-23 or later",
+        "notes": "Requires actual nested/evidence run; this preflight only prepares inputs.",
+        "purpose": "Compute matched DEU/native evidences with the same full-objective likelihood set and declared priors.",
+        "status": "preferred_future_execution"
+      },
+      {
+        "claim_unlocked_by_setup_only": false,
+        "estimator_id": "bridge_sampling_from_readiness_chains",
+        "execution_stage_required": "Stage 3B-23 or later",
+        "notes": "Must validate estimator assumptions and normalization before any evidence claim.",
+        "purpose": "Use readiness-cleared posterior chains as inputs to a separately validated bridge estimator.",
+        "status": "candidate_future_execution"
+      },
+      {
+        "claim_unlocked_by_setup_only": false,
+        "estimator_id": "thermodynamic_integration",
+        "execution_stage_required": "future evidence extension",
+        "notes": "More expensive; useful if bridge/nested estimates disagree.",
+        "purpose": "Run matched tempered chains for a direct marginal-likelihood estimate.",
+        "status": "optional_future_execution"
+      },
+      {
+        "claim_unlocked_by_setup_only": false,
+        "estimator_id": "information_criteria_context",
+        "execution_stage_required": "optional context stage",
+        "notes": "Information criteria are not Bayes factors and cannot by themselves support superiority claims here.",
+        "purpose": "Record AIC/BIC/IC-like context if desired.",
+        "status": "descriptive_only"
+      },
+      {
+        "claim_unlocked_by_setup_only": false,
+        "estimator_id": "tt_lite_inclusive_evidence",
+        "execution_stage_required": "new matched TT_lite-inclusive sampler/readiness stages",
+        "notes": "Current production chains exclude TT_lite; do not retrofit TT_lite evidence claims.",
+        "purpose": "Evidence including TT_lite on both sides.",
+        "status": "blocked_until_new_matched_sampler"
+      }
+    ],
+    "configs_are_setup_only": true,
+    "created_utc": "2026-05-09T04:14:34+00:00",
+    "evidence_computed_by_this_stage": false,
+    "matched_evidence_inputs": {
+      "deu": {
+        "all_expected_params_present": true,
+        "all_values_finite": true,
+        "chain_files": [
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+        ],
+        "extra_arg_keys": [
+          "deu",
+          "deu_allow_double_phase_hooks",
+          "deu_damping_envelope_hook",
+          "deu_lensed_phase_hook",
+          "deu_lensed_phase_profile",
+          "deu_log10_N_today",
+          "deu_perturbation_sound_speed_hook",
+          "deu_photon_clock_thermo",
+          "deu_polarization_source_amplitude_hook",
+          "deu_transfer_polamp_hook",
+          "deu_use_radial_jacobian",
+          "l_max_scalars",
+          "lensing",
+          "output"
+        ],
+        "hard_guard_pass": true,
+        "label": "deu",
+        "likelihoods": [
+          "planck_2018_highl_plik.TTTEEE_lite",
+          "planck_2018_lowl.TT",
+          "planck_2018_lowl.EE",
+          "planck_2018_lensing.native"
+        ],
+        "n_chain_files": 2,
+        "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+        "sampled_parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "total_rows": 4000
+      },
+      "native": {
+        "all_expected_params_present": true,
+        "all_values_finite": true,
+        "chain_files": [
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+          "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+        ],
+        "extra_arg_keys": [
+          "l_max_scalars",
+          "lensing",
+          "output"
+        ],
+        "hard_guard_pass": true,
+        "label": "native",
+        "likelihoods": [
+          "planck_2018_highl_plik.TTTEEE_lite",
+          "planck_2018_lowl.TT",
+          "planck_2018_lowl.EE",
+          "planck_2018_lensing.native"
+        ],
+        "n_chain_files": 2,
+        "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+        "sampled_parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "total_rows": 4000
+      }
+    },
+    "required_execution_controls": [
+      "same full-objective likelihood set on both sides",
+      "same shared parameter priors for omega_b, n_s, and A_planck",
+      "DEU-only beta and p_vis priors declared and counted as extra model degrees of freedom",
+      "TT_lite excluded unless a later matched TT_lite-inclusive run is booked",
+      "estimator uncertainty and numerical stability reported before any Bayes-factor claim"
+    ],
+    "stage": "3B-22"
+  },
+  "chain_input_audit": {
+    "deu": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+      ],
+      "chain_infos": [
+        {
+          "all_values_finite": true,
+          "header": [
+            "weight",
+            "minuslogpost",
+            "deu_damping_envelope_beta",
+            "deu_transfer_polamp_p_vis",
+            "omega_b",
+            "n_s",
+            "A_planck",
+            "chi2__CMB",
+            "minuslogprior",
+            "minuslogprior__0",
+            "chi2",
+            "chi2__planck_2018_highl_plik.TTTEEE_lite",
+            "chi2__planck_2018_lowl.TT",
+            "chi2__planck_2018_lowl.EE",
+            "chi2__planck_2018_lensing.native"
+          ],
+          "n_rows": 2000,
+          "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt"
+        },
+        {
+          "all_values_finite": true,
+          "header": [
+            "weight",
+            "minuslogpost",
+            "deu_damping_envelope_beta",
+            "deu_transfer_polamp_p_vis",
+            "omega_b",
+            "n_s",
+            "A_planck",
+            "chi2__CMB",
+            "minuslogprior",
+            "minuslogprior__0",
+            "chi2",
+            "chi2__planck_2018_highl_plik.TTTEEE_lite",
+            "chi2__planck_2018_lowl.TT",
+            "chi2__planck_2018_lowl.EE",
+            "chi2__planck_2018_lensing.native"
+          ],
+          "n_rows": 2000,
+          "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+        }
+      ],
+      "expected_params_present": {
+        "A_planck": true,
+        "deu_damping_envelope_beta": true,
+        "deu_transfer_polamp_p_vis": true,
+        "n_s": true,
+        "omega_b": true
+      },
+      "label": "deu",
+      "n_chain_files": 2,
+      "total_rows": 4000,
+      "unique_columns": [
+        "A_planck",
+        "chi2",
+        "chi2__CMB",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lensing.native",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lowl.TT",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "minuslogpost",
+        "minuslogprior",
+        "minuslogprior__0",
+        "n_s",
+        "omega_b",
+        "weight"
+      ]
+    },
+    "native": {
+      "all_expected_params_present": true,
+      "all_values_finite": true,
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+      ],
+      "chain_infos": [
+        {
+          "all_values_finite": true,
+          "header": [
+            "weight",
+            "minuslogpost",
+            "omega_b",
+            "n_s",
+            "A_planck",
+            "chi2__CMB",
+            "minuslogprior",
+            "minuslogprior__0",
+            "chi2",
+            "chi2__planck_2018_highl_plik.TTTEEE_lite",
+            "chi2__planck_2018_lowl.TT",
+            "chi2__planck_2018_lowl.EE",
+            "chi2__planck_2018_lensing.native"
+          ],
+          "n_rows": 2000,
+          "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt"
+        },
+        {
+          "all_values_finite": true,
+          "header": [
+            "weight",
+            "minuslogpost",
+            "omega_b",
+            "n_s",
+            "A_planck",
+            "chi2__CMB",
+            "minuslogprior",
+            "minuslogprior__0",
+            "chi2",
+            "chi2__planck_2018_highl_plik.TTTEEE_lite",
+            "chi2__planck_2018_lowl.TT",
+            "chi2__planck_2018_lowl.EE",
+            "chi2__planck_2018_lensing.native"
+          ],
+          "n_rows": 2000,
+          "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+        }
+      ],
+      "expected_params_present": {
+        "A_planck": true,
+        "n_s": true,
+        "omega_b": true
+      },
+      "label": "native",
+      "n_chain_files": 2,
+      "total_rows": 4000,
+      "unique_columns": [
+        "A_planck",
+        "chi2",
+        "chi2__CMB",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lensing.native",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lowl.TT",
+        "minuslogpost",
+        "minuslogprior",
+        "minuslogprior__0",
+        "n_s",
+        "omega_b",
+        "weight"
+      ]
+    }
+  },
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "deu_input_manifest": {
+    "all_expected_params_present": true,
+    "all_values_finite": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+    ],
+    "extra_arg_keys": [
+      "deu",
+      "deu_allow_double_phase_hooks",
+      "deu_damping_envelope_hook",
+      "deu_lensed_phase_hook",
+      "deu_lensed_phase_profile",
+      "deu_log10_N_today",
+      "deu_perturbation_sound_speed_hook",
+      "deu_photon_clock_thermo",
+      "deu_polarization_source_amplitude_hook",
+      "deu_transfer_polamp_hook",
+      "deu_use_radial_jacobian",
+      "l_max_scalars",
+      "lensing",
+      "output"
+    ],
+    "hard_guard_pass": true,
+    "label": "deu",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "sampled_parameters": [
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "total_rows": 4000
+  },
+  "elapsed_s": 0.0344538688659668,
+  "generated_utc": "2026-05-09T04:14:34+00:00",
+  "likelihood_matching_audit": [
+    {
+      "likelihood": "planck_2018_highl_plik.TTTEEE_lite",
+      "matched": true,
+      "present_in_deu": true,
+      "present_in_native": true,
+      "required_for_matched_full_objective": true
+    },
+    {
+      "likelihood": "planck_2018_lowl.TT",
+      "matched": true,
+      "present_in_deu": true,
+      "present_in_native": true,
+      "required_for_matched_full_objective": true
+    },
+    {
+      "likelihood": "planck_2018_lowl.EE",
+      "matched": true,
+      "present_in_deu": true,
+      "present_in_native": true,
+      "required_for_matched_full_objective": true
+    },
+    {
+      "likelihood": "planck_2018_lensing.native",
+      "matched": true,
+      "present_in_deu": true,
+      "present_in_native": true,
+      "required_for_matched_full_objective": true
+    },
+    {
+      "interpretation": "TT_lite must remain diagnostic-only unless a later sampler explicitly includes it on both sides.",
+      "likelihood": "planck_2018_highl_plik.TT_lite",
+      "matched": true,
+      "present_in_deu": false,
+      "present_in_native": false,
+      "required_for_matched_full_objective": false
+    }
+  ],
+  "native_input_manifest": {
+    "all_expected_params_present": true,
+    "all_values_finite": true,
+    "chain_files": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt"
+    ],
+    "extra_arg_keys": [
+      "l_max_scalars",
+      "lensing",
+      "output"
+    ],
+    "hard_guard_pass": true,
+    "label": "native",
+    "likelihoods": [
+      "planck_2018_highl_plik.TTTEEE_lite",
+      "planck_2018_lowl.TT",
+      "planck_2018_lowl.EE",
+      "planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "readiness_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "sampled_parameters": [
+      "omega_b",
+      "n_s",
+      "A_planck"
+    ],
+    "total_rows": 4000
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_blocked_claims.csv",
+    "chain_input_audit_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_chain_input_audit.csv",
+    "design_matrix_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_estimator_design_matrix.csv",
+    "deu_input_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_deu_evidence_input_manifest.json",
+    "estimator_configs_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_candidate_estimator_configs.json",
+    "execution_plan_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_estimator_execution_plan.md",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight.json",
+    "likelihood_matching_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_likelihood_matching_audit.csv",
+    "native_input_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_native_evidence_input_manifest.json",
+    "preflight_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_preflight_manifest.json",
+    "prior_matching_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_prior_matching_audit.csv",
+    "protocol_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_estimator_setup_protocol.md",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b22_evidence_estimator_preflight_tt_lite_scope.md"
+  },
+  "preflight_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "decision_type": "EVIDENCE_ESTIMATOR_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "deu_chain_files": 2,
+    "deu_chain_rows": 4000,
+    "deu_evidence_input_manifest_written": true,
+    "evidence_estimator_execution_launched_by_this_stage": false,
+    "evidence_or_bayes_factor_computed_by_this_stage": false,
+    "final_publication_claims_allowed": false,
+    "likelihood_match": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_files": 2,
+    "native_chain_rows": 4000,
+    "native_evidence_input_manifest_written": true,
+    "next_stage_hint": "Stage 3B-23 matched evidence-estimator execution checkpoint",
+    "posterior_evidence_status": "estimator_inputs_preflighted_execution_required",
+    "posterior_summary_allowed_with_caveats": true,
+    "recommendation": "Book Stage 3B-22. Next run a matched evidence-estimator execution checkpoint; model-superiority and Bayes-factor claims remain blocked until that execution and result gate pass.",
+    "shared_prior_match": true,
+    "stage3b18_decision": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+    "stage3b19_decision": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b20_decision": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "stage3b21_decision": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "stage3b9_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "tt_lite_excluded_on_both_sides": true
+  },
+  "previous_stage3b19_reference": {
+    "diagnostic_outcome": "MATCHED_DEU_NATIVE_COMPARISON_SUMMARY_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock.json",
+    "loaded": true
+  },
+  "previous_stage3b20_reference": {
+    "diagnostic_outcome": "FINAL_SCOPED_INTERNAL_REPORT_PASS_SUPERIORITY_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+    "loaded": true
+  },
+  "previous_stage3b21_reference": {
+    "diagnostic_outcome": "EVIDENCE_MODEL_SELECTION_DESIGN_PASS_PUBLICATION_CLAIMS_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b21_evidence_model_selection_design.json",
+    "loaded": true
+  },
+  "prior_matching_audit": [
+    {
+      "deu_prior_max": 0.0221,
+      "deu_prior_min": 0.0219,
+      "deu_ref": 0.022,
+      "native_prior_max": 0.0221,
+      "native_prior_min": 0.0219,
+      "native_ref": 0.022,
+      "parameter": "omega_b",
+      "shared_prior_match": true,
+      "shared_prior_max_match": true,
+      "shared_prior_min_match": true
+    },
+    {
+      "deu_prior_max": 0.9825,
+      "deu_prior_min": 0.9805,
+      "deu_ref": 0.981875,
+      "native_prior_max": 0.9825,
+      "native_prior_min": 0.9805,
+      "native_ref": 0.981875,
+      "parameter": "n_s",
+      "shared_prior_match": true,
+      "shared_prior_max_match": true,
+      "shared_prior_min_match": true
+    },
+    {
+      "deu_prior_max": 1.03,
+      "deu_prior_min": 1.02,
+      "deu_ref": 1.025,
+      "native_prior_max": 1.03,
+      "native_prior_min": 1.02,
+      "native_ref": 1.025,
+      "parameter": "A_planck",
+      "shared_prior_match": true,
+      "shared_prior_max_match": true,
+      "shared_prior_min_match": true
+    },
+    {
+      "deu_prior_max": 0.0305,
+      "deu_prior_min": 0.0285,
+      "deu_ref": 0.03,
+      "interpretation": "DEU-only parameter; not present in native/baseline sampler",
+      "native_prior_max": null,
+      "native_prior_min": null,
+      "native_ref": null,
+      "parameter": "deu_damping_envelope_beta",
+      "shared_prior_match": null,
+      "shared_prior_max_match": null,
+      "shared_prior_min_match": null
+    },
+    {
+      "deu_prior_max": 1.05,
+      "deu_prior_min": 1.045,
+      "deu_ref": 1.0475,
+      "interpretation": "DEU-only parameter; not present in native/baseline sampler",
+      "native_prior_max": null,
+      "native_prior_min": null,
+      "native_ref": null,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "shared_prior_match": null,
+      "shared_prior_max_match": null,
+      "shared_prior_min_match": null
+    }
+  ],
+  "script": "stage3b_22_evidence_estimator_preflight.py",
+  "stage": "3B-22",
+  "tri_anchor_context": [
+    {
+      "A_planck": 1.025,
+      "anchor_label": "highl_anchor",
+      "beta": 0.029,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.455015073141412,
+      "lowl_available_loglike": -212.38519126951218,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.9366549798966,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.4816399067552,
+      "n_s": 0.98,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.09644863724304,
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "lowl_plus_anchor",
+      "beta": 0.0295,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.453534606523377,
+      "lowl_available_loglike": -212.21590707666138,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8525238512426,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.3989892447191,
+      "n_s": 0.98125,
+      "omega_b": 0.02195,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.1830821680578,
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": 1.025,
+      "anchor_label": "full_objective_working_lock",
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "lensing_native_loglike": -9.388064537163515,
+      "lowl_available_loglike": -212.1379932252806,
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": -603.8280689556785,
+      "lowl_plus_plik_TTTEEE_lite_loglike": -594.440004418515,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475,
+      "plik_TTTEEE_lite_loglike": -382.30201119323436,
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

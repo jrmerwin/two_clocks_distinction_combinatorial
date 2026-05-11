@@ -1,0 +1,6 @@
+statement_id,allowed_statement,scope
+A1,"This is an author-led preprint / technical report, not a peer-reviewed result.",preprint allowed
+A2,The DEU posterior summary is readiness- and robustness-gated within this project lineage.,caveated posterior allowed
+A3,The DEU/native comparison is descriptive under matched sampled likelihood scope.,descriptive comparison allowed
+A4,The independent-validation evidence/BF estimator result may be reported internally with caveats.,internal evidence language allowed
+A5,TT_lite was monitored diagnostically and excluded from sampled production/evidence likelihoods.,TT_lite diagnostic-only statement allowed

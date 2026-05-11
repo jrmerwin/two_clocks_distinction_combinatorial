@@ -1,0 +1,6 @@
+claim_type,blocked_claim,reason
+peer_review_status,The results have been independently peer reviewed or externally certified.,The path is author-led preprint release; no external reviewer result was booked.
+model_superiority,DEU is established as superior to the native/baseline model.,The evidence line is internal/caveated and not a final model-selection claim.
+tt_lite_scope,TT_lite was included in the sampled posterior or evidence calculation.,TT_lite remained diagnostic-only and outside the production/evidence likelihood scope.
+final_publication,This is a final publication-grade claim set.,This is a preprint-server readiness package with explicit caveats and guardrails.
+new_computation,Stage 3B-39 recomputed posterior/evidence/MCMC results.,Stage 3B-39 is an audit/package gate only.

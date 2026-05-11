@@ -1,0 +1,6 @@
+claim_id,status,reason,unblock_requirement
+model_superiority,blocked,No evidence/model-selection estimator has been executed.,Run matched evidence estimator and book comparison gate.
+bayes_factor_or_evidence,blocked,This stage writes setup only; no marginal likelihood or Bayes factor is computed.,Book evidence estimator execution and uncertainty assessment.
+final_publication_claim,blocked,Current report is scoped/internal and evidence claims remain gated.,"Evidence, prior-sensitivity, TT_lite scope, and external robustness gates."
+tt_lite_sampled_posterior,blocked,TT_lite remains diagnostic-only in the current production/native samplers.,Run explicit matched TT_lite-inclusive samplers.
+physical_proof,blocked,Posterior/evidence pipelines do not prove a physical mechanism.,Independent theory and external-data validation.

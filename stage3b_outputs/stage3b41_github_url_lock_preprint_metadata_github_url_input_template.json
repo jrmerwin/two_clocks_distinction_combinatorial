@@ -1,0 +1,11 @@
+{
+  "author_led_not_peer_reviewed_confirmed": false,
+  "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/<tag>",
+  "github_url": "https://github.com/<owner>/<repo>",
+  "manual_public_access_verified": false,
+  "notes": "Populate this file or pass CLI args, then rerun Stage 3B-41. Do not claim peer review.",
+  "preprint_identifier_or_url": "pending",
+  "preprint_server": "preprint_server_unspecified",
+  "preprint_title": "DEU/CLASS staged validation: author-led preprint verification package",
+  "repository_visibility": "public"
+}

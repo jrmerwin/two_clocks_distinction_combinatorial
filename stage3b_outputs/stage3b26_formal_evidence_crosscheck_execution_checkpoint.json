@@ -1,0 +1,720 @@
+{
+  "acceptance": {
+    "allowed_current_claims_written": true,
+    "blocked_claims_written": true,
+    "claim_scope_written": true,
+    "consistency_csv_written": true,
+    "deu_chain_files_found": true,
+    "deu_chain_values_finite": true,
+    "deu_expected_params_present": true,
+    "deu_formal_input_manifest_loaded": true,
+    "deu_sampler_yaml_loaded": true,
+    "diagnostic_outcome": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "evidence_or_bayes_factor_claims_allowed": false,
+    "execution_manifest_written": true,
+    "final_publication_claims_allowed": false,
+    "formal_consistency_gate_pass": true,
+    "formal_consistency_recorded": true,
+    "formal_estimator_results_finite": true,
+    "formal_estimator_results_recorded": true,
+    "formal_evidence_crosscheck_execution_launched_by_this_stage": true,
+    "formal_results_csv_written": true,
+    "formal_results_json_written": true,
+    "hard_guard_pass": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_files_found": true,
+    "native_chain_values_finite": true,
+    "native_expected_params_present": true,
+    "native_formal_input_manifest_loaded": true,
+    "native_sampler_yaml_loaded": true,
+    "per_chain_csv_written": true,
+    "per_chain_estimator_results_recorded": true,
+    "prior_sensitivity_csv_written": true,
+    "prior_volume_sensitivity_recorded": true,
+    "proxy_crosscheck_csv_written": true,
+    "proxy_formal_crosscheck_recorded": true,
+    "script_completed": true,
+    "stage3b22_hard_guard_pass": true,
+    "stage3b22_reference_loaded": true,
+    "stage3b23_hard_guard_pass": true,
+    "stage3b23_proxy_execution_pass": true,
+    "stage3b23_reference_loaded": true,
+    "stage3b24_hard_guard_pass": true,
+    "stage3b24_proxy_only_gate_pass": true,
+    "stage3b24_reference_loaded": true,
+    "stage3b25_formal_claims_blocked": true,
+    "stage3b25_hard_guard_pass": true,
+    "stage3b25_preflight_pass": true,
+    "stage3b25_reference_loaded": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false,
+    "tt_lite_scope_written": true
+  },
+  "allowed_current_claims": [
+    {
+      "claim_id": "formal_crosscheck_executed",
+      "status": "allowed",
+      "wording": "A formal/cross-check evidence-estimator execution checkpoint has been recorded."
+    },
+    {
+      "claim_id": "crosscheck_values_internal",
+      "status": "allowed_with_caveats",
+      "wording": "The DEU/native cross-check log-evidence and log-BF values may be inspected internally as gated diagnostics."
+    },
+    {
+      "claim_id": "scoped_posterior_summary",
+      "status": "allowed_with_caveats",
+      "wording": "The scoped posterior summary and descriptive DEU/native posterior comparison remain allowed with caveats."
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim_id": "formal_bayes_factor",
+      "reason": "A result gate/sensitivity audit has not yet passed for this formal cross-check execution.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "model_superiority",
+      "reason": "Superiority requires a formal result gate, uncertainty/sensitivity audit, and claim lock.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "tt_lite_in_evidence_or_posterior",
+      "reason": "TT_lite remains diagnostic-only and excluded from current sampled likelihood/evidence scope.",
+      "status": "blocked"
+    },
+    {
+      "claim_id": "final_publication_claim",
+      "reason": "Publication-style claims require a later final claim lock after formal result gates.",
+      "status": "blocked"
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "deu_chain_input": {
+    "all_expected_parameters_present": true,
+    "all_values_finite": true,
+    "chain_infos": [
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 15,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      },
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 15,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      }
+    ],
+    "expected_parameters_present": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "header": [
+      "weight",
+      "minuslogpost",
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "total_rows": 4000
+  },
+  "deu_prior_bounds": {
+    "A_planck": {
+      "max": 1.03,
+      "min": 1.02,
+      "ref": 1.025
+    },
+    "deu_damping_envelope_beta": {
+      "max": 0.0305,
+      "min": 0.0285,
+      "ref": 0.03
+    },
+    "deu_transfer_polamp_p_vis": {
+      "max": 1.05,
+      "min": 1.045,
+      "ref": 1.0475
+    },
+    "n_s": {
+      "max": 0.9825,
+      "min": 0.9805,
+      "ref": 0.981875
+    },
+    "omega_b": {
+      "max": 0.0221,
+      "min": 0.0219,
+      "ref": 0.022
+    }
+  },
+  "elapsed_s": 0.15596699714660645,
+  "execution_manifest": {
+    "bayes_factor_or_evidence_claims_allowed": false,
+    "decision_type": "FORMAL_EVIDENCE_CROSSCHECK_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "deu_chain_files": 2,
+    "deu_chain_rows": 4000,
+    "deu_log_evidence_formal_crosscheck": -576.0487181192134,
+    "evidence_or_bayes_factor_claims_allowed": false,
+    "final_publication_claims_allowed": false,
+    "formal_crosscheck_gate_pass": true,
+    "formal_estimator_count": 3,
+    "formal_evidence_crosscheck_execution_launched_by_this_stage": true,
+    "log_bayes_factor_formal_crosscheck_deu_minus_native": 158.76404705020616,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_chain_files": 2,
+    "native_chain_rows": 4000,
+    "native_log_evidence_formal_crosscheck": -734.8127651694195,
+    "next_stage_hint": "Stage 3B-27 formal evidence result gate and sensitivity audit",
+    "posterior_evidence_status": "formal_crosscheck_executed_result_gate_required",
+    "posterior_summary_allowed_with_caveats": true,
+    "prior_volume_sensitivity_rows": 4,
+    "recommendation": "Book Stage 3B-26. Next run a formal evidence result gate/sensitivity audit before any formal Bayes-factor or model-superiority wording.",
+    "representative_estimator_id": "formal_laplace_full_covariance_crosscheck",
+    "stage3b23_decision": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "stage3b23_log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "stage3b24_decision": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "stage3b24_log_bayes_factor_proxy_deu_minus_native": 158.76404705020616,
+    "stage3b25_decision": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "tri_anchor_context_retained": true,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "formal_estimator_consistency": [
+    {
+      "check": "all_formal_crosscheck_logbf_values_finite",
+      "interpretation": "all paired DEU/native cross-checks finite",
+      "pass": true,
+      "threshold": 3,
+      "value": 3
+    },
+    {
+      "check": "formal_crosscheck_logbf_sign_consistent",
+      "interpretation": "sign consistency only; not model-superiority",
+      "pass": true,
+      "threshold": "single sign",
+      "value": [
+        1
+      ]
+    },
+    {
+      "check": "formal_crosscheck_logbf_spread_within_gate",
+      "interpretation": "loose numerical consistency gate",
+      "pass": true,
+      "threshold": 500.0,
+      "value": 1.779176761134977
+    },
+    {
+      "check": "formal_crosscheck_proxy_delta_within_gate",
+      "interpretation": "cross-check broadly agrees with Stage 3B-23/24 proxy; formal claim still blocked",
+      "pass": true,
+      "threshold": 500.0,
+      "value": 0.05976328728729641
+    }
+  ],
+  "formal_estimator_results": {
+    "claim_status": "formal_crosscheck_executed_result_gate_required",
+    "created_utc": "2026-05-09T05:21:38+00:00",
+    "deu_family_results": [
+      {
+        "best_row_index_zero_based": 1681,
+        "best_row_parameter_values": {
+          "A_planck": 1.0250579,
+          "deu_damping_envelope_beta": 0.029595717,
+          "deu_transfer_polamp_p_vis": 1.0473467,
+          "n_s": 0.98118992,
+          "omega_b": 0.021959556
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 6.168126694532546e-17,
+        "cov_logdet": -77.30797545206683,
+        "covariance_mode": "full",
+        "estimator_id": "formal_laplace_full_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "deu",
+        "log_evidence_crosscheck": -576.0487181192134,
+        "log_prior_volume": -30.84989694079671,
+        "max_logposterior": -572.83932,
+        "minuslogpost_min": 572.83932,
+        "n_parameters": 5,
+        "n_rows": 4000,
+        "parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 1681,
+        "best_row_parameter_values": {
+          "A_planck": 1.0250579,
+          "deu_damping_envelope_beta": 0.029595717,
+          "deu_transfer_polamp_p_vis": 1.0473467,
+          "n_s": 0.98118992,
+          "omega_b": 0.021959556
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 6.168126694532546e-17,
+        "cov_logdet": -77.18649705887773,
+        "covariance_mode": "diagonal",
+        "estimator_id": "formal_laplace_diagonal_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "deu",
+        "log_evidence_crosscheck": -575.9879789226188,
+        "log_prior_volume": -30.84989694079671,
+        "max_logposterior": -572.83932,
+        "minuslogpost_min": 572.83932,
+        "n_parameters": 5,
+        "n_rows": 4000,
+        "parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 1681,
+        "best_row_parameter_values": {
+          "A_planck": 1.0250579,
+          "deu_damping_envelope_beta": 0.029595717,
+          "deu_transfer_polamp_p_vis": 1.0473467,
+          "n_s": 0.98118992,
+          "omega_b": 0.021959556
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 7.603293619082549e-17,
+        "cov_logdet": -76.19151386554307,
+        "covariance_mode": "iqr_diagonal",
+        "estimator_id": "formal_laplace_iqr_diagonal_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "deu",
+        "log_evidence_crosscheck": -575.4904873259516,
+        "log_prior_volume": -30.84989694079671,
+        "max_logposterior": -572.83932,
+        "minuslogpost_min": 572.83932,
+        "n_parameters": 5,
+        "n_rows": 4000,
+        "parameters": [
+          "deu_damping_envelope_beta",
+          "deu_transfer_polamp_p_vis",
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      }
+    ],
+    "estimator_kind": "formal_chain_crosscheck_result_gate_required",
+    "native_family_results": [
+      {
+        "best_row_index_zero_based": 2355,
+        "best_row_parameter_values": {
+          "A_planck": 1.0200026,
+          "n_s": 0.98249758,
+          "omega_b": 0.021903315
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 9.371018082210263e-18,
+        "cov_logdet": -54.114604489720314,
+        "covariance_mode": "full",
+        "estimator_id": "formal_laplace_full_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "native",
+        "log_evidence_crosscheck": -734.8127651694195,
+        "log_prior_volume": -19.336971475826505,
+        "max_logposterior": -729.84925,
+        "minuslogpost_min": 729.84925,
+        "n_parameters": 3,
+        "n_rows": 4000,
+        "parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 2355,
+        "best_row_parameter_values": {
+          "A_planck": 1.0200026,
+          "n_s": 0.98249758,
+          "omega_b": 0.021903315
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 9.371018082210263e-18,
+        "cov_logdet": -54.11265267110563,
+        "covariance_mode": "diagonal",
+        "estimator_id": "formal_laplace_diagonal_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "native",
+        "log_evidence_crosscheck": -734.8117892601123,
+        "log_prior_volume": -19.336971475826505,
+        "max_logposterior": -729.84925,
+        "minuslogpost_min": 729.84925,
+        "n_parameters": 3,
+        "n_rows": 4000,
+        "parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      },
+      {
+        "best_row_index_zero_based": 2355,
+        "best_row_parameter_values": {
+          "A_planck": 1.0200026,
+          "n_s": 0.98249758,
+          "omega_b": 0.021903315
+        },
+        "claim_status": "crosscheck_result_only_formal_claims_blocked",
+        "cov_jitter_added": 1.0632836554165455e-17,
+        "cov_logdet": -56.55649642546666,
+        "covariance_mode": "iqr_diagonal",
+        "estimator_id": "formal_laplace_iqr_diagonal_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "family": "native",
+        "log_evidence_crosscheck": -736.0337111372927,
+        "log_prior_volume": -19.336971475826505,
+        "max_logposterior": -729.84925,
+        "minuslogpost_min": 729.84925,
+        "n_parameters": 3,
+        "n_rows": 4000,
+        "parameters": [
+          "omega_b",
+          "n_s",
+          "A_planck"
+        ],
+        "status": "success"
+      }
+    ],
+    "paired_deu_native_results": [
+      {
+        "claim_status": "formal_crosscheck_executed_result_gate_required",
+        "deu_log_evidence_crosscheck": -576.0487181192134,
+        "deu_status": "success",
+        "estimator_id": "formal_laplace_full_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "log_bayes_factor_crosscheck_deu_minus_native": 158.76404705020616,
+        "native_log_evidence_crosscheck": -734.8127651694195,
+        "native_status": "success"
+      },
+      {
+        "claim_status": "formal_crosscheck_executed_result_gate_required",
+        "deu_log_evidence_crosscheck": -575.9879789226188,
+        "deu_status": "success",
+        "estimator_id": "formal_laplace_diagonal_covariance_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "log_bayes_factor_crosscheck_deu_minus_native": 158.82381033749346,
+        "native_log_evidence_crosscheck": -734.8117892601123,
+        "native_status": "success"
+      },
+      {
+        "claim_status": "formal_crosscheck_executed_result_gate_required",
+        "deu_log_evidence_crosscheck": -575.4904873259516,
+        "deu_status": "success",
+        "estimator_id": "formal_laplace_iqr_diagonal_crosscheck",
+        "estimator_kind": "formal_chain_laplace_crosscheck_not_final_evidence",
+        "log_bayes_factor_crosscheck_deu_minus_native": 160.54322381134114,
+        "native_log_evidence_crosscheck": -736.0337111372927,
+        "native_status": "success"
+      }
+    ],
+    "stage": "3B-26"
+  },
+  "generated_utc": "2026-05-09T05:21:38+00:00",
+  "native_chain_input": {
+    "all_expected_parameters_present": true,
+    "all_values_finite": true,
+    "chain_infos": [
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      },
+      {
+        "all_values_finite": true,
+        "header": [
+          "weight",
+          "minuslogpost",
+          "omega_b",
+          "n_s",
+          "A_planck",
+          "chi2__CMB",
+          "minuslogprior",
+          "minuslogprior__0",
+          "chi2",
+          "chi2__planck_2018_highl_plik.TTTEEE_lite",
+          "chi2__planck_2018_lowl.TT",
+          "chi2__planck_2018_lowl.EE",
+          "chi2__planck_2018_lensing.native"
+        ],
+        "n_columns": 13,
+        "n_rows": 2000,
+        "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+        "raw_header_lines_tail": [
+          "#        weight    minuslogpost         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+        ]
+      }
+    ],
+    "expected_parameters_present": {
+      "A_planck": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "header": [
+      "weight",
+      "minuslogpost",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "n_chain_files": 2,
+    "total_rows": 4000
+  },
+  "native_prior_bounds": {
+    "A_planck": {
+      "max": 1.03,
+      "min": 1.02,
+      "ref": 1.025
+    },
+    "n_s": {
+      "max": 0.9825,
+      "min": 0.9805,
+      "ref": 0.981875
+    },
+    "omega_b": {
+      "max": 0.0221,
+      "min": 0.0219,
+      "ref": 0.022
+    }
+  },
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_acceptance.md",
+    "allowed_current_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_allowed_current_claims.csv",
+    "blocked_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_blocked_claims.csv",
+    "execution_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_execution_manifest.json",
+    "formal_estimator_consistency_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_formal_estimator_consistency.csv",
+    "formal_estimator_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_formal_estimator_results.csv",
+    "formal_estimator_results_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_formal_estimator_results.json",
+    "formal_evidence_claim_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_formal_evidence_claim_scope.md",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint.json",
+    "per_chain_formal_estimator_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_per_chain_formal_estimator_results.csv",
+    "prior_volume_sensitivity_results_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_prior_volume_sensitivity_results.csv",
+    "proxy_formal_crosscheck_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_proxy_formal_crosscheck.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b26_formal_evidence_crosscheck_execution_checkpoint_tt_lite_scope.md"
+  },
+  "previous_stage3b23_reference": {
+    "diagnostic_outcome": "MATCHED_EVIDENCE_ESTIMATOR_EXECUTION_CHECKPOINT_PASS_RESULT_GATE_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b23_matched_evidence_estimator_execution_checkpoint.json",
+    "loaded": true
+  },
+  "previous_stage3b24_reference": {
+    "diagnostic_outcome": "EVIDENCE_RESULT_SENSITIVITY_AUDIT_PASS_PROXY_ONLY_FORMAL_CLAIMS_STILL_GATED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b24_evidence_result_gate_sensitivity_audit.json",
+    "loaded": true
+  },
+  "previous_stage3b25_reference": {
+    "diagnostic_outcome": "FORMAL_EVIDENCE_CROSSCHECK_PREFLIGHT_PASS_EXECUTION_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b25_formal_evidence_crosscheck_preflight.json",
+    "loaded": true
+  },
+  "prior_volume_sensitivity_results": [
+    {
+      "adjusted_log_bayes_factor_crosscheck": 160.15034141132605,
+      "base_log_bayes_factor_crosscheck": 158.76404705020616,
+      "delta_vs_base": 1.3862943611198943,
+      "deu_only_prior_width_factor": 0.5,
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "sensitivity_id": "deu_only_prior_volume_factor_0.5"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": 158.76404705020616,
+      "base_log_bayes_factor_crosscheck": 158.76404705020616,
+      "delta_vs_base": 0.0,
+      "deu_only_prior_width_factor": 1.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "sensitivity_id": "deu_only_prior_volume_factor_1"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": 157.37775268908626,
+      "base_log_bayes_factor_crosscheck": 158.76404705020616,
+      "delta_vs_base": -1.3862943611198943,
+      "deu_only_prior_width_factor": 2.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "sensitivity_id": "deu_only_prior_volume_factor_2"
+    },
+    {
+      "adjusted_log_bayes_factor_crosscheck": 155.99145832796637,
+      "base_log_bayes_factor_crosscheck": 158.76404705020616,
+      "delta_vs_base": -2.7725887222397887,
+      "deu_only_prior_width_factor": 4.0,
+      "interpretation": "prior-volume sensitivity diagnostic only; not a formal Bayes-factor claim",
+      "sensitivity_id": "deu_only_prior_volume_factor_4"
+    }
+  ],
+  "proxy_formal_crosscheck": [
+    {
+      "claim_status": "comparison_recorded_result_gate_required",
+      "delta_vs_proxy": 0.0,
+      "estimator_id": "formal_laplace_full_covariance_crosscheck",
+      "formal_crosscheck_logbf": 158.76404705020616,
+      "stage3b23_24_proxy_logbf": 158.76404705020616
+    },
+    {
+      "claim_status": "comparison_recorded_result_gate_required",
+      "delta_vs_proxy": 0.05976328728729641,
+      "estimator_id": "formal_laplace_diagonal_covariance_crosscheck",
+      "formal_crosscheck_logbf": 158.82381033749346,
+      "stage3b23_24_proxy_logbf": 158.76404705020616
+    },
+    {
+      "claim_status": "comparison_recorded_result_gate_required",
+      "delta_vs_proxy": 1.779176761134977,
+      "estimator_id": "formal_laplace_iqr_diagonal_crosscheck",
+      "formal_crosscheck_logbf": 160.54322381134114,
+      "stage3b23_24_proxy_logbf": 158.76404705020616
+    }
+  ],
+  "script": "stage3b_26_formal_evidence_crosscheck_execution_checkpoint.py",
+  "stage": "3B-26",
+  "tri_anchor_context": [
+    {
+      "A_planck": "1.025",
+      "anchor_label": "highl_anchor",
+      "beta": "0.029",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.455015073141412",
+      "lowl_available_loglike": "-212.38519126951218",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.9366549798966",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.4816399067552",
+      "n_s": "0.98",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.09644863724304",
+      "point_id": "g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "lowl_plus_anchor",
+      "beta": "0.0295",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.453534606523377",
+      "lowl_available_loglike": "-212.21590707666138",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8525238512426",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.3989892447191",
+      "n_s": "0.98125",
+      "omega_b": "0.02195",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.1830821680578",
+      "point_id": "g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2"
+    },
+    {
+      "A_planck": "1.025",
+      "anchor_label": "full_objective_working_lock",
+      "beta": "0.03",
+      "deu_lensed_phase_profile": "2",
+      "lensing_native_loglike": "-9.388064537163515",
+      "lowl_available_loglike": "-212.1379932252806",
+      "lowl_plik_TTTEEE_lite_lensing_native_loglike": "-603.8280689556785",
+      "lowl_plus_plik_TTTEEE_lite_loglike": "-594.440004418515",
+      "n_s": "0.981875",
+      "omega_b": "0.022",
+      "p_vis": "1.0475",
+      "plik_TTTEEE_lite_loglike": "-382.30201119323436",
+      "point_id": "g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2"
+    }
+  ]
+}

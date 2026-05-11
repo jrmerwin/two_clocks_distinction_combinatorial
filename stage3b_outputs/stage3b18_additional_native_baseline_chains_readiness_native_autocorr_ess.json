@@ -1,0 +1,33 @@
+{
+  "diagnostics_recorded": true,
+  "ess_gate_pass": true,
+  "ess_rows": [
+    {
+      "ess_lag1_proxy": 294.42860767148795,
+      "gate_pass": true,
+      "lag1_autocorr": 0.8628787973582673,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "omega_b"
+    },
+    {
+      "ess_lag1_proxy": 304.7394867124055,
+      "gate_pass": true,
+      "lag1_autocorr": 0.8584167577838074,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "n_s"
+    },
+    {
+      "ess_lag1_proxy": 1042.1809841263512,
+      "gate_pass": true,
+      "lag1_autocorr": 0.5866150035441745,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "A_planck"
+    }
+  ],
+  "min_ess_lag1_proxy_seen": 294.42860767148795,
+  "min_required_ess": 50.0,
+  "note": "Lag-1 ESS proxy only; not a final convergence diagnostic or posterior evidence."
+}

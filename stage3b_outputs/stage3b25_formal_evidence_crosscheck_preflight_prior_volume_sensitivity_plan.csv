@@ -1,0 +1,6 @@
+family,parameter,model_side,base_prior,sensitivity_variant,required_before_superiority
+shared_shape,omega_b,DEU_and_native,Stage 3B matched prior,narrow/wide symmetric prior audit,True
+shared_shape,n_s,DEU_and_native,Stage 3B matched prior,narrow/wide symmetric prior audit,True
+shared_calibration,A_planck,DEU_and_native,Stage 3B matched prior,calibration prior-width audit,True
+DEU_only,deu_damping_envelope_beta,DEU_only,Stage 3B production prior,DEU prior-volume penalty audit,True
+DEU_only,deu_transfer_polamp_p_vis,DEU_only,Stage 3B production prior,DEU prior-volume penalty audit,True

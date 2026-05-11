@@ -1,0 +1,8 @@
+check_id,required_check,status
+reviewer_01,Rebuild local CLASS-DEU and verify classy import resolves to the local build.,required_before_external_claims
+reviewer_02,Rerun the Stage 3B-33 claim lock and Stage 3B-34 preflight from a clean git checkout.,required_before_external_claims
+reviewer_03,Independently recompute DEU/native posterior summaries from the archived chain files.,required_before_external_claims
+reviewer_04,"Independently recompute at least one evidence estimator family, not just read Stage 3B-31 outputs.",required_before_external_claims
+reviewer_05,"Confirm prior matching and likelihood matching, including TT_lite diagnostic-only status.",required_before_external_claims
+reviewer_06,Confirm tri-anchor context is retained and no final/publication claim is made without reviewer signoff.,required_before_external_claims
+reviewer_07,"Record exact command transcript, git commit, tags, environment variables, and package path.",required_before_external_claims

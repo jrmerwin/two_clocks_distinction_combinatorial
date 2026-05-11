@@ -1,0 +1,49 @@
+{
+  "diagnostics_recorded": true,
+  "ess_gate_pass": true,
+  "ess_rows": [
+    {
+      "ess_lag1_proxy": 179.60593678392613,
+      "gate_pass": true,
+      "lag1_autocorr": 0.9140560428421024,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "deu_damping_envelope_beta"
+    },
+    {
+      "ess_lag1_proxy": 194.86911515244793,
+      "gate_pass": true,
+      "lag1_autocorr": 0.9070916828138672,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "deu_transfer_polamp_p_vis"
+    },
+    {
+      "ess_lag1_proxy": 194.74339925422052,
+      "gate_pass": true,
+      "lag1_autocorr": 0.9071488380963452,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "omega_b"
+    },
+    {
+      "ess_lag1_proxy": 195.393839465857,
+      "gate_pass": true,
+      "lag1_autocorr": 0.9068531599451775,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "n_s"
+    },
+    {
+      "ess_lag1_proxy": 1636.02692543163,
+      "gate_pass": true,
+      "lag1_autocorr": 0.419439634665572,
+      "min_required_ess": 50.0,
+      "n": 4000,
+      "parameter": "A_planck"
+    }
+  ],
+  "min_ess_lag1_proxy_seen": 179.60593678392613,
+  "min_required_ess": 50.0,
+  "note": "Lag-1 ESS proxy only; not a final convergence diagnostic or posterior evidence."
+}

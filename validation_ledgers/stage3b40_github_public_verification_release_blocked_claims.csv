@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason
+peer_reviewed,Do not claim that the work is peer reviewed or independently externally reviewed.,No external reviewer result was booked; the old reviewer path remained pending by design.
+unqualified_model_superiority,Do not state unqualified model superiority or final cosmological truth.,"The current route allows scoped internal/preprint evidence language with caveats, not final model-selection claims."
+tt_lite_in_evidence,Do not claim TT_lite was part of the sampled posterior or evidence likelihood.,TT_lite remained diagnostic-only throughout the production/evidence chain.
+final_publication_style,Do not use final publication-style language implying journal acceptance or settled review.,The release is an author-led preprint with a public verification package.
+reader_review_equals_peer_review,Do not equate GitHub reader verification with formal peer review.,"Public reproducibility access supports transparency, not reviewer certification."

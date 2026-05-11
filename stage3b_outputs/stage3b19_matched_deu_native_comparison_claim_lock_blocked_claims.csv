@@ -1,0 +1,6 @@
+claim_id,status,claim,reason
+B1,blocked,DEU is superior to native ΛCDM/native baseline.,No explicit evidence/Bayes-factor or matched model-selection stage has passed.
+B2,blocked,The fixed-reference native-vs-DEU likelihood delta is model evidence.,It is a reference/preflight diagnostic delta only.
+B3,blocked,TT_lite is included in the sampled production posterior.,TT_lite is explicitly diagnostic-only and excluded.
+B4,blocked,This is ready as a final publication-style claim.,Final external claims remain gated pending final scoped report/evidence framing.
+B5,blocked,The DEU-only parameters prove new physics.,The current artifacts support only a caveated internal posterior summary and descriptive comparison.

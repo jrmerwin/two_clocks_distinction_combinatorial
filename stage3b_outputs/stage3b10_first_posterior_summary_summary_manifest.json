@@ -1,0 +1,54 @@
+{
+  "caveats": [
+    "This is the first posterior-language summary after the Stage 3B-9 readiness gate, not a final publication claim.",
+    "The sampled posterior is for the DEU full-objective working-lock configuration and the likelihood set used in the production YAML.",
+    "The TT_lite likelihood remains excluded from the production sampler by the Stage 3B preflight design; TT_lite stays a monitoring/diagnostic object, not part of the sampled full-objective posterior.",
+    "The tri-anchor split is retained as context: high-l, lowl+TTTEEE, and full-objective anchors are monitored even though the full-objective working lock is used for the production posterior.",
+    "The readiness gate passing means this summary is allowed to be written; it does not by itself establish external robustness, model comparison, or a final cosmological result.",
+    "Any scientific claim beyond this internal posterior summary still needs the next booked robustness/comparison stage."
+  ],
+  "chain_files_used": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt"
+  ],
+  "decision_type": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+  "final_publication_claims_allowed": false,
+  "map_candidate": {
+    "display_values": {
+      "A_planck": 1.0250579,
+      "beta": 0.029595717,
+      "n_s": 0.98118992,
+      "omega_b": 0.021959556,
+      "p_vis": 1.0473467
+    },
+    "found": true,
+    "parameter_values": {
+      "A_planck": 1.0250579,
+      "deu_damping_envelope_beta": 0.029595717,
+      "deu_transfer_polamp_p_vis": 1.0473467,
+      "n_s": 0.98118992,
+      "omega_b": 0.021959556
+    },
+    "row_index_zero_based": 1681,
+    "selection_column": "minuslogpost",
+    "selection_value": 572.83932
+  },
+  "n_chain_files_used": 2,
+  "next_stage_hint": "Stage 3B-11 posterior robustness and comparison checks",
+  "parameter_summary_count": 5,
+  "posterior_conclusions_written_by_this_stage": true,
+  "posterior_interpretation_allowed_by_readiness_gate": true,
+  "posterior_summary_written_by_this_stage": true,
+  "recommendation": "Book Stage 3B-10. Next run a robustness/comparison stage before making stronger external scientific claims.",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b9_diagnostic_outcome": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "stage3b9_posterior_readiness_gate_pass": true,
+  "tri_anchor_monitoring_pass": true
+}

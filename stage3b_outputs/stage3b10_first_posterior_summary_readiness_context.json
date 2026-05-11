@@ -1,0 +1,629 @@
+{
+  "stage3b9_acceptance": {
+    "additional_mcmc_launched_by_this_stage": true,
+    "additional_prefixes_clean_or_force_cleaned_before_run": true,
+    "additional_sampler_yaml_written": true,
+    "all_additional_sampler_runs_success": true,
+    "autocorr_ess_csv_written": true,
+    "autocorr_ess_diagnostics_recorded": true,
+    "autocorr_ess_json_written": true,
+    "chain_audit_json_written": true,
+    "chain_columns_csv_written": true,
+    "combined_chain_file_count_at_least_readiness_min": true,
+    "combined_chain_files_found": true,
+    "combined_chain_has_enough_rows_for_assessment": true,
+    "combined_chain_has_expected_sampled_columns": true,
+    "combined_chain_values_finite": true,
+    "diagnostic_outcome": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "hard_guard_pass": true,
+    "posterior_conclusions_written": false,
+    "posterior_interpretation_allowed": true,
+    "posterior_readiness_gate_pass": true,
+    "production_ref_eval_written": true,
+    "production_ref_matches_stage3b0_working_lock": true,
+    "production_ref_matches_stage3b1_sampler_ref": true,
+    "production_ref_matches_stage3b7_checkpoint": true,
+    "production_reference_eval_success": true,
+    "production_yaml_loaded": true,
+    "readiness_manifest_written": true,
+    "reference_comparison_csv_written": true,
+    "sample_stats_csv_written": true,
+    "sample_stats_json_written": true,
+    "sampled_parameter_motion_threshold_met": true,
+    "sampled_parameters_within_prior_bounds": true,
+    "sampler_runs_json_written": true,
+    "script_completed": true,
+    "segment_split_csv_written": true,
+    "segment_split_diagnostics_recorded": true,
+    "segment_split_json_written": true,
+    "stage3b0_hard_guard_pass": true,
+    "stage3b0_reference_loaded": true,
+    "stage3b1_hard_guard_pass": true,
+    "stage3b1_reference_loaded": true,
+    "stage3b7_checkpoint_pass": true,
+    "stage3b7_hard_guard_pass": true,
+    "stage3b7_reference_loaded": true,
+    "stage3b8_hard_guard_pass": true,
+    "stage3b8_more_chains_needed": true,
+    "stage3b8_posterior_readiness_false": true,
+    "stage3b8_reference_loaded": true,
+    "tail_diagnostics_csv_written": true,
+    "tail_diagnostics_json_written": true,
+    "tail_diagnostics_recorded": true,
+    "tri_anchor_eval_csv_written": true,
+    "tri_anchor_eval_json_written": true,
+    "tri_anchor_loglikes_match_monitoring_ledger": true,
+    "tri_anchor_monitoring_evaluated": true
+  },
+  "stage3b9_autocorr_ess": {
+    "diagnostics_recorded": true,
+    "ess_gate_pass": true,
+    "ess_rows": [
+      {
+        "ess_lag1_proxy": 179.60593678392613,
+        "gate_pass": true,
+        "lag1_autocorr": 0.9140560428421024,
+        "min_required_ess": 50.0,
+        "n": 4000,
+        "parameter": "deu_damping_envelope_beta"
+      },
+      {
+        "ess_lag1_proxy": 194.86911515244793,
+        "gate_pass": true,
+        "lag1_autocorr": 0.9070916828138672,
+        "min_required_ess": 50.0,
+        "n": 4000,
+        "parameter": "deu_transfer_polamp_p_vis"
+      },
+      {
+        "ess_lag1_proxy": 194.74339925422052,
+        "gate_pass": true,
+        "lag1_autocorr": 0.9071488380963452,
+        "min_required_ess": 50.0,
+        "n": 4000,
+        "parameter": "omega_b"
+      },
+      {
+        "ess_lag1_proxy": 195.393839465857,
+        "gate_pass": true,
+        "lag1_autocorr": 0.9068531599451775,
+        "min_required_ess": 50.0,
+        "n": 4000,
+        "parameter": "n_s"
+      },
+      {
+        "ess_lag1_proxy": 1636.02692543163,
+        "gate_pass": true,
+        "lag1_autocorr": 0.419439634665572,
+        "min_required_ess": 50.0,
+        "n": 4000,
+        "parameter": "A_planck"
+      }
+    ],
+    "min_ess_lag1_proxy_seen": 179.60593678392613,
+    "min_required_ess": 50.0,
+    "note": "Lag-1 ESS proxy only; not a final convergence diagnostic or posterior evidence."
+  },
+  "stage3b9_readiness_manifest": {
+    "additional_chain_prefixes": [
+      "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01"
+    ],
+    "additional_sampler_run_statuses": [
+      "success"
+    ],
+    "base_production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+    "decision_type": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+    "diagnostic_assessment_complete": true,
+    "ess_gate_pass": true,
+    "max_normalized_segment_range_seen": 0.33629031943004045,
+    "max_normalized_tail_shift_seen": 0.19452728952488885,
+    "mcmc_launched_by_this_stage": true,
+    "min_chain_files_for_readiness": 2,
+    "min_ess_lag1_proxy_seen": 179.60593678392613,
+    "motion_by_parameter": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "motion_count": 5,
+    "n_chain_files": 2,
+    "next_stage_hint": "Stage 3B-10 first posterior summary with tri-anchor caveats",
+    "posterior_conclusions_written": false,
+    "posterior_evidence_status": "readiness_gate_passed_but_summary_not_yet_written",
+    "posterior_interpretation_allowed": true,
+    "posterior_readiness_gate_pass": true,
+    "production_reference_eval_status": "success",
+    "production_reference_matches_stage3b1_sampler_ref": true,
+    "production_reference_matches_stage3b7_checkpoint": true,
+    "production_reference_matches_working_lock": true,
+    "recommendation": "Book Stage 3B-9. Next write the first posterior-summary draft with explicit caveats and the tri-anchor ledger retained.",
+    "segment_gate_pass": true,
+    "stage3b0_working_lock_point": {
+      "A_planck": 1.025,
+      "beta": 0.03,
+      "deu_lensed_phase_profile": 2,
+      "n_s": 0.981875,
+      "omega_b": 0.022,
+      "p_vis": 1.0475
+    },
+    "stage3b8_diagnostic_outcome": "PRODUCTION_CONVERGENCE_ASSESSMENT_RECORDED_MORE_CHAINS_NEEDED",
+    "tail_gate_pass": true,
+    "total_chain_rows": 4000,
+    "tri_anchor_monitoring_pass": true
+  },
+  "stage3b9_sample_stats": {
+    "all_sampled_parameters_with_motion": true,
+    "all_sampled_parameters_within_prior_bounds": true,
+    "header": [
+      "weight",
+      "minuslogpost",
+      "deu_damping_envelope_beta",
+      "deu_transfer_polamp_p_vis",
+      "omega_b",
+      "n_s",
+      "A_planck",
+      "chi2__CMB",
+      "minuslogprior",
+      "minuslogprior__0",
+      "chi2",
+      "chi2__planck_2018_highl_plik.TTTEEE_lite",
+      "chi2__planck_2018_lowl.TT",
+      "chi2__planck_2018_lowl.EE",
+      "chi2__planck_2018_lensing.native"
+    ],
+    "motion_by_parameter": {
+      "A_planck": true,
+      "deu_damping_envelope_beta": true,
+      "deu_transfer_polamp_p_vis": true,
+      "n_s": true,
+      "omega_b": true
+    },
+    "motion_count": 5,
+    "n_rows": 4000,
+    "stats_rows": [
+      {
+        "max": 0.030499613,
+        "mean": 0.02949433190075,
+        "min": 0.028503605,
+        "motion_recorded": true,
+        "n_values": 4000,
+        "parameter": "deu_damping_envelope_beta",
+        "prior_max": 0.0305,
+        "prior_min": 0.0285,
+        "span": 0.001996007999999997,
+        "unique_rounded_12": 1396,
+        "within_prior": true
+      },
+      {
+        "max": 1.0499778,
+        "mean": 1.047410945125,
+        "min": 1.0450006,
+        "motion_recorded": true,
+        "n_values": 4000,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "prior_max": 1.05,
+        "prior_min": 1.045,
+        "span": 0.004977199999999904,
+        "unique_rounded_12": 1368,
+        "within_prior": true
+      },
+      {
+        "max": 0.022099565,
+        "mean": 0.021980328141,
+        "min": 0.021900233,
+        "motion_recorded": true,
+        "n_values": 4000,
+        "parameter": "omega_b",
+        "prior_max": 0.0221,
+        "prior_min": 0.0219,
+        "span": 0.00019933199999999998,
+        "unique_rounded_12": 1393,
+        "within_prior": true
+      },
+      {
+        "max": 0.98249805,
+        "mean": 0.9815183232525,
+        "min": 0.98050506,
+        "motion_recorded": true,
+        "n_values": 4000,
+        "parameter": "n_s",
+        "prior_max": 0.9825,
+        "prior_min": 0.9805,
+        "span": 0.0019929899999999723,
+        "unique_rounded_12": 1390,
+        "within_prior": true
+      },
+      {
+        "max": 1.028335,
+        "mean": 1.0250563802,
+        "min": 1.0223195,
+        "motion_recorded": true,
+        "n_values": 4000,
+        "parameter": "A_planck",
+        "prior_max": 1.03,
+        "prior_min": 1.02,
+        "span": 0.0060154999999999514,
+        "unique_rounded_12": 3603,
+        "within_prior": true
+      }
+    ]
+  },
+  "stage3b9_segment_diagnostics": {
+    "diagnostics_recorded": true,
+    "max_allowed_normalized_segment_range": 8.0,
+    "max_normalized_segment_range_seen": 0.33629031943004045,
+    "n_chain_files": 2,
+    "n_rows": 4000,
+    "n_segments_used": 4,
+    "note": "Segment split diagnostic; readiness is conservative and not a posterior claim.",
+    "segment_gate_pass": true,
+    "segment_rows": [
+      {
+        "max": 0.03047047,
+        "mean": 0.029541391208,
+        "min": 0.028542191,
+        "n": 1000,
+        "parameter": "deu_damping_envelope_beta",
+        "segment": 1,
+        "variance": 2.571232030042689e-07
+      },
+      {
+        "max": 0.030499613,
+        "mean": 0.029546922552,
+        "min": 0.028515852,
+        "n": 1000,
+        "parameter": "deu_damping_envelope_beta",
+        "segment": 2,
+        "variance": 2.9159905599955876e-07
+      },
+      {
+        "max": 0.030488333,
+        "mean": 0.029441279795,
+        "min": 0.028503605,
+        "n": 1000,
+        "parameter": "deu_damping_envelope_beta",
+        "segment": 3,
+        "variance": 3.326923739116467e-07
+      },
+      {
+        "max": 0.03048156,
+        "mean": 0.029447734048,
+        "min": 0.028519891,
+        "n": 1000,
+        "parameter": "deu_damping_envelope_beta",
+        "segment": 4,
+        "variance": 3.006309427272849e-07
+      },
+      {
+        "gate_pass": true,
+        "max": 0.029546922552,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 0.02949433190075,
+        "min": 0.029441279795,
+        "n": 4000,
+        "normalized_segment_range": 0.19433571002080147,
+        "parameter": "deu_damping_envelope_beta",
+        "pooled_std": 0.0005436095969633813,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 0.00010564275700000042,
+        "variance": null
+      },
+      {
+        "max": 1.0499238,
+        "mean": 1.0473196151,
+        "min": 1.0450006,
+        "n": 1000,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "segment": 1,
+        "variance": 1.5779867915935977e-06
+      },
+      {
+        "max": 1.0499778,
+        "mean": 1.047259615,
+        "min": 1.0450016,
+        "n": 1000,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "segment": 2,
+        "variance": 1.7400388813963741e-06
+      },
+      {
+        "max": 1.0499736,
+        "mean": 1.0476935992,
+        "min": 1.0450369,
+        "n": 1000,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "segment": 3,
+        "variance": 1.452130566646006e-06
+      },
+      {
+        "max": 1.0499406,
+        "mean": 1.0473709512,
+        "min": 1.0450906,
+        "n": 1000,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "segment": 4,
+        "variance": 1.8914521231417115e-06
+      },
+      {
+        "gate_pass": true,
+        "max": 1.0476935992,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 1.047410945125,
+        "min": 1.047259615,
+        "n": 4000,
+        "normalized_segment_range": 0.33629031943004045,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "pooled_std": 0.001290504587630134,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 0.00043398420000007043,
+        "variance": null
+      },
+      {
+        "max": 0.02209092,
+        "mean": 0.021975457424000002,
+        "min": 0.021900248,
+        "n": 1000,
+        "parameter": "omega_b",
+        "segment": 1,
+        "variance": 2.504125277053294e-09
+      },
+      {
+        "max": 0.022094211,
+        "mean": 0.021975601147,
+        "min": 0.021900765,
+        "n": 1000,
+        "parameter": "omega_b",
+        "segment": 2,
+        "variance": 2.0899198252866856e-09
+      },
+      {
+        "max": 0.022098042,
+        "mean": 0.021988174397,
+        "min": 0.021900233,
+        "n": 1000,
+        "parameter": "omega_b",
+        "segment": 3,
+        "variance": 2.8376723852065838e-09
+      },
+      {
+        "max": 0.022099565,
+        "mean": 0.021982079595999997,
+        "min": 0.021900651,
+        "n": 1000,
+        "parameter": "omega_b",
+        "segment": 4,
+        "variance": 2.2019859764952685e-09
+      },
+      {
+        "gate_pass": true,
+        "max": 0.021988174397,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 0.021980328141,
+        "min": 0.021975457424000002,
+        "n": 4000,
+        "normalized_segment_range": 0.2591296496243631,
+        "parameter": "omega_b",
+        "pooled_std": 4.90757156444046e-05,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 1.2716972999999437e-05,
+        "variance": null
+      },
+      {
+        "max": 0.98249686,
+        "mean": 0.98154171788,
+        "min": 0.98052765,
+        "n": 1000,
+        "parameter": "n_s",
+        "segment": 1,
+        "variance": 3.0413154619049343e-07
+      },
+      {
+        "max": 0.98249805,
+        "mean": 0.98149224461,
+        "min": 0.98050565,
+        "n": 1000,
+        "parameter": "n_s",
+        "segment": 2,
+        "variance": 3.898788480863373e-07
+      },
+      {
+        "max": 0.98249788,
+        "mean": 0.98159411202,
+        "min": 0.98050506,
+        "n": 1000,
+        "parameter": "n_s",
+        "segment": 3,
+        "variance": 2.948643292461653e-07
+      },
+      {
+        "max": 0.98247069,
+        "mean": 0.9814452185,
+        "min": 0.98050606,
+        "n": 1000,
+        "parameter": "n_s",
+        "segment": 4,
+        "variance": 2.6203620426141197e-07
+      },
+      {
+        "gate_pass": true,
+        "max": 0.98159411202,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 0.9815183232525,
+        "min": 0.9814452185,
+        "n": 4000,
+        "normalized_segment_range": 0.2662518288961893,
+        "parameter": "n_s",
+        "pooled_std": 0.0005592206469240044,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 0.00014889352000002631,
+        "variance": null
+      },
+      {
+        "max": 1.028335,
+        "mean": 1.0250356885,
+        "min": 1.0224184,
+        "n": 1000,
+        "parameter": "A_planck",
+        "segment": 1,
+        "variance": 8.183328105482947e-07
+      },
+      {
+        "max": 1.0276991,
+        "mean": 1.0250371904000002,
+        "min": 1.0223195,
+        "n": 1000,
+        "parameter": "A_planck",
+        "segment": 2,
+        "variance": 7.304578470548943e-07
+      },
+      {
+        "max": 1.0273687,
+        "mean": 1.025117955,
+        "min": 1.0223555,
+        "n": 1000,
+        "parameter": "A_planck",
+        "segment": 3,
+        "variance": 7.31021344139135e-07
+      },
+      {
+        "max": 1.0278849,
+        "mean": 1.0250346869,
+        "min": 1.022366,
+        "n": 1000,
+        "parameter": "A_planck",
+        "segment": 4,
+        "variance": 7.855092792776705e-07
+      },
+      {
+        "gate_pass": true,
+        "max": 1.025117955,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 1.0250563802000001,
+        "min": 1.0250346869,
+        "n": 4000,
+        "normalized_segment_range": 0.09511973914491828,
+        "parameter": "A_planck",
+        "pooled_std": 0.0008754029473648113,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 8.326810000003348e-05,
+        "variance": null
+      },
+      {
+        "max": 581.07629,
+        "mean": 574.01582253,
+        "min": 572.88934,
+        "n": 1000,
+        "parameter": "minuslogpost",
+        "segment": 1,
+        "variance": 1.022328563049747
+      },
+      {
+        "max": 579.10595,
+        "mean": 573.9002117599999,
+        "min": 572.83932,
+        "n": 1000,
+        "parameter": "minuslogpost",
+        "segment": 2,
+        "variance": 0.7082874767728748
+      },
+      {
+        "max": 579.10713,
+        "mean": 574.02690767,
+        "min": 572.91106,
+        "n": 1000,
+        "parameter": "minuslogpost",
+        "segment": 3,
+        "variance": 0.8654869267568314
+      },
+      {
+        "max": 579.74345,
+        "mean": 574.02670727,
+        "min": 572.86331,
+        "n": 1000,
+        "parameter": "minuslogpost",
+        "segment": 4,
+        "variance": 0.8742180574420884
+      },
+      {
+        "gate_pass": true,
+        "max": 574.02690767,
+        "max_allowed_normalized_segment_range": 8.0,
+        "mean": 573.9924123075,
+        "min": 573.9002117599999,
+        "n": 4000,
+        "normalized_segment_range": 0.1360215643392458,
+        "parameter": "minuslogpost",
+        "pooled_std": 0.9314398831945009,
+        "segment": "__SEGMENT_SUMMARY__",
+        "segment_mean_range": 0.1266959100000804,
+        "variance": null
+      }
+    ]
+  },
+  "stage3b9_tail_diagnostics": {
+    "diagnostics_recorded": true,
+    "max_allowed_normalized_tail_shift": 8.0,
+    "max_normalized_tail_shift_seen": 0.19452728952488885,
+    "note": "Crude first-half/second-half diagnostic; not posterior evidence.",
+    "tail_gate_pass": true,
+    "tail_rows": [
+      {
+        "first_half_mean": 0.02954415688,
+        "gate_pass": true,
+        "max_allowed_normalized_tail_shift": 8.0,
+        "n_first": 2000,
+        "n_second": 2000,
+        "normalized_tail_shift": 0.18261144055581865,
+        "overall_std": 0.0005456939510289799,
+        "parameter": "deu_damping_envelope_beta",
+        "second_half_mean": 0.0294445069215
+      },
+      {
+        "first_half_mean": 1.04728961505,
+        "gate_pass": true,
+        "max_allowed_normalized_tail_shift": 8.0,
+        "n_first": 2000,
+        "n_second": 2000,
+        "normalized_tail_shift": 0.18653236882907395,
+        "overall_std": 0.001300901026043536,
+        "parameter": "deu_transfer_polamp_p_vis",
+        "second_half_mean": 1.0475322752
+      },
+      {
+        "first_half_mean": 0.0219755292855,
+        "gate_pass": true,
+        "max_allowed_normalized_tail_shift": 8.0,
+        "n_first": 2000,
+        "n_second": 2000,
+        "normalized_tail_shift": 0.19452728952488885,
+        "overall_std": 4.933863533205723e-05,
+        "parameter": "omega_b",
+        "second_half_mean": 0.0219851269965
+      },
+      {
+        "first_half_mean": 0.981516981245,
+        "gate_pass": true,
+        "max_allowed_normalized_tail_shift": 8.0,
+        "n_first": 2000,
+        "n_second": 2000,
+        "normalized_tail_shift": 0.0047778790417351245,
+        "overall_std": 0.0005617586750494778,
+        "parameter": "n_s",
+        "second_half_mean": 0.98151966526
+      },
+      {
+        "first_half_mean": 1.02503643945,
+        "gate_pass": true,
+        "max_allowed_normalized_tail_shift": 8.0,
+        "n_first": 2000,
+        "n_second": 2000,
+        "normalized_tail_shift": 0.04553737991667479,
+        "overall_std": 0.0008757969842134352,
+        "parameter": "A_planck",
+        "second_half_mean": 1.02507632095
+      }
+    ]
+  }
+}

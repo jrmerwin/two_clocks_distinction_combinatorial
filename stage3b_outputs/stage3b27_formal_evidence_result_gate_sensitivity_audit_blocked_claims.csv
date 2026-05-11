@@ -1,0 +1,6 @@
+claim_id,blocked_claim,reason
+model_superiority,DEU is superior to the native/baseline model.,Requires a separate final claim lock/publication preflight after formal result gating.
+publication_bayes_factor,The reported log BF is a final publication-grade Bayes factor.,Stage 3B-27 allows only scoped internal formal cross-check language.
+tt_lite_in_evidence,TT_lite was included in the sampled posterior or evidence estimator.,TT_lite was diagnostic-only in this pipeline.
+external_validation,The result is externally validated or robust to all estimator choices.,External validation and independent estimator/review remain separate follow-up work.
+final_publication_claim,This completes final publication-style claims.,Final publication-style claims remain explicitly gated.

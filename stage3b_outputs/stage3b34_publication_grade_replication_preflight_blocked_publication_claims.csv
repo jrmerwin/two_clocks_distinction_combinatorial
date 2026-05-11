@@ -1,0 +1,7 @@
+claim_id,blocked_claim,status,required_unlock
+blocked_external_01,External publication claim that DEU is superior to native/baseline cosmology.,blocked,Stage 3B-35+ independent replication/reviewer gate
+blocked_external_02,Final Bayes-factor/evidence claim without independent reviewer replication.,blocked,Stage 3B-35+ independent replication/reviewer gate
+blocked_external_03,Claim that TT_lite was included in the sampled posterior/evidence likelihood.,blocked,Stage 3B-35+ independent replication/reviewer gate
+blocked_external_04,Final cosmological-result language beyond the scoped internal report.,blocked,Stage 3B-35+ independent replication/reviewer gate
+blocked_external_05,Claim that the evidence result is publication-grade without external replication package review.,blocked,Stage 3B-35+ independent replication/reviewer gate
+blocked_external_06,Use of the internal validation result as a standalone model-selection conclusion.,blocked,Stage 3B-35+ independent replication/reviewer gate

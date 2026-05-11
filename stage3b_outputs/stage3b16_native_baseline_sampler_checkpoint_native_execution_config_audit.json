@@ -1,0 +1,50 @@
+{
+  "all_expected_native_sampled_params_present": true,
+  "all_required_full_objective_likelihoods_present": true,
+  "deu_shape_params_absence_detail": {
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true
+  },
+  "deu_shape_params_absent_from_native_sampler": true,
+  "existing_chain_artifacts_before_run": [],
+  "expected_native_sampled_params_present": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "extra_arg_keys": [
+    "l_max_scalars",
+    "lensing",
+    "output"
+  ],
+  "extra_args_have_no_deu_keys": true,
+  "likelihood_names": [
+    "planck_2018_highl_plik.TTTEEE_lite",
+    "planck_2018_lowl.TT",
+    "planck_2018_lowl.EE",
+    "planck_2018_lensing.native"
+  ],
+  "mcmc_settings": {
+    "Rminus1_cl_stop": 0.05,
+    "Rminus1_stop": 0.01,
+    "learn_proposal": true,
+    "max_samples": 2000,
+    "max_tries": 10000
+  },
+  "output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+  "output_prefix_expected": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+  "output_prefix_matches_expected": true,
+  "required_full_objective_likelihoods_present": {
+    "planck_2018_highl_plik.TTTEEE_lite": true,
+    "planck_2018_lensing.native": true,
+    "planck_2018_lowl.EE": true,
+    "planck_2018_lowl.TT": true
+  },
+  "sampled_param_names": [
+    "omega_b",
+    "n_s",
+    "A_planck"
+  ],
+  "sampler_mcmc_present": true,
+  "tt_lite_excluded": true
+}

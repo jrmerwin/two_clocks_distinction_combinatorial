@@ -1,0 +1,5 @@
+claim,status,reason,required_unlock
+DEU is superior to native/baseline cosmology,blocked,No matched native/baseline posterior or evidence comparison has been booked.,Run matched native/baseline comparison chains or explicit evidence/comparison stage.
+Bayes factor/evidence favors DEU,blocked,"Current chain summaries are posterior samples, not evidence estimates.",Book an explicit evidence methodology or matched model-comparison stage.
+TT_lite is included in the production posterior,blocked,TT_lite remained diagnostic-only and excluded from production likelihood.,Run a production sampler whose likelihood explicitly includes TT_lite.
+Final publication-style cosmological result,blocked,Stage 3B-14 and 3B-13 keep final claims gated.,Complete final claim lock after matched comparison/robustness extension.

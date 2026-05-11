@@ -1,0 +1,6 @@
+likelihood,required_for_matched_full_objective,present_in_deu,present_in_native,matched,interpretation
+planck_2018_highl_plik.TTTEEE_lite,True,True,True,True,
+planck_2018_lowl.TT,True,True,True,True,
+planck_2018_lowl.EE,True,True,True,True,
+planck_2018_lensing.native,True,True,True,True,
+planck_2018_highl_plik.TT_lite,False,False,False,True,TT_lite must remain diagnostic-only unless a later sampler explicitly includes it on both sides.

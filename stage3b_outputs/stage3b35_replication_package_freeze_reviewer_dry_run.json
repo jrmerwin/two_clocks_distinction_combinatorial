@@ -1,0 +1,263 @@
+{
+  "acceptance": {
+    "allowed_internal_statements_written": true,
+    "blocked_publication_claims_written": true,
+    "diagnostic_outcome": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED",
+    "evidence_values_finite": true,
+    "external_publication_claims_allowed": false,
+    "external_reviewer_handoff_written": true,
+    "final_publication_claims_allowed": false,
+    "freeze_manifest_written": true,
+    "hard_guard_pass": true,
+    "internal_independent_validation_evidence_language_allowed": true,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "new_evidence_computed_by_this_stage": false,
+    "package_manifest_rows_present": true,
+    "package_manifest_written": true,
+    "required_artifacts_all_present": true,
+    "reviewer_commands_executed_by_this_stage": false,
+    "reviewer_dry_run_commands_recorded": true,
+    "reviewer_dry_run_written": true,
+    "script_completed": true,
+    "sha256_manifest_written": true,
+    "sha256_rows_recorded": true,
+    "stage3b34_expected_decision": true,
+    "stage3b34_external_publication_blocked": true,
+    "stage3b34_external_review_required": true,
+    "stage3b34_final_publication_blocked": true,
+    "stage3b34_hard_guard_pass": true,
+    "stage3b34_model_superiority_blocked": true,
+    "stage3b34_reference_loaded": true,
+    "stage3b34_tt_lite_claims_blocked": true,
+    "tri_anchor_context_retained": true,
+    "tri_anchor_context_written": true,
+    "tt_lite_scope_written": true
+  },
+  "allowed_internal_statements": [
+    {
+      "allowed_scope": "internal-review only",
+      "required_caveat": "Not an external publication claim and not a model-superiority claim.",
+      "statement": "The independent-validation evidence estimator result may be discussed internally with explicit caveats.",
+      "statement_id": "allowed_internal_evidence_language",
+      "value_context": "log_BF_independent_DEU_minus_native=169.00640862086107"
+    },
+    {
+      "allowed_scope": "internal/external reviewer handoff",
+      "required_caveat": "Package readiness is not the same as reviewer validation.",
+      "statement": "A publication-grade replication preflight package has been frozen for independent review.",
+      "statement_id": "allowed_replication_package_ready",
+      "value_context": "artifact_manifest_rows=43"
+    },
+    {
+      "allowed_scope": "internal-review only",
+      "required_caveat": "Lineage agreement does not authorize final publication-style claims.",
+      "statement": "Formal/proxy/independent evidence lineage values may be compared as estimator-lineage diagnostics.",
+      "statement_id": "allowed_formal_lineage_context",
+      "value_context": "formal_log_BF=158.76404705020616; proxy_log_BF=158.76404705020616"
+    },
+    {
+      "allowed_scope": "internal/external reviewer context",
+      "required_caveat": "Tri-anchor monitoring is not an independent model-selection result.",
+      "statement": "The tri-anchor ledger is retained as monitoring context for the DEU working-lock history.",
+      "statement_id": "allowed_tri_anchor_context",
+      "value_context": "tri_anchor_context_count=3"
+    }
+  ],
+  "blocked_publication_claims": [
+    {
+      "blocked_claim": "DEU is superior to native/baseline cosmology.",
+      "claim_id": "blocked_model_superiority",
+      "reason": "Requires independent reviewer/replication gate and manuscript-level validation."
+    },
+    {
+      "blocked_claim": "The current evidence/BF result is publication-ready.",
+      "claim_id": "blocked_external_publication",
+      "reason": "Stage 3B-34 requires external review; Stage 3B-35 only freezes package/handoff."
+    },
+    {
+      "blocked_claim": "Final publication-style conclusion about DEU evidence.",
+      "claim_id": "blocked_final_publication",
+      "reason": "Final claims remain gated until independent review is booked and passed."
+    },
+    {
+      "blocked_claim": "TT_lite was included in the sampled posterior/evidence likelihood.",
+      "claim_id": "blocked_tt_lite_in_evidence",
+      "reason": "TT_lite remained diagnostic-only in the production/evidence scope."
+    },
+    {
+      "blocked_claim": "Unqualified Bayes-factor/evidence claim.",
+      "claim_id": "blocked_uncaveated_bayes_factor",
+      "reason": "Allowed language is internal independent-validation evidence language with caveats only."
+    }
+  ],
+  "cwd": "/home/merwijas/deu_class/CLASS-DEU",
+  "elapsed_s": 0.02613520622253418,
+  "freeze_manifest": {
+    "decision_type": "INDEPENDENT_REPLICATION_PACKAGE_FREEZE_DRY_RUN_PASS_EXTERNAL_REVIEW_READY_PUBLICATION_STILL_GATED",
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "external_publication_claims_allowed": false,
+    "external_reviewer_required": true,
+    "final_publication_claims_allowed": false,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "internal_independent_validation_evidence_language_allowed": true,
+    "internal_independent_validation_evidence_language_allowed_with_caveats": true,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-36 external reviewer handoff and independent-replication result gate",
+    "package_manifest_rows": 99,
+    "posterior_evidence_status": "replication_package_frozen_external_review_required_publication_still_gated",
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "publication_grade_replication_package_frozen": true,
+    "recommendation": "Book Stage 3B-35. Hand the frozen package to an independent reviewer; external publication, model-superiority, TT_lite-in-evidence/posterior, and final-style claims remain gated.",
+    "required_artifact_rows": 73,
+    "required_artifacts_all_present": true,
+    "reviewer_commands_executed_by_this_stage": false,
+    "reviewer_dry_run_command_rows": 7,
+    "reviewer_dry_run_references_ok": true,
+    "sha256_rows": 99,
+    "stage3b34_decision": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "tri_anchor_context_count": 3,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "generated_utc": "2026-05-09T15:49:11+00:00",
+  "outputs": {
+    "acceptance_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_acceptance.md",
+    "allowed_internal_statements_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_allowed_internal_statements.csv",
+    "blocked_publication_claims_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_blocked_publication_claims.csv",
+    "external_reviewer_handoff_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_external_reviewer_handoff.md",
+    "freeze_manifest": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_freeze_manifest.json",
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+    "package_manifest_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+    "package_manifest_json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.json",
+    "reviewer_dry_run_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run.csv",
+    "reviewer_dry_run_report_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run_report.md",
+    "sha256_manifest_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+    "tri_anchor_context_csv": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tri_anchor_context.csv",
+    "tt_lite_scope_md": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tt_lite_publication_scope.md"
+  },
+  "package_manifest_summary": {
+    "required_missing_rows": 0,
+    "required_rows": 73,
+    "rows": 99,
+    "sha256_rows": 99
+  },
+  "previous_stage3b34_reference": {
+    "diagnostic_outcome": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "hard_guard_pass": true,
+    "json": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight.json",
+    "loaded": true
+  },
+  "reviewer_dry_run_rows": [
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "cd ~/deu_class/CLASS-DEU",
+      "command_id": "env_cd",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "enter repository root",
+      "referenced_file": "",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "source ~/deu_class/deu_boltzmann_start/.venv/bin/activate",
+      "command_id": "env_activate",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "activate environment",
+      "referenced_file": "",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "export COBAYA_PACKAGES_PATH=~/deu_class/cobaya_packages",
+      "command_id": "env_packages",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "set Cobaya packages path",
+      "referenced_file": "",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "cat /home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_independent_reviewer_protocol.md",
+      "command_id": "inspect_replication_report",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "review Stage 3B-34 reviewer protocol",
+      "referenced_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_independent_reviewer_protocol.md",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "cat /home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_reproducibility_commands.md",
+      "command_id": "inspect_repro_commands",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "review reproduction commands",
+      "referenced_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b34_publication_grade_replication_preflight_reproducibility_commands.md",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "column -s, -t < /home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv | less -S",
+      "command_id": "inspect_artifact_manifest",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "inspect frozen package manifest",
+      "referenced_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    },
+    {
+      "artifact_freeze_prereq_ok": true,
+      "command": "column -s, -t < /home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv | less -S",
+      "command_id": "inspect_hash_manifest",
+      "dry_run_status": "not_executed_by_stage3b35",
+      "purpose": "inspect SHA256 manifest",
+      "referenced_file": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "referenced_file_exists": true,
+      "would_compute_new_evidence": false,
+      "would_launch_mcmc": false
+    }
+  ],
+  "script": "stage3b_35_replication_package_freeze_reviewer_dry_run.py",
+  "stage": "3B-35",
+  "stage3b34_manifest": {
+    "artifact_manifest_rows": 43,
+    "decision_type": "PUBLICATION_GRADE_REPLICATION_PREFLIGHT_PASS_EXTERNAL_REVIEW_REQUIRED",
+    "deu_log_evidence_independent_validation": -542.2974790661433,
+    "evidence_values_finite": true,
+    "external_publication_claims_allowed": false,
+    "external_reviewer_required": true,
+    "final_publication_claims_allowed": false,
+    "formal_log_bayes_factor_lineage": 158.76404705020616,
+    "internal_independent_validation_evidence_language_allowed": true,
+    "log_bayes_factor_independent_validation_deu_minus_native": 169.00640862086107,
+    "mcmc_launched_by_this_stage": false,
+    "model_superiority_claims_allowed": false,
+    "native_log_evidence_independent_validation": -711.3038876870044,
+    "new_evidence_computed_by_this_stage": false,
+    "next_stage_hint": "Stage 3B-35 independent replication package freeze or external reviewer dry run",
+    "posterior_evidence_status": "publication_grade_replication_preflighted_external_review_required",
+    "proxy_log_bayes_factor_lineage": 158.76404705020616,
+    "publication_grade_replication_preflight_written": true,
+    "recommendation": "Book Stage 3B-34. Internal independent-validation evidence language remains allowed with caveats; external/publication, model-superiority, TT_lite-in-evidence/posterior, and final-style claims require an independent replication/reviewer gate.",
+    "replication_checklist_rows": 10,
+    "required_core_artifacts_all_present": true,
+    "stage3b32_decision": "INDEPENDENT_EVIDENCE_VALIDATION_RESULT_GATE_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "stage3b33_decision": "EXTERNAL_EVIDENCE_PUBLICATION_CLAIM_LOCK_PASS_INTERNAL_VALIDATION_ALLOWED_PUBLICATION_STILL_GATED",
+    "tri_anchor_context_count": 3,
+    "tt_lite_sampled_posterior_or_evidence_claims_allowed": false
+  },
+  "tri_anchor_context_count": 3
+}

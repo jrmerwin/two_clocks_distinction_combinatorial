@@ -1,0 +1,4 @@
+A_planck,anchor_label,beta,deu_lensed_phase_profile,lensing_native_loglike,lowl_available_loglike,lowl_plik_TTTEEE_lite_lensing_native_loglike,lowl_plus_plik_TTTEEE_lite_loglike,n_s,omega_b,p_vis,plik_TTTEEE_lite_loglike,point_id
+1.025,highl_anchor,0.029,2,-9.455015073141412,-212.38519126951218,-603.9366549798966,-594.4816399067552,0.98,0.02195,1.0475,-382.09644863724304,g001_tri_anchor_pvis_guard_highl_anchor_b0.029_p1.0475_ob0.02195_ns0.98_A1.025_prof2
+1.025,lowl_plus_anchor,0.0295,2,-9.453534606523377,-212.21590707666138,-603.8525238512426,-594.3989892447191,0.98125,0.02195,1.0475,-382.1830821680578,g004_tri_anchor_pvis_guard_lowl_plus_anchor_b0.0295_p1.0475_ob0.02195_ns0.98125_A1.025_prof2
+1.025,full_objective_working_lock,0.03,2,-9.388064537163515,-212.1379932252806,-603.8280689556785,-594.440004418515,0.981875,0.022,1.0475,-382.30201119323436,g007_tri_anchor_pvis_guard_full_objective_working_lock_b0.03_p1.0475_ob0.022_ns0.981875_A1.025_prof2

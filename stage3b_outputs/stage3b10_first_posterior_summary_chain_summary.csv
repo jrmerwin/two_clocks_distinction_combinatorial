@@ -1,0 +1,3 @@
+chain_file,n_rows,n_columns,all_numeric_finite,minuslogpost_min,minuslogpost_max,weight_sum,weight_max
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt,2000,15,True,572.83932,581.07629,2641.0,8.0
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt,2000,15,True,572.86331,579.74345,3204.0,10.0

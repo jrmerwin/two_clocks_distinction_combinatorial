@@ -1,0 +1,22 @@
+{
+  "baseline_context_rows": 24,
+  "decision_type": "BASELINE_NATIVE_MODEL_COMPARISON_EXTENSION_PASS_SUPERIORITY_STILL_GATED",
+  "diagnostic_assessment_complete": true,
+  "external_publication_claims_written_by_this_stage": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": false,
+  "model_superiority_claims_allowed": false,
+  "next_stage_hint": "Stage 3B-15 matched native/baseline comparison preflight or final scoped report",
+  "parameter_summary_count": 5,
+  "posterior_conclusions_extended_by_this_stage": false,
+  "posterior_evidence_status": "baseline_native_context_recorded_model_superiority_still_gated",
+  "posterior_summary_allowed_with_caveats": true,
+  "recommendation": "Book Stage 3B-14. Use only scoped posterior-summary language; run a matched native/baseline comparison or evidence stage before model-superiority or final publication claims.",
+  "scoped_internal_posterior_claims_allowed": true,
+  "stage3b10_decision": "FIRST_POSTERIOR_SUMMARY_WITH_TRI_ANCHOR_CAVEATS_WRITTEN",
+  "stage3b11_decision": "POSTERIOR_ROBUSTNESS_COMPARISON_PASS",
+  "stage3b12_decision": "EXTERNAL_MODEL_COMPARISON_PREFLIGHT_PASS_FINAL_CLAIMS_STILL_GATED",
+  "stage3b13_decision": "SCOPED_FINAL_CLAIM_LOCK_PASS_MODEL_COMPARISON_EXTENSION_REQUIRED",
+  "stage3b9_readiness_decision": "ADDITIONAL_PRODUCTION_CHAINS_READINESS_GATE_PASS",
+  "tri_anchor_context_count": 3
+}

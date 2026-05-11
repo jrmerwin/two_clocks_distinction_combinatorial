@@ -1,0 +1,25 @@
+{
+  "decision_type": "PRODUCTION_PREFLIGHT_PASS",
+  "max_samples_in_production_config": 2000,
+  "next_stage_hint": "Stage 3B-7 first production execution/checkpoint, posterior still gated",
+  "posterior_conclusions_written": false,
+  "posterior_evidence_status": "not_started",
+  "posterior_interpretation_allowed": false,
+  "production_chain_prefix_clean": true,
+  "production_mcmc_launched_by_this_stage": false,
+  "production_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run",
+  "production_reference_eval_status": "success",
+  "production_reference_matches_stage3b1_sampler_ref": true,
+  "production_reference_matches_working_lock": true,
+  "recommendation": "Book Stage 3B-6. Next run Stage 3B-7 first production execution/checkpoint. Posterior claims remain gated until a separately booked convergence assessment passes.",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b5_diagnostic_outcome": "EXTENDED_CONVERGENCE_GATE_PILOT_PASS",
+  "tri_anchor_monitoring_pass": true
+}

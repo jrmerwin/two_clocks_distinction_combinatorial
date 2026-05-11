@@ -1,0 +1,6 @@
+estimator_id,status,purpose,execution_stage_required,claim_unlocked_by_setup_only,notes
+matched_nested_sampling,preferred_future_execution,Compute matched DEU/native evidences with the same full-objective likelihood set and declared priors.,Stage 3B-23 or later,False,Requires actual nested/evidence run; this preflight only prepares inputs.
+bridge_sampling_from_readiness_chains,candidate_future_execution,Use readiness-cleared posterior chains as inputs to a separately validated bridge estimator.,Stage 3B-23 or later,False,Must validate estimator assumptions and normalization before any evidence claim.
+thermodynamic_integration,optional_future_execution,Run matched tempered chains for a direct marginal-likelihood estimate.,future evidence extension,False,More expensive; useful if bridge/nested estimates disagree.
+information_criteria_context,descriptive_only,Record AIC/BIC/IC-like context if desired.,optional context stage,False,Information criteria are not Bayes factors and cannot by themselves support superiority claims here.
+tt_lite_inclusive_evidence,blocked_until_new_matched_sampler,Evidence including TT_lite on both sides.,new matched TT_lite-inclusive sampler/readiness stages,False,Current production chains exclude TT_lite; do not retrofit TT_lite evidence claims.

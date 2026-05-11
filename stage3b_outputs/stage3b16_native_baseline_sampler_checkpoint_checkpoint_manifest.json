@@ -1,0 +1,41 @@
+{
+  "decision_type": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+  "deu_shape_params_absent_from_native_sampler": true,
+  "external_publication_claims_written_by_this_stage": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": true,
+  "model_superiority_claims_allowed": false,
+  "native_all_chain_values_finite": true,
+  "native_all_expected_sampled_columns_present": true,
+  "native_chain_files_found": true,
+  "native_extra_args_have_no_deu_keys": true,
+  "native_mcmc_launched_by_this_stage": true,
+  "native_motion_by_parameter": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "native_motion_count": 3,
+  "native_n_chain_files": 1,
+  "native_parameters_within_prior_bounds": true,
+  "native_reference_eval_status": "success",
+  "native_reference_matches_stage3b15_sampler_ref": true,
+  "native_sampler_run_status": "success",
+  "native_total_chain_rows": 2000,
+  "native_tt_lite_excluded": true,
+  "next_stage_hint": "Stage 3B-17 native/baseline readiness and matched comparison gate",
+  "posterior_conclusions_extended_by_this_stage": false,
+  "posterior_evidence_status": "native_sampler_checkpoint_passed_superiority_still_gated",
+  "posterior_summary_allowed_with_caveats": true,
+  "recommendation": "Book Stage 3B-16. Next run a native/baseline readiness and comparison gate before any model-superiority or final publication claim.",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b15_decision": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+  "tri_anchor_context_retained": true
+}

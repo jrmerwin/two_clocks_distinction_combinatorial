@@ -1,0 +1,39 @@
+{
+  "all_expected_sampled_columns_present": true,
+  "all_sampled_parameters_within_prior_bounds": true,
+  "chain_files_found": true,
+  "decision_type": "CONVERGENCE_PRECHECK_PILOT_PASS",
+  "learn_proposal_requested": false,
+  "max_samples_per_chain_requested": 96,
+  "mcmc_launched_by_this_stage": true,
+  "min_moving_params_required": 3,
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "motion_count": 5,
+  "n_chains_requested": 2,
+  "next_stage_hint": "Stage 3B-5 extended convergence-gate pilot with tri-anchor monitoring",
+  "posterior_conclusions_written": false,
+  "posterior_interpretation_allowed": false,
+  "recommendation": "Book Stage 3B-4. Next run an extended still-non-interpretive pilot/convergence gate with tri-anchor monitoring; posterior claims remain disallowed.",
+  "sampler_run_statuses": [
+    "success",
+    "success"
+  ],
+  "split_diagnostics_recorded": true,
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b3_diagnostic_outcome": "SHORT_PILOT_CHAIN_PASS",
+  "total_chain_rows": 192,
+  "tri_anchor_monitoring_pass": true
+}

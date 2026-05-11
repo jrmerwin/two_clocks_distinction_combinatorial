@@ -1,0 +1,5 @@
+check,value,threshold,pass,interpretation
+all_formal_crosscheck_logbf_values_finite,3,3,True,all paired DEU/native cross-checks finite
+formal_crosscheck_logbf_sign_consistent,[1],single sign,True,sign consistency only; not model-superiority
+formal_crosscheck_logbf_spread_within_gate,1.779176761134977,500.0,True,loose numerical consistency gate
+formal_crosscheck_proxy_delta_within_gate,0.05976328728729641,500.0,True,cross-check broadly agrees with Stage 3B-23/24 proxy; formal claim still blocked

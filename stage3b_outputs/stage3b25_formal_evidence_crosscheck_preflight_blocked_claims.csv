@@ -1,0 +1,6 @@
+claim_id,status,reason,unblock_requirement
+formal_bayes_factor,blocked,No formal evidence estimator has been executed by this stage.,Stage 3B-26 formal estimator execution and Stage 3B-27 result gate.
+model_superiority,blocked,Diagnostic proxy and design preflight are insufficient for superiority.,Validated evidence results plus prior-volume sensitivity and claim lock.
+tt_lite_in_evidence_or_posterior,blocked,TT_lite remains diagnostic-only and excluded from current sampled likelihoods.,Matched TT_lite-inclusive sampler/evidence design.
+final_publication_claim,blocked,"Publication-style claims require formal evidence, external robustness, and final claim lock.",Dedicated publication-claim lock after formal model-selection gates.
+physical_proof,blocked,Statistical posterior/evidence work is not a physical proof.,Independent theory and external-data validation.

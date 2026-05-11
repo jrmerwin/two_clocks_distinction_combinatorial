@@ -1,0 +1,6 @@
+sensitivity_id,parameter_group,test,required_before_superiority
+S1_deu_shape_prior_width,DEU-only beta/p_vis,Repeat or analytically correct evidence estimate under narrower and wider DEU-only prior widths.,True
+S2_shared_shape_prior_alignment,omega_b/n_s/A_planck,Confirm shared prior boxes and reference values remain matched across DEU/native evidence estimators.,True
+S3_estimator_family,all,Compare chain-local formal cross-check against independent estimator family.,True
+S4_likelihood_scope,likelihoods,Keep TT_lite excluded from formal evidence claims unless a separate matched TT_lite-inclusive run is performed.,True
+S5_chain_subset_replay,all,Replay validation on DEU/native chain subsets to check dependence on a single chain file.,False

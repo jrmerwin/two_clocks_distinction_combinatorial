@@ -1,0 +1,1588 @@
+{
+  "artifacts": [
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+      "sha256": "0b118cf5e85f3ca98ce19b7a7711e2fdbc43c518ea1a1042c5bd09e84d022233",
+      "size_bytes": 17187
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_acceptance.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_acceptance.md",
+      "sha256": "9f8974c33611ca2d294c1cc27eb70e684148701a676396cd194b19475f550eb8",
+      "size_bytes": 5003
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_scope_lock.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_scope_lock.md",
+      "sha256": "28e3a6edff645052be794ff36875dc3aae9cfd02a401578ab3b2f07443f013bd",
+      "size_bytes": 3192
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_guardrails.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_guardrails.md",
+      "sha256": "c6ab583285125a8a7adf0864720e88509920967f840462e13c19d74a200dfc32",
+      "size_bytes": 628
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package.json",
+      "sha256": "39d4d2b19bbe6c839b01680ff2f8ab2239df8e0e868c3cc555004a01c12835fe",
+      "size_bytes": 21328
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_acceptance.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_acceptance.md",
+      "sha256": "fe0bcb90b64c1a347357dbf8fded19b32898511410ab7df77870f11db5273cc1",
+      "size_bytes": 6628
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_manuscript_draft.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_manuscript_draft.md",
+      "sha256": "20ac8a1fb42ae7e83ea72994c0545fdd4851a95fae581e331a1dab1486feb383",
+      "size_bytes": 6103
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_abstract.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_abstract.md",
+      "sha256": "066226e6bc7e90c7ea55a892f2950d07d3eb02d109c2a912a97981bafc9e6b6e",
+      "size_bytes": 884
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_methods_appendix.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_methods_appendix.md",
+      "sha256": "434cae82185647b70e6255507bf29ce132c4c9e61ade6a0f583f634d2e178858",
+      "size_bytes": 828
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_reproducibility_statement.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_reproducibility_statement.md",
+      "sha256": "16fd95f9e83bda1bf6ce717df859fc9848bcae5bb8bf18da6b5ceeb1681f7d8c",
+      "size_bytes": 650
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate.json",
+      "sha256": "722dac0e72c8257cfdc38d2d117b6b9f774dabe11e70ab8a8287b757ee15e278",
+      "size_bytes": 20933
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_acceptance.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_acceptance.md",
+      "sha256": "75863fd4ac920cc333fcfb36e3a5aee3c6226b07c406198e666c83f715df0a30",
+      "size_bytes": 6829
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_readiness_report.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_readiness_report.md",
+      "sha256": "664659c072abe5469b16bbbb61ee4c337ef5e8f326527fc505c5c536b06806b4",
+      "size_bytes": 4663
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_preprint_metadata.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_preprint_metadata.json",
+      "sha256": "f8c5936888cc284b03de17fd150fcfde99215cf5c9b709a27c28fe4525559e2b",
+      "size_bytes": 837
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.csv",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.csv",
+      "sha256": "51838aeeac367e3a08ed61ee05a46ba3d31b8979b228c6df59c2cb05a2ff018c",
+      "size_bytes": 3563
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_sha256_manifest.csv",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_sha256_manifest.csv",
+      "sha256": "51838aeeac367e3a08ed61ee05a46ba3d31b8979b228c6df59c2cb05a2ff018c",
+      "size_bytes": 3563
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_author_release_checklist.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_author_release_checklist.md",
+      "sha256": "698b79fe4a361b6c0fbb1e37267c44c7db9e4b0ad34c7cb2486bbe6734147e57",
+      "size_bytes": 1629
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "sha256": "0f050937ffa44ef26e7eafef22fddf395db2a5182ec4e83e22ed019d8dffc6d6",
+      "size_bytes": 15043
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_freeze_manifest.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_freeze_manifest.json",
+      "sha256": "2f7678354733c45c86533afd2d6b2813774e1163e7307f33113dab00e08c9683",
+      "size_bytes": 1790
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "sha256": "e664def2c2dd3987b4612efa29042a5bcc08b5b065085258b0676063834a2907",
+      "size_bytes": 37484
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "sha256": "034cbdbfd494da3ad582876d49d7ebfe01b26137ad602a8c046f5b94062b8dff",
+      "size_bytes": 34077
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+      "sha256": "c13417bb540ff713e8940e7eca93cca5dcc57090ee19e5913b0ea725b21c3bd9",
+      "size_bytes": 28292
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_final_scoped_report.md",
+      "artifact_group": "core_required",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_final_scoped_report.md",
+      "sha256": "a7de0bf4296b7efbfeaebc9f73e351dd3df0bf78aeaa42346c1db9b848600cda",
+      "size_bytes": 2829
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock.json",
+      "sha256": "0b118cf5e85f3ca98ce19b7a7711e2fdbc43c518ea1a1042c5bd09e84d022233",
+      "size_bytes": 17187
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_acceptance.md",
+      "sha256": "9f8974c33611ca2d294c1cc27eb70e684148701a676396cd194b19475f550eb8",
+      "size_bytes": 5003
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_allowed_preprint_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_allowed_preprint_statements.csv",
+      "sha256": "877bc5767a0a64528456f0fd1a460b4de9bc9bbafa825016089d9f77587a082f",
+      "size_bytes": 1251
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_artifact_index.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_artifact_index.csv",
+      "sha256": "eb50f70a7bc7fb761488843c130253d5ba2ea5b2d9a63c3f44c5caebbdbaf024",
+      "size_bytes": 2515
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_blocked_claims.csv",
+      "sha256": "2b6ac29e4ba4b43e492b260a71ec3fe99ffc721fc40dfbbe06d4f60ab5386087",
+      "size_bytes": 859
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_evidence_lineage_for_preprint.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_evidence_lineage_for_preprint.csv",
+      "sha256": "4c2b0b62631dc2f019d4591bfd78503b6d15b6083a0033b732493c96b9278025",
+      "size_bytes": 337
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_guardrails.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_guardrails.md",
+      "sha256": "c6ab583285125a8a7adf0864720e88509920967f840462e13c19d74a200dfc32",
+      "size_bytes": 628
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_scope_lock.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_preprint_scope_lock.md",
+      "sha256": "28e3a6edff645052be794ff36875dc3aae9cfd02a401578ab3b2f07443f013bd",
+      "size_bytes": 3192
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_replication_package_recap.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_replication_package_recap.csv",
+      "sha256": "95076fbc6e344196c15b7fe7705c5349a9e25f60e388e69e364094d71c08b310",
+      "size_bytes": 852
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_scope_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_scope_manifest.json",
+      "sha256": "03a56bb4e276432a6c90f9a491c09a7ab261c0ca9cc0d1b938cfd4ebbc7f3bd3",
+      "size_bytes": 2337
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tt_lite_preprint_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b37_preprint_release_scope_lock_tt_lite_preprint_scope.md",
+      "sha256": "b1059bd47da390463b26635a0207ce79f5544b3b00a71548ebad03e9a0fd8a51",
+      "size_bytes": 295
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package.json",
+      "sha256": "39d4d2b19bbe6c839b01680ff2f8ab2239df8e0e868c3cc555004a01c12835fe",
+      "size_bytes": 21328
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_acceptance.md",
+      "sha256": "fe0bcb90b64c1a347357dbf8fded19b32898511410ab7df77870f11db5273cc1",
+      "size_bytes": 6628
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_allowed_preprint_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_allowed_preprint_statements.csv",
+      "sha256": "6e88abf994d365e5575915af746fba049883877b59e676b38e080078949da5d6",
+      "size_bytes": 655
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_artifact_index.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_artifact_index.csv",
+      "sha256": "f543010d7e8f4e3da86d322a45b41260de2e1289ececfeaa80dbd29b70733a18",
+      "size_bytes": 37251
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_blocked_claims.csv",
+      "sha256": "16bda8c9e29a19c8f788a074770b77bb4148a91f056a69aa816de35cf9cb888b",
+      "size_bytes": 604
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_claim_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_claim_matrix.csv",
+      "sha256": "f190d285ef6b168546955027d0a520a8fd6af35c6ee6e7d84757c96910d40fa6",
+      "size_bytes": 1504
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_evidence_lineage.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_evidence_lineage.csv",
+      "sha256": "6777b6a241bb739592fe05792b55f8a0c8c506dbef829e268ca818714244c2cd",
+      "size_bytes": 581
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_methods_appendix.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_methods_appendix.md",
+      "sha256": "434cae82185647b70e6255507bf29ce132c4c9e61ade6a0f583f634d2e178858",
+      "size_bytes": 828
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_package_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_package_manifest.json",
+      "sha256": "427cc9e2c38182dd1d04f48ddfc060a108b9185aaf38b5927cbe65c1044f5262",
+      "size_bytes": 1817
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_abstract.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_abstract.md",
+      "sha256": "066226e6bc7e90c7ea55a892f2950d07d3eb02d109c2a912a97981bafc9e6b6e",
+      "size_bytes": 884
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_checklist.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_checklist.csv",
+      "sha256": "36f74ea42535db785161746712c9cde81440186e591ff722e1a3f8204fb9d3e5",
+      "size_bytes": 605
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_manuscript_draft.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_preprint_manuscript_draft.md",
+      "sha256": "20ac8a1fb42ae7e83ea72994c0545fdd4851a95fae581e331a1dab1486feb383",
+      "size_bytes": 6103
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_reproducibility_statement.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_reproducibility_statement.md",
+      "sha256": "16fd95f9e83bda1bf6ce717df859fc9848bcae5bb8bf18da6b5ceeb1681f7d8c",
+      "size_bytes": 650
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_results_tables.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_results_tables.csv",
+      "sha256": "6c32edf071b767897160d18c9e1af4330f514074f68ae04504b2603abad764d0",
+      "size_bytes": 2294
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_tt_lite_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b38_preprint_manuscript_package_tt_lite_scope.md",
+      "sha256": "64ee7f352d841d0b74d6a4cffee6188943f9016c438e7ee09d97b6a0d93ebc86",
+      "size_bytes": 407
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate.json",
+      "sha256": "722dac0e72c8257cfdc38d2d117b6b9f774dabe11e70ab8a8287b757ee15e278",
+      "size_bytes": 20933
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_acceptance.md",
+      "sha256": "75863fd4ac920cc333fcfb36e3a5aee3c6226b07c406198e666c83f715df0a30",
+      "size_bytes": 6829
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_allowed_preprint_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_allowed_preprint_statements.csv",
+      "sha256": "7d8c5566cb9ebe701e02b73d1837c7d359a2cd85992c3db997118c3f899e7789",
+      "size_bytes": 1003
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_author_release_checklist.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_author_release_checklist.md",
+      "sha256": "698b79fe4a361b6c0fbb1e37267c44c7db9e4b0ad34c7cb2486bbe6734147e57",
+      "size_bytes": 1629
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_blocked_claims.csv",
+      "sha256": "a464327acaba11557ce0984dce38faf128910060e7c975d40465b19eea402f8e",
+      "size_bytes": 802
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_claim_compliance_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_claim_compliance_matrix.csv",
+      "sha256": "c05bc90ff513b514738cc52363cc39b6598a2e8e525c9af1d3a570634170b1b9",
+      "size_bytes": 1953
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_evidence_lineage_for_submission.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_evidence_lineage_for_submission.csv",
+      "sha256": "45637c8a3657be3fec43e7715e85e8d5baff39e0134071bf6ed703d269f29368",
+      "size_bytes": 975
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_preprint_metadata.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_preprint_metadata.json",
+      "sha256": "f8c5936888cc284b03de17fd150fcfde99215cf5c9b709a27c28fe4525559e2b",
+      "size_bytes": 837
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_sha256_manifest.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_sha256_manifest.csv",
+      "sha256": "51838aeeac367e3a08ed61ee05a46ba3d31b8979b228c6df59c2cb05a2ff018c",
+      "size_bytes": 3563
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.csv",
+      "sha256": "51838aeeac367e3a08ed61ee05a46ba3d31b8979b228c6df59c2cb05a2ff018c",
+      "size_bytes": 3563
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_source_package_manifest.json",
+      "sha256": "3d876f69819d23a1e8421853922d2ceb6e5ce4620aa108b6b39a30a1df16d3a6",
+      "size_bytes": 5303
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_checklist.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_checklist.csv",
+      "sha256": "89e51c21f65f52684859653275194d8c5a87ab2f5b72cd9a0d2b5f079022cf30",
+      "size_bytes": 1073
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_manifest.json",
+      "sha256": "ebf4cb165bb0946b26cbde02867c6a141be522fa9cef27378534d494e0bebb93",
+      "size_bytes": 1410
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_readiness_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_submission_readiness_report.md",
+      "sha256": "664659c072abe5469b16bbbb61ee4c337ef5e8f326527fc505c5c536b06806b4",
+      "size_bytes": 4663
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_tt_lite_submission_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b39_preprint_submission_readiness_gate_tt_lite_submission_scope.md",
+      "sha256": "b1217ebefccbf88f232ecc3d3d9d5851480771a5b6cfbd07501836b333e36997",
+      "size_bytes": 344
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run.json",
+      "sha256": "0f050937ffa44ef26e7eafef22fddf395db2a5182ec4e83e22ed019d8dffc6d6",
+      "size_bytes": 15043
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_acceptance.md",
+      "sha256": "3f0be58b86f1a0e60b839ff783d2f8688c12e91b2f57b980cf3674d03b49e344",
+      "size_bytes": 6127
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_allowed_internal_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_allowed_internal_statements.csv",
+      "sha256": "4db66d20ed9519ab6488d4756db1bdd23f56c22079ce17901e85b6b319b210d7",
+      "size_bytes": 1132
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_blocked_publication_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_blocked_publication_claims.csv",
+      "sha256": "7f2d543c1485f9d5b0577f96ff0314c2f8f351030a6c56e31fad4eaec9045f06",
+      "size_bytes": 828
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_external_reviewer_handoff.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_external_reviewer_handoff.md",
+      "sha256": "23c5c2fbc04fe9d7c3cfc49360fdfc27a95939332d9e4b6bdf01ed1bc7257f2a",
+      "size_bytes": 1023
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_freeze_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_freeze_manifest.json",
+      "sha256": "2f7678354733c45c86533afd2d6b2813774e1163e7307f33113dab00e08c9683",
+      "size_bytes": 1790
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.csv",
+      "sha256": "e664def2c2dd3987b4612efa29042a5bcc08b5b065085258b0676063834a2907",
+      "size_bytes": 37484
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_package_manifest.json",
+      "sha256": "74b897ec22210959465f4aecf3db7f1b2425edb3f00643e8957af9526600cf4a",
+      "size_bytes": 55650
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run.csv",
+      "sha256": "65a2ad052c95a0ac9e58767b4b9b88ad8a9ccd97e8218d02c12fb326b1e79f6f",
+      "size_bytes": 2171
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_reviewer_dry_run_report.md",
+      "sha256": "3135714df77e776fcae5a6ad6d87ec6b6ac8ca5d1947b8da3b27da0df875551c",
+      "size_bytes": 789
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_sha256_manifest.csv",
+      "sha256": "034cbdbfd494da3ad582876d49d7ebfe01b26137ad602a8c046f5b94062b8dff",
+      "size_bytes": 34077
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tt_lite_publication_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b35_replication_package_freeze_reviewer_dry_run_tt_lite_publication_scope.md",
+      "sha256": "02044c8131edbfa8ef4750685d6afe4e3ca2c2b1197fce9a89ff14811069d7c7",
+      "size_bytes": 411
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate.json",
+      "sha256": "c10abc3d69277c05821513496193159272035488f4e9f042f1f25243cf486da0",
+      "size_bytes": 8552
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_acceptance.md",
+      "sha256": "b9e6434573e0c5de764ab3f965ce1d09cf9d660ae920360580f521e6a0a60d82",
+      "size_bytes": 6375
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_allowed_internal_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_allowed_internal_statements.csv",
+      "sha256": "c9f883bca29d649b90f467136d551ac21218f00dc0b15ac2be1471793616f754",
+      "size_bytes": 705
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_blocked_publication_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_blocked_publication_claims.csv",
+      "sha256": "0d6cc05d648f7a310431f6ce786339690ebca9a7c31fea5535326e0be4d86e21",
+      "size_bytes": 602
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_claim_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_claim_matrix.csv",
+      "sha256": "3d4c6d707e6ecbdb36e5bed9f824d2000d8c77c65313102f4d3fa5e9213ac4e5",
+      "size_bytes": 757
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_evidence_lineage_lock.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_evidence_lineage_lock.csv",
+      "sha256": "a504178730b63c9d56ce00fb81e6ae9e618cb5b8c10156736394b4da8a853897",
+      "size_bytes": 702
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_handoff_gate_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_handoff_gate_report.md",
+      "sha256": "83ae69e81541a264a9e21e5b20e619f1691f7bcd9bcaad760cd76c064c0b8d12",
+      "size_bytes": 1114
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_handoff_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_handoff_manifest.json",
+      "sha256": "468d62ed3fadd1a4c8ee423a201d0d262fa2f17fa725cf114e23dc891db63da5",
+      "size_bytes": 1736
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_package_integrity_audit.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_package_integrity_audit.csv",
+      "sha256": "9abc6d78bb9b3617dde000208c23137fd2c8c5dfba4debf6e855d1b5f0819d2f",
+      "size_bytes": 24605
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_reviewer_intake_requirements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_reviewer_intake_requirements.csv",
+      "sha256": "d523df07fc48b92e6e4d81bc545d7f9a20c1d772f5f8c71ccce2d14ba2f6676b",
+      "size_bytes": 783
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_reviewer_result_template.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_reviewer_result_template.md",
+      "sha256": "9636d63bd97490554e90ea78c9a6cfb205f1fab5722dadb95dc73cc26ad4a750",
+      "size_bytes": 1116
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_sha256_verification.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_sha256_verification.csv",
+      "sha256": "385e136e6908e0b60b444f37f709112522926ef8f32bd7f5e95074ad607669c8",
+      "size_bytes": 31957
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_tt_lite_publication_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b36_external_reviewer_handoff_result_gate_tt_lite_publication_scope.md",
+      "sha256": "5cd242eea0227706e808855a146d8fcdee566256354b58e3e0f089a19bd045ac",
+      "size_bytes": 363
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock.json",
+      "sha256": "d3c373298f313bd44c5fdd36f3fc219a05a8ca3a4d67ea0bd5e5001b42cbae8f",
+      "size_bytes": 22598
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_acceptance.md",
+      "sha256": "b230a1f92b1381c7c22ba42154c757dda9c2d25d7739593fa38a3057578ea4ac",
+      "size_bytes": 7585
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_allowed_independent_validation_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_allowed_independent_validation_statements.csv",
+      "sha256": "ec5441dd5c9e56f5fd4027f14f891dfbf1cbdee54c72fbff405884fbde232bd1",
+      "size_bytes": 907
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_blocked_claims.csv",
+      "sha256": "c65275c906003d8189fe78f86e0d419c576ad487e1c71192e01535522cf009d1",
+      "size_bytes": 884
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_claim_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_claim_matrix.csv",
+      "sha256": "0962a781dfd024ce6524fd920b9875184038326d2b03e0df448c5d7a7f0a9b71",
+      "size_bytes": 1019
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_estimator_status_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_estimator_status_context.csv",
+      "sha256": "0c73603144814cb3d3b093379d8626d5c406ecec4c76bbe9f7ba5918c58d7dd8",
+      "size_bytes": 399
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_gate_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_gate_manifest.json",
+      "sha256": "9aa138cea9f6464d9094b6632a9e7f6b12a09acab6330023de5252718daa069c",
+      "size_bytes": 2654
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_consistency_audit.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_consistency_audit.csv",
+      "sha256": "d66402bdf00a24993a4ccf64560a255f9e3b1a1241ed6c7aa22cf0e13ce430de",
+      "size_bytes": 1008
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_evidence_summary.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_evidence_summary.csv",
+      "sha256": "665580d3c38ba548c0f17f19f6ccc24aecad32b8cbb2ca1930a1bafe56be7ca0",
+      "size_bytes": 742
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_sensitivity_audit.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_independent_sensitivity_audit.csv",
+      "sha256": "ef307cf782a5ecca24a7160523e3724811d528407b0856d8343337a9452c9312",
+      "size_bytes": 1174
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_lineage_agreement_audit.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_lineage_agreement_audit.csv",
+      "sha256": "d94621db0907bc29165bc86f01fd6be53ba190354229611a56dd89ee2714bccf",
+      "size_bytes": 911
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_required_next_steps.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_required_next_steps.csv",
+      "sha256": "38be96503da1538f462ae8d9f70a45636a9ac87d3397b6ebdc8b87937a3c3d67",
+      "size_bytes": 577
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_result_gate_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_result_gate_report.md",
+      "sha256": "711797fbe7ab5a2454747d2084845e9ebf4a5d98f568839aae638eede327140b",
+      "size_bytes": 1480
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tt_lite_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b32_independent_evidence_result_gate_publication_lock_tt_lite_scope.md",
+      "sha256": "c9444dba03637e6bada578a6167374af8d35f5a0772b13a8bf5b41ac6af20223",
+      "size_bytes": 381
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum.json",
+      "sha256": "b6937e493f1cc178cf872b9dc2e45f5caa9b30c6d3e2be49070499f2d0db6bee",
+      "size_bytes": 16374
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_acceptance.md",
+      "sha256": "2946a3d7a16964c25b85c00610556ef84ccea5680c3c98ca1d267be6dd43e9fd",
+      "size_bytes": 6262
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_allowed_internal_evidence_statements.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_allowed_internal_evidence_statements.csv",
+      "sha256": "fba6645f48fd3e97f0ac7958b9dc459879ebfbaf07961241fc1e41bf410cec4d",
+      "size_bytes": 1065
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_blocked_external_publication_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_blocked_external_publication_claims.csv",
+      "sha256": "e557c8399e0bf75600c979df4ce5cf8fcac3e486ca46e37be3bf5c18dc90d3ce",
+      "size_bytes": 1412
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_claim_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_claim_matrix.csv",
+      "sha256": "284683bb1c7bee99eb2d60737cf09ca4d6d0a24b46eb4ee6e02debff12b56cef",
+      "size_bytes": 732
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_evidence_lineage.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_evidence_lineage.csv",
+      "sha256": "dae7d086ce58b1ad03aa685759f3fa75c898c836838cbdc11bdccf637e8ea5cd",
+      "size_bytes": 996
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_manuscript_guardrail_addendum.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_manuscript_guardrail_addendum.md",
+      "sha256": "8523e886075e798ec1659d69b5cf30a2e348ad4308939467167b3b34b2a4cac5",
+      "size_bytes": 1283
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_publication_claim_lock.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_publication_claim_lock.md",
+      "sha256": "1696647c50236ac53467e86a297f1acbb495cd186177dde2e559b3bb28a920d7",
+      "size_bytes": 3845
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_required_independent_reviewer_checks.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_required_independent_reviewer_checks.csv",
+      "sha256": "0a4525a99631fb1b39a0e7ae803c25d5497bce5a05b221b2c1a0c714c484a5d8",
+      "size_bytes": 657
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_scope_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_scope_manifest.json",
+      "sha256": "d25ec6281b1af7beadd9732411474b99951fb1ed239592c4c053ae9ec9e0156f",
+      "size_bytes": 1985
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_tt_lite_publication_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b33_external_evidence_publication_claim_lock_addendum_tt_lite_publication_scope.md",
+      "sha256": "6d1e7163a73f3ce9345ab50c82c8447312b16fa3bcbf57664ddbcc9ed5b8d5e5",
+      "size_bytes": 458
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report.json",
+      "sha256": "c13417bb540ff713e8940e7eca93cca5dcc57090ee19e5913b0ea725b21c3bd9",
+      "size_bytes": 28292
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_acceptance.md",
+      "sha256": "153d10b0b135e14185d8855bf8207c1375e9e23be2ad85c999c91e39d4ad476f",
+      "size_bytes": 5915
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_allowed_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_allowed_claims.csv",
+      "sha256": "b86440389e97e3636a935bf64ce857787a91e4df8838a16252db20b4b3d80b76",
+      "size_bytes": 1978
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_artifact_index.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_artifact_index.csv",
+      "sha256": "3e211210b4e421ac77d5328e433491bdda1aa11847f11eaae516e689026f5ebf",
+      "size_bytes": 3228
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_blocked_claims.csv",
+      "sha256": "0e08a43e2aa8ef1cda8521ada9e067ba0bf7d1eff2637dfb5f3a8a749cdf020c",
+      "size_bytes": 1121
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_claim_lock.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_claim_lock.md",
+      "sha256": "d228df9078cfc07894a4f081f61a14ee7e1dbfacc85ffca3e0f34c42e8d884e8",
+      "size_bytes": 2783
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_evidence_model_selection_design.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_evidence_model_selection_design.md",
+      "sha256": "8a3e64707d4fbd2a39f64bb16909e3c9a178c381854e081b749f8fa7fa63f56b",
+      "size_bytes": 1132
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_executive_summary.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_executive_summary.md",
+      "sha256": "cdf29ca743e883105801dba77b97d44e153d9b0c5f5841228346275ca1950f74",
+      "size_bytes": 1058
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_final_scoped_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_final_scoped_report.md",
+      "sha256": "a7de0bf4296b7efbfeaebc9f73e351dd3df0bf78aeaa42346c1db9b848600cda",
+      "size_bytes": 2829
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_manifest.json",
+      "sha256": "83d59152e45cbb96b702212b949742f5fd0d8dd062906f331f852b3eaae984a8",
+      "size_bytes": 1654
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_native_parameter_summary.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_native_parameter_summary.csv",
+      "sha256": "6a8868d91c3b380aa55c5962d02245b03e90be9f080d56544059e453b70aece6",
+      "size_bytes": 594
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_parameter_comparison.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_parameter_comparison.csv",
+      "sha256": "44c679d440a0c4169b5a6de0cb042db50093499dd9cf1c12efbb526f027c027a",
+      "size_bytes": 1344
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_posterior_parameter_summary.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_posterior_parameter_summary.csv",
+      "sha256": "fb44b038afb07172ea557baccc92edca8f1035c3f4aa8b156a81c648aee3a553",
+      "size_bytes": 1274
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_stage_timeline.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_stage_timeline.csv",
+      "sha256": "f4a4713a123144545c6fb56a22bfa186a57f720b9bda94705946dfdb40a4e6ff",
+      "size_bytes": 819
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_tt_lite_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b20_final_scoped_internal_report_tt_lite_scope.md",
+      "sha256": "7c773c36e2080fe0b2052abe828a8fcdfc810caa30b90a88ae98b3261f8f7984",
+      "size_bytes": 393
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock.json",
+      "sha256": "0c19cabfd3e56eaa3b52a9158292c4b255c550f9599c1ebec089fbb63105b49c",
+      "size_bytes": 23030
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_acceptance.md",
+      "sha256": "42476589cbd8fcbfac0177668c07ffc1961bca4a72ede9b6ffc72d94b1160768",
+      "size_bytes": 6722
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_allowed_scoped_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_allowed_scoped_claims.csv",
+      "sha256": "15e36155909b15ad80804445cbcecbb4b825d2f0f7227a7960093043acb8f8fd",
+      "size_bytes": 1053
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_blocked_claims.csv",
+      "sha256": "bb96b25f480d03ceec066b9bddcf2acd054b9fa56e23534a290b2193254c3828",
+      "size_bytes": 723
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_claim_lock.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_claim_lock.md",
+      "sha256": "f61bee1d110aee96b22c4814627d8c43d4efe2be4d87a932e0d08db9acad0187",
+      "size_bytes": 2210
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_claim_matrix.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_claim_matrix.csv",
+      "sha256": "d331e79116874c916958894ea493a86cfbe890bdcca5b36d45b5758173139968",
+      "size_bytes": 1764
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_comparison_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_comparison_manifest.json",
+      "sha256": "462b802cb1053b18f3dcf3b98e8f69c11b0b2d4451bea6ad1ded4a129a1c917a",
+      "size_bytes": 1710
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_comparison_report.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_comparison_report.md",
+      "sha256": "489e2fbca91c34560e049ca03cb45cc5a4b8d52a40e4ef6873d9a0d480f26ee3",
+      "size_bytes": 1760
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_deu_native_parameter_comparison.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_deu_native_parameter_comparison.csv",
+      "sha256": "6e3a4b56b63aa906a2b940c4b5517ba0cd1bc6e9e3e46d8551e85dcc5d148a76",
+      "size_bytes": 1344
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_deu_parameter_recap.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_deu_parameter_recap.csv",
+      "sha256": "fb44b038afb07172ea557baccc92edca8f1035c3f4aa8b156a81c648aee3a553",
+      "size_bytes": 1274
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_native_chain_summary.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_native_chain_summary.csv",
+      "sha256": "1de627c42d33acecfcff3106d9238cb73bee102e5bccdeef4b070831425a487c",
+      "size_bytes": 433
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_native_parameter_summary.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_native_parameter_summary.csv",
+      "sha256": "ad8106c9b37130022248c9c739a7f1dcc7d6eb8860875127c89e88a976fbaecc",
+      "size_bytes": 594
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_reference_loglike_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_reference_loglike_context.csv",
+      "sha256": "64d4431dddd9bfe088921f2a2ef635ce5a73bcae93914645b541bf38c5b58b6d",
+      "size_bytes": 742
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_required_next_steps.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_required_next_steps.csv",
+      "sha256": "5fbf666c1b702723fbadd628b2945cb2cfd7a894e633d59f286646ceda97a5b9",
+      "size_bytes": 527
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_tt_lite_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b19_matched_deu_native_comparison_claim_lock_tt_lite_scope.md",
+      "sha256": "fe2f8c6d9f78d32a2058a59d8aa9f490194b2ff60b93ec10036e5365fc8b010d",
+      "size_bytes": 321
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness.json",
+      "sha256": "72650f3f81532d9352961dc1f991164ca4928a689ca68d3cf3ea0f6a8ed61065",
+      "size_bytes": 40364
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_acceptance.md",
+      "sha256": "af422e805d7f8bbba955f89940e3f4c0f93ea9626958d770aaf34e7fb3169ce5",
+      "size_bytes": 10362
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_additional_sampler.yaml",
+      "sha256": "3a687446759449ce013bb28e87a0f63120ca4c609a55baaa5af640a9d831e5c6",
+      "size_bytes": 975
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_blocked_claims.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_blocked_claims.csv",
+      "sha256": "99b3a36cdf88e7874bdef0d92756577addb367406ceed8769e268d5564543267",
+      "size_bytes": 546
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_matched_comparison_scope.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_matched_comparison_scope.md",
+      "sha256": "322c9b944b52af0b61980bafba3b380b1bf05f1c8fb4a9f1faeabf668d5998a4",
+      "size_bytes": 920
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.csv",
+      "sha256": "b81270164fc5f050ed9e30e66e1dac6e10b987b2cb5faf5575b9075101ee7b6d",
+      "size_bytes": 251
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_autocorr_ess.json",
+      "sha256": "2239470f3220d244ae39b5fd1646b997fa7e09f8cfe77303ab6f093300684a86",
+      "size_bytes": 855
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_audit.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_audit.json",
+      "sha256": "cd4c65ae6e60c75c3af7791966eb6830a0717d1c5ba000bdea52e6fca4431e9a",
+      "size_bytes": 5398
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_columns.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_chain_columns.csv",
+      "sha256": "c4e007b6d6deb36d080f23f28221e9bc72d261003d10d5a4ce48951759f3850c",
+      "size_bytes": 3689
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_config_audit.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_config_audit.json",
+      "sha256": "27063daa94ac4aa0bf7de990819474fb16eafb742b9fa341ca7aa85f4db5ec44",
+      "size_bytes": 1475
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_deu_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_deu_context.csv",
+      "sha256": "8dfa36c0cb84d6ff24505e9b6af044711d11457f147ee05070738b654611fa9c",
+      "size_bytes": 2080
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_comparison.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_comparison.csv",
+      "sha256": "2c9d88e3383b744c9e80a3bde79cddea99d9608eeeb783e6869076ac401a3cda",
+      "size_bytes": 2530
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_eval.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_reference_eval.json",
+      "sha256": "f1479fbc4d12111a4c425645817790dd1c8ef0e3f33c17b27e6cd414f6188854",
+      "size_bytes": 1003
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.csv",
+      "sha256": "b4ed13cb059f5db75b2a23d07a416824a2296600196e5037406806ded1849763",
+      "size_bytes": 400
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_sample_stats.json",
+      "sha256": "fcd4388d6d259bd35d427f0bcce460dfc298fde9a2d8f92a43332b39eb59db90",
+      "size_bytes": 1553
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.csv",
+      "sha256": "5715ac129bf20e1a4a62c0e47a6bec81ef19aca7d31ddaad90b19b221dc78be7",
+      "size_bytes": 1983
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_segment_split_diagnostics.json",
+      "sha256": "97a23f44aa2737df33e5b90cdfcc2a7b3f5240a4ddb18d1fbc6823bd88507e3b",
+      "size_bytes": 5241
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.csv",
+      "sha256": "ede44686a27295e5266810f5de91d6e5ca59c49847dae0769d5082757b5bf338",
+      "size_bytes": 437
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_native_tail_diagnostics.json",
+      "sha256": "661fb295d7b415ee5c3d4cb363070ccd31bc62b7b40b6c022e38b6db16de6b7a",
+      "size_bytes": 1283
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_readiness_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_readiness_manifest.json",
+      "sha256": "eeb477aa8d50f29a5355c0544d28ed7460aead82ea43f4d77d311a7dd76db1ea",
+      "size_bytes": 2551
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_sampler_runs.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_sampler_runs.json",
+      "sha256": "f5a86222c849c5d9204c0815494d9250839a5c341d0bef4fc39bcda3ca3b8042",
+      "size_bytes": 308
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_tri_anchor_context.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b18_additional_native_baseline_chains_readiness_tri_anchor_context.csv",
+      "sha256": "7e7b49a0c8b773825ef13d336e27afcdba7567e4205763123dea4fba2b3e6785",
+      "size_bytes": 966
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness.json",
+      "sha256": "61f3149a90d2e87fa02bf2ba1f8473ed8aef50c5f82f1b58a390e8d0bad12c34",
+      "size_bytes": 43688
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_acceptance.md",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_acceptance.md",
+      "sha256": "4a065089acb6cb0d4f8c903123e4ee30e07054abaf067653afa1614d948d049d",
+      "size_bytes": 8992
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_additional_sampler.yaml",
+      "sha256": "8afee4c0a68935b39b9c1f967786453ec189cca778818c2f6414d02156390b70",
+      "size_bytes": 1604
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_autocorr_ess.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_autocorr_ess.csv",
+      "sha256": "85554723897860301f5e85988ae032f9dfe4d962068aa75777bc1b9b1e27e6df",
+      "size_bytes": 407
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_autocorr_ess.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_autocorr_ess.json",
+      "sha256": "00d4fe05b4f52a7ce49382552b2c877f8032b20b73ec449ea504bbea485f8ba5",
+      "size_bytes": 1293
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_chain_audit.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_chain_audit.json",
+      "sha256": "c6ffd5b95623d2d16fa1fb3bf5c268814a415ae745b269338cd52e08f43bdbfa",
+      "size_bytes": 6068
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_chain_columns.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_chain_columns.csv",
+      "sha256": "7c76a81611b8c9f855b6cc1dc5bf72a1acc9e56a3593c5e2491835d518d981b8",
+      "size_bytes": 4291
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_production_ref_eval.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_production_ref_eval.json",
+      "sha256": "b4b2830cc6e4fad25728ba9a26e02a831a8f2dffe60a18645a911770fb18aa5b",
+      "size_bytes": 1061
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_readiness_manifest.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_readiness_manifest.json",
+      "sha256": "14bc38bd3ad3b9e3c3d3cbeb98302e20872c9bc2df5e48a670793641e4c758c9",
+      "size_bytes": 2020
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_reference_comparison.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_reference_comparison.csv",
+      "sha256": "f81050f3c3d92f6888a7b290cf141157e4dc3e1597ab2498c5d10acae2ec1504",
+      "size_bytes": 3040
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sample_stats.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sample_stats.csv",
+      "sha256": "6c575790467a9c23129cb735278e6d0188baaabe64c254c65c61e01e54233309",
+      "size_bytes": 640
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sample_stats.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sample_stats.json",
+      "sha256": "98a21de9b43abc10e423afa218f10fc1f88cfe589d4dec6e6540ea72cdfd301f",
+      "size_bytes": 2391
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sampler_runs.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_sampler_runs.json",
+      "sha256": "459abd3291eb54f8e4b4fa2ac308a537a82e8a624bbd9b54c61ff650f6758543",
+      "size_bytes": 301
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_segment_split_diagnostics.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_segment_split_diagnostics.csv",
+      "sha256": "a378fc55fece6a66153a21333b30fe4b15e070ba8e7818876d2674c3202b8c93",
+      "size_bytes": 3141
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_segment_split_diagnostics.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_segment_split_diagnostics.json",
+      "sha256": "e585bc400a3fec3aaa0d4ab754cc658a0576ae1fa6df71b88a0f7ef645c6e32b",
+      "size_bytes": 7925
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tail_diagnostics.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tail_diagnostics.csv",
+      "sha256": "1ef62efd41417399e8c3a257c9476f8d0376c6d097bd644c26465e3ea56e0ac9",
+      "size_bytes": 669
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tail_diagnostics.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tail_diagnostics.json",
+      "sha256": "127d9ec5e27fef44c5da7c5a235446f29e6e1d494e155fc2da0895fdf0ebaf47",
+      "size_bytes": 1996
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tri_anchor_eval.csv",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tri_anchor_eval.csv",
+      "sha256": "41da99a139b18e132caefae8b7c7fa21ca5f1c17bd0312e548ddf40add3ab2b6",
+      "size_bytes": 2118
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tri_anchor_eval.json",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/stage3b9_additional_production_chains_readiness_tri_anchor_eval.json",
+      "sha256": "94667bcbfef14a4cbc3094ef32e0b4b14229249d4c00947dbf79ba5a21ad89cc",
+      "size_bytes": 5156
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/chains/stage3b6_first_production_run.1.txt",
+      "sha256": "ab71be16894d2eb17496873ad4322367d5e1780e50e12e192094edaf81d2aba9",
+      "size_bytes": 646323
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/chains/stage3b6_first_production_run_additional_chain01.1.txt",
+      "sha256": "d206803889374a75e67863fe8c3a8e6d37c8dde31f740785866b1b7291f8e6ba",
+      "size_bytes": 646323
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run.1.txt",
+      "sha256": "47661d07f0540e7c0a3a826484c7803b7f127c6155f4362c83c3f9a78b5c32a1",
+      "size_bytes": 542271
+    },
+    {
+      "absolute_path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "artifact_group": "recommended_public_verification",
+      "exists": true,
+      "relative_path": "deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01.1.txt",
+      "sha256": "9d6691f569a54753f011e334d971a20d8e05e2c1eff28ab50f0c5d6a5f42bfe1",
+      "size_bytes": 542271
+    }
+  ]
+}

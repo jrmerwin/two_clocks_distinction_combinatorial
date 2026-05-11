@@ -1,0 +1,6 @@
+row_index,source,gate_pass,check,value,threshold,pass,interpretation
+1,stage3b23_estimator_robustness_csv,True,deu_per_chain_logZ_proxy_range,0.02338944736038684,12.0,True,stability diagnostic only; does not validate final evidence
+2,stage3b23_estimator_robustness_csv,True,deu_family_logZ_proxy_finite,-576.0487181192134,,True,family-level proxy finite
+3,stage3b23_estimator_robustness_csv,True,native_per_chain_logZ_proxy_range,0.41620847116666937,12.0,True,stability diagnostic only; does not validate final evidence
+4,stage3b23_estimator_robustness_csv,True,native_family_logZ_proxy_finite,-734.8127651694195,,True,family-level proxy finite
+5,stage3b23_estimator_robustness_csv,True,log_bayes_factor_proxy_finite,158.76404705020616,1000.0,True,proxy finite and not absurdly large; not a Bayes-factor claim

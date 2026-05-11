@@ -1,0 +1,54 @@
+{
+  "additional_native_chain_prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run_additional_chain01"
+  ],
+  "additional_native_sampler_run_statuses": [
+    "success"
+  ],
+  "base_native_output_prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b16_native_baseline_run",
+  "decision_type": "ADDITIONAL_NATIVE_BASELINE_CHAINS_READINESS_GATE_PASS_COMPARISON_READY_SUPERIORITY_STILL_GATED",
+  "deu_shape_params_absent_from_native_sampler": true,
+  "diagnostic_assessment_complete": true,
+  "external_publication_claims_written_by_this_stage": false,
+  "final_publication_claims_allowed": false,
+  "mcmc_launched_by_this_stage": true,
+  "min_chain_files_for_readiness": 2,
+  "model_superiority_claims_allowed": false,
+  "native_config_has_no_deu_keys": true,
+  "native_ess_gate_pass": true,
+  "native_max_normalized_segment_range_seen": 0.37304226038652083,
+  "native_max_normalized_tail_shift_seen": 0.056615432091532636,
+  "native_min_ess_lag1_proxy_seen": 294.42860767148795,
+  "native_motion_by_parameter": {
+    "A_planck": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "native_motion_count": 3,
+  "native_n_chain_files": 2,
+  "native_readiness_gate_pass": true,
+  "native_reference_eval_status": "success",
+  "native_reference_matches_stage3b15_sampler_ref": true,
+  "native_reference_matches_stage3b16_checkpoint": true,
+  "native_segment_gate_pass": true,
+  "native_tail_gate_pass": true,
+  "native_total_chain_rows": 4000,
+  "native_tt_lite_excluded": true,
+  "next_stage_hint": "Stage 3B-19 matched DEU/native comparison summary and claim-lock preflight",
+  "posterior_conclusions_extended_by_this_stage": false,
+  "posterior_evidence_status": "native_readiness_passed_comparison_ready_superiority_still_gated",
+  "posterior_summary_allowed_with_caveats": true,
+  "recommendation": "Book Stage 3B-18. Next write a matched DEU/native comparison summary and claim-lock preflight; model-superiority claims remain gated until that stage.",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b15_decision": "MATCHED_NATIVE_BASELINE_PREFLIGHT_PASS_SUPERIORITY_STILL_GATED",
+  "stage3b16_decision": "MATCHED_NATIVE_BASELINE_SAMPLER_CHECKPOINT_PASS_SUPERIORITY_STILL_GATED",
+  "stage3b17_diagnostic_outcome": "NATIVE_BASELINE_READINESS_RECORDED_MORE_CHAINS_NEEDED",
+  "tri_anchor_context_retained": true
+}

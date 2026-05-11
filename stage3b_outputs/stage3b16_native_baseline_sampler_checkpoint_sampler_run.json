@@ -1,0 +1,9 @@
+{
+  "elapsed_s": 1246.1572089195251,
+  "label": "native_baseline_checkpoint",
+  "mcmc_launched_by_this_stage": true,
+  "posterior_interpretation_allowed": false,
+  "sampler_type": "MCMC",
+  "status": "success",
+  "updated_info_available": true
+}

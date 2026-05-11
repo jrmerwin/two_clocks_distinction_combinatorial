@@ -1,0 +1,8 @@
+item,required,pass,note
+author_led_preprint_status_declared,True,True,Do not imply peer review.
+posterior_summary_caveats_present,True,True,Stage 3B-10 caveats retained.
+deu_native_descriptive_scope_present,True,True,Stage 3B-19 comparison is descriptive.
+internal_evidence_scope_present,True,True,Independent-validation evidence language is internal/caveated.
+model_superiority_claims_removed,True,True,No superiority wording allowed.
+tt_lite_diagnostic_only_statement_present,True,True,TT_lite excluded from sampled likelihoods.
+artifact_lineage_index_included,True,True,Artifact index written.

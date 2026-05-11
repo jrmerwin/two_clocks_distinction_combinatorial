@@ -1,0 +1,4 @@
+claim_id,status,wording
+scoped_deu_posterior,allowed_with_caveats,The DEU full-objective posterior has been summarized under the staged readiness/robustness gates.
+descriptive_deu_native_comparison,allowed_with_caveats,DEU/native posterior parameter differences may be described as matched-chain descriptive context.
+evidence_proxy_executed,allowed_with_caveats,A matched diagnostic evidence proxy was executed and recorded; it is not a final Bayes-factor claim.

@@ -1,0 +1,33 @@
+{
+  "all_expected_sampled_columns_present": true,
+  "all_sampled_parameters_within_prior_bounds": true,
+  "any_sampled_parameter_motion_recorded": true,
+  "chain_files_found": true,
+  "decision_type": "SHORT_PILOT_CHAIN_PASS",
+  "learn_proposal_requested": false,
+  "max_samples_requested": 64,
+  "mcmc_launched_by_this_stage": true,
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "next_stage_hint": "Stage 3B-4 convergence-precheck pilot with tri-anchor monitoring",
+  "posterior_conclusions_written": false,
+  "posterior_interpretation_allowed": false,
+  "recommendation": "Book Stage 3B-3. Next run a longer still-non-interpretive pilot/convergence-precheck; do not claim posterior evidence yet.",
+  "sampler_run_status": "success",
+  "stage3b0_working_lock_point": {
+    "A_planck": 1.025,
+    "beta": 0.03,
+    "deu_lensed_phase_profile": 2,
+    "n_s": 0.981875,
+    "omega_b": 0.022,
+    "p_vis": 1.0475
+  },
+  "stage3b2_diagnostic_outcome": "TINY_SAMPLER_SMOKE_TEST_PASS",
+  "total_chain_rows": 64,
+  "tri_anchor_monitoring_pass": true
+}

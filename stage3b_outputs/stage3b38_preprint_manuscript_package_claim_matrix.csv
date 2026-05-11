@@ -1,0 +1,11 @@
+claim_type,statement_id,allowed_statement,scope,claim_id,blocked_claim,reason
+allowed_preprint_statement,A1,"This is an author-led preprint / technical report, not a peer-reviewed result.",preprint allowed,,,
+allowed_preprint_statement,A2,The DEU posterior summary is readiness- and robustness-gated within this project lineage.,caveated posterior allowed,,,
+allowed_preprint_statement,A3,The DEU/native comparison is descriptive under matched sampled likelihood scope.,descriptive comparison allowed,,,
+allowed_preprint_statement,A4,The independent-validation evidence/BF estimator result may be reported internally with caveats.,internal evidence language allowed,,,
+allowed_preprint_statement,A5,TT_lite was monitored diagnostically and excluded from sampled production/evidence likelihoods.,TT_lite diagnostic-only statement allowed,,,
+blocked_claim,,,,B1,This work has passed peer review or independent external review.,No reviewer branch result is booked for this path.
+blocked_claim,,,,B2,DEU is proven superior to native/baseline cosmology.,Model-superiority claims remain blocked.
+blocked_claim,,,,B3,The evidence/Bayes factor is final or publication-grade.,Evidence language remains internal/caveated.
+blocked_claim,,,,B4,TT_lite was included in the sampled posterior or evidence likelihood.,TT_lite is diagnostic-only in this lineage.
+blocked_claim,,,,B5,This is a final publication-style claim rather than a preprint/technical report result.,Final publication claims remain gated.

@@ -1,0 +1,42 @@
+{
+  "diagnostics_recorded": true,
+  "max_allowed_normalized_tail_shift": 8.0,
+  "max_normalized_tail_shift_seen": 0.38332405930817987,
+  "note": "Crude first-half/second-half diagnostic; not posterior evidence.",
+  "tail_gate_pass": true,
+  "tail_rows": [
+    {
+      "first_half_mean": 0.021936335289,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 1000,
+      "n_second": 1000,
+      "normalized_tail_shift": 0.09625870709844106,
+      "overall_std": 2.929694450513829e-05,
+      "parameter": "omega_b",
+      "second_half_mean": 0.021933515203
+    },
+    {
+      "first_half_mean": 0.9816744412,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 1000,
+      "n_second": 1000,
+      "normalized_tail_shift": 0.38332405930817987,
+      "overall_std": 0.0004955388668865685,
+      "parameter": "n_s",
+      "second_half_mean": 0.98186439317
+    },
+    {
+      "first_half_mean": 1.0200513221,
+      "gate_pass": true,
+      "max_allowed_normalized_tail_shift": 8.0,
+      "n_first": 1000,
+      "n_second": 1000,
+      "normalized_tail_shift": 0.03777137440500245,
+      "overall_std": 0.00013495669883358075,
+      "parameter": "A_planck",
+      "second_half_mean": 1.0200462246
+    }
+  ]
+}

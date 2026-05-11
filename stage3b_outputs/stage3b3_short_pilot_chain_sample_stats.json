@@ -1,0 +1,96 @@
+{
+  "all_sampled_parameters_within_prior_bounds": true,
+  "any_sampled_parameter_motion_recorded": true,
+  "header": [
+    "weight",
+    "minuslogpost",
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "omega_b",
+    "n_s",
+    "A_planck",
+    "chi2__CMB",
+    "minuslogprior",
+    "minuslogprior__0",
+    "chi2",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lowl.TT",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lensing.native"
+  ],
+  "motion_by_parameter": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "n_rows": 64,
+  "stats_rows": [
+    {
+      "max": 0.030464961,
+      "mean": 0.029394898015625,
+      "min": 0.028512121,
+      "motion_recorded": true,
+      "n_values": 64,
+      "parameter": "deu_damping_envelope_beta",
+      "prior_max": 0.0305,
+      "prior_min": 0.0285,
+      "span": 0.0019528399999999974,
+      "unique_rounded_12": 38,
+      "within_prior": true
+    },
+    {
+      "max": 1.0499573,
+      "mean": 1.049123375,
+      "min": 1.0470202,
+      "motion_recorded": true,
+      "n_values": 64,
+      "parameter": "deu_transfer_polamp_p_vis",
+      "prior_max": 1.05,
+      "prior_min": 1.045,
+      "span": 0.002937100000000026,
+      "unique_rounded_12": 38,
+      "within_prior": true
+    },
+    {
+      "max": 0.022098692,
+      "mean": 0.02198975803125,
+      "min": 0.021909139,
+      "motion_recorded": true,
+      "n_values": 64,
+      "parameter": "omega_b",
+      "prior_max": 0.0221,
+      "prior_min": 0.0219,
+      "span": 0.00018955299999999856,
+      "unique_rounded_12": 38,
+      "within_prior": true
+    },
+    {
+      "max": 0.98217297,
+      "mean": 0.98129172,
+      "min": 0.98065248,
+      "motion_recorded": true,
+      "n_values": 64,
+      "parameter": "n_s",
+      "prior_max": 0.9825,
+      "prior_min": 0.9805,
+      "span": 0.0015204899999999855,
+      "unique_rounded_12": 38,
+      "within_prior": true
+    },
+    {
+      "max": 1.0268795,
+      "mean": 1.025494140625,
+      "min": 1.0237373,
+      "motion_recorded": true,
+      "n_values": 64,
+      "parameter": "A_planck",
+      "prior_max": 1.03,
+      "prior_min": 1.02,
+      "span": 0.003142199999999873,
+      "unique_rounded_12": 34,
+      "within_prior": true
+    }
+  ]
+}

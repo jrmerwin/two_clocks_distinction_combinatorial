@@ -1,0 +1,317 @@
+{
+  "all_chain_values_finite": true,
+  "all_expected_sampled_columns_present": true,
+  "chain_files": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.1.txt",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.1.txt"
+  ],
+  "chain_files_found": true,
+  "chain_infos": [
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 128,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          2.0,
+          573.74188,
+          0.030295622,
+          1.0482959,
+          0.021939253,
+          0.98228023,
+          1.0242052,
+          1209.1836,
+          -30.849897,
+          -30.849897,
+          1209.1836,
+          765.45743,
+          26.454658,
+          397.85563,
+          19.415839
+        ],
+        [
+          1.0,
+          573.93233,
+          0.030295622,
+          1.0482959,
+          0.021939253,
+          0.98228023,
+          1.0240746,
+          1209.5644,
+          -30.849897,
+          -30.849897,
+          1209.5644,
+          765.73281,
+          26.478696,
+          397.84527,
+          19.507674
+        ],
+        [
+          2.0,
+          573.29787,
+          0.030295622,
+          1.0482959,
+          0.021939253,
+          0.98228023,
+          1.0255056,
+          1208.2955,
+          -30.849897,
+          -30.849897,
+          1208.2955,
+          765.67164,
+          26.218104,
+          397.85306,
+          18.552734
+        ]
+      ]
+    },
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 128,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          3.0,
+          576.57057,
+          0.03,
+          1.0475,
+          0.022,
+          0.981875,
+          1.0270195,
+          1214.8409,
+          -30.849897,
+          -30.849897,
+          1214.8409,
+          773.40758,
+          26.060909,
+          397.81657,
+          17.555878
+        ],
+        [
+          1.0,
+          573.22566,
+          0.029947082,
+          1.0474442,
+          0.022009761,
+          0.98172858,
+          1.0251311,
+          1208.1511,
+          -30.849897,
+          -30.849897,
+          1208.1511,
+          765.19529,
+          26.438949,
+          397.85086,
+          18.666029
+        ],
+        [
+          1.0,
+          573.52793,
+          0.02996228,
+          1.0476939,
+          0.022036959,
+          0.98188059,
+          1.0251311,
+          1208.7557,
+          -30.849897,
+          -30.849897,
+          1208.7557,
+          765.83035,
+          26.403114,
+          397.85086,
+          18.671337
+        ]
+      ]
+    },
+    {
+      "all_numeric_finite": true,
+      "header": [
+        "weight",
+        "minuslogpost",
+        "deu_damping_envelope_beta",
+        "deu_transfer_polamp_p_vis",
+        "omega_b",
+        "n_s",
+        "A_planck",
+        "chi2__CMB",
+        "minuslogprior",
+        "minuslogprior__0",
+        "chi2",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_lensing.native"
+      ],
+      "n_columns": 15,
+      "n_rows": 128,
+      "path": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.1.txt",
+      "raw_header_lines_tail": [
+        "#        weight    minuslogpost deu_damping_envelope_beta deu_transfer_polamp_p_vis         omega_b             n_s        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_highl_plik.TTTEEE_lite chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_lensing.native"
+      ],
+      "rows_preview": [
+        [
+          1.0,
+          573.2296,
+          0.030286063,
+          1.0471772,
+          0.021997864,
+          0.98165154,
+          1.0251658,
+          1208.159,
+          -30.849897,
+          -30.849897,
+          1208.159,
+          765.34773,
+          26.450922,
+          397.85086,
+          18.509489
+        ],
+        [
+          5.0,
+          573.27903,
+          0.030123109,
+          1.0466216,
+          0.021991823,
+          0.98164937,
+          1.0251658,
+          1208.2579,
+          -30.849897,
+          -30.849897,
+          1208.2579,
+          765.46256,
+          26.450307,
+          397.83273,
+          18.512263
+        ],
+        [
+          2.0,
+          573.27917,
+          0.030123109,
+          1.0466216,
+          0.021991823,
+          0.98164937,
+          1.025166,
+          1208.2581,
+          -30.849897,
+          -30.849897,
+          1208.2581,
+          765.463,
+          26.45027,
+          397.83273,
+          18.512136
+        ]
+      ]
+    }
+  ],
+  "enough_rows_per_prefix": true,
+  "enough_total_rows_for_precheck": true,
+  "expected_sampled_columns_present": {
+    "A_planck": true,
+    "deu_damping_envelope_beta": true,
+    "deu_transfer_polamp_p_vis": true,
+    "n_s": true,
+    "omega_b": true
+  },
+  "min_rows_per_chain": 64,
+  "min_total_rows": 300,
+  "n_chain_files": 3,
+  "prefix_reports": [
+    {
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01.1.txt"
+      ],
+      "enough_rows": true,
+      "n_chain_files": 1,
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+      "rows": 128
+    },
+    {
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02.1.txt"
+      ],
+      "enough_rows": true,
+      "n_chain_files": 1,
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+      "rows": 128
+    },
+    {
+      "chain_files": [
+        "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03.1.txt"
+      ],
+      "enough_rows": true,
+      "n_chain_files": 1,
+      "prefix": "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03",
+      "rows": 128
+    }
+  ],
+  "prefixes": [
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain01",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain02",
+    "/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b5_extended_convergence_gate_pilot_chain03"
+  ],
+  "special_columns_present": {
+    "minuslogpost": true,
+    "weight": true
+  },
+  "total_rows": 384,
+  "unique_columns": [
+    "A_planck",
+    "chi2",
+    "chi2__CMB",
+    "chi2__planck_2018_highl_plik.TTTEEE_lite",
+    "chi2__planck_2018_lensing.native",
+    "chi2__planck_2018_lowl.EE",
+    "chi2__planck_2018_lowl.TT",
+    "deu_damping_envelope_beta",
+    "deu_transfer_polamp_p_vis",
+    "minuslogpost",
+    "minuslogprior",
+    "minuslogprior__0",
+    "n_s",
+    "omega_b",
+    "weight"
+  ]
+}

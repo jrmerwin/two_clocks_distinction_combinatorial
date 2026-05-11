@@ -1,0 +1,12 @@
+claim_id,status,claim,required_caveat,reason
+A1,allowed_scoped,The DEU production posterior summary passed readiness and robustness gates and may be discussed with caveats.,"Internal staged posterior summary, not a final publication claim.",
+A2,allowed_scoped,The native/baseline sampler and readiness gate passed with matched full-objective likelihood scope.,Native readiness supports descriptive comparison only.,
+A3,allowed_scoped,"DEU and native posteriors can be compared descriptively for shared parameters omega_b, n_s, and A_planck.",Descriptive posterior comparison is not model evidence.,
+A4,allowed_scoped,DEU-only beta and p_vis posterior summaries have no native analogue.,Do not treat absence in native as evidence by itself.,
+A5,allowed_scoped,TT_lite remained diagnostic-only and excluded from sampled production likelihoods.,Do not claim TT_lite was part of either sampled posterior.,
+A6,allowed_scoped,The tri-anchor ledger remains retained as objective-split context.,"Tri-anchor context is monitoring context, not a posterior component.",
+B1,blocked,DEU is superior to native ΛCDM/native baseline.,,No explicit evidence/Bayes-factor or matched model-selection stage has passed.
+B2,blocked,The fixed-reference native-vs-DEU likelihood delta is model evidence.,,It is a reference/preflight diagnostic delta only.
+B3,blocked,TT_lite is included in the sampled production posterior.,,TT_lite is explicitly diagnostic-only and excluded.
+B4,blocked,This is ready as a final publication-style claim.,,Final external claims remain gated pending final scoped report/evidence framing.
+B5,blocked,The DEU-only parameters prove new physics.,,The current artifacts support only a caveated internal posterior summary and descriptive comparison.

@@ -1,0 +1,16 @@
+chain_file,column,n_rows
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,weight,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,minuslogpost,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,deu_damping_envelope_beta,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,deu_transfer_polamp_p_vis,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,omega_b,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,n_s,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,A_planck,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2__CMB,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,minuslogprior,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,minuslogprior__0,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2__planck_2018_highl_plik.TTTEEE_lite,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2__planck_2018_lowl.TT,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2__planck_2018_lowl.EE,16
+/home/merwijas/deu_class/CLASS-DEU/deu_validation/stage3b_outputs/chains/stage3b2_tiny_sampler_smoke_test.1.txt,chi2__planck_2018_lensing.native,16
