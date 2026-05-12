@@ -1,0 +1,5 @@
+likelihood,objective,deu_A_planck,native_A_planck,native_minus_deu_chi2,native_minus_deu_highl_chi2
+TTTEEE_lite,posterior,1.025,1.0030895,-156.7234,-140.34592
+TTTEEE_lite,likelihood,1.024793,1.0030895,-156.6977,-140.24012
+full TTTEEE,posterior,1.0248534,1.0030577,-161.1248,-144.9611
+full TTTEEE,likelihood,1.0254349,1.0038219,-154.1468,-138.1893

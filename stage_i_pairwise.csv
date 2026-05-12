@@ -1,0 +1,3 @@
+comparison,method,logBF,minuslogpost_gap,mean_chi2_gap_b_minus_a,mean_highl_gap_b_minus_a
+Exact 41/40 minus measured graph,full_covariance_laplace,0.06960533843107441,0.014009999999984757,-0.06709594572657807,-0.038760245250045955
+Exact 41/40 minus continuum A=1,full_covariance_laplace,511.4627133,505.78242,1017.348525,978.315089
